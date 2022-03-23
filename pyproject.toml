@@ -46,6 +46,7 @@ python_version = "3.10"
 [[tool.mypy.overrides]]
 module = [
     "fire.*",
+    "networkx.*",
     "pandas.*",
     "requests.*",
 ]

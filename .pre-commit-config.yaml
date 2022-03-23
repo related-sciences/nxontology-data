@@ -13,7 +13,7 @@ repos:
     rev: v2.31.1
     hooks:
       - id: pyupgrade
-        args: [--py39-plus]
+        args: [--py310-plus]
   - repo: https://github.com/timothycrosley/isort
     rev: 5.10.1
     hooks:
@@ -32,5 +32,6 @@ repos:
       - id: mypy
         args: ["--strict", "--show-error-codes", "--pretty", "--show-error-context"]
         additional_dependencies:
+          - nxontology==0.4.0
           - pandas==1.4.1
           - pytest
