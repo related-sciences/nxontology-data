@@ -1,0 +1,52 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "nxontology_imports"
+version = "0.0.0"
+description = "Pipelines to import ontologies into NXOntology objects."
+authors = ["Related Sciences Data Team"]
+readme = "README.md"
+repository = "https://github.com/related-sciences/nxontology-imports"
+license = "Apache-2.0"
+
+# https://python-poetry.org/docs/versions/
+[tool.poetry.dependencies]
+python = "^3.10"
+bioregistry = "^0.4.77"
+bioversions = "^0.4.6"
+fire = "^0.4.0"
+jupyter = "^1.0.0"
+nbconvert = "^6.2.0"
+notebook = "^6.4.4"
+nxontology = "^0.4.0"
+openpyxl = "^3.0.9"
+pandas = "^1.4.1"
+papermill = "^2.3.3"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.15.0"
+pytest = "^6.2.5"
+
+# https://pycqa.github.io/isort/docs/configuration/config_files.html
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+line_length = 88
+
+[tool.mypy]
+python_version = "3.10"
+
+# https://mypy.readthedocs.io/en/stable/config_file.html#using-a-pyproject-toml-file
+[[tool.mypy.overrides]]
+module = [
+    "fire.*",
+    "pandas.*",
+    "requests.*",
+]
+ignore_missing_imports = true

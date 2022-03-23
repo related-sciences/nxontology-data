@@ -1,0 +1,36 @@
+default_language_version:
+  python: python3.10
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0
+    hooks:
+      - id: check-merge-conflict
+      - id: debug-statements
+      - id: mixed-line-ending
+      - id: check-case-conflict
+      - id: check-yaml
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v2.31.1
+    hooks:
+      - id: pyupgrade
+        args: [--py39-plus]
+  - repo: https://github.com/timothycrosley/isort
+    rev: 5.10.1
+    hooks:
+      - id: isort
+  - repo: https://github.com/python/black
+    rev: 22.1.0
+    hooks:
+      - id: black
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: 3.9.2
+    hooks:
+      - id: flake8
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v0.941
+    hooks:
+      - id: mypy
+        args: ["--strict", "--show-error-codes", "--pretty", "--show-error-context"]
+        additional_dependencies:
+          - pandas==1.4.1
+          - pytest
