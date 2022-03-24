@@ -85,7 +85,7 @@ class PubchemClassificationApi:
         info = hierarchy["Information"]
         return {
             "name": cls._get_simple_name(hierarchy),
-            "pubchem_hierarch_id": int(hierarchy["HID"]),
+            "pubchem_hierarchy_id": int(hierarchy["HID"]),
             "pubchem_source_id": hierarchy["SourceID"],
             "pubchem_source_name": hierarchy["SourceName"],
             "pubchem_description": info.get("Description"),
