@@ -1,4 +1,4 @@
-from nxontology_imports.pubchem.classfications import PubchemClassificationApi
+from nxontology_imports.pubchem.classifications import PubchemClassificationApi
 
 
 def test_get_hierarchy_metadata() -> None:

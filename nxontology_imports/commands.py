@@ -2,7 +2,7 @@ import logging
 
 import fire
 
-from nxontology_imports.pubchem.classfications import export_all_heirarchies
+from nxontology_imports.pubchem.classifications import export_all_heirarchies
 
 
 def cli() -> None:
