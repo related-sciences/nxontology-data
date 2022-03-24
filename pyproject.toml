@@ -11,6 +11,9 @@ readme = "README.md"
 repository = "https://github.com/related-sciences/nxontology-imports"
 license = "Apache-2.0"
 
+[tool.poetry.scripts]
+nxontology_import = "nxontology_imports.commands:cli"
+
 # https://python-poetry.org/docs/versions/
 [tool.poetry.dependencies]
 python = "^3.10"

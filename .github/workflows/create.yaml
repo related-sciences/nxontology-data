@@ -1,0 +1,53 @@
+name: Create NXOntology Imports
+on:
+  # schedule:
+  # # https://crontab.guru/#05_11_*_*_2
+  # - cron: '05 11 * * 2'
+  workflow_dispatch:
+    inputs:
+      overwrite:
+        type: boolean
+        description: 'Overwrite output on an existing branch.'
+        default: false
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+    - name: Setup dependencies
+      uses: ./.github/actions/setup
+    - name: Set parameters
+      id: params
+      shell: bash
+      run: |
+        OUTPUT_PATH="output/pubchem"
+        echo "Setting parameter output_path=$OUTPUT_PATH"
+        echo "::set-output name=output_path::$OUTPUT_PATH"
+        OUTPUT_EXISTS="true"
+        git ls-remote --exit-code origin $OUTPUT_PATH || OUTPUT_EXISTS="false"
+        echo "$OUTPUT_PATH branch exists on origin: $OUTPUT_EXISTS"
+        echo "::set-output name=output_exists::$OUTPUT_EXISTS"
+        OVERWRITE=${{ github.event.inputs.overwrite || 'false' }}
+        echo "Setting parameter overwrite=$OVERWRITE"
+        echo "::set-output name=overwrite::$OVERWRITE"
+        EXPORT="false"
+        if [[ $OUTPUT_EXISTS = "false" || $OVERWRITE = "true" ]]; then
+          EXPORT="true"
+        fi
+        echo "Setting parameter export=$EXPORT"
+        echo "::set-output name=export::$EXPORT"
+    - name: Create nxontologies
+      id: extract
+      if: steps.params.outputs.export == 'true'
+      run: poetry run nxontology_import pubchem
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      if: steps.params.outputs.export == 'true'
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: ${{ steps.params.outputs.output_path }}
+        publish_dir: ${{ steps.params.outputs.output_path }}
+        # Won't actually enable jekyll because we're not using GitHub Pages.
+        # https://github.com/peaceiris/actions-gh-pages/issues/660
+        enable_jekyll: true
