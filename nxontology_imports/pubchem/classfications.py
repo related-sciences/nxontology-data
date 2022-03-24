@@ -125,11 +125,13 @@ class PubchemClassificationApi:
         # add edges
         for node in nodes:
             node_id = cls.convert_node_id(node["NodeID"])
+            parent_ids = []
             for parent in node["ParentID"]:
                 if parent == "root":
                     # root appears to be a placeholder node added by PubChem
                     continue
-                parent_id = cls.convert_node_id(parent)
+                parent_ids.append(cls.convert_node_id(parent))
+            for parent_id in sorted(parent_ids):
                 nxo.add_edge(parent_id, node_id)
         return nxo
 
