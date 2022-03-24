@@ -1,13 +1,20 @@
+import gzip
 import json
 import logging
 import re
+import sys
 from pathlib import Path
 from typing import Any, Counter
 
 import requests
+from networkx.readwrite.json_graph import node_link_data
 from nxontology import NXOntology
 
 logger = logging.getLogger(__name__)
+
+
+root_dir = Path(__file__).parent.parent.parent
+output_dir = root_dir.joinpath("output", "pubchem")
 
 
 class PubchemClassificationApi:
@@ -77,8 +84,10 @@ class PubchemClassificationApi:
         """
         info = hierarchy["Information"]
         return {
-            "pubchem_name": "{SourceName} {SourceID}".format(**hierarchy),
+            "name": cls._get_simple_name(hierarchy),
             "pubchem_hierarch_id": int(hierarchy["HID"]),
+            "pubchem_source_id": hierarchy["SourceID"],
+            "pubchem_source_name": hierarchy["SourceName"],
             "pubchem_description": info.get("Description"),
             "pubchem_comments": info.get("Comments"),
             "source_url": info.get("URL"),
@@ -143,10 +152,8 @@ class PubchemClassificationApi:
         for hierarchy in hierarchies:
             simple_name = cls._get_simple_name(hierarchy)
             hierarchy["nxo_name"] = simple_name
-            hierarchy["nxo_filename"] = f"{simple_name}.json"
-        root_dir = Path(__file__).parent.parent.parent
         json_str = json.dumps(hierarchies, indent=2, ensure_ascii=False)
-        root_dir.joinpath("output", "pubchem-catalog.json").write_text(json_str)
+        output_dir.joinpath("catalog.json").write_text(json_str)
         return hierarchies
 
 
@@ -154,24 +161,42 @@ skip_hierarchy_ids = [
     2,  # 002_chebi_obo fails with status 500
 ]
 
-if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)
+
+def write_ontology(nxo: NXOntology[Any]) -> Path:
+    data = node_link_data(nxo.graph)
+    json_bytes = json.dumps(data, indent=2, ensure_ascii=False).encode()
+    json_size_mb = sys.getsizeof(json_bytes) / 1_000_000
+    path = output_dir.joinpath(f"{nxo.graph.graph['name']}.json")
+    if json_size_mb > 10.0:
+        json_bytes = gzip.compress(json_bytes, mtime=0)
+        path = path.with_name(f"{path.name}.gz")
+        logging.info(
+            f"{path.name}: gzip reduced size from {json_size_mb:.1f} to {sys.getsizeof(json_bytes) / 1_000_000:.1f} MB"
+        )
+    path.write_bytes(json_bytes)
+    return path
+
+
+def export_all_heirarchies() -> None:
+    output_dir.mkdir(parents=True, exist_ok=True)
     hierarchies = PubchemClassificationApi.write_hierarchy_catalog()
-    root_dir = Path(__file__).parent.parent.parent
     for hierarchy in hierarchies:
+        nxo_name = hierarchy["nxo_name"]
         if hierarchy["HID"] in skip_hierarchy_ids:
-            logging.info(
-                f"Skipping {hierarchy['nxo_name']} since it's in the skip list."
-            )
+            logging.info(f"Skipping {nxo_name} since it's in the skip list.")
             continue
-        path = root_dir.joinpath("output", hierarchy["nxo_filename"])
-        if path.exists():
-            logging.info(f"Skipping {hierarchy['nxo_name']} since output file exists.")
+        if list(output_dir.glob(f"{nxo_name}.*")):
+            logging.info(f"Skipping {nxo_name} since output file exists.")
             continue
-        logging.info(f"Beginning create_nxo for {hierarchy['nxo_name']}.")
+        logging.info(f"Beginning create_nxo for {nxo_name}.")
         try:
             nxo = PubchemClassificationApi.create_nxo(hierarchy_id=hierarchy["HID"])
         except requests.HTTPError:
-            logging.info(f"Skipping {hierarchy['nxo_name']} because request failed.")
+            logging.info(f"Skipping {nxo_name} because request failed.")
             continue
-        nxo.write_node_link_json(path.as_posix())
+        write_ontology(nxo)
+
+
+if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
+    export_all_heirarchies()
