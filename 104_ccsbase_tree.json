@@ -1,0 +1,356 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "name": "104_ccsbase_tree",
+    "pubchem_hierarchy_id": 104,
+    "pubchem_source_id": "ccsbase_tree",
+    "pubchem_source_name": "CCSbase",
+    "pubchem_description": [
+      "CCSbase is an integrated platform consisting of a comprehensive database of Collision Cross Section (CCS) measurements taken from a variety of sources and a high-quality and high-throughput CCS prediction model trained with this database using machine learning."
+    ],
+    "pubchem_comments": [
+      "CCSbase curates experimental collision cross section values measured on various ion mobility platforms as a resource for the research community. CCSbase also builds prediction models for comprehensive prediction of collision cross sections for a given molecule. https://ccsbase.net/ "
+    ],
+    "source_url": "https://ccsbase.net/"
+  },
+  "nodes": [
+    {
+      "name": "[M+2H]2+",
+      "description": null,
+      "pubchem_hnid": 4198017,
+      "url": null,
+      "id": 1
+    },
+    {
+      "name": "[M+2K]2+",
+      "description": null,
+      "pubchem_hnid": 4198018,
+      "url": null,
+      "id": 2
+    },
+    {
+      "name": "[M+2Na-3H]-",
+      "description": null,
+      "pubchem_hnid": 4198019,
+      "url": null,
+      "id": 3
+    },
+    {
+      "name": "[M+2Na-H]+",
+      "description": null,
+      "pubchem_hnid": 4198020,
+      "url": null,
+      "id": 4
+    },
+    {
+      "name": "[M+3H]3+",
+      "description": null,
+      "pubchem_hnid": 4198021,
+      "url": null,
+      "id": 5
+    },
+    {
+      "name": "[M+4H]4+",
+      "description": null,
+      "pubchem_hnid": 4198022,
+      "url": null,
+      "id": 6
+    },
+    {
+      "name": "[M+CH3COO]-",
+      "description": null,
+      "pubchem_hnid": 4198023,
+      "url": null,
+      "id": 7
+    },
+    {
+      "name": "[M+Cl]-",
+      "description": null,
+      "pubchem_hnid": 4198024,
+      "url": null,
+      "id": 8
+    },
+    {
+      "name": "[M+Cs]+",
+      "description": null,
+      "pubchem_hnid": 4198025,
+      "url": null,
+      "id": 9
+    },
+    {
+      "name": "[M+H-2H2O]+",
+      "description": null,
+      "pubchem_hnid": 4198026,
+      "url": null,
+      "id": 10
+    },
+    {
+      "name": "[M+H-H2O]+",
+      "description": null,
+      "pubchem_hnid": 4198027,
+      "url": null,
+      "id": 11
+    },
+    {
+      "name": "[M+H2O-H]-",
+      "description": null,
+      "pubchem_hnid": 4198028,
+      "url": null,
+      "id": 12
+    },
+    {
+      "name": "[M+H3C2O2]-",
+      "description": null,
+      "pubchem_hnid": 4198029,
+      "url": null,
+      "id": 13
+    },
+    {
+      "name": "[M+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 4198030,
+      "url": null,
+      "id": 14
+    },
+    {
+      "name": "[M+H]+",
+      "description": null,
+      "pubchem_hnid": 4198031,
+      "url": null,
+      "id": 15
+    },
+    {
+      "name": "[M+H]+*",
+      "description": null,
+      "pubchem_hnid": 4198032,
+      "url": null,
+      "id": 16
+    },
+    {
+      "name": "[M+K-2H]-",
+      "description": null,
+      "pubchem_hnid": 4198033,
+      "url": null,
+      "id": 17
+    },
+    {
+      "name": "[M+K-H+Cl]-",
+      "description": null,
+      "pubchem_hnid": 4198034,
+      "url": null,
+      "id": 18
+    },
+    {
+      "name": "[M+K-H+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 4198035,
+      "url": null,
+      "id": 19
+    },
+    {
+      "name": "[M+K]+",
+      "description": null,
+      "pubchem_hnid": 4198036,
+      "url": null,
+      "id": 20
+    },
+    {
+      "name": "[M+Li]+",
+      "description": null,
+      "pubchem_hnid": 4198037,
+      "url": null,
+      "id": 21
+    },
+    {
+      "name": "[M+NH4]+",
+      "description": null,
+      "pubchem_hnid": 4198038,
+      "url": null,
+      "id": 22
+    },
+    {
+      "name": "[M+Na-2H2O]+",
+      "description": null,
+      "pubchem_hnid": 4198039,
+      "url": null,
+      "id": 23
+    },
+    {
+      "name": "[M+Na-2H]-",
+      "description": null,
+      "pubchem_hnid": 4198040,
+      "url": null,
+      "id": 24
+    },
+    {
+      "name": "[M+Na-H+Cl]-",
+      "description": null,
+      "pubchem_hnid": 4198041,
+      "url": null,
+      "id": 25
+    },
+    {
+      "name": "[M+Na-H+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 4198042,
+      "url": null,
+      "id": 26
+    },
+    {
+      "name": "[M+Na-H2O]+",
+      "description": null,
+      "pubchem_hnid": 4198043,
+      "url": null,
+      "id": 27
+    },
+    {
+      "name": "[M+Na-H]+",
+      "description": null,
+      "pubchem_hnid": 4198044,
+      "url": null,
+      "id": 28
+    },
+    {
+      "name": "[M+Na]+",
+      "description": null,
+      "pubchem_hnid": 4198045,
+      "url": null,
+      "id": 29
+    },
+    {
+      "name": "[M+Na]+*",
+      "description": null,
+      "pubchem_hnid": 4198046,
+      "url": null,
+      "id": 30
+    },
+    {
+      "name": "[M+OAcO]-",
+      "description": null,
+      "pubchem_hnid": 4198047,
+      "url": null,
+      "id": 31
+    },
+    {
+      "name": "[M+Rb]+",
+      "description": null,
+      "pubchem_hnid": 4198048,
+      "url": null,
+      "id": 32
+    },
+    {
+      "name": "[M-2H]2-",
+      "description": null,
+      "pubchem_hnid": 4198049,
+      "url": null,
+      "id": 33
+    },
+    {
+      "name": "[M-2SO3-2H2O+H]+",
+      "description": null,
+      "pubchem_hnid": 4198050,
+      "url": null,
+      "id": 34
+    },
+    {
+      "name": "[M-CH3]-",
+      "description": null,
+      "pubchem_hnid": 4198051,
+      "url": null,
+      "id": 35
+    },
+    {
+      "name": "[M-H2O+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 4198052,
+      "url": null,
+      "id": 36
+    },
+    {
+      "name": "[M-H2O+H]+",
+      "description": null,
+      "pubchem_hnid": 4198053,
+      "url": null,
+      "id": 37
+    },
+    {
+      "name": "[M-H2O-H]-",
+      "description": null,
+      "pubchem_hnid": 4198054,
+      "url": null,
+      "id": 38
+    },
+    {
+      "name": "[M-H]-",
+      "description": null,
+      "pubchem_hnid": 4198055,
+      "url": null,
+      "id": 39
+    },
+    {
+      "name": "[M-SO3+Cl]-",
+      "description": null,
+      "pubchem_hnid": 4198056,
+      "url": null,
+      "id": 40
+    },
+    {
+      "name": "[M-SO3-2H2O+H]+",
+      "description": null,
+      "pubchem_hnid": 4198057,
+      "url": null,
+      "id": 41
+    },
+    {
+      "name": "[M-SO3-3H2O+H]+",
+      "description": null,
+      "pubchem_hnid": 4198058,
+      "url": null,
+      "id": 42
+    },
+    {
+      "name": "[M-SO3-H2O+Cl]-",
+      "description": null,
+      "pubchem_hnid": 4198059,
+      "url": null,
+      "id": 43
+    },
+    {
+      "name": "[M-SO3-H2O+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 4198060,
+      "url": null,
+      "id": 44
+    },
+    {
+      "name": "[M-SO3-H2O+H]+",
+      "description": null,
+      "pubchem_hnid": 4198061,
+      "url": null,
+      "id": 45
+    },
+    {
+      "name": "[M-SO3-H2O-H]-",
+      "description": null,
+      "pubchem_hnid": 4198062,
+      "url": null,
+      "id": 46
+    },
+    {
+      "name": "[M-SO3-H]-",
+      "description": null,
+      "pubchem_hnid": 4198063,
+      "url": null,
+      "id": 47
+    },
+    {
+      "name": "[M]+",
+      "description": null,
+      "pubchem_hnid": 4198064,
+      "url": null,
+      "id": 48
+    }
+  ],
+  "links": []
+}

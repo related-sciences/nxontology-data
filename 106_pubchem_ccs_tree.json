@@ -1,0 +1,2168 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "name": "106_pubchem_ccs_tree",
+    "pubchem_hierarchy_id": 106,
+    "pubchem_source_id": "ccs_tree",
+    "pubchem_source_name": "PubChem",
+    "pubchem_description": [
+      "This classification aggregates experimental CCS data available in PubChem, from CCSbase (https://ccsbase.net/) and NORMAN-SLE (https://www.norman-network.com/nds/SLE/)."
+    ],
+    "pubchem_comments": [
+      "Additional information can be found at the CCSbase (https://pubchem.ncbi.nlm.nih.gov/classification/#hid=104) and NORMAN-SLE (https://pubchem.ncbi.nlm.nih.gov/classification/#hid=101) classifications."
+    ],
+    "source_url": null
+  },
+  "nodes": [
+    {
+      "name": "NORMAN-SLE: S50 | CCSCOMPEND | The Unified Collision Cross Section (CCS) Compendium",
+      "description": "The Unified Collision Cross Section (CCS) Compendium (drift tube MS) from Vanderbilt University, provided by Jackie Picache and John McLean. DOI:10.1039/C8SC04396E. Further details available here: https://lab.vanderbilt.edu/mclean-group/collision-cross-section-database/",
+      "pubchem_hnid": 4233505,
+      "url": null,
+      "id": 1
+    },
+    {
+      "name": "[M*]+",
+      "description": null,
+      "pubchem_hnid": 4233506,
+      "url": null,
+      "id": 2
+    },
+    {
+      "name": "[M+2H+K]3+",
+      "description": null,
+      "pubchem_hnid": 4233507,
+      "url": null,
+      "id": 3
+    },
+    {
+      "name": "[M+2H-H2O]2+",
+      "description": null,
+      "pubchem_hnid": 4233508,
+      "url": null,
+      "id": 4
+    },
+    {
+      "name": "[M+2H]2+",
+      "description": null,
+      "pubchem_hnid": 4233509,
+      "url": null,
+      "id": 5
+    },
+    {
+      "name": "[M+2Na]2+",
+      "description": null,
+      "pubchem_hnid": 4233510,
+      "url": null,
+      "id": 6
+    },
+    {
+      "name": "[M+CF3COO]-",
+      "description": null,
+      "pubchem_hnid": 4233511,
+      "url": null,
+      "id": 7
+    },
+    {
+      "name": "[M+Cl]-",
+      "description": null,
+      "pubchem_hnid": 4233512,
+      "url": null,
+      "id": 8
+    },
+    {
+      "name": "[M+H+K]2+",
+      "description": null,
+      "pubchem_hnid": 4233513,
+      "url": null,
+      "id": 9
+    },
+    {
+      "name": "[M+H+Na]2+",
+      "description": null,
+      "pubchem_hnid": 4233514,
+      "url": null,
+      "id": 10
+    },
+    {
+      "name": "[M+H-H2O]+",
+      "description": null,
+      "pubchem_hnid": 4233515,
+      "url": null,
+      "id": 11
+    },
+    {
+      "name": "[M+H]+",
+      "description": null,
+      "pubchem_hnid": 4233516,
+      "url": null,
+      "id": 12
+    },
+    {
+      "name": "[M+K]+",
+      "description": null,
+      "pubchem_hnid": 4233517,
+      "url": null,
+      "id": 13
+    },
+    {
+      "name": "[M+Na]+",
+      "description": null,
+      "pubchem_hnid": 4233518,
+      "url": null,
+      "id": 14
+    },
+    {
+      "name": "[M-2H+Na]-",
+      "description": null,
+      "pubchem_hnid": 4233519,
+      "url": null,
+      "id": 15
+    },
+    {
+      "name": "[M-Br+O]-",
+      "description": null,
+      "pubchem_hnid": 4233520,
+      "url": null,
+      "id": 16
+    },
+    {
+      "name": "[M-Cl+O]-",
+      "description": null,
+      "pubchem_hnid": 4233521,
+      "url": null,
+      "id": 17
+    },
+    {
+      "name": "[M-H+H2O]-",
+      "description": null,
+      "pubchem_hnid": 4233522,
+      "url": null,
+      "id": 18
+    },
+    {
+      "name": "[M-H-H2O]-",
+      "description": null,
+      "pubchem_hnid": 4233523,
+      "url": null,
+      "id": 19
+    },
+    {
+      "name": "[M-H]-",
+      "description": null,
+      "pubchem_hnid": 4233524,
+      "url": null,
+      "id": 20
+    },
+    {
+      "name": "[M+10H]10+",
+      "description": null,
+      "pubchem_hnid": 4335023,
+      "url": null,
+      "id": 21
+    },
+    {
+      "name": "[M+11H]11+",
+      "description": null,
+      "pubchem_hnid": 4335024,
+      "url": null,
+      "id": 22
+    },
+    {
+      "name": "[M+12H]12+",
+      "description": null,
+      "pubchem_hnid": 4335025,
+      "url": null,
+      "id": 23
+    },
+    {
+      "name": "[M+13H]13+",
+      "description": null,
+      "pubchem_hnid": 4335026,
+      "url": null,
+      "id": 24
+    },
+    {
+      "name": "[M+14H]14+",
+      "description": null,
+      "pubchem_hnid": 4335027,
+      "url": null,
+      "id": 25
+    },
+    {
+      "name": "[M+15H]15+",
+      "description": null,
+      "pubchem_hnid": 4335028,
+      "url": null,
+      "id": 26
+    },
+    {
+      "name": "[M+16H]16+",
+      "description": null,
+      "pubchem_hnid": 4335029,
+      "url": null,
+      "id": 27
+    },
+    {
+      "name": "[M+17H]17+",
+      "description": null,
+      "pubchem_hnid": 4335030,
+      "url": null,
+      "id": 28
+    },
+    {
+      "name": "[M+18H]18+",
+      "description": null,
+      "pubchem_hnid": 4335031,
+      "url": null,
+      "id": 29
+    },
+    {
+      "name": "[M+19H]19+",
+      "description": null,
+      "pubchem_hnid": 4335032,
+      "url": null,
+      "id": 30
+    },
+    {
+      "name": "[M+20H]20+",
+      "description": null,
+      "pubchem_hnid": 4335033,
+      "url": null,
+      "id": 31
+    },
+    {
+      "name": "[M+21H]21+",
+      "description": null,
+      "pubchem_hnid": 4335034,
+      "url": null,
+      "id": 32
+    },
+    {
+      "name": "[M+22H]22+",
+      "description": null,
+      "pubchem_hnid": 4335035,
+      "url": null,
+      "id": 33
+    },
+    {
+      "name": "[M+23H]23+",
+      "description": null,
+      "pubchem_hnid": 4335036,
+      "url": null,
+      "id": 34
+    },
+    {
+      "name": "[M+24H]24+",
+      "description": null,
+      "pubchem_hnid": 4335037,
+      "url": null,
+      "id": 35
+    },
+    {
+      "name": "[M+3H]3+",
+      "description": null,
+      "pubchem_hnid": 4335038,
+      "url": null,
+      "id": 36
+    },
+    {
+      "name": "[M+4H]4+",
+      "description": null,
+      "pubchem_hnid": 4335039,
+      "url": null,
+      "id": 37
+    },
+    {
+      "name": "[M+5H]5+",
+      "description": null,
+      "pubchem_hnid": 4335040,
+      "url": null,
+      "id": 38
+    },
+    {
+      "name": "[M+6H]6+",
+      "description": null,
+      "pubchem_hnid": 4335041,
+      "url": null,
+      "id": 39
+    },
+    {
+      "name": "[M+7H]7+",
+      "description": null,
+      "pubchem_hnid": 4335042,
+      "url": null,
+      "id": 40
+    },
+    {
+      "name": "[M+8H]8+",
+      "description": null,
+      "pubchem_hnid": 4335043,
+      "url": null,
+      "id": 41
+    },
+    {
+      "name": "[M+9H]9+",
+      "description": null,
+      "pubchem_hnid": 4335044,
+      "url": null,
+      "id": 42
+    },
+    {
+      "name": "[2M+Na]+",
+      "description": null,
+      "pubchem_hnid": 4335045,
+      "url": null,
+      "id": 43
+    },
+    {
+      "name": "[M+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 4335046,
+      "url": null,
+      "id": 44
+    },
+    {
+      "name": "[M+OH]-",
+      "description": null,
+      "pubchem_hnid": 4335055,
+      "url": null,
+      "id": 45
+    },
+    {
+      "name": "NORMAN-SLE: S61 | UJICCSLIB | Collision Cross Section (CCS) Library from UJI",
+      "description": "CCS Library from Celma et al DOI:10.1021/acs.est.0c05713, University Jaume I, Castellon, Spain, using a TWIMS-QTOF instrument and drift gas nitrogen. DOI:10.5281/zenodo.3549476",
+      "pubchem_hnid": 4233525,
+      "url": null,
+      "id": 46
+    },
+    {
+      "name": "[M+Cl]-",
+      "description": null,
+      "pubchem_hnid": 4233526,
+      "url": null,
+      "id": 47
+    },
+    {
+      "name": "[M+H-H2O]+",
+      "description": null,
+      "pubchem_hnid": 4233527,
+      "url": null,
+      "id": 48
+    },
+    {
+      "name": "[M+H-NH3]+",
+      "description": null,
+      "pubchem_hnid": 4233528,
+      "url": null,
+      "id": 49
+    },
+    {
+      "name": "[M+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 4233529,
+      "url": null,
+      "id": 50
+    },
+    {
+      "name": "[M+H]+",
+      "description": null,
+      "pubchem_hnid": 4233530,
+      "url": null,
+      "id": 51
+    },
+    {
+      "name": "[M+Na]+",
+      "description": null,
+      "pubchem_hnid": 4233531,
+      "url": null,
+      "id": 52
+    },
+    {
+      "name": "[M-H]-",
+      "description": null,
+      "pubchem_hnid": 4233532,
+      "url": null,
+      "id": 53
+    },
+    {
+      "name": "Aggregated CCS Information",
+      "description": "Aggregated CCS information from CCSbase and NORMAN-SLE.",
+      "pubchem_hnid": 4233533,
+      "url": null,
+      "id": 54
+    },
+    {
+      "name": "[M*]+",
+      "description": null,
+      "pubchem_hnid": 4233535,
+      "url": null,
+      "id": 55
+    },
+    {
+      "name": "[M+2H+K]3+",
+      "description": null,
+      "pubchem_hnid": 4233536,
+      "url": null,
+      "id": 56
+    },
+    {
+      "name": "[M+2H-H2O]2+",
+      "description": null,
+      "pubchem_hnid": 4233537,
+      "url": null,
+      "id": 57
+    },
+    {
+      "name": "[M+2H]2+",
+      "description": null,
+      "pubchem_hnid": 4233538,
+      "url": null,
+      "id": 58
+    },
+    {
+      "name": "[M+2K]2+",
+      "description": null,
+      "pubchem_hnid": 4233539,
+      "url": null,
+      "id": 59
+    },
+    {
+      "name": "[M+2Na-3H]-",
+      "description": null,
+      "pubchem_hnid": 4233540,
+      "url": null,
+      "id": 60
+    },
+    {
+      "name": "[M+2Na-H]+",
+      "description": null,
+      "pubchem_hnid": 4233541,
+      "url": null,
+      "id": 61
+    },
+    {
+      "name": "[M+2Na]2+",
+      "description": null,
+      "pubchem_hnid": 4233542,
+      "url": null,
+      "id": 62
+    },
+    {
+      "name": "[M+3H]3+",
+      "description": null,
+      "pubchem_hnid": 4233543,
+      "url": null,
+      "id": 63
+    },
+    {
+      "name": "[M+4H]4+",
+      "description": null,
+      "pubchem_hnid": 4233544,
+      "url": null,
+      "id": 64
+    },
+    {
+      "name": "[M+CF3COO]-",
+      "description": null,
+      "pubchem_hnid": 4233545,
+      "url": null,
+      "id": 65
+    },
+    {
+      "name": "[M+CH3COO]-",
+      "description": null,
+      "pubchem_hnid": 4233546,
+      "url": null,
+      "id": 66
+    },
+    {
+      "name": "[M+Cl]-",
+      "description": null,
+      "pubchem_hnid": 4233547,
+      "url": null,
+      "id": 67
+    },
+    {
+      "name": "[M+Cs]+",
+      "description": null,
+      "pubchem_hnid": 4233548,
+      "url": null,
+      "id": 68
+    },
+    {
+      "name": "[M+H+K]2+",
+      "description": null,
+      "pubchem_hnid": 4233549,
+      "url": null,
+      "id": 69
+    },
+    {
+      "name": "[M+H+Na]2+",
+      "description": null,
+      "pubchem_hnid": 4233550,
+      "url": null,
+      "id": 70
+    },
+    {
+      "name": "[M+H-2H2O]+",
+      "description": null,
+      "pubchem_hnid": 4233551,
+      "url": null,
+      "id": 71
+    },
+    {
+      "name": "[M+H-H2O]+",
+      "description": null,
+      "pubchem_hnid": 4233552,
+      "url": null,
+      "id": 72
+    },
+    {
+      "name": "[M+H-NH3]+",
+      "description": null,
+      "pubchem_hnid": 4233553,
+      "url": null,
+      "id": 73
+    },
+    {
+      "name": "[M+H2O-H]-",
+      "description": null,
+      "pubchem_hnid": 4233555,
+      "url": null,
+      "id": 74
+    },
+    {
+      "name": "[M+H3C2O2]-",
+      "description": null,
+      "pubchem_hnid": 4233556,
+      "url": null,
+      "id": 75
+    },
+    {
+      "name": "[M+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 4233557,
+      "url": null,
+      "id": 76
+    },
+    {
+      "name": "[M+H]+",
+      "description": null,
+      "pubchem_hnid": 4233558,
+      "url": null,
+      "id": 77
+    },
+    {
+      "name": "[M+H]+*",
+      "description": null,
+      "pubchem_hnid": 4233559,
+      "url": null,
+      "id": 78
+    },
+    {
+      "name": "[M+K-2H]-",
+      "description": null,
+      "pubchem_hnid": 4233560,
+      "url": null,
+      "id": 79
+    },
+    {
+      "name": "[M+K-H+Cl]-",
+      "description": null,
+      "pubchem_hnid": 4233561,
+      "url": null,
+      "id": 80
+    },
+    {
+      "name": "[M+K-H+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 4233562,
+      "url": null,
+      "id": 81
+    },
+    {
+      "name": "[M+K]+",
+      "description": null,
+      "pubchem_hnid": 4233563,
+      "url": null,
+      "id": 82
+    },
+    {
+      "name": "[M+Li]+",
+      "description": null,
+      "pubchem_hnid": 4233564,
+      "url": null,
+      "id": 83
+    },
+    {
+      "name": "[M+NH4]+",
+      "description": null,
+      "pubchem_hnid": 4233565,
+      "url": null,
+      "id": 84
+    },
+    {
+      "name": "[M+Na-2H2O]+",
+      "description": null,
+      "pubchem_hnid": 4233566,
+      "url": null,
+      "id": 85
+    },
+    {
+      "name": "[M+Na-2H]-",
+      "description": null,
+      "pubchem_hnid": 4233567,
+      "url": null,
+      "id": 86
+    },
+    {
+      "name": "[M+Na-H+Cl]-",
+      "description": null,
+      "pubchem_hnid": 4233568,
+      "url": null,
+      "id": 87
+    },
+    {
+      "name": "[M+Na-H+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 4233569,
+      "url": null,
+      "id": 88
+    },
+    {
+      "name": "[M+Na-H2O]+",
+      "description": null,
+      "pubchem_hnid": 4233570,
+      "url": null,
+      "id": 89
+    },
+    {
+      "name": "[M+Na-H]+",
+      "description": null,
+      "pubchem_hnid": 4233571,
+      "url": null,
+      "id": 90
+    },
+    {
+      "name": "[M+Na]+",
+      "description": null,
+      "pubchem_hnid": 4233572,
+      "url": null,
+      "id": 91
+    },
+    {
+      "name": "[M+Na]+*",
+      "description": null,
+      "pubchem_hnid": 4233573,
+      "url": null,
+      "id": 92
+    },
+    {
+      "name": "[M+OAcO]-",
+      "description": null,
+      "pubchem_hnid": 4233574,
+      "url": null,
+      "id": 93
+    },
+    {
+      "name": "[M+Rb]+",
+      "description": null,
+      "pubchem_hnid": 4233575,
+      "url": null,
+      "id": 94
+    },
+    {
+      "name": "[M-2H+Na]-",
+      "description": null,
+      "pubchem_hnid": 4233577,
+      "url": null,
+      "id": 95
+    },
+    {
+      "name": "[M-2H]2-",
+      "description": null,
+      "pubchem_hnid": 4233578,
+      "url": null,
+      "id": 96
+    },
+    {
+      "name": "[M-2SO3-2H2O+H]+",
+      "description": null,
+      "pubchem_hnid": 4233579,
+      "url": null,
+      "id": 97
+    },
+    {
+      "name": "[M-Br+O]-",
+      "description": null,
+      "pubchem_hnid": 4233580,
+      "url": null,
+      "id": 98
+    },
+    {
+      "name": "[M-CH3]-",
+      "description": null,
+      "pubchem_hnid": 4233581,
+      "url": null,
+      "id": 99
+    },
+    {
+      "name": "[M-Cl+O]-",
+      "description": null,
+      "pubchem_hnid": 4233582,
+      "url": null,
+      "id": 100
+    },
+    {
+      "name": "[M-H+H2O]-",
+      "description": null,
+      "pubchem_hnid": 4233583,
+      "url": null,
+      "id": 101
+    },
+    {
+      "name": "[M-H-H2O]-",
+      "description": null,
+      "pubchem_hnid": 4233584,
+      "url": null,
+      "id": 102
+    },
+    {
+      "name": "[M-H2O+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 4233585,
+      "url": null,
+      "id": 103
+    },
+    {
+      "name": "[M-H2O+H]+",
+      "description": null,
+      "pubchem_hnid": 4233586,
+      "url": null,
+      "id": 104
+    },
+    {
+      "name": "[M-H2O-H]-",
+      "description": null,
+      "pubchem_hnid": 4233587,
+      "url": null,
+      "id": 105
+    },
+    {
+      "name": "[M-H]-",
+      "description": null,
+      "pubchem_hnid": 4233588,
+      "url": null,
+      "id": 106
+    },
+    {
+      "name": "[M-SO3+Cl]-",
+      "description": null,
+      "pubchem_hnid": 4233589,
+      "url": null,
+      "id": 107
+    },
+    {
+      "name": "[M-SO3-2H2O+H]+",
+      "description": null,
+      "pubchem_hnid": 4233590,
+      "url": null,
+      "id": 108
+    },
+    {
+      "name": "[M-SO3-3H2O+H]+",
+      "description": null,
+      "pubchem_hnid": 4233591,
+      "url": null,
+      "id": 109
+    },
+    {
+      "name": "[M-SO3-H2O+Cl]-",
+      "description": null,
+      "pubchem_hnid": 4233592,
+      "url": null,
+      "id": 110
+    },
+    {
+      "name": "[M-SO3-H2O+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 4233593,
+      "url": null,
+      "id": 111
+    },
+    {
+      "name": "[M-SO3-H2O+H]+",
+      "description": null,
+      "pubchem_hnid": 4233594,
+      "url": null,
+      "id": 112
+    },
+    {
+      "name": "[M-SO3-H2O-H]-",
+      "description": null,
+      "pubchem_hnid": 4233595,
+      "url": null,
+      "id": 113
+    },
+    {
+      "name": "[M-SO3-H]-",
+      "description": null,
+      "pubchem_hnid": 4233596,
+      "url": null,
+      "id": 114
+    },
+    {
+      "name": "[M]+",
+      "description": null,
+      "pubchem_hnid": 4233597,
+      "url": null,
+      "id": 115
+    },
+    {
+      "name": "[2M+H]+",
+      "description": null,
+      "pubchem_hnid": 4335056,
+      "url": null,
+      "id": 116
+    },
+    {
+      "name": "[2M+Na]+",
+      "description": null,
+      "pubchem_hnid": 4335057,
+      "url": null,
+      "id": 117
+    },
+    {
+      "name": "[2M-H]-",
+      "description": null,
+      "pubchem_hnid": 4335058,
+      "url": null,
+      "id": 118
+    },
+    {
+      "name": "[M+10H]10+",
+      "description": null,
+      "pubchem_hnid": 4335059,
+      "url": null,
+      "id": 119
+    },
+    {
+      "name": "[M+11H]11+",
+      "description": null,
+      "pubchem_hnid": 4335060,
+      "url": null,
+      "id": 120
+    },
+    {
+      "name": "[M+12H]12+",
+      "description": null,
+      "pubchem_hnid": 4335061,
+      "url": null,
+      "id": 121
+    },
+    {
+      "name": "[M+13H]13+",
+      "description": null,
+      "pubchem_hnid": 4335062,
+      "url": null,
+      "id": 122
+    },
+    {
+      "name": "[M+14H]14+",
+      "description": null,
+      "pubchem_hnid": 4335063,
+      "url": null,
+      "id": 123
+    },
+    {
+      "name": "[M+15H]15+",
+      "description": null,
+      "pubchem_hnid": 4335064,
+      "url": null,
+      "id": 124
+    },
+    {
+      "name": "[M+16H]16+",
+      "description": null,
+      "pubchem_hnid": 4335065,
+      "url": null,
+      "id": 125
+    },
+    {
+      "name": "[M+17H]17+",
+      "description": null,
+      "pubchem_hnid": 4335066,
+      "url": null,
+      "id": 126
+    },
+    {
+      "name": "[M+18H]18+",
+      "description": null,
+      "pubchem_hnid": 4335067,
+      "url": null,
+      "id": 127
+    },
+    {
+      "name": "[M+19H]19+",
+      "description": null,
+      "pubchem_hnid": 4335068,
+      "url": null,
+      "id": 128
+    },
+    {
+      "name": "[M+20H]20+",
+      "description": null,
+      "pubchem_hnid": 4335069,
+      "url": null,
+      "id": 129
+    },
+    {
+      "name": "[M+21H]21+",
+      "description": null,
+      "pubchem_hnid": 4335070,
+      "url": null,
+      "id": 130
+    },
+    {
+      "name": "[M+22H]22+",
+      "description": null,
+      "pubchem_hnid": 4335071,
+      "url": null,
+      "id": 131
+    },
+    {
+      "name": "[M+23H]23+",
+      "description": null,
+      "pubchem_hnid": 4335072,
+      "url": null,
+      "id": 132
+    },
+    {
+      "name": "[M+24H]24+",
+      "description": null,
+      "pubchem_hnid": 4335073,
+      "url": null,
+      "id": 133
+    },
+    {
+      "name": "[M+5H]5+",
+      "description": null,
+      "pubchem_hnid": 4335074,
+      "url": null,
+      "id": 134
+    },
+    {
+      "name": "[M+6H]6+",
+      "description": null,
+      "pubchem_hnid": 4335075,
+      "url": null,
+      "id": 135
+    },
+    {
+      "name": "[M+7H]7+",
+      "description": null,
+      "pubchem_hnid": 4335076,
+      "url": null,
+      "id": 136
+    },
+    {
+      "name": "[M+8H]8+",
+      "description": null,
+      "pubchem_hnid": 4335077,
+      "url": null,
+      "id": 137
+    },
+    {
+      "name": "[M+9H]9+",
+      "description": null,
+      "pubchem_hnid": 4335078,
+      "url": null,
+      "id": 138
+    },
+    {
+      "name": "[M+OH]-",
+      "description": null,
+      "pubchem_hnid": 4335079,
+      "url": null,
+      "id": 139
+    },
+    {
+      "name": "[M-H-CO2]-",
+      "description": null,
+      "pubchem_hnid": 4335080,
+      "url": null,
+      "id": 140
+    },
+    {
+      "name": "CCSbase",
+      "description": "This node contains CCS information from CCSbase",
+      "pubchem_hnid": 4233534,
+      "url": null,
+      "id": 141
+    },
+    {
+      "name": "[M+2H]2+",
+      "description": null,
+      "pubchem_hnid": 4233455,
+      "url": null,
+      "id": 142
+    },
+    {
+      "name": "[M+2K]2+",
+      "description": null,
+      "pubchem_hnid": 4233456,
+      "url": null,
+      "id": 143
+    },
+    {
+      "name": "[M+2Na-3H]-",
+      "description": null,
+      "pubchem_hnid": 4233457,
+      "url": null,
+      "id": 144
+    },
+    {
+      "name": "[M+2Na-H]+",
+      "description": null,
+      "pubchem_hnid": 4233458,
+      "url": null,
+      "id": 145
+    },
+    {
+      "name": "[M+3H]3+",
+      "description": null,
+      "pubchem_hnid": 4233459,
+      "url": null,
+      "id": 146
+    },
+    {
+      "name": "[M+4H]4+",
+      "description": null,
+      "pubchem_hnid": 4233460,
+      "url": null,
+      "id": 147
+    },
+    {
+      "name": "[M+CH3COO]-",
+      "description": null,
+      "pubchem_hnid": 4233461,
+      "url": null,
+      "id": 148
+    },
+    {
+      "name": "[M+Cl]-",
+      "description": null,
+      "pubchem_hnid": 4233462,
+      "url": null,
+      "id": 149
+    },
+    {
+      "name": "[M+Cs]+",
+      "description": null,
+      "pubchem_hnid": 4233463,
+      "url": null,
+      "id": 150
+    },
+    {
+      "name": "[M+H-2H2O]+",
+      "description": null,
+      "pubchem_hnid": 4233464,
+      "url": null,
+      "id": 151
+    },
+    {
+      "name": "[M+H-H2O]+",
+      "description": null,
+      "pubchem_hnid": 4233465,
+      "url": null,
+      "id": 152
+    },
+    {
+      "name": "[M+H2O-H]-",
+      "description": null,
+      "pubchem_hnid": 4233467,
+      "url": null,
+      "id": 153
+    },
+    {
+      "name": "[M+H3C2O2]-",
+      "description": null,
+      "pubchem_hnid": 4233468,
+      "url": null,
+      "id": 154
+    },
+    {
+      "name": "[M+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 4233469,
+      "url": null,
+      "id": 155
+    },
+    {
+      "name": "[M+H]+",
+      "description": null,
+      "pubchem_hnid": 4233470,
+      "url": null,
+      "id": 156
+    },
+    {
+      "name": "[M+H]+*",
+      "description": null,
+      "pubchem_hnid": 4233471,
+      "url": null,
+      "id": 157
+    },
+    {
+      "name": "[M+K-2H]-",
+      "description": null,
+      "pubchem_hnid": 4233472,
+      "url": null,
+      "id": 158
+    },
+    {
+      "name": "[M+K-H+Cl]-",
+      "description": null,
+      "pubchem_hnid": 4233473,
+      "url": null,
+      "id": 159
+    },
+    {
+      "name": "[M+K-H+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 4233474,
+      "url": null,
+      "id": 160
+    },
+    {
+      "name": "[M+K]+",
+      "description": null,
+      "pubchem_hnid": 4233475,
+      "url": null,
+      "id": 161
+    },
+    {
+      "name": "[M+Li]+",
+      "description": null,
+      "pubchem_hnid": 4233476,
+      "url": null,
+      "id": 162
+    },
+    {
+      "name": "[M+NH4]+",
+      "description": null,
+      "pubchem_hnid": 4233477,
+      "url": null,
+      "id": 163
+    },
+    {
+      "name": "[M+Na-2H2O]+",
+      "description": null,
+      "pubchem_hnid": 4233478,
+      "url": null,
+      "id": 164
+    },
+    {
+      "name": "[M+Na-2H]-",
+      "description": null,
+      "pubchem_hnid": 4233479,
+      "url": null,
+      "id": 165
+    },
+    {
+      "name": "[M+Na-H+Cl]-",
+      "description": null,
+      "pubchem_hnid": 4233480,
+      "url": null,
+      "id": 166
+    },
+    {
+      "name": "[M+Na-H+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 4233481,
+      "url": null,
+      "id": 167
+    },
+    {
+      "name": "[M+Na-H2O]+",
+      "description": null,
+      "pubchem_hnid": 4233482,
+      "url": null,
+      "id": 168
+    },
+    {
+      "name": "[M+Na-H]+",
+      "description": null,
+      "pubchem_hnid": 4233483,
+      "url": null,
+      "id": 169
+    },
+    {
+      "name": "[M+Na]+",
+      "description": null,
+      "pubchem_hnid": 4233484,
+      "url": null,
+      "id": 170
+    },
+    {
+      "name": "[M+Na]+*",
+      "description": null,
+      "pubchem_hnid": 4233485,
+      "url": null,
+      "id": 171
+    },
+    {
+      "name": "[M+OAcO]-",
+      "description": null,
+      "pubchem_hnid": 4233486,
+      "url": null,
+      "id": 172
+    },
+    {
+      "name": "[M+Rb]+",
+      "description": null,
+      "pubchem_hnid": 4233487,
+      "url": null,
+      "id": 173
+    },
+    {
+      "name": "[M-2H]2-",
+      "description": null,
+      "pubchem_hnid": 4233489,
+      "url": null,
+      "id": 174
+    },
+    {
+      "name": "[M-2SO3-2H2O+H]+",
+      "description": null,
+      "pubchem_hnid": 4233490,
+      "url": null,
+      "id": 175
+    },
+    {
+      "name": "[M-CH3]-",
+      "description": null,
+      "pubchem_hnid": 4233491,
+      "url": null,
+      "id": 176
+    },
+    {
+      "name": "[M-H2O+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 4233492,
+      "url": null,
+      "id": 177
+    },
+    {
+      "name": "[M-H2O+H]+",
+      "description": null,
+      "pubchem_hnid": 4233493,
+      "url": null,
+      "id": 178
+    },
+    {
+      "name": "[M-H2O-H]-",
+      "description": null,
+      "pubchem_hnid": 4233494,
+      "url": null,
+      "id": 179
+    },
+    {
+      "name": "[M-H]-",
+      "description": null,
+      "pubchem_hnid": 4233495,
+      "url": null,
+      "id": 180
+    },
+    {
+      "name": "[M-SO3+Cl]-",
+      "description": null,
+      "pubchem_hnid": 4233496,
+      "url": null,
+      "id": 181
+    },
+    {
+      "name": "[M-SO3-2H2O+H]+",
+      "description": null,
+      "pubchem_hnid": 4233497,
+      "url": null,
+      "id": 182
+    },
+    {
+      "name": "[M-SO3-3H2O+H]+",
+      "description": null,
+      "pubchem_hnid": 4233498,
+      "url": null,
+      "id": 183
+    },
+    {
+      "name": "[M-SO3-H2O+Cl]-",
+      "description": null,
+      "pubchem_hnid": 4233499,
+      "url": null,
+      "id": 184
+    },
+    {
+      "name": "[M-SO3-H2O+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 4233500,
+      "url": null,
+      "id": 185
+    },
+    {
+      "name": "[M-SO3-H2O+H]+",
+      "description": null,
+      "pubchem_hnid": 4233501,
+      "url": null,
+      "id": 186
+    },
+    {
+      "name": "[M-SO3-H2O-H]-",
+      "description": null,
+      "pubchem_hnid": 4233502,
+      "url": null,
+      "id": 187
+    },
+    {
+      "name": "[M-SO3-H]-",
+      "description": null,
+      "pubchem_hnid": 4233503,
+      "url": null,
+      "id": 188
+    },
+    {
+      "name": "[M]+",
+      "description": null,
+      "pubchem_hnid": 4233504,
+      "url": null,
+      "id": 189
+    },
+    {
+      "name": "NORMAN-SLE: S79 | UACCSCEC | Collision Cross Section (CCS) Library from UAntwerp",
+      "description": "A library containing the collision cross section (CCS) values of 311 adducts of 148 contaminants of emerging concern (CECs) and their metabolites measured with drift tube ion mobility high resolution mass spectrometry (in positive and negative ionization modes with N2 as drift gas) as described in Belova et al (2021) DOI:10.1021/acs.analchem.1c00142. Dataset DOI:10.5281/zenodo.4704648",
+      "pubchem_hnid": 4335047,
+      "url": null,
+      "id": 190
+    },
+    {
+      "name": "[2M+H]+",
+      "description": null,
+      "pubchem_hnid": 4335048,
+      "url": null,
+      "id": 191
+    },
+    {
+      "name": "[2M+Na]+",
+      "description": null,
+      "pubchem_hnid": 4335049,
+      "url": null,
+      "id": 192
+    },
+    {
+      "name": "[2M-H]-",
+      "description": null,
+      "pubchem_hnid": 4335050,
+      "url": null,
+      "id": 193
+    },
+    {
+      "name": "[M+H]+",
+      "description": null,
+      "pubchem_hnid": 4335051,
+      "url": null,
+      "id": 194
+    },
+    {
+      "name": "[M+Na]+",
+      "description": null,
+      "pubchem_hnid": 4335052,
+      "url": null,
+      "id": 195
+    },
+    {
+      "name": "[M-H-CO2]-",
+      "description": null,
+      "pubchem_hnid": 4335053,
+      "url": null,
+      "id": 196
+    },
+    {
+      "name": "[M-H]-",
+      "description": null,
+      "pubchem_hnid": 4335054,
+      "url": null,
+      "id": 197
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "target": 3
+    },
+    {
+      "source": 1,
+      "target": 4
+    },
+    {
+      "source": 1,
+      "target": 5
+    },
+    {
+      "source": 1,
+      "target": 6
+    },
+    {
+      "source": 1,
+      "target": 7
+    },
+    {
+      "source": 1,
+      "target": 8
+    },
+    {
+      "source": 1,
+      "target": 9
+    },
+    {
+      "source": 1,
+      "target": 10
+    },
+    {
+      "source": 1,
+      "target": 11
+    },
+    {
+      "source": 1,
+      "target": 12
+    },
+    {
+      "source": 1,
+      "target": 13
+    },
+    {
+      "source": 1,
+      "target": 14
+    },
+    {
+      "source": 1,
+      "target": 15
+    },
+    {
+      "source": 1,
+      "target": 16
+    },
+    {
+      "source": 1,
+      "target": 17
+    },
+    {
+      "source": 1,
+      "target": 18
+    },
+    {
+      "source": 1,
+      "target": 19
+    },
+    {
+      "source": 1,
+      "target": 20
+    },
+    {
+      "source": 1,
+      "target": 21
+    },
+    {
+      "source": 1,
+      "target": 22
+    },
+    {
+      "source": 1,
+      "target": 23
+    },
+    {
+      "source": 1,
+      "target": 24
+    },
+    {
+      "source": 1,
+      "target": 25
+    },
+    {
+      "source": 1,
+      "target": 26
+    },
+    {
+      "source": 1,
+      "target": 27
+    },
+    {
+      "source": 1,
+      "target": 28
+    },
+    {
+      "source": 1,
+      "target": 29
+    },
+    {
+      "source": 1,
+      "target": 30
+    },
+    {
+      "source": 1,
+      "target": 31
+    },
+    {
+      "source": 1,
+      "target": 32
+    },
+    {
+      "source": 1,
+      "target": 33
+    },
+    {
+      "source": 1,
+      "target": 34
+    },
+    {
+      "source": 1,
+      "target": 35
+    },
+    {
+      "source": 1,
+      "target": 36
+    },
+    {
+      "source": 1,
+      "target": 37
+    },
+    {
+      "source": 1,
+      "target": 38
+    },
+    {
+      "source": 1,
+      "target": 39
+    },
+    {
+      "source": 1,
+      "target": 40
+    },
+    {
+      "source": 1,
+      "target": 41
+    },
+    {
+      "source": 1,
+      "target": 42
+    },
+    {
+      "source": 1,
+      "target": 43
+    },
+    {
+      "source": 1,
+      "target": 44
+    },
+    {
+      "source": 1,
+      "target": 45
+    },
+    {
+      "source": 46,
+      "target": 47
+    },
+    {
+      "source": 46,
+      "target": 48
+    },
+    {
+      "source": 46,
+      "target": 49
+    },
+    {
+      "source": 46,
+      "target": 50
+    },
+    {
+      "source": 46,
+      "target": 51
+    },
+    {
+      "source": 46,
+      "target": 52
+    },
+    {
+      "source": 46,
+      "target": 53
+    },
+    {
+      "source": 54,
+      "target": 55
+    },
+    {
+      "source": 54,
+      "target": 56
+    },
+    {
+      "source": 54,
+      "target": 57
+    },
+    {
+      "source": 54,
+      "target": 58
+    },
+    {
+      "source": 54,
+      "target": 59
+    },
+    {
+      "source": 54,
+      "target": 60
+    },
+    {
+      "source": 54,
+      "target": 61
+    },
+    {
+      "source": 54,
+      "target": 62
+    },
+    {
+      "source": 54,
+      "target": 63
+    },
+    {
+      "source": 54,
+      "target": 64
+    },
+    {
+      "source": 54,
+      "target": 65
+    },
+    {
+      "source": 54,
+      "target": 66
+    },
+    {
+      "source": 54,
+      "target": 67
+    },
+    {
+      "source": 54,
+      "target": 68
+    },
+    {
+      "source": 54,
+      "target": 69
+    },
+    {
+      "source": 54,
+      "target": 70
+    },
+    {
+      "source": 54,
+      "target": 71
+    },
+    {
+      "source": 54,
+      "target": 72
+    },
+    {
+      "source": 54,
+      "target": 73
+    },
+    {
+      "source": 54,
+      "target": 74
+    },
+    {
+      "source": 54,
+      "target": 75
+    },
+    {
+      "source": 54,
+      "target": 76
+    },
+    {
+      "source": 54,
+      "target": 77
+    },
+    {
+      "source": 54,
+      "target": 78
+    },
+    {
+      "source": 54,
+      "target": 79
+    },
+    {
+      "source": 54,
+      "target": 80
+    },
+    {
+      "source": 54,
+      "target": 81
+    },
+    {
+      "source": 54,
+      "target": 82
+    },
+    {
+      "source": 54,
+      "target": 83
+    },
+    {
+      "source": 54,
+      "target": 84
+    },
+    {
+      "source": 54,
+      "target": 85
+    },
+    {
+      "source": 54,
+      "target": 86
+    },
+    {
+      "source": 54,
+      "target": 87
+    },
+    {
+      "source": 54,
+      "target": 88
+    },
+    {
+      "source": 54,
+      "target": 89
+    },
+    {
+      "source": 54,
+      "target": 90
+    },
+    {
+      "source": 54,
+      "target": 91
+    },
+    {
+      "source": 54,
+      "target": 92
+    },
+    {
+      "source": 54,
+      "target": 93
+    },
+    {
+      "source": 54,
+      "target": 94
+    },
+    {
+      "source": 54,
+      "target": 95
+    },
+    {
+      "source": 54,
+      "target": 96
+    },
+    {
+      "source": 54,
+      "target": 97
+    },
+    {
+      "source": 54,
+      "target": 98
+    },
+    {
+      "source": 54,
+      "target": 99
+    },
+    {
+      "source": 54,
+      "target": 100
+    },
+    {
+      "source": 54,
+      "target": 101
+    },
+    {
+      "source": 54,
+      "target": 102
+    },
+    {
+      "source": 54,
+      "target": 103
+    },
+    {
+      "source": 54,
+      "target": 104
+    },
+    {
+      "source": 54,
+      "target": 105
+    },
+    {
+      "source": 54,
+      "target": 106
+    },
+    {
+      "source": 54,
+      "target": 107
+    },
+    {
+      "source": 54,
+      "target": 108
+    },
+    {
+      "source": 54,
+      "target": 109
+    },
+    {
+      "source": 54,
+      "target": 110
+    },
+    {
+      "source": 54,
+      "target": 111
+    },
+    {
+      "source": 54,
+      "target": 112
+    },
+    {
+      "source": 54,
+      "target": 113
+    },
+    {
+      "source": 54,
+      "target": 114
+    },
+    {
+      "source": 54,
+      "target": 115
+    },
+    {
+      "source": 54,
+      "target": 116
+    },
+    {
+      "source": 54,
+      "target": 117
+    },
+    {
+      "source": 54,
+      "target": 118
+    },
+    {
+      "source": 54,
+      "target": 119
+    },
+    {
+      "source": 54,
+      "target": 120
+    },
+    {
+      "source": 54,
+      "target": 121
+    },
+    {
+      "source": 54,
+      "target": 122
+    },
+    {
+      "source": 54,
+      "target": 123
+    },
+    {
+      "source": 54,
+      "target": 124
+    },
+    {
+      "source": 54,
+      "target": 125
+    },
+    {
+      "source": 54,
+      "target": 126
+    },
+    {
+      "source": 54,
+      "target": 127
+    },
+    {
+      "source": 54,
+      "target": 128
+    },
+    {
+      "source": 54,
+      "target": 129
+    },
+    {
+      "source": 54,
+      "target": 130
+    },
+    {
+      "source": 54,
+      "target": 131
+    },
+    {
+      "source": 54,
+      "target": 132
+    },
+    {
+      "source": 54,
+      "target": 133
+    },
+    {
+      "source": 54,
+      "target": 134
+    },
+    {
+      "source": 54,
+      "target": 135
+    },
+    {
+      "source": 54,
+      "target": 136
+    },
+    {
+      "source": 54,
+      "target": 137
+    },
+    {
+      "source": 54,
+      "target": 138
+    },
+    {
+      "source": 54,
+      "target": 139
+    },
+    {
+      "source": 54,
+      "target": 140
+    },
+    {
+      "source": 141,
+      "target": 142
+    },
+    {
+      "source": 141,
+      "target": 143
+    },
+    {
+      "source": 141,
+      "target": 144
+    },
+    {
+      "source": 141,
+      "target": 145
+    },
+    {
+      "source": 141,
+      "target": 146
+    },
+    {
+      "source": 141,
+      "target": 147
+    },
+    {
+      "source": 141,
+      "target": 148
+    },
+    {
+      "source": 141,
+      "target": 149
+    },
+    {
+      "source": 141,
+      "target": 150
+    },
+    {
+      "source": 141,
+      "target": 151
+    },
+    {
+      "source": 141,
+      "target": 152
+    },
+    {
+      "source": 141,
+      "target": 153
+    },
+    {
+      "source": 141,
+      "target": 154
+    },
+    {
+      "source": 141,
+      "target": 155
+    },
+    {
+      "source": 141,
+      "target": 156
+    },
+    {
+      "source": 141,
+      "target": 157
+    },
+    {
+      "source": 141,
+      "target": 158
+    },
+    {
+      "source": 141,
+      "target": 159
+    },
+    {
+      "source": 141,
+      "target": 160
+    },
+    {
+      "source": 141,
+      "target": 161
+    },
+    {
+      "source": 141,
+      "target": 162
+    },
+    {
+      "source": 141,
+      "target": 163
+    },
+    {
+      "source": 141,
+      "target": 164
+    },
+    {
+      "source": 141,
+      "target": 165
+    },
+    {
+      "source": 141,
+      "target": 166
+    },
+    {
+      "source": 141,
+      "target": 167
+    },
+    {
+      "source": 141,
+      "target": 168
+    },
+    {
+      "source": 141,
+      "target": 169
+    },
+    {
+      "source": 141,
+      "target": 170
+    },
+    {
+      "source": 141,
+      "target": 171
+    },
+    {
+      "source": 141,
+      "target": 172
+    },
+    {
+      "source": 141,
+      "target": 173
+    },
+    {
+      "source": 141,
+      "target": 174
+    },
+    {
+      "source": 141,
+      "target": 175
+    },
+    {
+      "source": 141,
+      "target": 176
+    },
+    {
+      "source": 141,
+      "target": 177
+    },
+    {
+      "source": 141,
+      "target": 178
+    },
+    {
+      "source": 141,
+      "target": 179
+    },
+    {
+      "source": 141,
+      "target": 180
+    },
+    {
+      "source": 141,
+      "target": 181
+    },
+    {
+      "source": 141,
+      "target": 182
+    },
+    {
+      "source": 141,
+      "target": 183
+    },
+    {
+      "source": 141,
+      "target": 184
+    },
+    {
+      "source": 141,
+      "target": 185
+    },
+    {
+      "source": 141,
+      "target": 186
+    },
+    {
+      "source": 141,
+      "target": 187
+    },
+    {
+      "source": 141,
+      "target": 188
+    },
+    {
+      "source": 141,
+      "target": 189
+    },
+    {
+      "source": 190,
+      "target": 191
+    },
+    {
+      "source": 190,
+      "target": 192
+    },
+    {
+      "source": 190,
+      "target": 193
+    },
+    {
+      "source": 190,
+      "target": 194
+    },
+    {
+      "source": 190,
+      "target": 195
+    },
+    {
+      "source": 190,
+      "target": 196
+    },
+    {
+      "source": 190,
+      "target": 197
+    }
+  ]
+}

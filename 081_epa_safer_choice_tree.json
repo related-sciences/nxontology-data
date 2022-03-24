@@ -1,0 +1,577 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "name": "081_epa_safer_choice_tree",
+    "pubchem_hierarchy_id": 81,
+    "pubchem_source_id": "EPA_Safer_Choice_tree",
+    "pubchem_source_name": "EPA Safer Choice",
+    "pubchem_description": [
+      "Safer Choice of the U.S. Environmental Protection Agency (EPA) helps consumers, businesses, and purchasers find products that perform and are safer for human health and the environment. This classification is created based on the use classes of each chemical ingredient from the EPA Safer Choice."
+    ],
+    "pubchem_comments": null,
+    "source_url": "https://www.epa.gov/saferchoice"
+  },
+  "nodes": [
+    {
+      "name": "Green Circle",
+      "description": "Green circle - The chemical has been verified to be of low concern based on experimental and modeled data.",
+      "pubchem_hnid": 2955725,
+      "url": null,
+      "id": 1
+    },
+    {
+      "name": "Antimicrobial Actives",
+      "description": null,
+      "pubchem_hnid": 2955745,
+      "url": null,
+      "id": 2
+    },
+    {
+      "name": "Chelating Agents",
+      "description": null,
+      "pubchem_hnid": 2955746,
+      "url": null,
+      "id": 3
+    },
+    {
+      "name": "Colorants",
+      "description": null,
+      "pubchem_hnid": 2955747,
+      "url": null,
+      "id": 4
+    },
+    {
+      "name": "Defoamers",
+      "description": null,
+      "pubchem_hnid": 2955748,
+      "url": null,
+      "id": 5
+    },
+    {
+      "name": "Emollients",
+      "description": null,
+      "pubchem_hnid": 2955749,
+      "url": null,
+      "id": 6
+    },
+    {
+      "name": "Enzymes and Enzyme Stabilizers",
+      "description": null,
+      "pubchem_hnid": 2955750,
+      "url": null,
+      "id": 7
+    },
+    {
+      "name": "Fragrances",
+      "description": null,
+      "pubchem_hnid": 2955751,
+      "url": null,
+      "id": 8
+    },
+    {
+      "name": "Oxidants and Oxidant Stabilizers",
+      "description": null,
+      "pubchem_hnid": 2955752,
+      "url": null,
+      "id": 9
+    },
+    {
+      "name": "Polymers",
+      "description": null,
+      "pubchem_hnid": 2955753,
+      "url": null,
+      "id": 10
+    },
+    {
+      "name": "Preservatives and Antioxidants",
+      "description": null,
+      "pubchem_hnid": 2955754,
+      "url": null,
+      "id": 11
+    },
+    {
+      "name": "Processing Aids and Additives",
+      "description": null,
+      "pubchem_hnid": 2955755,
+      "url": null,
+      "id": 12
+    },
+    {
+      "name": "Skin Conditioning Agents",
+      "description": null,
+      "pubchem_hnid": 2955756,
+      "url": null,
+      "id": 13
+    },
+    {
+      "name": "Solvents",
+      "description": null,
+      "pubchem_hnid": 2955757,
+      "url": null,
+      "id": 14
+    },
+    {
+      "name": "Surfactants",
+      "description": null,
+      "pubchem_hnid": 2955758,
+      "url": null,
+      "id": 15
+    },
+    {
+      "name": "Uncategorized",
+      "description": null,
+      "pubchem_hnid": 2955759,
+      "url": null,
+      "id": 16
+    },
+    {
+      "name": "Green Half-Circle",
+      "description": "Green half-circle - The chemical is expected to be of low concern based on experimental and modeled data. Additional data would strengthen EPA's confidence in the chemical's safer status.",
+      "pubchem_hnid": 2955726,
+      "url": null,
+      "id": 17
+    },
+    {
+      "name": "Chelating Agents",
+      "description": null,
+      "pubchem_hnid": 2955760,
+      "url": null,
+      "id": 18
+    },
+    {
+      "name": "Colorants",
+      "description": null,
+      "pubchem_hnid": 2955761,
+      "url": null,
+      "id": 19
+    },
+    {
+      "name": "Defoamers",
+      "description": null,
+      "pubchem_hnid": 2955762,
+      "url": null,
+      "id": 20
+    },
+    {
+      "name": "Fragrances",
+      "description": null,
+      "pubchem_hnid": 2955763,
+      "url": null,
+      "id": 21
+    },
+    {
+      "name": "Polymers",
+      "description": null,
+      "pubchem_hnid": 2955764,
+      "url": null,
+      "id": 22
+    },
+    {
+      "name": "Preservatives and Antioxidants",
+      "description": null,
+      "pubchem_hnid": 2955765,
+      "url": null,
+      "id": 23
+    },
+    {
+      "name": "Processing Aids and Additives",
+      "description": null,
+      "pubchem_hnid": 2955766,
+      "url": null,
+      "id": 24
+    },
+    {
+      "name": "Skin Conditioning Agents",
+      "description": null,
+      "pubchem_hnid": 2955767,
+      "url": null,
+      "id": 25
+    },
+    {
+      "name": "Solvents",
+      "description": null,
+      "pubchem_hnid": 2955768,
+      "url": null,
+      "id": 26
+    },
+    {
+      "name": "Surfactants",
+      "description": null,
+      "pubchem_hnid": 2955769,
+      "url": null,
+      "id": 27
+    },
+    {
+      "name": "Uncategorized",
+      "description": null,
+      "pubchem_hnid": 2955770,
+      "url": null,
+      "id": 28
+    },
+    {
+      "name": "Emollients",
+      "description": null,
+      "pubchem_hnid": 3069963,
+      "url": null,
+      "id": 29
+    },
+    {
+      "name": "Yellow Triangle",
+      "description": "Yellow triangle - The chemical has met Safer Choice Criteria for its functional ingredient-class, but has some hazard profile issues. Specifically, a chemical with this code is not associated with a low level of hazard concern for all human health and environmental endpoints. (See <a href=\"https://www.epa.gov/saferchoice/standard#tab-2\">Safer Choice Criteria</a>). While it is a best-in-class chemical and among the safest available for a particular function, the function fulfilled by the chemical should be considered an area for safer chemistry innovation.",
+      "pubchem_hnid": 2955727,
+      "url": null,
+      "id": 30
+    },
+    {
+      "name": "Colorants",
+      "description": null,
+      "pubchem_hnid": 2955772,
+      "url": null,
+      "id": 31
+    },
+    {
+      "name": "Defoamers",
+      "description": null,
+      "pubchem_hnid": 2955773,
+      "url": null,
+      "id": 32
+    },
+    {
+      "name": "Enzymes and Enzyme Stabilizers",
+      "description": null,
+      "pubchem_hnid": 2955774,
+      "url": null,
+      "id": 33
+    },
+    {
+      "name": "Fragrances",
+      "description": null,
+      "pubchem_hnid": 2955775,
+      "url": null,
+      "id": 34
+    },
+    {
+      "name": "Oxidants and Oxidant Stabilizers",
+      "description": null,
+      "pubchem_hnid": 2955776,
+      "url": null,
+      "id": 35
+    },
+    {
+      "name": "Preservatives and Antioxidants",
+      "description": null,
+      "pubchem_hnid": 2955777,
+      "url": null,
+      "id": 36
+    },
+    {
+      "name": "Processing Aids and Additives",
+      "description": null,
+      "pubchem_hnid": 2955778,
+      "url": null,
+      "id": 37
+    },
+    {
+      "name": "Solvents",
+      "description": null,
+      "pubchem_hnid": 2955779,
+      "url": null,
+      "id": 38
+    },
+    {
+      "name": "Specialized Industrial Chemicals",
+      "description": null,
+      "pubchem_hnid": 2955780,
+      "url": null,
+      "id": 39
+    },
+    {
+      "name": "Uncategorized",
+      "description": null,
+      "pubchem_hnid": 2955781,
+      "url": null,
+      "id": 40
+    },
+    {
+      "name": "Chelating Agents",
+      "description": null,
+      "pubchem_hnid": 3069964,
+      "url": null,
+      "id": 41
+    },
+    {
+      "name": "Grey Square",
+      "description": "Grey square - This chemical will not be acceptable for use in products that are candidates for the Safer Choice label and currently labeled products that contain it must reformulate per <a href=\"https://www.epa.gov/saferchoice/safer-choice-implementation-and-compliance-schedules\">Safer Choice Compliance Schedules</a>.",
+      "pubchem_hnid": 2955728,
+      "url": null,
+      "id": 42
+    },
+    {
+      "name": "Antimicrobial Actives",
+      "description": null,
+      "pubchem_hnid": 2955729,
+      "url": null,
+      "id": 43
+    },
+    {
+      "name": "Chelating Agents",
+      "description": null,
+      "pubchem_hnid": 2955730,
+      "url": null,
+      "id": 44
+    },
+    {
+      "name": "Colorants",
+      "description": null,
+      "pubchem_hnid": 2955731,
+      "url": null,
+      "id": 45
+    },
+    {
+      "name": "Defoamers",
+      "description": null,
+      "pubchem_hnid": 2955732,
+      "url": null,
+      "id": 46
+    },
+    {
+      "name": "Emollients",
+      "description": null,
+      "pubchem_hnid": 2955733,
+      "url": null,
+      "id": 47
+    },
+    {
+      "name": "Enzymes and Enzyme Stabilizers",
+      "description": null,
+      "pubchem_hnid": 2955734,
+      "url": null,
+      "id": 48
+    },
+    {
+      "name": "Fragrances",
+      "description": null,
+      "pubchem_hnid": 2955735,
+      "url": null,
+      "id": 49
+    },
+    {
+      "name": "Oxidants and Oxidant Stabilizers",
+      "description": null,
+      "pubchem_hnid": 2955736,
+      "url": null,
+      "id": 50
+    },
+    {
+      "name": "Polymers",
+      "description": null,
+      "pubchem_hnid": 2955737,
+      "url": null,
+      "id": 51
+    },
+    {
+      "name": "Preservatives and Antioxidants",
+      "description": null,
+      "pubchem_hnid": 2955738,
+      "url": null,
+      "id": 52
+    },
+    {
+      "name": "Processing Aids and Additives",
+      "description": null,
+      "pubchem_hnid": 2955739,
+      "url": null,
+      "id": 53
+    },
+    {
+      "name": "Skin Conditioning Agents",
+      "description": null,
+      "pubchem_hnid": 2955740,
+      "url": null,
+      "id": 54
+    },
+    {
+      "name": "Solvents",
+      "description": null,
+      "pubchem_hnid": 2955741,
+      "url": null,
+      "id": 55
+    },
+    {
+      "name": "Specialized Industrial Chemicals",
+      "description": null,
+      "pubchem_hnid": 2955742,
+      "url": null,
+      "id": 56
+    },
+    {
+      "name": "Surfactants",
+      "description": null,
+      "pubchem_hnid": 2955743,
+      "url": null,
+      "id": 57
+    },
+    {
+      "name": "Uncategorized",
+      "description": null,
+      "pubchem_hnid": 2955744,
+      "url": null,
+      "id": 58
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "target": 3
+    },
+    {
+      "source": 1,
+      "target": 4
+    },
+    {
+      "source": 1,
+      "target": 5
+    },
+    {
+      "source": 1,
+      "target": 6
+    },
+    {
+      "source": 1,
+      "target": 7
+    },
+    {
+      "source": 1,
+      "target": 8
+    },
+    {
+      "source": 1,
+      "target": 9
+    },
+    {
+      "source": 1,
+      "target": 10
+    },
+    {
+      "source": 1,
+      "target": 11
+    },
+    {
+      "source": 1,
+      "target": 12
+    },
+    {
+      "source": 1,
+      "target": 13
+    },
+    {
+      "source": 1,
+      "target": 14
+    },
+    {
+      "source": 1,
+      "target": 15
+    },
+    {
+      "source": 1,
+      "target": 16
+    },
+    {
+      "source": 17,
+      "target": 18
+    },
+    {
+      "source": 17,
+      "target": 19
+    },
+    {
+      "source": 17,
+      "target": 20
+    },
+    {
+      "source": 17,
+      "target": 21
+    },
+    {
+      "source": 17,
+      "target": 22
+    },
+    {
+      "source": 17,
+      "target": 23
+    },
+    {
+      "source": 17,
+      "target": 24
+    },
+    {
+      "source": 17,
+      "target": 25
+    },
+    {
+      "source": 17,
+      "target": 26
+    },
+    {
+      "source": 17,
+      "target": 27
+    },
+    {
+      "source": 17,
+      "target": 28
+    },
+    {
+      "source": 17,
+      "target": 29
+    },
+    {
+      "source": 30,
+      "target": 31
+    },
+    {
+      "source": 30,
+      "target": 32
+    },
+    {
+      "source": 30,
+      "target": 33
+    },
+    {
+      "source": 30,
+      "target": 34
+    },
+    {
+      "source": 30,
+      "target": 35
+    },
+    {
+      "source": 30,
+      "target": 36
+    },
+    {
+      "source": 30,
+      "target": 37
+    },
+    {
+      "source": 30,
+      "target": 38
+    },
+    {
+      "source": 30,
+      "target": 39
+    },
+    {
+      "source": 30,
+      "target": 40
+    },
+    {
+      "source": 30,
+      "target": 41
+    }
+  ]
+}

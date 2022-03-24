@@ -1,0 +1,4550 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "name": "117_kegg_br08327",
+    "pubchem_hierarchy_id": 117,
+    "pubchem_source_id": "br08327",
+    "pubchem_source_name": "KEGG",
+    "pubchem_description": null,
+    "pubchem_comments": [
+      "Last updated: June 11, 2021"
+    ],
+    "source_url": "http://www.genome.jp/kegg-bin/get_htext?br08327.keg"
+  },
+  "nodes": [
+    {
+      "name": null,
+      "description": "Antivirals",
+      "pubchem_hnid": 4966067,
+      "url": null,
+      "id": 1
+    },
+    {
+      "name": null,
+      "description": "Entry, fusion or uncoating inhibitor",
+      "pubchem_hnid": 4966068,
+      "url": null,
+      "id": 2
+    },
+    {
+      "name": null,
+      "description": "HIV gp41/gp120",
+      "pubchem_hnid": 4966069,
+      "url": null,
+      "id": 3
+    },
+    {
+      "name": null,
+      "description": "Enfuvirtide (USAN/INN) EFV EFV",
+      "pubchem_hnid": 4966070,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02499",
+      "id": 4
+    },
+    {
+      "name": null,
+      "description": "CCR5 antagonist",
+      "pubchem_hnid": 4966071,
+      "url": null,
+      "id": 5
+    },
+    {
+      "name": null,
+      "description": "Maraviroc (JAN/INN) MVC MVC",
+      "pubchem_hnid": 4966072,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D06670",
+      "id": 6
+    },
+    {
+      "name": null,
+      "description": "Interferon",
+      "pubchem_hnid": 4966073,
+      "url": null,
+      "id": 7
+    },
+    {
+      "name": null,
+      "description": "DG01750 Interferon alpha IFN##",
+      "pubchem_hnid": 4966074,
+      "url": null,
+      "id": 8
+    },
+    {
+      "name": null,
+      "description": "Interferon alfacon-1 (USAN/INN) CIFN",
+      "pubchem_hnid": 4966075,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02744",
+      "id": 9
+    },
+    {
+      "name": null,
+      "description": "Influenza virus uncoating inhibitor",
+      "pubchem_hnid": 4966076,
+      "url": null,
+      "id": 10
+    },
+    {
+      "name": null,
+      "description": "DG00860 Amantadine AMT",
+      "pubchem_hnid": 4966077,
+      "url": null,
+      "id": 11
+    },
+    {
+      "name": null,
+      "description": "DG00650 Rimantadine RIM",
+      "pubchem_hnid": 4966078,
+      "url": null,
+      "id": 12
+    },
+    {
+      "name": null,
+      "description": "RSV F protein",
+      "pubchem_hnid": 4966079,
+      "url": null,
+      "id": 13
+    },
+    {
+      "name": null,
+      "description": "Palivizumab (USAN/INN) PZ",
+      "pubchem_hnid": 4966080,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02737",
+      "id": 14
+    },
+    {
+      "name": null,
+      "description": "Genome replication inhibitor",
+      "pubchem_hnid": 4966081,
+      "url": null,
+      "id": 15
+    },
+    {
+      "name": null,
+      "description": "Herpesvirus DNA polymerase inhibitor",
+      "pubchem_hnid": 4966082,
+      "url": null,
+      "id": 16
+    },
+    {
+      "name": null,
+      "description": "DG00406 Aciclovir ACV ACV ACV",
+      "pubchem_hnid": 4966083,
+      "url": null,
+      "id": 17
+    },
+    {
+      "name": null,
+      "description": "Idoxuridine (JP17/USP/INN) IDU",
+      "pubchem_hnid": 4966084,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00342",
+      "id": 18
+    },
+    {
+      "name": null,
+      "description": "DG00645 Vidarabine VDR",
+      "pubchem_hnid": 4966085,
+      "url": null,
+      "id": 19
+    },
+    {
+      "name": null,
+      "description": "DG00646 Ganciclovir GCV GCV",
+      "pubchem_hnid": 4966086,
+      "url": null,
+      "id": 20
+    },
+    {
+      "name": null,
+      "description": "Famciclovir (JAN/USP/INN) FCV FCV",
+      "pubchem_hnid": 4966087,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00317",
+      "id": 21
+    },
+    {
+      "name": null,
+      "description": "DG00647 Valaciclovir VACV VCV",
+      "pubchem_hnid": 4966088,
+      "url": null,
+      "id": 22
+    },
+    {
+      "name": null,
+      "description": "DG00408 Penciclovir PCV PCV",
+      "pubchem_hnid": 4966089,
+      "url": null,
+      "id": 23
+    },
+    {
+      "name": null,
+      "description": "DG00649 Valganciclovir VGCV VGV VGV",
+      "pubchem_hnid": 4966090,
+      "url": null,
+      "id": 24
+    },
+    {
+      "name": null,
+      "description": "DG00648 Cidofovir CDV CDV",
+      "pubchem_hnid": 4966091,
+      "url": null,
+      "id": 25
+    },
+    {
+      "name": null,
+      "description": "Brivudine (INN) BVDU",
+      "pubchem_hnid": 4966092,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D07249",
+      "id": 26
+    },
+    {
+      "name": null,
+      "description": "DG00651 Foscarnet PFA FOS",
+      "pubchem_hnid": 4966093,
+      "url": null,
+      "id": 27
+    },
+    {
+      "name": null,
+      "description": "Trifluridine (JAN/USP/INN) TFT",
+      "pubchem_hnid": 4966094,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00391",
+      "id": 28
+    },
+    {
+      "name": null,
+      "description": "HBV reverse transcriptase inhibitor",
+      "pubchem_hnid": 4966095,
+      "url": null,
+      "id": 29
+    },
+    {
+      "name": null,
+      "description": "Lamivudine (JAN/USP/INN) 3TC 3TC",
+      "pubchem_hnid": 4966096,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00353",
+      "id": 30
+    },
+    {
+      "name": null,
+      "description": "Tenofovir disoproxil fumarate (JAN/USAN) TDF TDF",
+      "pubchem_hnid": 4966097,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01982",
+      "id": 31
+    },
+    {
+      "name": null,
+      "description": "DG01224 Adefovir ADV",
+      "pubchem_hnid": 4966098,
+      "url": null,
+      "id": 32
+    },
+    {
+      "name": null,
+      "description": "DG00661 Entecavir ETV ETV",
+      "pubchem_hnid": 4966099,
+      "url": null,
+      "id": 33
+    },
+    {
+      "name": null,
+      "description": "Telbivudine (USAN/INN) LdT",
+      "pubchem_hnid": 4966100,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D06675",
+      "id": 34
+    },
+    {
+      "name": null,
+      "description": "Tenofovir alafenamide (USAN/INN) TAF TAF",
+      "pubchem_hnid": 4966101,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D10428",
+      "id": 35
+    },
+    {
+      "name": null,
+      "description": "Tenofovir alafenamide fumarate (USAN/JAN) TAF TAF",
+      "pubchem_hnid": 4966102,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D10605",
+      "id": 36
+    },
+    {
+      "name": null,
+      "description": "HIV reverse transcriptase inhibitor",
+      "pubchem_hnid": 4966103,
+      "url": null,
+      "id": 37
+    },
+    {
+      "name": null,
+      "description": "Zidovudine (JP18/USP/INN) AZT ZDV",
+      "pubchem_hnid": 4966104,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00413",
+      "id": 38
+    },
+    {
+      "name": null,
+      "description": "Didanosine (JAN/USP/INN) ddI ddI",
+      "pubchem_hnid": 4966105,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00296",
+      "id": 39
+    },
+    {
+      "name": null,
+      "description": "Zalcitabine (JAN/USP/INN) ddC ddC",
+      "pubchem_hnid": 4966106,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00412",
+      "id": 40
+    },
+    {
+      "name": null,
+      "description": "Stavudine (USAN/INN) d4T d4T",
+      "pubchem_hnid": 4966107,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00445",
+      "id": 41
+    },
+    {
+      "name": null,
+      "description": "DG00660 Abacavir ABC ABC",
+      "pubchem_hnid": 4966108,
+      "url": null,
+      "id": 42
+    },
+    {
+      "name": null,
+      "description": "Emtricitabine (JAN/USAN/INN) FTC FTC",
+      "pubchem_hnid": 4966109,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01199",
+      "id": 43
+    },
+    {
+      "name": null,
+      "description": "Nevirapine (JAN/USP/INN) NVP NVP",
+      "pubchem_hnid": 4966110,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00435",
+      "id": 44
+    },
+    {
+      "name": null,
+      "description": "DG00662 Delavirdine DLV DLV",
+      "pubchem_hnid": 4966111,
+      "url": null,
+      "id": 45
+    },
+    {
+      "name": null,
+      "description": "Efavirenz (JAN/USP/INN) EFV EFV",
+      "pubchem_hnid": 4966112,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00896",
+      "id": 46
+    },
+    {
+      "name": null,
+      "description": "Etravirine (JAN/USAN/INN) ETR",
+      "pubchem_hnid": 4966113,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D04112",
+      "id": 47
+    },
+    {
+      "name": null,
+      "description": "DG00663 Rilpivirine RPV RPV",
+      "pubchem_hnid": 4966114,
+      "url": null,
+      "id": 48
+    },
+    {
+      "name": null,
+      "description": "HIV integrase inhibitor",
+      "pubchem_hnid": 4966115,
+      "url": null,
+      "id": 49
+    },
+    {
+      "name": null,
+      "description": "DG00666 Raltegravir RAL RAL",
+      "pubchem_hnid": 4966116,
+      "url": null,
+      "id": 50
+    },
+    {
+      "name": null,
+      "description": "Elvitegravir (JAN/USAN) EVG EVG",
+      "pubchem_hnid": 4966117,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D06677",
+      "id": 51
+    },
+    {
+      "name": null,
+      "description": "DG00667 Dolutegravir DTG DTG",
+      "pubchem_hnid": 4966118,
+      "url": null,
+      "id": 52
+    },
+    {
+      "name": null,
+      "description": "HCV NS5A/NS5B inhibitor",
+      "pubchem_hnid": 4966119,
+      "url": null,
+      "id": 53
+    },
+    {
+      "name": null,
+      "description": "DG01669 Daclatasvir DCV",
+      "pubchem_hnid": 4966120,
+      "url": null,
+      "id": 54
+    },
+    {
+      "name": null,
+      "description": "DG01818 Ledipasvir LDV",
+      "pubchem_hnid": 4966121,
+      "url": null,
+      "id": 55
+    },
+    {
+      "name": null,
+      "description": "DG01819 Ombitasvir OBV",
+      "pubchem_hnid": 4966122,
+      "url": null,
+      "id": 56
+    },
+    {
+      "name": null,
+      "description": "Elbasvir (JAN/USAN/INN) EBR",
+      "pubchem_hnid": 4966123,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D10625",
+      "id": 57
+    },
+    {
+      "name": null,
+      "description": "Velpatasvir (JAN/USAN/INN) VEL",
+      "pubchem_hnid": 4966124,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D10806",
+      "id": 58
+    },
+    {
+      "name": null,
+      "description": "Ribavirin (JP17/USP/INN) RBV",
+      "pubchem_hnid": 4966125,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00423",
+      "id": 59
+    },
+    {
+      "name": null,
+      "description": "Sofosbuvir (JAN/USAN) SOF",
+      "pubchem_hnid": 4966126,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D10366",
+      "id": 60
+    },
+    {
+      "name": null,
+      "description": "DG01886 Dasabuvir DAS",
+      "pubchem_hnid": 4966127,
+      "url": null,
+      "id": 61
+    },
+    {
+      "name": null,
+      "description": "DG01824 Beclabuvir BCV",
+      "pubchem_hnid": 4966128,
+      "url": null,
+      "id": 62
+    },
+    {
+      "name": null,
+      "description": "Other inhibitor",
+      "pubchem_hnid": 4966129,
+      "url": null,
+      "id": 63
+    },
+    {
+      "name": null,
+      "description": "Favipiravir (JAN/USAN/INN) FPV FPV",
+      "pubchem_hnid": 4966130,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D09537",
+      "id": 64
+    },
+    {
+      "name": null,
+      "description": "Amenamevir (JAN/INN) AMNV",
+      "pubchem_hnid": 4966131,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D10564",
+      "id": 65
+    },
+    {
+      "name": null,
+      "description": "Imiquimod (JAN/USP/INN) IQM",
+      "pubchem_hnid": 4966132,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02500",
+      "id": 66
+    },
+    {
+      "name": null,
+      "description": "Polyprotein cleavage inhibitor",
+      "pubchem_hnid": 4966133,
+      "url": null,
+      "id": 67
+    },
+    {
+      "name": null,
+      "description": "HIV protease inhibitor",
+      "pubchem_hnid": 4966134,
+      "url": null,
+      "id": 68
+    },
+    {
+      "name": null,
+      "description": "DG00653 Saquinavir SQV SQV",
+      "pubchem_hnid": 4966135,
+      "url": null,
+      "id": 69
+    },
+    {
+      "name": null,
+      "description": "DG00654 Indinavir IDV IDV",
+      "pubchem_hnid": 4966136,
+      "url": null,
+      "id": 70
+    },
+    {
+      "name": null,
+      "description": "Ritonavir (JAN/USP/INN) RTV RTV",
+      "pubchem_hnid": 4966137,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00427",
+      "id": 71
+    },
+    {
+      "name": null,
+      "description": "DG00655 Nelfinavir NFV NFV",
+      "pubchem_hnid": 4966138,
+      "url": null,
+      "id": 72
+    },
+    {
+      "name": null,
+      "description": "Amprenavir (JAN/USAN/INN) APV APV",
+      "pubchem_hnid": 4966139,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00894",
+      "id": 73
+    },
+    {
+      "name": null,
+      "description": "DG00656 Fosamprenavir FPV FPV",
+      "pubchem_hnid": 4966140,
+      "url": null,
+      "id": 74
+    },
+    {
+      "name": null,
+      "description": "DG00657 Atazanavir ATV ATV",
+      "pubchem_hnid": 4966141,
+      "url": null,
+      "id": 75
+    },
+    {
+      "name": null,
+      "description": "DG00658 Tipranavir TPV TPV",
+      "pubchem_hnid": 4966142,
+      "url": null,
+      "id": 76
+    },
+    {
+      "name": null,
+      "description": "DG00659 Darunavir DRV DRV",
+      "pubchem_hnid": 4966143,
+      "url": null,
+      "id": 77
+    },
+    {
+      "name": null,
+      "description": "Lopinavir (JAN/USP/INN) LPV LPV",
+      "pubchem_hnid": 4966144,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01425",
+      "id": 78
+    },
+    {
+      "name": null,
+      "description": "Lopinavir and ritonavir LPV/r",
+      "pubchem_hnid": 4966145,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02498",
+      "id": 79
+    },
+    {
+      "name": null,
+      "description": "HCV NS3/4A inhibitor",
+      "pubchem_hnid": 4966146,
+      "url": null,
+      "id": 80
+    },
+    {
+      "name": null,
+      "description": "Telaprevir (JAN/USAN/INN) TVR",
+      "pubchem_hnid": 4966147,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D09012",
+      "id": 81
+    },
+    {
+      "name": null,
+      "description": "Boceprevir (INN/USAN) BOC",
+      "pubchem_hnid": 4966148,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D08876",
+      "id": 82
+    },
+    {
+      "name": null,
+      "description": "DG01246 Simeprevir SMV",
+      "pubchem_hnid": 4966149,
+      "url": null,
+      "id": 83
+    },
+    {
+      "name": null,
+      "description": "Asunaprevir (JAN/USAN) ASV",
+      "pubchem_hnid": 4966150,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D10093",
+      "id": 84
+    },
+    {
+      "name": null,
+      "description": "DG03051 Grazoprevir GZR",
+      "pubchem_hnid": 4966151,
+      "url": null,
+      "id": 85
+    },
+    {
+      "name": null,
+      "description": "DG01820 Paritaprevir PTV",
+      "pubchem_hnid": 4966152,
+      "url": null,
+      "id": 86
+    },
+    {
+      "name": null,
+      "description": "Vaniprevir (JAN/USAN/INN) VPV",
+      "pubchem_hnid": 4966153,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D09987",
+      "id": 87
+    },
+    {
+      "name": null,
+      "description": "HCMV IE2 antisense",
+      "pubchem_hnid": 4966154,
+      "url": null,
+      "id": 88
+    },
+    {
+      "name": null,
+      "description": "Fomivirsen (INN) FMV",
+      "pubchem_hnid": 4966155,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D07989",
+      "id": 89
+    },
+    {
+      "name": null,
+      "description": "Virus release inhibitor",
+      "pubchem_hnid": 4966156,
+      "url": null,
+      "id": 90
+    },
+    {
+      "name": null,
+      "description": "Neuraminidase inhibitor",
+      "pubchem_hnid": 4966157,
+      "url": null,
+      "id": 91
+    },
+    {
+      "name": null,
+      "description": "DG00664 Zanamivir ZAN",
+      "pubchem_hnid": 4966158,
+      "url": null,
+      "id": 92
+    },
+    {
+      "name": null,
+      "description": "DG00665 Oseltamivir OTV",
+      "pubchem_hnid": 4966159,
+      "url": null,
+      "id": 93
+    },
+    {
+      "name": null,
+      "description": "Peramivir (USAN/INN) PRV",
+      "pubchem_hnid": 4966160,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D03829",
+      "id": 94
+    },
+    {
+      "name": null,
+      "description": "Laninamivir octanoate hydrate (JAN) LO",
+      "pubchem_hnid": 4966161,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D09547",
+      "id": 95
+    },
+    {
+      "name": null,
+      "description": "Others",
+      "pubchem_hnid": 4966162,
+      "url": null,
+      "id": 96
+    },
+    {
+      "name": null,
+      "description": "Natural product",
+      "pubchem_hnid": 4966163,
+      "url": null,
+      "id": 97
+    },
+    {
+      "name": null,
+      "description": "Podofilox (USAN) PDX",
+      "pubchem_hnid": 4966164,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D05529",
+      "id": 98
+    },
+    {
+      "name": null,
+      "description": "Sinecatechins (USAN) SINE",
+      "pubchem_hnid": 4966165,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D08997",
+      "id": 99
+    },
+    {
+      "name": null,
+      "description": "Antibacterials",
+      "pubchem_hnid": 4966166,
+      "url": null,
+      "id": 100
+    },
+    {
+      "name": null,
+      "description": "Cell wall biosynthesis inhibitor, beta-lactam",
+      "pubchem_hnid": 4966167,
+      "url": null,
+      "id": 101
+    },
+    {
+      "name": null,
+      "description": "beta-Lactamase sensitive penicillin",
+      "pubchem_hnid": 4966168,
+      "url": null,
+      "id": 102
+    },
+    {
+      "name": null,
+      "description": "DG00534 Benzylpenicillin PCG",
+      "pubchem_hnid": 4966169,
+      "url": null,
+      "id": 103
+    },
+    {
+      "name": null,
+      "description": "DG00535 Phenoxymethylpenicillin PCV",
+      "pubchem_hnid": 4966170,
+      "url": null,
+      "id": 104
+    },
+    {
+      "name": null,
+      "description": "DG00536 Propicillin PPPC",
+      "pubchem_hnid": 4966171,
+      "url": null,
+      "id": 105
+    },
+    {
+      "name": null,
+      "description": "DG00538 Pheneticillin PEPC",
+      "pubchem_hnid": 4966172,
+      "url": null,
+      "id": 106
+    },
+    {
+      "name": null,
+      "description": "beta-Lactamase resistant penicillin",
+      "pubchem_hnid": 4966173,
+      "url": null,
+      "id": 107
+    },
+    {
+      "name": null,
+      "description": "DG00540 Dicloxacillin DCX DCX MDIPC",
+      "pubchem_hnid": 4966174,
+      "url": null,
+      "id": 108
+    },
+    {
+      "name": null,
+      "description": "DG00541 Cloxacillin MCIPC",
+      "pubchem_hnid": 4966175,
+      "url": null,
+      "id": 109
+    },
+    {
+      "name": null,
+      "description": "DG02500 Methicillin MET MET DMPPC",
+      "pubchem_hnid": 4966176,
+      "url": null,
+      "id": 110
+    },
+    {
+      "name": null,
+      "description": "DG00542 Oxacillin OXA OXA MPIPC",
+      "pubchem_hnid": 4966177,
+      "url": null,
+      "id": 111
+    },
+    {
+      "name": null,
+      "description": "DG00543 Flucloxacillin MFIPC",
+      "pubchem_hnid": 4966178,
+      "url": null,
+      "id": 112
+    },
+    {
+      "name": null,
+      "description": "DG00544 Nafcillin NAF NAF NFPC",
+      "pubchem_hnid": 4966179,
+      "url": null,
+      "id": 113
+    },
+    {
+      "name": null,
+      "description": "Extended spectrum penicillin",
+      "pubchem_hnid": 4966180,
+      "url": null,
+      "id": 114
+    },
+    {
+      "name": null,
+      "description": "DG00517 Ampicillin AMP AMP ABPC",
+      "pubchem_hnid": 4966181,
+      "url": null,
+      "id": 115
+    },
+    {
+      "name": null,
+      "description": "DG00518 Pivampicillin PVPC",
+      "pubchem_hnid": 4966182,
+      "url": null,
+      "id": 116
+    },
+    {
+      "name": null,
+      "description": "DG00519 Carbenicillin CAR CAR CBPC",
+      "pubchem_hnid": 4966183,
+      "url": null,
+      "id": 117
+    },
+    {
+      "name": null,
+      "description": "DG00520 Amoxicillin AMX AMX AMPC",
+      "pubchem_hnid": 4966184,
+      "url": null,
+      "id": 118
+    },
+    {
+      "name": null,
+      "description": "DG00521 Carindacillin CIPC",
+      "pubchem_hnid": 4966185,
+      "url": null,
+      "id": 119
+    },
+    {
+      "name": null,
+      "description": "DG00522 Bacampicillin BAPC",
+      "pubchem_hnid": 4966186,
+      "url": null,
+      "id": 120
+    },
+    {
+      "name": null,
+      "description": "DG00523 Pivmecillinam PMPC",
+      "pubchem_hnid": 4966187,
+      "url": null,
+      "id": 121
+    },
+    {
+      "name": null,
+      "description": "DG00524 Azlocillin AZL AZL",
+      "pubchem_hnid": 4966188,
+      "url": null,
+      "id": 122
+    },
+    {
+      "name": null,
+      "description": "DG00525 Mezlocillin MEZ MEZ MZPC",
+      "pubchem_hnid": 4966189,
+      "url": null,
+      "id": 123
+    },
+    {
+      "name": null,
+      "description": "Amdinocillin (USAN) MPC",
+      "pubchem_hnid": 4966190,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02888",
+      "id": 124
+    },
+    {
+      "name": null,
+      "description": "DG00526 Piperacillin PIP PIP PIPC",
+      "pubchem_hnid": 4966191,
+      "url": null,
+      "id": 125
+    },
+    {
+      "name": null,
+      "description": "DG00527 Ticarcillin TIC TIC TIPC",
+      "pubchem_hnid": 4966192,
+      "url": null,
+      "id": 126
+    },
+    {
+      "name": null,
+      "description": "DG00529 Talampicillin TAPC",
+      "pubchem_hnid": 4966193,
+      "url": null,
+      "id": 127
+    },
+    {
+      "name": null,
+      "description": "DG00530 Sulbenicillin SBPC",
+      "pubchem_hnid": 4966194,
+      "url": null,
+      "id": 128
+    },
+    {
+      "name": null,
+      "description": "DG00532 Hetacillin IPABPC",
+      "pubchem_hnid": 4966195,
+      "url": null,
+      "id": 129
+    },
+    {
+      "name": null,
+      "description": "DG00533 Aspoxicillin ASPC",
+      "pubchem_hnid": 4966196,
+      "url": null,
+      "id": 130
+    },
+    {
+      "name": null,
+      "description": "Ampicillin sodium and sulbactam sodium (JP17) SAM SAM S/A",
+      "pubchem_hnid": 4966197,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02065",
+      "id": 131
+    },
+    {
+      "name": null,
+      "description": "Ampicillin and dicloxacillin sodium ABPC/MDIPC",
+      "pubchem_hnid": 4966198,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02136",
+      "id": 132
+    },
+    {
+      "name": null,
+      "description": "Ampicillin and cloxacillin ABPC/MCIPC",
+      "pubchem_hnid": 4966199,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02502",
+      "id": 133
+    },
+    {
+      "name": null,
+      "description": "Amoxicillin hydrate and potassium clavulanate AMC AMC AMC, ACV",
+      "pubchem_hnid": 4966200,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D06485",
+      "id": 134
+    },
+    {
+      "name": null,
+      "description": "Clavulanic acid and ticarcillin TIM TIM TIPC/CVA",
+      "pubchem_hnid": 4966201,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02503",
+      "id": 135
+    },
+    {
+      "name": null,
+      "description": "Tazobactam and piperacillin (JP17) TZP TZP T/P",
+      "pubchem_hnid": 4966202,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02505",
+      "id": 136
+    },
+    {
+      "name": null,
+      "description": "Beta-lactamase inhibitor",
+      "pubchem_hnid": 4966203,
+      "url": null,
+      "id": 137
+    },
+    {
+      "name": null,
+      "description": "DG00545 Sulbactam SUL SUL SBT",
+      "pubchem_hnid": 4966204,
+      "url": null,
+      "id": 138
+    },
+    {
+      "name": null,
+      "description": "DG00546 Tazobactam TZB TZB TAZ",
+      "pubchem_hnid": 4966205,
+      "url": null,
+      "id": 139
+    },
+    {
+      "name": null,
+      "description": "DG00547 Sultamicillin SBTPC",
+      "pubchem_hnid": 4966206,
+      "url": null,
+      "id": 140
+    },
+    {
+      "name": null,
+      "description": "DG01261 Clavulanic acid CLA CLA",
+      "pubchem_hnid": 4966207,
+      "url": null,
+      "id": 141
+    },
+    {
+      "name": null,
+      "description": "Avibactam sodium (JAN) AVI",
+      "pubchem_hnid": 4966208,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D10340",
+      "id": 142
+    },
+    {
+      "name": null,
+      "description": "Relebactam (USAN) REL",
+      "pubchem_hnid": 4966209,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D10726",
+      "id": 143
+    },
+    {
+      "name": null,
+      "description": "Vaborbactam (USAN/INN) VAB",
+      "pubchem_hnid": 4966210,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D10998",
+      "id": 144
+    },
+    {
+      "name": null,
+      "description": "Other penicillin",
+      "pubchem_hnid": 4966211,
+      "url": null,
+      "id": 145
+    },
+    {
+      "name": null,
+      "description": "DG00443 Carfecillin CFPC",
+      "pubchem_hnid": 4966212,
+      "url": null,
+      "id": 146
+    },
+    {
+      "name": null,
+      "description": "DG01432 Lenampicillin LAPC",
+      "pubchem_hnid": 4966213,
+      "url": null,
+      "id": 147
+    },
+    {
+      "name": null,
+      "description": "Cyclacillin (USAN) ACPC",
+      "pubchem_hnid": 4966214,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01334",
+      "id": 148
+    },
+    {
+      "name": null,
+      "description": "Apalcillin sodium (USAN) APPC",
+      "pubchem_hnid": 4966215,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02415",
+      "id": 149
+    },
+    {
+      "name": null,
+      "description": "First-generation cephalosporin",
+      "pubchem_hnid": 4966216,
+      "url": null,
+      "id": 150
+    },
+    {
+      "name": null,
+      "description": "DG00548 Cefalexin LEX LEX CEX",
+      "pubchem_hnid": 4966217,
+      "url": null,
+      "id": 151
+    },
+    {
+      "name": null,
+      "description": "Cephaloridine (USAN) CER",
+      "pubchem_hnid": 4966218,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01075",
+      "id": 152
+    },
+    {
+      "name": null,
+      "description": "DG00549 Cefalotin CEF CEF CET",
+      "pubchem_hnid": 4966219,
+      "url": null,
+      "id": 153
+    },
+    {
+      "name": null,
+      "description": "DG00550 Cefazolin CFZ CFZ CEZ",
+      "pubchem_hnid": 4966220,
+      "url": null,
+      "id": 154
+    },
+    {
+      "name": null,
+      "description": "DG00551 Cefadroxil CFR CFR CDX",
+      "pubchem_hnid": 4966221,
+      "url": null,
+      "id": 155
+    },
+    {
+      "name": null,
+      "description": "DG00552 Cefatrizine CFT",
+      "pubchem_hnid": 4966222,
+      "url": null,
+      "id": 156
+    },
+    {
+      "name": null,
+      "description": "DG00553 Cefapirin HAP HAP CEPR",
+      "pubchem_hnid": 4966223,
+      "url": null,
+      "id": 157
+    },
+    {
+      "name": null,
+      "description": "Cephradine (USP) RAD RAD CED",
+      "pubchem_hnid": 4966224,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00264",
+      "id": 158
+    },
+    {
+      "name": null,
+      "description": "DG00554 Cefacetrile CEC",
+      "pubchem_hnid": 4966225,
+      "url": null,
+      "id": 159
+    },
+    {
+      "name": null,
+      "description": "DG00555 Cefroxadine CXD",
+      "pubchem_hnid": 4966226,
+      "url": null,
+      "id": 160
+    },
+    {
+      "name": null,
+      "description": "DG00556 Ceftezole CTZ",
+      "pubchem_hnid": 4966227,
+      "url": null,
+      "id": 161
+    },
+    {
+      "name": null,
+      "description": "Second-generation cephalosporin",
+      "pubchem_hnid": 4966228,
+      "url": null,
+      "id": 162
+    },
+    {
+      "name": null,
+      "description": "DG00557 Cefoxitin FOX FOX CFX",
+      "pubchem_hnid": 4966229,
+      "url": null,
+      "id": 163
+    },
+    {
+      "name": null,
+      "description": "DG00558 Cefuroxime CXM CXM CXM",
+      "pubchem_hnid": 4966230,
+      "url": null,
+      "id": 164
+    },
+    {
+      "name": null,
+      "description": "DG00559 Cefamandole FAM FAM CMD",
+      "pubchem_hnid": 4966231,
+      "url": null,
+      "id": 165
+    },
+    {
+      "name": null,
+      "description": "DG00560 Cefaclor CEC CEC CCL",
+      "pubchem_hnid": 4966232,
+      "url": null,
+      "id": 166
+    },
+    {
+      "name": null,
+      "description": "DG00561 Cefotetan CTT CTT CTT",
+      "pubchem_hnid": 4966233,
+      "url": null,
+      "id": 167
+    },
+    {
+      "name": null,
+      "description": "DG00562 Cefonicid CID CID",
+      "pubchem_hnid": 4966234,
+      "url": null,
+      "id": 168
+    },
+    {
+      "name": null,
+      "description": "DG00563 Cefotiam CTM",
+      "pubchem_hnid": 4966235,
+      "url": null,
+      "id": 169
+    },
+    {
+      "name": null,
+      "description": "DG00564 Loracarbef LOR LOR LCBF",
+      "pubchem_hnid": 4966236,
+      "url": null,
+      "id": 170
+    },
+    {
+      "name": null,
+      "description": "DG00565 Cefmetazole CMZ CMZ CMZ",
+      "pubchem_hnid": 4966237,
+      "url": null,
+      "id": 171
+    },
+    {
+      "name": null,
+      "description": "DG00566 Cefprozil CPR CPR CFPZ",
+      "pubchem_hnid": 4966238,
+      "url": null,
+      "id": 172
+    },
+    {
+      "name": null,
+      "description": "DG00567 Cefminox CMNX",
+      "pubchem_hnid": 4966239,
+      "url": null,
+      "id": 173
+    },
+    {
+      "name": null,
+      "description": "DG00568 Cefbuperazone CBPZ",
+      "pubchem_hnid": 4966240,
+      "url": null,
+      "id": 174
+    },
+    {
+      "name": null,
+      "description": "DG00569 Flomoxef FMOX",
+      "pubchem_hnid": 4966241,
+      "url": null,
+      "id": 175
+    },
+    {
+      "name": null,
+      "description": "Third-generation cephalosporin",
+      "pubchem_hnid": 4966242,
+      "url": null,
+      "id": 176
+    },
+    {
+      "name": null,
+      "description": "DG00570 Cefotaxime CTX CTX CTX",
+      "pubchem_hnid": 4966243,
+      "url": null,
+      "id": 177
+    },
+    {
+      "name": null,
+      "description": "DG00571 Ceftazidime CAZ CAZ CAZ",
+      "pubchem_hnid": 4966244,
+      "url": null,
+      "id": 178
+    },
+    {
+      "name": null,
+      "description": "DG00572 Cefsulodin CFS",
+      "pubchem_hnid": 4966245,
+      "url": null,
+      "id": 179
+    },
+    {
+      "name": null,
+      "description": "DG00573 Ceftriaxone CRO CRO CTRX",
+      "pubchem_hnid": 4966246,
+      "url": null,
+      "id": 180
+    },
+    {
+      "name": null,
+      "description": "DG00574 Cefmenoxime CMX",
+      "pubchem_hnid": 4966247,
+      "url": null,
+      "id": 181
+    },
+    {
+      "name": null,
+      "description": "DG00575 Latamoxef MOX MOX LMOX",
+      "pubchem_hnid": 4966248,
+      "url": null,
+      "id": 182
+    },
+    {
+      "name": null,
+      "description": "DG00576 Ceftizoxime ZOX ZOX CZX",
+      "pubchem_hnid": 4966249,
+      "url": null,
+      "id": 183
+    },
+    {
+      "name": null,
+      "description": "DG00577 Cefixime CFM CFM CFIX",
+      "pubchem_hnid": 4966250,
+      "url": null,
+      "id": 184
+    },
+    {
+      "name": null,
+      "description": "DG00578 Cefodizime CDZM",
+      "pubchem_hnid": 4966251,
+      "url": null,
+      "id": 185
+    },
+    {
+      "name": null,
+      "description": "DG00579 Cefetamet FET FET CEMT",
+      "pubchem_hnid": 4966252,
+      "url": null,
+      "id": 186
+    },
+    {
+      "name": null,
+      "description": "DG00580 Cefpiramide CPM",
+      "pubchem_hnid": 4966253,
+      "url": null,
+      "id": 187
+    },
+    {
+      "name": null,
+      "description": "DG00581 Cefoperazone CFP CFP CPZ",
+      "pubchem_hnid": 4966254,
+      "url": null,
+      "id": 188
+    },
+    {
+      "name": null,
+      "description": "DG00582 Cefpodoxime CPD CPD CPDX",
+      "pubchem_hnid": 4966255,
+      "url": null,
+      "id": 189
+    },
+    {
+      "name": null,
+      "description": "DG00583 Ceftibuten CTB CTB CETB",
+      "pubchem_hnid": 4966256,
+      "url": null,
+      "id": 190
+    },
+    {
+      "name": null,
+      "description": "DG03053 Cefdinir CDR CDR CFDN",
+      "pubchem_hnid": 4966257,
+      "url": null,
+      "id": 191
+    },
+    {
+      "name": null,
+      "description": "DG00584 Cefditoren CDN CDN CDTR",
+      "pubchem_hnid": 4966258,
+      "url": null,
+      "id": 192
+    },
+    {
+      "name": null,
+      "description": "DG00585 Cefcapene CFPN",
+      "pubchem_hnid": 4966259,
+      "url": null,
+      "id": 193
+    },
+    {
+      "name": null,
+      "description": "DG01208 Cefteram CFTM",
+      "pubchem_hnid": 4966260,
+      "url": null,
+      "id": 194
+    },
+    {
+      "name": null,
+      "description": "Ceftazidime and avibactam CZA",
+      "pubchem_hnid": 4966261,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D10779",
+      "id": 195
+    },
+    {
+      "name": null,
+      "description": "Cefoperazone sodium and sulbactam sodium (JP17) SBT/CPZ",
+      "pubchem_hnid": 4966262,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D08772",
+      "id": 196
+    },
+    {
+      "name": null,
+      "description": "Fourth-generation cephalosporin",
+      "pubchem_hnid": 4966263,
+      "url": null,
+      "id": 197
+    },
+    {
+      "name": null,
+      "description": "DG00586 Cefepime FEP FEP CFPM",
+      "pubchem_hnid": 4966264,
+      "url": null,
+      "id": 198
+    },
+    {
+      "name": null,
+      "description": "DG00587 Cefpirome CPR",
+      "pubchem_hnid": 4966265,
+      "url": null,
+      "id": 199
+    },
+    {
+      "name": null,
+      "description": "DG00588 Cefozopran CZOP",
+      "pubchem_hnid": 4966266,
+      "url": null,
+      "id": 200
+    },
+    {
+      "name": null,
+      "description": "Other cephalosporin",
+      "pubchem_hnid": 4966267,
+      "url": null,
+      "id": 201
+    },
+    {
+      "name": null,
+      "description": "DG01209 Ceftobiprole BPR CBP",
+      "pubchem_hnid": 4966268,
+      "url": null,
+      "id": 202
+    },
+    {
+      "name": null,
+      "description": "Ceftaroline fosamil (USAN/INN) CPT",
+      "pubchem_hnid": 4966269,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D08884",
+      "id": 203
+    },
+    {
+      "name": null,
+      "description": "DG01205 Cefaloglycin CEG",
+      "pubchem_hnid": 4966270,
+      "url": null,
+      "id": 204
+    },
+    {
+      "name": null,
+      "description": "DG01206 Cefoselis CFSL",
+      "pubchem_hnid": 4966271,
+      "url": null,
+      "id": 205
+    },
+    {
+      "name": null,
+      "description": "DG01207 Cefpimizole CPIZ",
+      "pubchem_hnid": 4966272,
+      "url": null,
+      "id": 206
+    },
+    {
+      "name": null,
+      "description": "DG01211 Cefuzonam CZON",
+      "pubchem_hnid": 4966273,
+      "url": null,
+      "id": 207
+    },
+    {
+      "name": null,
+      "description": "Cefluprenam (JAN/INN) CFLP",
+      "pubchem_hnid": 4966274,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01054",
+      "id": 208
+    },
+    {
+      "name": null,
+      "description": "DG00594 Faropenem FRPM",
+      "pubchem_hnid": 4966275,
+      "url": null,
+      "id": 209
+    },
+    {
+      "name": null,
+      "description": "DG02976 Cefiderocol FDC CFDC",
+      "pubchem_hnid": 4966276,
+      "url": null,
+      "id": 210
+    },
+    {
+      "name": null,
+      "description": "Ceftolozane sulfate and tazobactam sodium C/T TAZ/CTLZ",
+      "pubchem_hnid": 4966277,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D10577",
+      "id": 211
+    },
+    {
+      "name": null,
+      "description": "Monobactam",
+      "pubchem_hnid": 4966278,
+      "url": null,
+      "id": 212
+    },
+    {
+      "name": null,
+      "description": "DG00589 Aztreonam ATM ATM AZT",
+      "pubchem_hnid": 4966279,
+      "url": null,
+      "id": 213
+    },
+    {
+      "name": null,
+      "description": "DG00590 Carumonam CRMN",
+      "pubchem_hnid": 4966280,
+      "url": null,
+      "id": 214
+    },
+    {
+      "name": null,
+      "description": "Carbapenem",
+      "pubchem_hnid": 4966281,
+      "url": null,
+      "id": 215
+    },
+    {
+      "name": null,
+      "description": "DG00591 Meropenem MEM MEM MEPM",
+      "pubchem_hnid": 4966282,
+      "url": null,
+      "id": 216
+    },
+    {
+      "name": null,
+      "description": "DG00592 Ertapenem ETP ETP ETP",
+      "pubchem_hnid": 4966283,
+      "url": null,
+      "id": 217
+    },
+    {
+      "name": null,
+      "description": "DG00593 Doripenem DOR DOR DRPM",
+      "pubchem_hnid": 4966284,
+      "url": null,
+      "id": 218
+    },
+    {
+      "name": null,
+      "description": "Biapenem (JAN/USAN/INN) BIPM",
+      "pubchem_hnid": 4966285,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01057",
+      "id": 219
+    },
+    {
+      "name": null,
+      "description": "DG03012 Tebipenem pivoxil TBPM",
+      "pubchem_hnid": 4966286,
+      "url": null,
+      "id": 220
+    },
+    {
+      "name": null,
+      "description": "DG01212 Imipenem IPM IPM IPM",
+      "pubchem_hnid": 4966287,
+      "url": null,
+      "id": 221
+    },
+    {
+      "name": null,
+      "description": "Panipenem (JP17/INN) PAPM",
+      "pubchem_hnid": 4966288,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01048",
+      "id": 222
+    },
+    {
+      "name": null,
+      "description": "Ritipenem acoxil hydrate (JAN) RIPM",
+      "pubchem_hnid": 4966289,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D09849",
+      "id": 223
+    },
+    {
+      "name": null,
+      "description": "Imipenem and cilastatin sodium (JP17) IPM/CS",
+      "pubchem_hnid": 4966290,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00344",
+      "id": 224
+    },
+    {
+      "name": null,
+      "description": "Meropenem and vaborbactam MVB",
+      "pubchem_hnid": 4966291,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D11015",
+      "id": 225
+    },
+    {
+      "name": null,
+      "description": "Panipenem and betamipron (JP17) PAPM/BP",
+      "pubchem_hnid": 4966292,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02509",
+      "id": 226
+    },
+    {
+      "name": null,
+      "description": "Cell wall biosynthesis inhibitor, other",
+      "pubchem_hnid": 4966293,
+      "url": null,
+      "id": 227
+    },
+    {
+      "name": null,
+      "description": "Glycopeptide",
+      "pubchem_hnid": 4966294,
+      "url": null,
+      "id": 228
+    },
+    {
+      "name": null,
+      "description": "DG00086 Vancomycin VAN VAN VCM",
+      "pubchem_hnid": 4966295,
+      "url": null,
+      "id": 229
+    },
+    {
+      "name": null,
+      "description": "Teicoplanin (JP17/USAN/INN) TEC TEC TEIC",
+      "pubchem_hnid": 4966296,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02142",
+      "id": 230
+    },
+    {
+      "name": null,
+      "description": "Telavancin hydrochloride (USAN) TLV",
+      "pubchem_hnid": 4966297,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D06057",
+      "id": 231
+    },
+    {
+      "name": null,
+      "description": "Dalbavancin (USAN/INN) DAL",
+      "pubchem_hnid": 4966298,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D03640",
+      "id": 232
+    },
+    {
+      "name": null,
+      "description": "DG00632 Oritavancin ORI",
+      "pubchem_hnid": 4966299,
+      "url": null,
+      "id": 233
+    },
+    {
+      "name": null,
+      "description": "Other peptidoglycan biosynthesis inhibitor",
+      "pubchem_hnid": 4966300,
+      "url": null,
+      "id": 234
+    },
+    {
+      "name": null,
+      "description": "Cycloserine (JP17/USP/INN) DCS CS",
+      "pubchem_hnid": 4966301,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00877",
+      "id": 235
+    },
+    {
+      "name": null,
+      "description": "DG00633 Fosfomycin FOF FOF FOM",
+      "pubchem_hnid": 4966302,
+      "url": null,
+      "id": 236
+    },
+    {
+      "name": null,
+      "description": "Enramycin hydrochloride (JAN) EDC",
+      "pubchem_hnid": 4966303,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D09788",
+      "id": 237
+    },
+    {
+      "name": null,
+      "description": "Protein biosynthesis inhibitor",
+      "pubchem_hnid": 4966304,
+      "url": null,
+      "id": 238
+    },
+    {
+      "name": null,
+      "description": "Aminoglycoside",
+      "pubchem_hnid": 4966305,
+      "url": null,
+      "id": 239
+    },
+    {
+      "name": null,
+      "description": "DG00082 Streptomycin STR STR SM",
+      "pubchem_hnid": 4966306,
+      "url": null,
+      "id": 240
+    },
+    {
+      "name": null,
+      "description": "DG00608 Tobramycin TOB TOB TOB",
+      "pubchem_hnid": 4966307,
+      "url": null,
+      "id": 241
+    },
+    {
+      "name": null,
+      "description": "DG00401 Gentamicin GEN GEN GM",
+      "pubchem_hnid": 4966308,
+      "url": null,
+      "id": 242
+    },
+    {
+      "name": null,
+      "description": "DG00085 Kanamycin KAN KAN KM",
+      "pubchem_hnid": 4966309,
+      "url": null,
+      "id": 243
+    },
+    {
+      "name": null,
+      "description": "DG00003 Neomycin NEO FRM",
+      "pubchem_hnid": 4966310,
+      "url": null,
+      "id": 244
+    },
+    {
+      "name": null,
+      "description": "DG00403 Amikacin AMK AMK AMK",
+      "pubchem_hnid": 4966311,
+      "url": null,
+      "id": 245
+    },
+    {
+      "name": null,
+      "description": "DG00609 Netilmicin NET NET NTL",
+      "pubchem_hnid": 4966312,
+      "url": null,
+      "id": 246
+    },
+    {
+      "name": null,
+      "description": "DG00610 Sisomicin SISO",
+      "pubchem_hnid": 4966313,
+      "url": null,
+      "id": 247
+    },
+    {
+      "name": null,
+      "description": "DG00611 Dibekacin DKB",
+      "pubchem_hnid": 4966314,
+      "url": null,
+      "id": 248
+    },
+    {
+      "name": null,
+      "description": "DG00612 Ribostamycin RSM",
+      "pubchem_hnid": 4966315,
+      "url": null,
+      "id": 249
+    },
+    {
+      "name": null,
+      "description": "DG00613 Isepamicin ISP",
+      "pubchem_hnid": 4966316,
+      "url": null,
+      "id": 250
+    },
+    {
+      "name": null,
+      "description": "DG00614 Arbekacin ABK ABK",
+      "pubchem_hnid": 4966317,
+      "url": null,
+      "id": 251
+    },
+    {
+      "name": null,
+      "description": "DG00615 Bekanamycin AKM",
+      "pubchem_hnid": 4966318,
+      "url": null,
+      "id": 252
+    },
+    {
+      "name": null,
+      "description": "DG01833 Plazomicin PLZ",
+      "pubchem_hnid": 4966319,
+      "url": null,
+      "id": 253
+    },
+    {
+      "name": null,
+      "description": "DG00634 Spectinomycin SPT SPT SPCM",
+      "pubchem_hnid": 4966320,
+      "url": null,
+      "id": 254
+    },
+    {
+      "name": null,
+      "description": "DG01219 Enviomycin EVM",
+      "pubchem_hnid": 4966321,
+      "url": null,
+      "id": 255
+    },
+    {
+      "name": null,
+      "description": "DG00641 Capreomycin CAP CPRM",
+      "pubchem_hnid": 4966322,
+      "url": null,
+      "id": 256
+    },
+    {
+      "name": null,
+      "description": "DG01123 Micronomicin MCR",
+      "pubchem_hnid": 4966323,
+      "url": null,
+      "id": 257
+    },
+    {
+      "name": null,
+      "description": "DG00084 Paromomycin PRM",
+      "pubchem_hnid": 4966324,
+      "url": null,
+      "id": 258
+    },
+    {
+      "name": null,
+      "description": "Fidaxomicin (JAN/USAN) FDX",
+      "pubchem_hnid": 4966325,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D09394",
+      "id": 259
+    },
+    {
+      "name": null,
+      "description": "DG01200 Astromicin ASTM",
+      "pubchem_hnid": 4966326,
+      "url": null,
+      "id": 260
+    },
+    {
+      "name": null,
+      "description": "Apramycin (USAN/INN) APR",
+      "pubchem_hnid": 4966327,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02322",
+      "id": 261
+    },
+    {
+      "name": null,
+      "description": "Viomycin sulfate (JAN) VM",
+      "pubchem_hnid": 4966328,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02270",
+      "id": 262
+    },
+    {
+      "name": null,
+      "description": "Tetracycline",
+      "pubchem_hnid": 4966329,
+      "url": null,
+      "id": 263
+    },
+    {
+      "name": null,
+      "description": "DG00396 Demeclocycline DMCTC",
+      "pubchem_hnid": 4966330,
+      "url": null,
+      "id": 264
+    },
+    {
+      "name": null,
+      "description": "DG00008 Doxycycline DOX DOX DOXY",
+      "pubchem_hnid": 4966331,
+      "url": null,
+      "id": 265
+    },
+    {
+      "name": null,
+      "description": "DG00007 Chlortetracycline CTC",
+      "pubchem_hnid": 4966332,
+      "url": null,
+      "id": 266
+    },
+    {
+      "name": null,
+      "description": "DG00514 Metacycline MTC",
+      "pubchem_hnid": 4966333,
+      "url": null,
+      "id": 267
+    },
+    {
+      "name": null,
+      "description": "DG00397 Oxytetracycline OTC",
+      "pubchem_hnid": 4966334,
+      "url": null,
+      "id": 268
+    },
+    {
+      "name": null,
+      "description": "DG00005 Tetracycline TET TET TC",
+      "pubchem_hnid": 4966335,
+      "url": null,
+      "id": 269
+    },
+    {
+      "name": null,
+      "description": "DG00009 Minocycline MIN MIN MINO",
+      "pubchem_hnid": 4966336,
+      "url": null,
+      "id": 270
+    },
+    {
+      "name": null,
+      "description": "Tigecycline (JAN/USP) TGC TGC TGC",
+      "pubchem_hnid": 4966337,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01079",
+      "id": 271
+    },
+    {
+      "name": null,
+      "description": "DG01199 Eravacycline ERV",
+      "pubchem_hnid": 4966338,
+      "url": null,
+      "id": 272
+    },
+    {
+      "name": null,
+      "description": "DG01198 Omadacycline OMC",
+      "pubchem_hnid": 4966339,
+      "url": null,
+      "id": 273
+    },
+    {
+      "name": null,
+      "description": "Macrolide",
+      "pubchem_hnid": 4966340,
+      "url": null,
+      "id": 274
+    },
+    {
+      "name": null,
+      "description": "DG00436 Erythromycin ERY ERY EM",
+      "pubchem_hnid": 4966341,
+      "url": null,
+      "id": 275
+    },
+    {
+      "name": null,
+      "description": "DG00602 Spiramycin SPM",
+      "pubchem_hnid": 4966342,
+      "url": null,
+      "id": 276
+    },
+    {
+      "name": null,
+      "description": "DG01903 Midecamycin MDM",
+      "pubchem_hnid": 4966343,
+      "url": null,
+      "id": 277
+    },
+    {
+      "name": null,
+      "description": "DG00603 Oleandomycin OL",
+      "pubchem_hnid": 4966344,
+      "url": null,
+      "id": 278
+    },
+    {
+      "name": null,
+      "description": "Roxithromycin (JP17/USAN/INN) RXM",
+      "pubchem_hnid": 4966345,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01710",
+      "id": 279
+    },
+    {
+      "name": null,
+      "description": "DG00604 Josamycin JM",
+      "pubchem_hnid": 4966346,
+      "url": null,
+      "id": 280
+    },
+    {
+      "name": null,
+      "description": "DG00605 Clarithromycin CLR CLR CAM",
+      "pubchem_hnid": 4966347,
+      "url": null,
+      "id": 281
+    },
+    {
+      "name": null,
+      "description": "DG00606 Azithromycin AZM AZM AZM",
+      "pubchem_hnid": 4966348,
+      "url": null,
+      "id": 282
+    },
+    {
+      "name": null,
+      "description": "Rokitamycin (JAN/INN) RKM",
+      "pubchem_hnid": 4966349,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01897",
+      "id": 283
+    },
+    {
+      "name": null,
+      "description": "Dirithromycin (USP/INN) DTM DTM",
+      "pubchem_hnid": 4966350,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D03865",
+      "id": 284
+    },
+    {
+      "name": null,
+      "description": "Telithromycin (JAN/USAN/INN) TEL TEL TEL",
+      "pubchem_hnid": 4966351,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01078",
+      "id": 285
+    },
+    {
+      "name": null,
+      "description": "DG01203 Kitasamycin LM",
+      "pubchem_hnid": 4966352,
+      "url": null,
+      "id": 286
+    },
+    {
+      "name": null,
+      "description": "Lincosamide",
+      "pubchem_hnid": 4966353,
+      "url": null,
+      "id": 287
+    },
+    {
+      "name": null,
+      "description": "DG00435 Clindamycin CLI CLI CLDM",
+      "pubchem_hnid": 4966354,
+      "url": null,
+      "id": 288
+    },
+    {
+      "name": null,
+      "description": "DG00607 Lincomycin LCM",
+      "pubchem_hnid": 4966355,
+      "url": null,
+      "id": 289
+    },
+    {
+      "name": null,
+      "description": "Streptogramin",
+      "pubchem_hnid": 4966356,
+      "url": null,
+      "id": 290
+    },
+    {
+      "name": null,
+      "description": "Quinupristin and dalfopristin Q-D QPR/DPR",
+      "pubchem_hnid": 4966357,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00854",
+      "id": 291
+    },
+    {
+      "name": null,
+      "description": "Amphenicol",
+      "pubchem_hnid": 4966358,
+      "url": null,
+      "id": 292
+    },
+    {
+      "name": null,
+      "description": "DG00399 Chloramphenicol CHL CHL CP",
+      "pubchem_hnid": 4966359,
+      "url": null,
+      "id": 293
+    },
+    {
+      "name": null,
+      "description": "DG00516 Thiamphenicol TP",
+      "pubchem_hnid": 4966360,
+      "url": null,
+      "id": 294
+    },
+    {
+      "name": null,
+      "description": "Pleuromutilin",
+      "pubchem_hnid": 4966361,
+      "url": null,
+      "id": 295
+    },
+    {
+      "name": null,
+      "description": "DG03066 Lefamulin LEF",
+      "pubchem_hnid": 4966362,
+      "url": null,
+      "id": 296
+    },
+    {
+      "name": null,
+      "description": "Oxazolidinone",
+      "pubchem_hnid": 4966363,
+      "url": null,
+      "id": 297
+    },
+    {
+      "name": null,
+      "description": "Linezolid (JAN/USAN/INN) LZD LZD LZD",
+      "pubchem_hnid": 4966364,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00947",
+      "id": 298
+    },
+    {
+      "name": null,
+      "description": "DG01442 Tedizolid TZD TZD",
+      "pubchem_hnid": 4966365,
+      "url": null,
+      "id": 299
+    },
+    {
+      "name": null,
+      "description": "Other protein biosynthesis inhibitor",
+      "pubchem_hnid": 4966366,
+      "url": null,
+      "id": 300
+    },
+    {
+      "name": null,
+      "description": "DG00398 Fusidic acid FA FA",
+      "pubchem_hnid": 4966367,
+      "url": null,
+      "id": 301
+    },
+    {
+      "name": null,
+      "description": "DG00402 Mupirocin MUP",
+      "pubchem_hnid": 4966368,
+      "url": null,
+      "id": 302
+    },
+    {
+      "name": null,
+      "description": "Folic acid biosynthesis inhibitor",
+      "pubchem_hnid": 4966369,
+      "url": null,
+      "id": 303
+    },
+    {
+      "name": null,
+      "description": "Intermediate-acting sulfonamide",
+      "pubchem_hnid": 4966370,
+      "url": null,
+      "id": 304
+    },
+    {
+      "name": null,
+      "description": "Co-Trimoxazole (BAN) SXT SXT ST",
+      "pubchem_hnid": 4966371,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00285",
+      "id": 305
+    },
+    {
+      "name": null,
+      "description": "Trimethoprim",
+      "pubchem_hnid": 4966372,
+      "url": null,
+      "id": 306
+    },
+    {
+      "name": null,
+      "description": "DG00595 Trimethoprim TMP TMP",
+      "pubchem_hnid": 4966373,
+      "url": null,
+      "id": 307
+    },
+    {
+      "name": null,
+      "description": "DG00596 Iclaprim ICL",
+      "pubchem_hnid": 4966374,
+      "url": null,
+      "id": 308
+    },
+    {
+      "name": null,
+      "description": "Aminosalicylic acid",
+      "pubchem_hnid": 4966375,
+      "url": null,
+      "id": 309
+    },
+    {
+      "name": null,
+      "description": "DG01873 Para-aminosalicylate PAS PAS",
+      "pubchem_hnid": 4966376,
+      "url": null,
+      "id": 310
+    },
+    {
+      "name": null,
+      "description": "Nucleic acid synthesis inhibitor",
+      "pubchem_hnid": 4966377,
+      "url": null,
+      "id": 311
+    },
+    {
+      "name": null,
+      "description": "Fluoroquinolone",
+      "pubchem_hnid": 4966378,
+      "url": null,
+      "id": 312
+    },
+    {
+      "name": null,
+      "description": "DG00616 Ofloxacin OFX OFX OFLX",
+      "pubchem_hnid": 4966379,
+      "url": null,
+      "id": 313
+    },
+    {
+      "name": null,
+      "description": "DG00617 Ciprofloxacin CIP CIP CPFX",
+      "pubchem_hnid": 4966380,
+      "url": null,
+      "id": 314
+    },
+    {
+      "name": null,
+      "description": "DG00619 Enoxacin ENX ENX ENX",
+      "pubchem_hnid": 4966381,
+      "url": null,
+      "id": 315
+    },
+    {
+      "name": null,
+      "description": "Temafloxacin hydrochloride (JAN/USAN) TMFX",
+      "pubchem_hnid": 4966382,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02469",
+      "id": 316
+    },
+    {
+      "name": null,
+      "description": "DG00620 Norfloxacin NOR NOR NFLX",
+      "pubchem_hnid": 4966383,
+      "url": null,
+      "id": 317
+    },
+    {
+      "name": null,
+      "description": "DG00621 Lomefloxacin LOM LOM LFLX",
+      "pubchem_hnid": 4966384,
+      "url": null,
+      "id": 318
+    },
+    {
+      "name": null,
+      "description": "Fleroxacin (JAN/USAN/INN) FLE FLE FLRX",
+      "pubchem_hnid": 4966385,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01716",
+      "id": 319
+    },
+    {
+      "name": null,
+      "description": "Sparfloxacin (JAN/USAN/INN) SPX SPX SPFX",
+      "pubchem_hnid": 4966386,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00590",
+      "id": 320
+    },
+    {
+      "name": null,
+      "description": "DG00623 Grepafloxacin GRX GRX GPFX",
+      "pubchem_hnid": 4966387,
+      "url": null,
+      "id": 321
+    },
+    {
+      "name": null,
+      "description": "DG00624 Levofloxacin LVX LVX LVFX",
+      "pubchem_hnid": 4966388,
+      "url": null,
+      "id": 322
+    },
+    {
+      "name": null,
+      "description": "DG00625 Trovafloxacin TVA TVA",
+      "pubchem_hnid": 4966389,
+      "url": null,
+      "id": 323
+    },
+    {
+      "name": null,
+      "description": "DG00626 Moxifloxacin MXF MXF MFLX",
+      "pubchem_hnid": 4966390,
+      "url": null,
+      "id": 324
+    },
+    {
+      "name": null,
+      "description": "DG00628 Gatifloxacin GAT GAT GFLX",
+      "pubchem_hnid": 4966391,
+      "url": null,
+      "id": 325
+    },
+    {
+      "name": null,
+      "description": "Prulifloxacin (JAN/INN) PUFX",
+      "pubchem_hnid": 4966392,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01144",
+      "id": 326
+    },
+    {
+      "name": null,
+      "description": "DG00629 Pazufloxacin PZFX",
+      "pubchem_hnid": 4966393,
+      "url": null,
+      "id": 327
+    },
+    {
+      "name": null,
+      "description": "Garenoxacin mesylate (USAN) GRNX",
+      "pubchem_hnid": 4966394,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02540",
+      "id": 328
+    },
+    {
+      "name": null,
+      "description": "Sitafloxacin (USAN) STFX",
+      "pubchem_hnid": 4966395,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02475",
+      "id": 329
+    },
+    {
+      "name": null,
+      "description": "DG01217 Tosufloxacin TFLX",
+      "pubchem_hnid": 4966396,
+      "url": null,
+      "id": 330
+    },
+    {
+      "name": null,
+      "description": "DG01215 Delafloxacin DLX",
+      "pubchem_hnid": 4966397,
+      "url": null,
+      "id": 331
+    },
+    {
+      "name": null,
+      "description": "Lascufloxacin hydrochloride (JAN) LSFX",
+      "pubchem_hnid": 4966398,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D10772",
+      "id": 332
+    },
+    {
+      "name": null,
+      "description": "Nadifloxacin (JAN/INN) NDFX",
+      "pubchem_hnid": 4966399,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01147",
+      "id": 333
+    },
+    {
+      "name": null,
+      "description": "Balofloxacin hydrate (JAN) BLFX",
+      "pubchem_hnid": 4966400,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02463",
+      "id": 334
+    },
+    {
+      "name": null,
+      "description": "Clinafloxacin hydrochloride (USAN) CLX",
+      "pubchem_hnid": 4966401,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02539",
+      "id": 335
+    },
+    {
+      "name": null,
+      "description": "Novobiocin sodium (JAN/USP) NB",
+      "pubchem_hnid": 4966402,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01209",
+      "id": 336
+    },
+    {
+      "name": null,
+      "description": "Other quinolone",
+      "pubchem_hnid": 4966403,
+      "url": null,
+      "id": 337
+    },
+    {
+      "name": null,
+      "description": "DG00630 Nalidixic acid NAL NAL NA",
+      "pubchem_hnid": 4966404,
+      "url": null,
+      "id": 338
+    },
+    {
+      "name": null,
+      "description": "Piromidic acid (JAN/INN) PA",
+      "pubchem_hnid": 4966405,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01431",
+      "id": 339
+    },
+    {
+      "name": null,
+      "description": "DG00631 Pipemidic acid PPA",
+      "pubchem_hnid": 4966406,
+      "url": null,
+      "id": 340
+    },
+    {
+      "name": null,
+      "description": "Cinoxacin (JP17/USP/INN) CIN CIN CINX",
+      "pubchem_hnid": 4966407,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00872",
+      "id": 341
+    },
+    {
+      "name": null,
+      "description": "Ozenoxacin (JAN/USAN/INN) OZNX",
+      "pubchem_hnid": 4966408,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D09544",
+      "id": 342
+    },
+    {
+      "name": null,
+      "description": "Miloxacin (INN) MLX",
+      "pubchem_hnid": 4966409,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02303",
+      "id": 343
+    },
+    {
+      "name": null,
+      "description": "DG01443 Coumermycin CMRM",
+      "pubchem_hnid": 4966410,
+      "url": null,
+      "id": 344
+    },
+    {
+      "name": null,
+      "description": "Rifamycin",
+      "pubchem_hnid": 4966411,
+      "url": null,
+      "id": 345
+    },
+    {
+      "name": null,
+      "description": "DG00639 Rifampicin RIF RIF RFP",
+      "pubchem_hnid": 4966412,
+      "url": null,
+      "id": 346
+    },
+    {
+      "name": null,
+      "description": "Rifabutin (JAN/USP/INN) RFB RFB RBT",
+      "pubchem_hnid": 4966413,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00424",
+      "id": 347
+    },
+    {
+      "name": null,
+      "description": "Rifapentine (USAN/INN) RFP RFP",
+      "pubchem_hnid": 4966414,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00879",
+      "id": 348
+    },
+    {
+      "name": null,
+      "description": "DNA replication inhibitor",
+      "pubchem_hnid": 4966415,
+      "url": null,
+      "id": 349
+    },
+    {
+      "name": null,
+      "description": "Clofazimine (JAN/USP/INN) CLO",
+      "pubchem_hnid": 4966416,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00278",
+      "id": 350
+    },
+    {
+      "name": null,
+      "description": "Cell membrane function inhibitor",
+      "pubchem_hnid": 4966417,
+      "url": null,
+      "id": 351
+    },
+    {
+      "name": null,
+      "description": "Polypeptide",
+      "pubchem_hnid": 4966418,
+      "url": null,
+      "id": 352
+    },
+    {
+      "name": null,
+      "description": "DG00087 Colistin CST CST CL",
+      "pubchem_hnid": 4966419,
+      "url": null,
+      "id": 353
+    },
+    {
+      "name": null,
+      "description": "DG00083 Polymyxin B PMB PMB PL-B",
+      "pubchem_hnid": 4966420,
+      "url": null,
+      "id": 354
+    },
+    {
+      "name": null,
+      "description": "DG00400 Bacitracin BC",
+      "pubchem_hnid": 4966421,
+      "url": null,
+      "id": 355
+    },
+    {
+      "name": null,
+      "description": "Lipopeptide",
+      "pubchem_hnid": 4966422,
+      "url": null,
+      "id": 356
+    },
+    {
+      "name": null,
+      "description": "Daptomycin (JAN/USAN/INN) DAP DAP DAP",
+      "pubchem_hnid": 4966423,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01080",
+      "id": 357
+    },
+    {
+      "name": null,
+      "description": "Other antibacterials",
+      "pubchem_hnid": 4966424,
+      "url": null,
+      "id": 358
+    },
+    {
+      "name": null,
+      "description": "Mycolic acid biosynthesis inhibitor",
+      "pubchem_hnid": 4966425,
+      "url": null,
+      "id": 359
+    },
+    {
+      "name": null,
+      "description": "DG00642 Isoniazid INH INH INH",
+      "pubchem_hnid": 4966426,
+      "url": null,
+      "id": 360
+    },
+    {
+      "name": null,
+      "description": "Prothionamide (JP17) PTO PTH",
+      "pubchem_hnid": 4966427,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01195",
+      "id": 361
+    },
+    {
+      "name": null,
+      "description": "Ethionamide (JP17/USP/INN) ETO ETH",
+      "pubchem_hnid": 4966428,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00591",
+      "id": 362
+    },
+    {
+      "name": null,
+      "description": "Delamanid (JAN/USAN) DMD",
+      "pubchem_hnid": 4966429,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D09785",
+      "id": 363
+    },
+    {
+      "name": null,
+      "description": "Arabinosyltransferase inhibitor",
+      "pubchem_hnid": 4966430,
+      "url": null,
+      "id": 364
+    },
+    {
+      "name": null,
+      "description": "DG00643 Ethambutol EMB EB",
+      "pubchem_hnid": 4966431,
+      "url": null,
+      "id": 365
+    },
+    {
+      "name": null,
+      "description": "Membrane-bound ATP synthase inhibitor",
+      "pubchem_hnid": 4966432,
+      "url": null,
+      "id": 366
+    },
+    {
+      "name": null,
+      "description": "DG00644 Bedaquiline BDQ",
+      "pubchem_hnid": 4966433,
+      "url": null,
+      "id": 367
+    },
+    {
+      "name": null,
+      "description": "Monoclonal antibody",
+      "pubchem_hnid": 4966434,
+      "url": null,
+      "id": 368
+    },
+    {
+      "name": null,
+      "description": "Bezlotoxumab (USAN/INN) BEZ",
+      "pubchem_hnid": 4966435,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D10453",
+      "id": 369
+    },
+    {
+      "name": null,
+      "description": "Bactericidal action",
+      "pubchem_hnid": 4966436,
+      "url": null,
+      "id": 370
+    },
+    {
+      "name": null,
+      "description": "Imidazole",
+      "pubchem_hnid": 4966437,
+      "url": null,
+      "id": 371
+    },
+    {
+      "name": null,
+      "description": "DG00006 Metronidazole MTZ MNZ",
+      "pubchem_hnid": 4966438,
+      "url": null,
+      "id": 372
+    },
+    {
+      "name": null,
+      "description": "Hydantoin type nitrofuran",
+      "pubchem_hnid": 4966439,
+      "url": null,
+      "id": 373
+    },
+    {
+      "name": null,
+      "description": "Nitrofurantoin (JAN/USP/INN) NIT NIT",
+      "pubchem_hnid": 4966440,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00439",
+      "id": 374
+    },
+    {
+      "name": null,
+      "description": "Pyrazinamide",
+      "pubchem_hnid": 4966441,
+      "url": null,
+      "id": 375
+    },
+    {
+      "name": null,
+      "description": "Pyrazinamide (JP17/USP/INN) PZA PZA",
+      "pubchem_hnid": 4966442,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00144",
+      "id": 376
+    },
+    {
+      "name": null,
+      "description": "5-Nitrofurans",
+      "pubchem_hnid": 4966443,
+      "url": null,
+      "id": 377
+    },
+    {
+      "name": null,
+      "description": "Nitrofurazone (USP) NF",
+      "pubchem_hnid": 4966444,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00862",
+      "id": 378
+    },
+    {
+      "name": null,
+      "description": "Antifungals",
+      "pubchem_hnid": 4966445,
+      "url": null,
+      "id": 379
+    },
+    {
+      "name": null,
+      "description": "Ergosterol biosynthesis inhibitor",
+      "pubchem_hnid": 4966446,
+      "url": null,
+      "id": 380
+    },
+    {
+      "name": null,
+      "description": "Imidazole",
+      "pubchem_hnid": 4966447,
+      "url": null,
+      "id": 381
+    },
+    {
+      "name": null,
+      "description": "DG00004 Miconazole MCZ",
+      "pubchem_hnid": 4966448,
+      "url": null,
+      "id": 382
+    },
+    {
+      "name": null,
+      "description": "Ketoconazole (JP17/USP) KTC KTC KCZ",
+      "pubchem_hnid": 4966449,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00351",
+      "id": 383
+    },
+    {
+      "name": null,
+      "description": "Clotrimazole (JP17/USP/INN) CLT CLT",
+      "pubchem_hnid": 4966450,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00282",
+      "id": 384
+    },
+    {
+      "name": null,
+      "description": "DG01297 Croconazole CCZ",
+      "pubchem_hnid": 4966451,
+      "url": null,
+      "id": 385
+    },
+    {
+      "name": null,
+      "description": "Triazole",
+      "pubchem_hnid": 4966452,
+      "url": null,
+      "id": 386
+    },
+    {
+      "name": null,
+      "description": "DG00371 Fluconazole FLC FLC FLCZ",
+      "pubchem_hnid": 4966453,
+      "url": null,
+      "id": 387
+    },
+    {
+      "name": null,
+      "description": "Itraconazole (JP17/USP) ITC ITC ITCZ",
+      "pubchem_hnid": 4966454,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00350",
+      "id": 388
+    },
+    {
+      "name": null,
+      "description": "Voriconazole (JP17/USP/INN) VRC VRC VRCZ",
+      "pubchem_hnid": 4966455,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00578",
+      "id": 389
+    },
+    {
+      "name": null,
+      "description": "Posaconazole (JAN/USAN/INN) POS POS PSCZ",
+      "pubchem_hnid": 4966456,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02555",
+      "id": 390
+    },
+    {
+      "name": null,
+      "description": "Isavuconazole (INN) ISA",
+      "pubchem_hnid": 4966457,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D10750",
+      "id": 391
+    },
+    {
+      "name": null,
+      "description": "Efinaconazole (JAN/USAN/INN) EFCZ",
+      "pubchem_hnid": 4966458,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D10021",
+      "id": 392
+    },
+    {
+      "name": null,
+      "description": "DG02844 Ravuconazole RVCZ",
+      "pubchem_hnid": 4966459,
+      "url": null,
+      "id": 393
+    },
+    {
+      "name": null,
+      "description": "Other ergosterol biosynthesis inhibitor",
+      "pubchem_hnid": 4966460,
+      "url": null,
+      "id": 394
+    },
+    {
+      "name": null,
+      "description": "DG00375 Terbinafine TRB TRB",
+      "pubchem_hnid": 4966461,
+      "url": null,
+      "id": 395
+    },
+    {
+      "name": null,
+      "description": "Cell membrane function inhibitor",
+      "pubchem_hnid": 4966462,
+      "url": null,
+      "id": 396
+    },
+    {
+      "name": null,
+      "description": "Polyene macrolide",
+      "pubchem_hnid": 4966463,
+      "url": null,
+      "id": 397
+    },
+    {
+      "name": null,
+      "description": "Nystatin (JP17/USP/INN) NYT NYT NYS",
+      "pubchem_hnid": 4966464,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00202",
+      "id": 398
+    },
+    {
+      "name": null,
+      "description": "Amphotericin B (JP17/USP/INN) AMB AMB AMPH-B",
+      "pubchem_hnid": 4966465,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00203",
+      "id": 399
+    },
+    {
+      "name": null,
+      "description": "Natamycin (USP/INN) PMR",
+      "pubchem_hnid": 4966466,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00884",
+      "id": 400
+    },
+    {
+      "name": null,
+      "description": "Trichomycin (JP17) TRM",
+      "pubchem_hnid": 4966467,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D02143",
+      "id": 401
+    },
+    {
+      "name": null,
+      "description": "Variotin (JAN) VR",
+      "pubchem_hnid": 4966468,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01458",
+      "id": 402
+    },
+    {
+      "name": null,
+      "description": "Pentamycin (JAN) PNT",
+      "pubchem_hnid": 4966469,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D01829",
+      "id": 403
+    },
+    {
+      "name": null,
+      "description": "Echinocandin",
+      "pubchem_hnid": 4966470,
+      "url": null,
+      "id": 404
+    },
+    {
+      "name": null,
+      "description": "DG00636 Caspofungin CAS CAS CPFG",
+      "pubchem_hnid": 4966471,
+      "url": null,
+      "id": 405
+    },
+    {
+      "name": null,
+      "description": "DG00637 Micafungin MFG MCFG",
+      "pubchem_hnid": 4966472,
+      "url": null,
+      "id": 406
+    },
+    {
+      "name": null,
+      "description": "Anidulafungin (USAN) AFG",
+      "pubchem_hnid": 4966473,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D03211",
+      "id": 407
+    },
+    {
+      "name": null,
+      "description": "Nucleic acid synthesis inhibitor",
+      "pubchem_hnid": 4966474,
+      "url": null,
+      "id": 408
+    },
+    {
+      "name": null,
+      "description": "Fluoropyrimidine",
+      "pubchem_hnid": 4966475,
+      "url": null,
+      "id": 409
+    },
+    {
+      "name": null,
+      "description": "Flucytosine (JP17/USP/INN) 5FC 5FC 5-FC",
+      "pubchem_hnid": 4966476,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00323",
+      "id": 410
+    },
+    {
+      "name": null,
+      "description": "Mitosis inhibitor",
+      "pubchem_hnid": 4966477,
+      "url": null,
+      "id": 411
+    },
+    {
+      "name": null,
+      "description": "Griseofulvin",
+      "pubchem_hnid": 4966478,
+      "url": null,
+      "id": 412
+    },
+    {
+      "name": null,
+      "description": "Griseofulvin (JAN/USP/INN) GRF",
+      "pubchem_hnid": 4966479,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08327&query=D00209",
+      "id": 413
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "target": 15
+    },
+    {
+      "source": 1,
+      "target": 67
+    },
+    {
+      "source": 1,
+      "target": 90
+    },
+    {
+      "source": 1,
+      "target": 96
+    },
+    {
+      "source": 2,
+      "target": 3
+    },
+    {
+      "source": 2,
+      "target": 5
+    },
+    {
+      "source": 2,
+      "target": 7
+    },
+    {
+      "source": 2,
+      "target": 10
+    },
+    {
+      "source": 2,
+      "target": 13
+    },
+    {
+      "source": 3,
+      "target": 4
+    },
+    {
+      "source": 5,
+      "target": 6
+    },
+    {
+      "source": 7,
+      "target": 8
+    },
+    {
+      "source": 7,
+      "target": 9
+    },
+    {
+      "source": 10,
+      "target": 11
+    },
+    {
+      "source": 10,
+      "target": 12
+    },
+    {
+      "source": 13,
+      "target": 14
+    },
+    {
+      "source": 15,
+      "target": 16
+    },
+    {
+      "source": 15,
+      "target": 29
+    },
+    {
+      "source": 15,
+      "target": 37
+    },
+    {
+      "source": 15,
+      "target": 49
+    },
+    {
+      "source": 15,
+      "target": 53
+    },
+    {
+      "source": 15,
+      "target": 63
+    },
+    {
+      "source": 16,
+      "target": 17
+    },
+    {
+      "source": 16,
+      "target": 18
+    },
+    {
+      "source": 16,
+      "target": 19
+    },
+    {
+      "source": 16,
+      "target": 20
+    },
+    {
+      "source": 16,
+      "target": 21
+    },
+    {
+      "source": 16,
+      "target": 22
+    },
+    {
+      "source": 16,
+      "target": 23
+    },
+    {
+      "source": 16,
+      "target": 24
+    },
+    {
+      "source": 16,
+      "target": 25
+    },
+    {
+      "source": 16,
+      "target": 26
+    },
+    {
+      "source": 16,
+      "target": 27
+    },
+    {
+      "source": 16,
+      "target": 28
+    },
+    {
+      "source": 29,
+      "target": 30
+    },
+    {
+      "source": 29,
+      "target": 31
+    },
+    {
+      "source": 29,
+      "target": 32
+    },
+    {
+      "source": 29,
+      "target": 33
+    },
+    {
+      "source": 29,
+      "target": 34
+    },
+    {
+      "source": 29,
+      "target": 35
+    },
+    {
+      "source": 29,
+      "target": 36
+    },
+    {
+      "source": 37,
+      "target": 38
+    },
+    {
+      "source": 37,
+      "target": 39
+    },
+    {
+      "source": 37,
+      "target": 40
+    },
+    {
+      "source": 37,
+      "target": 41
+    },
+    {
+      "source": 37,
+      "target": 42
+    },
+    {
+      "source": 37,
+      "target": 43
+    },
+    {
+      "source": 37,
+      "target": 44
+    },
+    {
+      "source": 37,
+      "target": 45
+    },
+    {
+      "source": 37,
+      "target": 46
+    },
+    {
+      "source": 37,
+      "target": 47
+    },
+    {
+      "source": 37,
+      "target": 48
+    },
+    {
+      "source": 49,
+      "target": 50
+    },
+    {
+      "source": 49,
+      "target": 51
+    },
+    {
+      "source": 49,
+      "target": 52
+    },
+    {
+      "source": 53,
+      "target": 54
+    },
+    {
+      "source": 53,
+      "target": 55
+    },
+    {
+      "source": 53,
+      "target": 56
+    },
+    {
+      "source": 53,
+      "target": 57
+    },
+    {
+      "source": 53,
+      "target": 58
+    },
+    {
+      "source": 53,
+      "target": 59
+    },
+    {
+      "source": 53,
+      "target": 60
+    },
+    {
+      "source": 53,
+      "target": 61
+    },
+    {
+      "source": 53,
+      "target": 62
+    },
+    {
+      "source": 63,
+      "target": 64
+    },
+    {
+      "source": 63,
+      "target": 65
+    },
+    {
+      "source": 63,
+      "target": 66
+    },
+    {
+      "source": 67,
+      "target": 68
+    },
+    {
+      "source": 67,
+      "target": 80
+    },
+    {
+      "source": 67,
+      "target": 88
+    },
+    {
+      "source": 68,
+      "target": 69
+    },
+    {
+      "source": 68,
+      "target": 70
+    },
+    {
+      "source": 68,
+      "target": 71
+    },
+    {
+      "source": 68,
+      "target": 72
+    },
+    {
+      "source": 68,
+      "target": 73
+    },
+    {
+      "source": 68,
+      "target": 74
+    },
+    {
+      "source": 68,
+      "target": 75
+    },
+    {
+      "source": 68,
+      "target": 76
+    },
+    {
+      "source": 68,
+      "target": 77
+    },
+    {
+      "source": 68,
+      "target": 78
+    },
+    {
+      "source": 68,
+      "target": 79
+    },
+    {
+      "source": 80,
+      "target": 81
+    },
+    {
+      "source": 80,
+      "target": 82
+    },
+    {
+      "source": 80,
+      "target": 83
+    },
+    {
+      "source": 80,
+      "target": 84
+    },
+    {
+      "source": 80,
+      "target": 85
+    },
+    {
+      "source": 80,
+      "target": 86
+    },
+    {
+      "source": 80,
+      "target": 87
+    },
+    {
+      "source": 88,
+      "target": 89
+    },
+    {
+      "source": 90,
+      "target": 91
+    },
+    {
+      "source": 91,
+      "target": 92
+    },
+    {
+      "source": 91,
+      "target": 93
+    },
+    {
+      "source": 91,
+      "target": 94
+    },
+    {
+      "source": 91,
+      "target": 95
+    },
+    {
+      "source": 96,
+      "target": 97
+    },
+    {
+      "source": 97,
+      "target": 98
+    },
+    {
+      "source": 97,
+      "target": 99
+    },
+    {
+      "source": 100,
+      "target": 101
+    },
+    {
+      "source": 100,
+      "target": 227
+    },
+    {
+      "source": 100,
+      "target": 238
+    },
+    {
+      "source": 100,
+      "target": 303
+    },
+    {
+      "source": 100,
+      "target": 311
+    },
+    {
+      "source": 100,
+      "target": 351
+    },
+    {
+      "source": 100,
+      "target": 358
+    },
+    {
+      "source": 100,
+      "target": 370
+    },
+    {
+      "source": 101,
+      "target": 102
+    },
+    {
+      "source": 101,
+      "target": 107
+    },
+    {
+      "source": 101,
+      "target": 114
+    },
+    {
+      "source": 101,
+      "target": 137
+    },
+    {
+      "source": 101,
+      "target": 145
+    },
+    {
+      "source": 101,
+      "target": 150
+    },
+    {
+      "source": 101,
+      "target": 162
+    },
+    {
+      "source": 101,
+      "target": 176
+    },
+    {
+      "source": 101,
+      "target": 197
+    },
+    {
+      "source": 101,
+      "target": 201
+    },
+    {
+      "source": 101,
+      "target": 212
+    },
+    {
+      "source": 101,
+      "target": 215
+    },
+    {
+      "source": 102,
+      "target": 103
+    },
+    {
+      "source": 102,
+      "target": 104
+    },
+    {
+      "source": 102,
+      "target": 105
+    },
+    {
+      "source": 102,
+      "target": 106
+    },
+    {
+      "source": 107,
+      "target": 108
+    },
+    {
+      "source": 107,
+      "target": 109
+    },
+    {
+      "source": 107,
+      "target": 110
+    },
+    {
+      "source": 107,
+      "target": 111
+    },
+    {
+      "source": 107,
+      "target": 112
+    },
+    {
+      "source": 107,
+      "target": 113
+    },
+    {
+      "source": 114,
+      "target": 115
+    },
+    {
+      "source": 114,
+      "target": 116
+    },
+    {
+      "source": 114,
+      "target": 117
+    },
+    {
+      "source": 114,
+      "target": 118
+    },
+    {
+      "source": 114,
+      "target": 119
+    },
+    {
+      "source": 114,
+      "target": 120
+    },
+    {
+      "source": 114,
+      "target": 121
+    },
+    {
+      "source": 114,
+      "target": 122
+    },
+    {
+      "source": 114,
+      "target": 123
+    },
+    {
+      "source": 114,
+      "target": 124
+    },
+    {
+      "source": 114,
+      "target": 125
+    },
+    {
+      "source": 114,
+      "target": 126
+    },
+    {
+      "source": 114,
+      "target": 127
+    },
+    {
+      "source": 114,
+      "target": 128
+    },
+    {
+      "source": 114,
+      "target": 129
+    },
+    {
+      "source": 114,
+      "target": 130
+    },
+    {
+      "source": 114,
+      "target": 131
+    },
+    {
+      "source": 114,
+      "target": 132
+    },
+    {
+      "source": 114,
+      "target": 133
+    },
+    {
+      "source": 114,
+      "target": 134
+    },
+    {
+      "source": 114,
+      "target": 135
+    },
+    {
+      "source": 114,
+      "target": 136
+    },
+    {
+      "source": 137,
+      "target": 138
+    },
+    {
+      "source": 137,
+      "target": 139
+    },
+    {
+      "source": 137,
+      "target": 140
+    },
+    {
+      "source": 137,
+      "target": 141
+    },
+    {
+      "source": 137,
+      "target": 142
+    },
+    {
+      "source": 137,
+      "target": 143
+    },
+    {
+      "source": 137,
+      "target": 144
+    },
+    {
+      "source": 145,
+      "target": 146
+    },
+    {
+      "source": 145,
+      "target": 147
+    },
+    {
+      "source": 145,
+      "target": 148
+    },
+    {
+      "source": 145,
+      "target": 149
+    },
+    {
+      "source": 150,
+      "target": 151
+    },
+    {
+      "source": 150,
+      "target": 152
+    },
+    {
+      "source": 150,
+      "target": 153
+    },
+    {
+      "source": 150,
+      "target": 154
+    },
+    {
+      "source": 150,
+      "target": 155
+    },
+    {
+      "source": 150,
+      "target": 156
+    },
+    {
+      "source": 150,
+      "target": 157
+    },
+    {
+      "source": 150,
+      "target": 158
+    },
+    {
+      "source": 150,
+      "target": 159
+    },
+    {
+      "source": 150,
+      "target": 160
+    },
+    {
+      "source": 150,
+      "target": 161
+    },
+    {
+      "source": 162,
+      "target": 163
+    },
+    {
+      "source": 162,
+      "target": 164
+    },
+    {
+      "source": 162,
+      "target": 165
+    },
+    {
+      "source": 162,
+      "target": 166
+    },
+    {
+      "source": 162,
+      "target": 167
+    },
+    {
+      "source": 162,
+      "target": 168
+    },
+    {
+      "source": 162,
+      "target": 169
+    },
+    {
+      "source": 162,
+      "target": 170
+    },
+    {
+      "source": 162,
+      "target": 171
+    },
+    {
+      "source": 162,
+      "target": 172
+    },
+    {
+      "source": 162,
+      "target": 173
+    },
+    {
+      "source": 162,
+      "target": 174
+    },
+    {
+      "source": 162,
+      "target": 175
+    },
+    {
+      "source": 176,
+      "target": 177
+    },
+    {
+      "source": 176,
+      "target": 178
+    },
+    {
+      "source": 176,
+      "target": 179
+    },
+    {
+      "source": 176,
+      "target": 180
+    },
+    {
+      "source": 176,
+      "target": 181
+    },
+    {
+      "source": 176,
+      "target": 182
+    },
+    {
+      "source": 176,
+      "target": 183
+    },
+    {
+      "source": 176,
+      "target": 184
+    },
+    {
+      "source": 176,
+      "target": 185
+    },
+    {
+      "source": 176,
+      "target": 186
+    },
+    {
+      "source": 176,
+      "target": 187
+    },
+    {
+      "source": 176,
+      "target": 188
+    },
+    {
+      "source": 176,
+      "target": 189
+    },
+    {
+      "source": 176,
+      "target": 190
+    },
+    {
+      "source": 176,
+      "target": 191
+    },
+    {
+      "source": 176,
+      "target": 192
+    },
+    {
+      "source": 176,
+      "target": 193
+    },
+    {
+      "source": 176,
+      "target": 194
+    },
+    {
+      "source": 176,
+      "target": 195
+    },
+    {
+      "source": 176,
+      "target": 196
+    },
+    {
+      "source": 197,
+      "target": 198
+    },
+    {
+      "source": 197,
+      "target": 199
+    },
+    {
+      "source": 197,
+      "target": 200
+    },
+    {
+      "source": 201,
+      "target": 202
+    },
+    {
+      "source": 201,
+      "target": 203
+    },
+    {
+      "source": 201,
+      "target": 204
+    },
+    {
+      "source": 201,
+      "target": 205
+    },
+    {
+      "source": 201,
+      "target": 206
+    },
+    {
+      "source": 201,
+      "target": 207
+    },
+    {
+      "source": 201,
+      "target": 208
+    },
+    {
+      "source": 201,
+      "target": 209
+    },
+    {
+      "source": 201,
+      "target": 210
+    },
+    {
+      "source": 201,
+      "target": 211
+    },
+    {
+      "source": 212,
+      "target": 213
+    },
+    {
+      "source": 212,
+      "target": 214
+    },
+    {
+      "source": 215,
+      "target": 216
+    },
+    {
+      "source": 215,
+      "target": 217
+    },
+    {
+      "source": 215,
+      "target": 218
+    },
+    {
+      "source": 215,
+      "target": 219
+    },
+    {
+      "source": 215,
+      "target": 220
+    },
+    {
+      "source": 215,
+      "target": 221
+    },
+    {
+      "source": 215,
+      "target": 222
+    },
+    {
+      "source": 215,
+      "target": 223
+    },
+    {
+      "source": 215,
+      "target": 224
+    },
+    {
+      "source": 215,
+      "target": 225
+    },
+    {
+      "source": 215,
+      "target": 226
+    },
+    {
+      "source": 227,
+      "target": 228
+    },
+    {
+      "source": 227,
+      "target": 234
+    },
+    {
+      "source": 228,
+      "target": 229
+    },
+    {
+      "source": 228,
+      "target": 230
+    },
+    {
+      "source": 228,
+      "target": 231
+    },
+    {
+      "source": 228,
+      "target": 232
+    },
+    {
+      "source": 228,
+      "target": 233
+    },
+    {
+      "source": 234,
+      "target": 235
+    },
+    {
+      "source": 234,
+      "target": 236
+    },
+    {
+      "source": 234,
+      "target": 237
+    },
+    {
+      "source": 238,
+      "target": 239
+    },
+    {
+      "source": 238,
+      "target": 263
+    },
+    {
+      "source": 238,
+      "target": 274
+    },
+    {
+      "source": 238,
+      "target": 287
+    },
+    {
+      "source": 238,
+      "target": 290
+    },
+    {
+      "source": 238,
+      "target": 292
+    },
+    {
+      "source": 238,
+      "target": 295
+    },
+    {
+      "source": 238,
+      "target": 297
+    },
+    {
+      "source": 238,
+      "target": 300
+    },
+    {
+      "source": 239,
+      "target": 240
+    },
+    {
+      "source": 239,
+      "target": 241
+    },
+    {
+      "source": 239,
+      "target": 242
+    },
+    {
+      "source": 239,
+      "target": 243
+    },
+    {
+      "source": 239,
+      "target": 244
+    },
+    {
+      "source": 239,
+      "target": 245
+    },
+    {
+      "source": 239,
+      "target": 246
+    },
+    {
+      "source": 239,
+      "target": 247
+    },
+    {
+      "source": 239,
+      "target": 248
+    },
+    {
+      "source": 239,
+      "target": 249
+    },
+    {
+      "source": 239,
+      "target": 250
+    },
+    {
+      "source": 239,
+      "target": 251
+    },
+    {
+      "source": 239,
+      "target": 252
+    },
+    {
+      "source": 239,
+      "target": 253
+    },
+    {
+      "source": 239,
+      "target": 254
+    },
+    {
+      "source": 239,
+      "target": 255
+    },
+    {
+      "source": 239,
+      "target": 256
+    },
+    {
+      "source": 239,
+      "target": 257
+    },
+    {
+      "source": 239,
+      "target": 258
+    },
+    {
+      "source": 239,
+      "target": 259
+    },
+    {
+      "source": 239,
+      "target": 260
+    },
+    {
+      "source": 239,
+      "target": 261
+    },
+    {
+      "source": 239,
+      "target": 262
+    },
+    {
+      "source": 263,
+      "target": 264
+    },
+    {
+      "source": 263,
+      "target": 265
+    },
+    {
+      "source": 263,
+      "target": 266
+    },
+    {
+      "source": 263,
+      "target": 267
+    },
+    {
+      "source": 263,
+      "target": 268
+    },
+    {
+      "source": 263,
+      "target": 269
+    },
+    {
+      "source": 263,
+      "target": 270
+    },
+    {
+      "source": 263,
+      "target": 271
+    },
+    {
+      "source": 263,
+      "target": 272
+    },
+    {
+      "source": 263,
+      "target": 273
+    },
+    {
+      "source": 274,
+      "target": 275
+    },
+    {
+      "source": 274,
+      "target": 276
+    },
+    {
+      "source": 274,
+      "target": 277
+    },
+    {
+      "source": 274,
+      "target": 278
+    },
+    {
+      "source": 274,
+      "target": 279
+    },
+    {
+      "source": 274,
+      "target": 280
+    },
+    {
+      "source": 274,
+      "target": 281
+    },
+    {
+      "source": 274,
+      "target": 282
+    },
+    {
+      "source": 274,
+      "target": 283
+    },
+    {
+      "source": 274,
+      "target": 284
+    },
+    {
+      "source": 274,
+      "target": 285
+    },
+    {
+      "source": 274,
+      "target": 286
+    },
+    {
+      "source": 287,
+      "target": 288
+    },
+    {
+      "source": 287,
+      "target": 289
+    },
+    {
+      "source": 290,
+      "target": 291
+    },
+    {
+      "source": 292,
+      "target": 293
+    },
+    {
+      "source": 292,
+      "target": 294
+    },
+    {
+      "source": 295,
+      "target": 296
+    },
+    {
+      "source": 297,
+      "target": 298
+    },
+    {
+      "source": 297,
+      "target": 299
+    },
+    {
+      "source": 300,
+      "target": 301
+    },
+    {
+      "source": 300,
+      "target": 302
+    },
+    {
+      "source": 303,
+      "target": 304
+    },
+    {
+      "source": 303,
+      "target": 306
+    },
+    {
+      "source": 303,
+      "target": 309
+    },
+    {
+      "source": 304,
+      "target": 305
+    },
+    {
+      "source": 306,
+      "target": 307
+    },
+    {
+      "source": 306,
+      "target": 308
+    },
+    {
+      "source": 309,
+      "target": 310
+    },
+    {
+      "source": 311,
+      "target": 312
+    },
+    {
+      "source": 311,
+      "target": 337
+    },
+    {
+      "source": 311,
+      "target": 345
+    },
+    {
+      "source": 311,
+      "target": 349
+    },
+    {
+      "source": 312,
+      "target": 313
+    },
+    {
+      "source": 312,
+      "target": 314
+    },
+    {
+      "source": 312,
+      "target": 315
+    },
+    {
+      "source": 312,
+      "target": 316
+    },
+    {
+      "source": 312,
+      "target": 317
+    },
+    {
+      "source": 312,
+      "target": 318
+    },
+    {
+      "source": 312,
+      "target": 319
+    },
+    {
+      "source": 312,
+      "target": 320
+    },
+    {
+      "source": 312,
+      "target": 321
+    },
+    {
+      "source": 312,
+      "target": 322
+    },
+    {
+      "source": 312,
+      "target": 323
+    },
+    {
+      "source": 312,
+      "target": 324
+    },
+    {
+      "source": 312,
+      "target": 325
+    },
+    {
+      "source": 312,
+      "target": 326
+    },
+    {
+      "source": 312,
+      "target": 327
+    },
+    {
+      "source": 312,
+      "target": 328
+    },
+    {
+      "source": 312,
+      "target": 329
+    },
+    {
+      "source": 312,
+      "target": 330
+    },
+    {
+      "source": 312,
+      "target": 331
+    },
+    {
+      "source": 312,
+      "target": 332
+    },
+    {
+      "source": 312,
+      "target": 333
+    },
+    {
+      "source": 312,
+      "target": 334
+    },
+    {
+      "source": 312,
+      "target": 335
+    },
+    {
+      "source": 312,
+      "target": 336
+    },
+    {
+      "source": 337,
+      "target": 338
+    },
+    {
+      "source": 337,
+      "target": 339
+    },
+    {
+      "source": 337,
+      "target": 340
+    },
+    {
+      "source": 337,
+      "target": 341
+    },
+    {
+      "source": 337,
+      "target": 342
+    },
+    {
+      "source": 337,
+      "target": 343
+    },
+    {
+      "source": 337,
+      "target": 344
+    },
+    {
+      "source": 345,
+      "target": 346
+    },
+    {
+      "source": 345,
+      "target": 347
+    },
+    {
+      "source": 345,
+      "target": 348
+    },
+    {
+      "source": 349,
+      "target": 350
+    },
+    {
+      "source": 351,
+      "target": 352
+    },
+    {
+      "source": 351,
+      "target": 356
+    },
+    {
+      "source": 352,
+      "target": 353
+    },
+    {
+      "source": 352,
+      "target": 354
+    },
+    {
+      "source": 352,
+      "target": 355
+    },
+    {
+      "source": 356,
+      "target": 357
+    },
+    {
+      "source": 358,
+      "target": 359
+    },
+    {
+      "source": 358,
+      "target": 364
+    },
+    {
+      "source": 358,
+      "target": 366
+    },
+    {
+      "source": 358,
+      "target": 368
+    },
+    {
+      "source": 359,
+      "target": 360
+    },
+    {
+      "source": 359,
+      "target": 361
+    },
+    {
+      "source": 359,
+      "target": 362
+    },
+    {
+      "source": 359,
+      "target": 363
+    },
+    {
+      "source": 364,
+      "target": 365
+    },
+    {
+      "source": 366,
+      "target": 367
+    },
+    {
+      "source": 368,
+      "target": 369
+    },
+    {
+      "source": 370,
+      "target": 371
+    },
+    {
+      "source": 370,
+      "target": 373
+    },
+    {
+      "source": 370,
+      "target": 375
+    },
+    {
+      "source": 370,
+      "target": 377
+    },
+    {
+      "source": 371,
+      "target": 372
+    },
+    {
+      "source": 373,
+      "target": 374
+    },
+    {
+      "source": 375,
+      "target": 376
+    },
+    {
+      "source": 377,
+      "target": 378
+    },
+    {
+      "source": 379,
+      "target": 380
+    },
+    {
+      "source": 379,
+      "target": 396
+    },
+    {
+      "source": 379,
+      "target": 408
+    },
+    {
+      "source": 379,
+      "target": 411
+    },
+    {
+      "source": 380,
+      "target": 381
+    },
+    {
+      "source": 380,
+      "target": 386
+    },
+    {
+      "source": 380,
+      "target": 394
+    },
+    {
+      "source": 381,
+      "target": 382
+    },
+    {
+      "source": 381,
+      "target": 383
+    },
+    {
+      "source": 381,
+      "target": 384
+    },
+    {
+      "source": 381,
+      "target": 385
+    },
+    {
+      "source": 386,
+      "target": 387
+    },
+    {
+      "source": 386,
+      "target": 388
+    },
+    {
+      "source": 386,
+      "target": 389
+    },
+    {
+      "source": 386,
+      "target": 390
+    },
+    {
+      "source": 386,
+      "target": 391
+    },
+    {
+      "source": 386,
+      "target": 392
+    },
+    {
+      "source": 386,
+      "target": 393
+    },
+    {
+      "source": 394,
+      "target": 395
+    },
+    {
+      "source": 396,
+      "target": 397
+    },
+    {
+      "source": 396,
+      "target": 404
+    },
+    {
+      "source": 397,
+      "target": 398
+    },
+    {
+      "source": 397,
+      "target": 399
+    },
+    {
+      "source": 397,
+      "target": 400
+    },
+    {
+      "source": 397,
+      "target": 401
+    },
+    {
+      "source": 397,
+      "target": 402
+    },
+    {
+      "source": 397,
+      "target": 403
+    },
+    {
+      "source": 404,
+      "target": 405
+    },
+    {
+      "source": 404,
+      "target": 406
+    },
+    {
+      "source": 404,
+      "target": 407
+    },
+    {
+      "source": 408,
+      "target": 409
+    },
+    {
+      "source": 409,
+      "target": 410
+    },
+    {
+      "source": 411,
+      "target": 412
+    },
+    {
+      "source": 412,
+      "target": 413
+    }
+  ]
+}

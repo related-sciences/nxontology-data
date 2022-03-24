@@ -1,0 +1,2458 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "name": "006_kegg_br08005",
+    "pubchem_hierarchy_id": 6,
+    "pubchem_source_id": "br08005",
+    "pubchem_source_name": "KEGG",
+    "pubchem_description": null,
+    "pubchem_comments": [
+      "Last updated: January 21, 2019"
+    ],
+    "source_url": "http://www.genome.jp/kegg-bin/get_htext?br08005.keg"
+  },
+  "nodes": [
+    {
+      "name": null,
+      "description": "Neuropeptides",
+      "pubchem_hnid": 2295772,
+      "url": null,
+      "id": 1
+    },
+    {
+      "name": null,
+      "description": "Tachykinin",
+      "pubchem_hnid": 2295773,
+      "url": null,
+      "id": 2
+    },
+    {
+      "name": null,
+      "description": "Substance P",
+      "pubchem_hnid": 2295774,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16094",
+      "id": 3
+    },
+    {
+      "name": null,
+      "description": "Neuropeptide K",
+      "pubchem_hnid": 2295775,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16095",
+      "id": 4
+    },
+    {
+      "name": null,
+      "description": "Neuropeptide gamma",
+      "pubchem_hnid": 2295776,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16096",
+      "id": 5
+    },
+    {
+      "name": null,
+      "description": "Neurokinin A",
+      "pubchem_hnid": 2295777,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16097",
+      "id": 6
+    },
+    {
+      "name": null,
+      "description": "Neurokinin B",
+      "pubchem_hnid": 2295778,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16098",
+      "id": 7
+    },
+    {
+      "name": null,
+      "description": "Endokinin A/B",
+      "pubchem_hnid": 2295779,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16099",
+      "id": 8
+    },
+    {
+      "name": null,
+      "description": "Endokinin C",
+      "pubchem_hnid": 2295780,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16100",
+      "id": 9
+    },
+    {
+      "name": null,
+      "description": "Endokinin D",
+      "pubchem_hnid": 2295781,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16101",
+      "id": 10
+    },
+    {
+      "name": null,
+      "description": "Neurotensin",
+      "pubchem_hnid": 2295782,
+      "url": null,
+      "id": 11
+    },
+    {
+      "name": null,
+      "description": "Neurotensin",
+      "pubchem_hnid": 2295783,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C01836",
+      "id": 12
+    },
+    {
+      "name": null,
+      "description": "Neuromedin N",
+      "pubchem_hnid": 2295784,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15868",
+      "id": 13
+    },
+    {
+      "name": null,
+      "description": "Feeding-related peptide",
+      "pubchem_hnid": 2295785,
+      "url": null,
+      "id": 14
+    },
+    {
+      "name": null,
+      "description": "Ghrelin",
+      "pubchem_hnid": 2295786,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16025",
+      "id": 15
+    },
+    {
+      "name": null,
+      "description": "Galanin",
+      "pubchem_hnid": 2295787,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15901",
+      "id": 16
+    },
+    {
+      "name": null,
+      "description": "Galanin-like peptide",
+      "pubchem_hnid": 2295788,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16046",
+      "id": 17
+    },
+    {
+      "name": null,
+      "description": "Obestatin",
+      "pubchem_hnid": 2295789,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16102",
+      "id": 18
+    },
+    {
+      "name": null,
+      "description": "Cocaine- and amphetamine-regulated transcript (1-39)",
+      "pubchem_hnid": 2295790,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16027",
+      "id": 19
+    },
+    {
+      "name": null,
+      "description": "Cocaine- and amphetamine-regulated transcript (42-89)",
+      "pubchem_hnid": 2295791,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16029",
+      "id": 20
+    },
+    {
+      "name": null,
+      "description": "Agouti related protein (87-132)",
+      "pubchem_hnid": 2295792,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16103",
+      "id": 21
+    },
+    {
+      "name": null,
+      "description": "Melanin-concentrating hormone",
+      "pubchem_hnid": 2295793,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16030",
+      "id": 22
+    },
+    {
+      "name": null,
+      "description": "Neuropeptide GE",
+      "pubchem_hnid": 2295794,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16031",
+      "id": 23
+    },
+    {
+      "name": null,
+      "description": "Neuropeptide EI",
+      "pubchem_hnid": 2295795,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16104",
+      "id": 24
+    },
+    {
+      "name": null,
+      "description": "Orexin A",
+      "pubchem_hnid": 2295796,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16105",
+      "id": 25
+    },
+    {
+      "name": null,
+      "description": "Orexin B",
+      "pubchem_hnid": 2295797,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16106",
+      "id": 26
+    },
+    {
+      "name": null,
+      "description": "Gastrin-releasing peptide",
+      "pubchem_hnid": 2295798,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16115",
+      "id": 27
+    },
+    {
+      "name": null,
+      "description": "Neuromedin C",
+      "pubchem_hnid": 2295799,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15866",
+      "id": 28
+    },
+    {
+      "name": null,
+      "description": "Neuromedin U",
+      "pubchem_hnid": 2295800,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15869",
+      "id": 29
+    },
+    {
+      "name": null,
+      "description": "Neuromedin S",
+      "pubchem_hnid": 2295801,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16107",
+      "id": 30
+    },
+    {
+      "name": null,
+      "description": "Neuropeptide Y",
+      "pubchem_hnid": 2295802,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15949",
+      "id": 31
+    },
+    {
+      "name": null,
+      "description": "Neuropeptide W-30",
+      "pubchem_hnid": 2295803,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16032",
+      "id": 32
+    },
+    {
+      "name": null,
+      "description": "Neuropeptide W-23",
+      "pubchem_hnid": 2295804,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16033",
+      "id": 33
+    },
+    {
+      "name": null,
+      "description": "Neuropeptide B-29",
+      "pubchem_hnid": 2295805,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16034",
+      "id": 34
+    },
+    {
+      "name": null,
+      "description": "Neuropeptide B-23",
+      "pubchem_hnid": 2295806,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16035",
+      "id": 35
+    },
+    {
+      "name": null,
+      "description": "Neuromedin B",
+      "pubchem_hnid": 2295807,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15865",
+      "id": 36
+    },
+    {
+      "name": null,
+      "description": "Neuropeptide S",
+      "pubchem_hnid": 2295808,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16036",
+      "id": 37
+    },
+    {
+      "name": null,
+      "description": "Endogenous opioid peptide",
+      "pubchem_hnid": 2295809,
+      "url": null,
+      "id": 38
+    },
+    {
+      "name": null,
+      "description": "Leumorphin",
+      "pubchem_hnid": 2295810,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16037",
+      "id": 39
+    },
+    {
+      "name": null,
+      "description": "Dynorphin A",
+      "pubchem_hnid": 2295811,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C01574",
+      "id": 40
+    },
+    {
+      "name": null,
+      "description": "Dynorphin B",
+      "pubchem_hnid": 2295812,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16135",
+      "id": 41
+    },
+    {
+      "name": null,
+      "description": "Neoendorphin alpha",
+      "pubchem_hnid": 2295813,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16039",
+      "id": 42
+    },
+    {
+      "name": null,
+      "description": "Neoendorphin beta",
+      "pubchem_hnid": 2295814,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16040",
+      "id": 43
+    },
+    {
+      "name": null,
+      "description": "Leu-enkephalin",
+      "pubchem_hnid": 2295815,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16041",
+      "id": 44
+    },
+    {
+      "name": null,
+      "description": "Met-enkephalin",
+      "pubchem_hnid": 2295816,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C11684",
+      "id": 45
+    },
+    {
+      "name": null,
+      "description": "Met-enkephalin-Arg-Gly-Leu",
+      "pubchem_hnid": 2295817,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16042",
+      "id": 46
+    },
+    {
+      "name": null,
+      "description": "Met-enkephalin-Arg-Phe",
+      "pubchem_hnid": 2295818,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16043",
+      "id": 47
+    },
+    {
+      "name": null,
+      "description": "Adrenorphin",
+      "pubchem_hnid": 2295819,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16108",
+      "id": 48
+    },
+    {
+      "name": null,
+      "description": "Endomorphin-1",
+      "pubchem_hnid": 2295820,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15890",
+      "id": 49
+    },
+    {
+      "name": null,
+      "description": "Endomorphin-2",
+      "pubchem_hnid": 2295821,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15891",
+      "id": 50
+    },
+    {
+      "name": null,
+      "description": "Nociceptin",
+      "pubchem_hnid": 2295822,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16044",
+      "id": 51
+    },
+    {
+      "name": null,
+      "description": "Nocistatin",
+      "pubchem_hnid": 2295823,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15871",
+      "id": 52
+    },
+    {
+      "name": null,
+      "description": "Other neuropeptides",
+      "pubchem_hnid": 2295824,
+      "url": null,
+      "id": 53
+    },
+    {
+      "name": null,
+      "description": "Cerebellin",
+      "pubchem_hnid": 2295825,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15863",
+      "id": 54
+    },
+    {
+      "name": null,
+      "description": "RFamide-related peptide 1",
+      "pubchem_hnid": 2295826,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16109",
+      "id": 55
+    },
+    {
+      "name": null,
+      "description": "RFamide-related peptide 2",
+      "pubchem_hnid": 2295827,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16045",
+      "id": 56
+    },
+    {
+      "name": null,
+      "description": "RFamide-related peptide 3",
+      "pubchem_hnid": 2295828,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16110",
+      "id": 57
+    },
+    {
+      "name": null,
+      "description": "Neuropeptide AF",
+      "pubchem_hnid": 2295829,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16111",
+      "id": 58
+    },
+    {
+      "name": null,
+      "description": "Neuropeptide FF",
+      "pubchem_hnid": 2295830,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16112",
+      "id": 59
+    },
+    {
+      "name": null,
+      "description": "Cardiovascular peptides",
+      "pubchem_hnid": 2295831,
+      "url": null,
+      "id": 60
+    },
+    {
+      "name": null,
+      "description": "Angiotensin",
+      "pubchem_hnid": 2295832,
+      "url": null,
+      "id": 61
+    },
+    {
+      "name": null,
+      "description": "Angiotensin I",
+      "pubchem_hnid": 2295833,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C00873",
+      "id": 62
+    },
+    {
+      "name": null,
+      "description": "Angiotensin II",
+      "pubchem_hnid": 2295834,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C02135",
+      "id": 63
+    },
+    {
+      "name": null,
+      "description": "Angiotensin III",
+      "pubchem_hnid": 2295835,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15848",
+      "id": 64
+    },
+    {
+      "name": null,
+      "description": "Angiotensin IV",
+      "pubchem_hnid": 2295836,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15849",
+      "id": 65
+    },
+    {
+      "name": null,
+      "description": "Angiotensin (1-9)",
+      "pubchem_hnid": 2295837,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15851",
+      "id": 66
+    },
+    {
+      "name": null,
+      "description": "Angiotensin (1-7)",
+      "pubchem_hnid": 2295838,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15850",
+      "id": 67
+    },
+    {
+      "name": null,
+      "description": "Angiotensin (1-5)",
+      "pubchem_hnid": 2295839,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15852",
+      "id": 68
+    },
+    {
+      "name": null,
+      "description": "Angiotensin A",
+      "pubchem_hnid": 2295840,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C20970",
+      "id": 69
+    },
+    {
+      "name": null,
+      "description": "Alamandine",
+      "pubchem_hnid": 2295841,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C20971",
+      "id": 70
+    },
+    {
+      "name": null,
+      "description": "Bradykinin",
+      "pubchem_hnid": 2295842,
+      "url": null,
+      "id": 71
+    },
+    {
+      "name": null,
+      "description": "T-kinin",
+      "pubchem_hnid": 2295843,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16008",
+      "id": 72
+    },
+    {
+      "name": null,
+      "description": "Kallidin",
+      "pubchem_hnid": 2295844,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C01505",
+      "id": 73
+    },
+    {
+      "name": null,
+      "description": "Bradykinin",
+      "pubchem_hnid": 2295845,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C00306",
+      "id": 74
+    },
+    {
+      "name": null,
+      "description": "Fibrinopeptide",
+      "pubchem_hnid": 2295846,
+      "url": null,
+      "id": 75
+    },
+    {
+      "name": null,
+      "description": "Fibrinopeptide A",
+      "pubchem_hnid": 2295847,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C00952",
+      "id": 76
+    },
+    {
+      "name": null,
+      "description": "Fibrinopeptide B",
+      "pubchem_hnid": 2295848,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C02404",
+      "id": 77
+    },
+    {
+      "name": null,
+      "description": "Natriuretic peptide",
+      "pubchem_hnid": 2295849,
+      "url": null,
+      "id": 78
+    },
+    {
+      "name": null,
+      "description": "Urodilatin",
+      "pubchem_hnid": 2295850,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16000",
+      "id": 79
+    },
+    {
+      "name": null,
+      "description": "Atrial natriuretic peptide",
+      "pubchem_hnid": 2295851,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16003",
+      "id": 80
+    },
+    {
+      "name": null,
+      "description": "Brain natriuretic peptide",
+      "pubchem_hnid": 2295852,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16004",
+      "id": 81
+    },
+    {
+      "name": null,
+      "description": "C-Type natriuretic peptide",
+      "pubchem_hnid": 2295853,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16005",
+      "id": 82
+    },
+    {
+      "name": null,
+      "description": "Guanylin",
+      "pubchem_hnid": 2295854,
+      "url": null,
+      "id": 83
+    },
+    {
+      "name": null,
+      "description": "Uroguanylin",
+      "pubchem_hnid": 2295855,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16006",
+      "id": 84
+    },
+    {
+      "name": null,
+      "description": "Guanylin",
+      "pubchem_hnid": 2295856,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16007",
+      "id": 85
+    },
+    {
+      "name": null,
+      "description": "Endothelin",
+      "pubchem_hnid": 2295857,
+      "url": null,
+      "id": 86
+    },
+    {
+      "name": null,
+      "description": "Big endothelin",
+      "pubchem_hnid": 2295858,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16009",
+      "id": 87
+    },
+    {
+      "name": null,
+      "description": "Endothelin-1",
+      "pubchem_hnid": 2295859,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16010",
+      "id": 88
+    },
+    {
+      "name": null,
+      "description": "Endothelin-2",
+      "pubchem_hnid": 2295860,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16012",
+      "id": 89
+    },
+    {
+      "name": null,
+      "description": "Endothelin-3",
+      "pubchem_hnid": 2295861,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16013",
+      "id": 90
+    },
+    {
+      "name": null,
+      "description": "Urotensin",
+      "pubchem_hnid": 2295862,
+      "url": null,
+      "id": 91
+    },
+    {
+      "name": null,
+      "description": "Urotensin I",
+      "pubchem_hnid": 2295863,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16076",
+      "id": 92
+    },
+    {
+      "name": null,
+      "description": "Urotensin II",
+      "pubchem_hnid": 2295864,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16016",
+      "id": 93
+    },
+    {
+      "name": null,
+      "description": "Adrenomedullin",
+      "pubchem_hnid": 2295865,
+      "url": null,
+      "id": 94
+    },
+    {
+      "name": null,
+      "description": "Adrenomedullin",
+      "pubchem_hnid": 2295866,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16127",
+      "id": 95
+    },
+    {
+      "name": null,
+      "description": "Adrenomedullin-2",
+      "pubchem_hnid": 2295867,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16128",
+      "id": 96
+    },
+    {
+      "name": null,
+      "description": "Proadrenomedullin N-terminal 20 peptide",
+      "pubchem_hnid": 2295868,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18198",
+      "id": 97
+    },
+    {
+      "name": null,
+      "description": "Calcium-regulating peptides",
+      "pubchem_hnid": 2295869,
+      "url": null,
+      "id": 98
+    },
+    {
+      "name": null,
+      "description": "Thyroid peptide hormone",
+      "pubchem_hnid": 2295870,
+      "url": null,
+      "id": 99
+    },
+    {
+      "name": null,
+      "description": "Calcitonin",
+      "pubchem_hnid": 2295871,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C06865",
+      "id": 100
+    },
+    {
+      "name": null,
+      "description": "Calcitonin gene-related peptide 1",
+      "pubchem_hnid": 2295872,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16125",
+      "id": 101
+    },
+    {
+      "name": null,
+      "description": "Calcitonin gene-related peptide 2",
+      "pubchem_hnid": 2295873,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16126",
+      "id": 102
+    },
+    {
+      "name": null,
+      "description": "parathyroid peptide hormone",
+      "pubchem_hnid": 2295874,
+      "url": null,
+      "id": 103
+    },
+    {
+      "name": null,
+      "description": "Parathyroid hormone",
+      "pubchem_hnid": 2295875,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16051",
+      "id": 104
+    },
+    {
+      "name": null,
+      "description": "Others",
+      "pubchem_hnid": 2295876,
+      "url": null,
+      "id": 105
+    },
+    {
+      "name": null,
+      "description": "Katacalcin",
+      "pubchem_hnid": 2295877,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15876",
+      "id": 106
+    },
+    {
+      "name": null,
+      "description": "Calcitonin receptor-stimulating peptide 1",
+      "pubchem_hnid": 2295878,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16129",
+      "id": 107
+    },
+    {
+      "name": null,
+      "description": "Parathyroid hormone-related peptide (1-36)",
+      "pubchem_hnid": 2295879,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16052",
+      "id": 108
+    },
+    {
+      "name": null,
+      "description": "Tuberoinfundibular peptide of 39 residues",
+      "pubchem_hnid": 2295880,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16053",
+      "id": 109
+    },
+    {
+      "name": null,
+      "description": "Pituitary hormones",
+      "pubchem_hnid": 2295881,
+      "url": null,
+      "id": 110
+    },
+    {
+      "name": null,
+      "description": "Anterior pituitary hormone",
+      "pubchem_hnid": 2295882,
+      "url": null,
+      "id": 111
+    },
+    {
+      "name": null,
+      "description": "Growth hormone",
+      "pubchem_hnid": 2295883,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18181",
+      "id": 112
+    },
+    {
+      "name": null,
+      "description": "Thyroid stimulating hormone",
+      "pubchem_hnid": 2295884,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18182",
+      "id": 113
+    },
+    {
+      "name": null,
+      "description": "Luteinizing hormone",
+      "pubchem_hnid": 2295885,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18183",
+      "id": 114
+    },
+    {
+      "name": null,
+      "description": "Follicle stimulating hormone",
+      "pubchem_hnid": 2295886,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18184",
+      "id": 115
+    },
+    {
+      "name": null,
+      "description": "Prolactin",
+      "pubchem_hnid": 2295887,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18201",
+      "id": 116
+    },
+    {
+      "name": null,
+      "description": "Posterior pituitary hormone",
+      "pubchem_hnid": 2295888,
+      "url": null,
+      "id": 117
+    },
+    {
+      "name": null,
+      "description": "Oxytocin",
+      "pubchem_hnid": 2295889,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C00746",
+      "id": 118
+    },
+    {
+      "name": null,
+      "description": "Arg-vasopressin",
+      "pubchem_hnid": 2295890,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C13662",
+      "id": 119
+    },
+    {
+      "name": null,
+      "description": "Lys-vasopressin",
+      "pubchem_hnid": 2295891,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C07105",
+      "id": 120
+    },
+    {
+      "name": null,
+      "description": "Neurophysin I",
+      "pubchem_hnid": 2295892,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16077",
+      "id": 121
+    },
+    {
+      "name": null,
+      "description": "Neurophysin II",
+      "pubchem_hnid": 2295893,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16078",
+      "id": 122
+    },
+    {
+      "name": null,
+      "description": "Proopiomelanocortin-derived peptide",
+      "pubchem_hnid": 2295894,
+      "url": null,
+      "id": 123
+    },
+    {
+      "name": null,
+      "description": "Corticotropin",
+      "pubchem_hnid": 2295895,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C02017",
+      "id": 124
+    },
+    {
+      "name": null,
+      "description": "Corticotropin-like intermediary peptide",
+      "pubchem_hnid": 2295896,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16134",
+      "id": 125
+    },
+    {
+      "name": null,
+      "description": "Endorphin alpha",
+      "pubchem_hnid": 2295897,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16017",
+      "id": 126
+    },
+    {
+      "name": null,
+      "description": "Endorphin beta",
+      "pubchem_hnid": 2295898,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C02210",
+      "id": 127
+    },
+    {
+      "name": null,
+      "description": "Endorphin gamma",
+      "pubchem_hnid": 2295899,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16018",
+      "id": 128
+    },
+    {
+      "name": null,
+      "description": "Lipotropin beta",
+      "pubchem_hnid": 2295900,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16019",
+      "id": 129
+    },
+    {
+      "name": null,
+      "description": "Lipotropin gamma",
+      "pubchem_hnid": 2295901,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16020",
+      "id": 130
+    },
+    {
+      "name": null,
+      "description": "Melanotropin alpha",
+      "pubchem_hnid": 2295902,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C02758",
+      "id": 131
+    },
+    {
+      "name": null,
+      "description": "Melanotropin beta",
+      "pubchem_hnid": 2295903,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16136",
+      "id": 132
+    },
+    {
+      "name": null,
+      "description": "Melanotropin gamma",
+      "pubchem_hnid": 2295904,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16137",
+      "id": 133
+    },
+    {
+      "name": null,
+      "description": "Hypothalamic hormones",
+      "pubchem_hnid": 2295905,
+      "url": null,
+      "id": 134
+    },
+    {
+      "name": null,
+      "description": "Corticotropin-releasing hormone",
+      "pubchem_hnid": 2295906,
+      "url": null,
+      "id": 135
+    },
+    {
+      "name": null,
+      "description": "Corticotropin releasing hormone",
+      "pubchem_hnid": 2295907,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16079",
+      "id": 136
+    },
+    {
+      "name": null,
+      "description": "Urocortin I",
+      "pubchem_hnid": 2295908,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16080",
+      "id": 137
+    },
+    {
+      "name": null,
+      "description": "Urocortin II",
+      "pubchem_hnid": 2295909,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16081",
+      "id": 138
+    },
+    {
+      "name": null,
+      "description": "Urocortin III",
+      "pubchem_hnid": 2295910,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16082",
+      "id": 139
+    },
+    {
+      "name": null,
+      "description": "Gonadotropin-releasing hormone",
+      "pubchem_hnid": 2295911,
+      "url": null,
+      "id": 140
+    },
+    {
+      "name": null,
+      "description": "Gonadotropin-releasing hormone I",
+      "pubchem_hnid": 2295912,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C07607",
+      "id": 141
+    },
+    {
+      "name": null,
+      "description": "Gonadotropin-releasing hormone II",
+      "pubchem_hnid": 2295913,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16084",
+      "id": 142
+    },
+    {
+      "name": null,
+      "description": "Growth hormone-releasing hormone / Somatostatin",
+      "pubchem_hnid": 2295914,
+      "url": null,
+      "id": 143
+    },
+    {
+      "name": null,
+      "description": "Growth hormone-releasing hormone",
+      "pubchem_hnid": 2295915,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16085",
+      "id": 144
+    },
+    {
+      "name": null,
+      "description": "Somatostatin-28",
+      "pubchem_hnid": 2295916,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16021",
+      "id": 145
+    },
+    {
+      "name": null,
+      "description": "Somatostatin-14",
+      "pubchem_hnid": 2295917,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16022",
+      "id": 146
+    },
+    {
+      "name": null,
+      "description": "Cortistatin-29",
+      "pubchem_hnid": 2295918,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16023",
+      "id": 147
+    },
+    {
+      "name": null,
+      "description": "Cortistatin-17",
+      "pubchem_hnid": 2295919,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16024",
+      "id": 148
+    },
+    {
+      "name": null,
+      "description": "Thyrotropin-releasing hormone",
+      "pubchem_hnid": 2295920,
+      "url": null,
+      "id": 149
+    },
+    {
+      "name": null,
+      "description": "Thyrotropin-releasing hormone",
+      "pubchem_hnid": 2295921,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C03958",
+      "id": 150
+    },
+    {
+      "name": null,
+      "description": "Prolactin-releasing peptide",
+      "pubchem_hnid": 2295922,
+      "url": null,
+      "id": 151
+    },
+    {
+      "name": null,
+      "description": "Prolactin-releasing peptide-31",
+      "pubchem_hnid": 2295923,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16086",
+      "id": 152
+    },
+    {
+      "name": null,
+      "description": "Prolactin-releasing peptide-20",
+      "pubchem_hnid": 2295924,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16087",
+      "id": 153
+    },
+    {
+      "name": null,
+      "description": "Pituitary adenylate cyclase-activating peptide",
+      "pubchem_hnid": 2295925,
+      "url": null,
+      "id": 154
+    },
+    {
+      "name": null,
+      "description": "Pituitary adenylate cyclase-activating peptide-38",
+      "pubchem_hnid": 2295926,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16088",
+      "id": 155
+    },
+    {
+      "name": null,
+      "description": "Pituitary adenylate cyclase-activating peptide-27",
+      "pubchem_hnid": 2295927,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16089",
+      "id": 156
+    },
+    {
+      "name": null,
+      "description": "Metastin",
+      "pubchem_hnid": 2295928,
+      "url": null,
+      "id": 157
+    },
+    {
+      "name": null,
+      "description": "Metastin",
+      "pubchem_hnid": 2295929,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16090",
+      "id": 158
+    },
+    {
+      "name": null,
+      "description": "Kisspeptin-14",
+      "pubchem_hnid": 2295930,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16091",
+      "id": 159
+    },
+    {
+      "name": null,
+      "description": "Kisspeptin-13",
+      "pubchem_hnid": 2295931,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16092",
+      "id": 160
+    },
+    {
+      "name": null,
+      "description": "Kisspeptin-10",
+      "pubchem_hnid": 2295932,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16093",
+      "id": 161
+    },
+    {
+      "name": null,
+      "description": "Pancreatic peptides",
+      "pubchem_hnid": 2295933,
+      "url": null,
+      "id": 162
+    },
+    {
+      "name": null,
+      "description": "Insulin / C-peptide",
+      "pubchem_hnid": 2295934,
+      "url": null,
+      "id": 163
+    },
+    {
+      "name": null,
+      "description": "Insulin",
+      "pubchem_hnid": 2295935,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C00723",
+      "id": 164
+    },
+    {
+      "name": null,
+      "description": "C-peptide",
+      "pubchem_hnid": 2295936,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16120",
+      "id": 165
+    },
+    {
+      "name": null,
+      "description": "Insulin-like growth factor I",
+      "pubchem_hnid": 2295937,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16131",
+      "id": 166
+    },
+    {
+      "name": null,
+      "description": "Insulin-like growth factor II",
+      "pubchem_hnid": 2295938,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16132",
+      "id": 167
+    },
+    {
+      "name": null,
+      "description": "Relaxin",
+      "pubchem_hnid": 2295939,
+      "url": null,
+      "id": 168
+    },
+    {
+      "name": null,
+      "description": "Relaxin-1",
+      "pubchem_hnid": 2295940,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16121",
+      "id": 169
+    },
+    {
+      "name": null,
+      "description": "Relaxin-2",
+      "pubchem_hnid": 2295941,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16122",
+      "id": 170
+    },
+    {
+      "name": null,
+      "description": "Relaxin-3",
+      "pubchem_hnid": 2295942,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16123",
+      "id": 171
+    },
+    {
+      "name": null,
+      "description": "Relaxin-like factor",
+      "pubchem_hnid": 2295943,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16124",
+      "id": 172
+    },
+    {
+      "name": null,
+      "description": "Insulin-like peptide 5",
+      "pubchem_hnid": 2295944,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16178",
+      "id": 173
+    },
+    {
+      "name": null,
+      "description": "Glucagon",
+      "pubchem_hnid": 2295945,
+      "url": null,
+      "id": 174
+    },
+    {
+      "name": null,
+      "description": "Glucagon",
+      "pubchem_hnid": 2295946,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C01501",
+      "id": 175
+    },
+    {
+      "name": null,
+      "description": "Glucagon-like peptide 1",
+      "pubchem_hnid": 2295947,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16048",
+      "id": 176
+    },
+    {
+      "name": null,
+      "description": "Glucagon-like peptide 2",
+      "pubchem_hnid": 2295948,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16049",
+      "id": 177
+    },
+    {
+      "name": null,
+      "description": "Glicentin",
+      "pubchem_hnid": 2295949,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16050",
+      "id": 178
+    },
+    {
+      "name": null,
+      "description": "Oxyntomodulin",
+      "pubchem_hnid": 2295950,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18197",
+      "id": 179
+    },
+    {
+      "name": null,
+      "description": "Amylin",
+      "pubchem_hnid": 2295951,
+      "url": null,
+      "id": 180
+    },
+    {
+      "name": null,
+      "description": "Amylin",
+      "pubchem_hnid": 2295952,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16130",
+      "id": 181
+    },
+    {
+      "name": null,
+      "description": "Gonadal peptides",
+      "pubchem_hnid": 2295953,
+      "url": null,
+      "id": 182
+    },
+    {
+      "name": null,
+      "description": "Placental peptide",
+      "pubchem_hnid": 2295954,
+      "url": null,
+      "id": 183
+    },
+    {
+      "name": null,
+      "description": "Chorionic gonadotropin",
+      "pubchem_hnid": 2295955,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18185",
+      "id": 184
+    },
+    {
+      "name": null,
+      "description": "Activin A",
+      "pubchem_hnid": 2295956,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C17813",
+      "id": 185
+    },
+    {
+      "name": null,
+      "description": "Activin AB",
+      "pubchem_hnid": 2295957,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18208",
+      "id": 186
+    },
+    {
+      "name": null,
+      "description": "Activin B",
+      "pubchem_hnid": 2295958,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18209",
+      "id": 187
+    },
+    {
+      "name": null,
+      "description": "Placental lactogen",
+      "pubchem_hnid": 2295959,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18210",
+      "id": 188
+    },
+    {
+      "name": null,
+      "description": "Non-endocrine glands secretion peptides",
+      "pubchem_hnid": 2295960,
+      "url": null,
+      "id": 189
+    },
+    {
+      "name": null,
+      "description": "Gut peptide",
+      "pubchem_hnid": 2295961,
+      "url": null,
+      "id": 190
+    },
+    {
+      "name": null,
+      "description": "Gastrin-14",
+      "pubchem_hnid": 2295962,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18186",
+      "id": 191
+    },
+    {
+      "name": null,
+      "description": "Gastrin-17",
+      "pubchem_hnid": 2295963,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16113",
+      "id": 192
+    },
+    {
+      "name": null,
+      "description": "Gastrin-34",
+      "pubchem_hnid": 2295964,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18187",
+      "id": 193
+    },
+    {
+      "name": null,
+      "description": "Cholecystokinin-33",
+      "pubchem_hnid": 2295965,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16133",
+      "id": 194
+    },
+    {
+      "name": null,
+      "description": "Cholecystokinin-8",
+      "pubchem_hnid": 2295966,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16114",
+      "id": 195
+    },
+    {
+      "name": null,
+      "description": "Motilin",
+      "pubchem_hnid": 2295967,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16047",
+      "id": 196
+    },
+    {
+      "name": null,
+      "description": "Gastric inhibitory polypeptide",
+      "pubchem_hnid": 2295968,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15906",
+      "id": 197
+    },
+    {
+      "name": null,
+      "description": "Pancreatic polypeptide",
+      "pubchem_hnid": 2295969,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16117",
+      "id": 198
+    },
+    {
+      "name": null,
+      "description": "Peptide YY",
+      "pubchem_hnid": 2295970,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16118",
+      "id": 199
+    },
+    {
+      "name": null,
+      "description": "Vasoactive intestinal peptide",
+      "pubchem_hnid": 2295971,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16119",
+      "id": 200
+    },
+    {
+      "name": null,
+      "description": "Secretin",
+      "pubchem_hnid": 2295972,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C13523",
+      "id": 201
+    },
+    {
+      "name": null,
+      "description": "Apelin-36",
+      "pubchem_hnid": 2295973,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15856",
+      "id": 202
+    },
+    {
+      "name": null,
+      "description": "Apelin-13",
+      "pubchem_hnid": 2295974,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15855",
+      "id": 203
+    },
+    {
+      "name": null,
+      "description": "Renal peptide",
+      "pubchem_hnid": 2295975,
+      "url": null,
+      "id": 204
+    },
+    {
+      "name": null,
+      "description": "Erythropoietin",
+      "pubchem_hnid": 2295976,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18200",
+      "id": 205
+    },
+    {
+      "name": null,
+      "description": "Adipocytes secretion peptide",
+      "pubchem_hnid": 2295977,
+      "url": null,
+      "id": 206
+    },
+    {
+      "name": null,
+      "description": "Leptin",
+      "pubchem_hnid": 2295978,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18188",
+      "id": 207
+    },
+    {
+      "name": null,
+      "description": "Adiponectin",
+      "pubchem_hnid": 2295979,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18189",
+      "id": 208
+    },
+    {
+      "name": null,
+      "description": "Resistin",
+      "pubchem_hnid": 2295980,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18190",
+      "id": 209
+    },
+    {
+      "name": null,
+      "description": "Others",
+      "pubchem_hnid": 2295981,
+      "url": null,
+      "id": 210
+    },
+    {
+      "name": null,
+      "description": "Microbicidal and cytotoxic peptide",
+      "pubchem_hnid": 2295982,
+      "url": null,
+      "id": 211
+    },
+    {
+      "name": null,
+      "description": "Defensin alpha-1",
+      "pubchem_hnid": 2295983,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16054",
+      "id": 212
+    },
+    {
+      "name": null,
+      "description": "Defensin alpha-2",
+      "pubchem_hnid": 2295984,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16055",
+      "id": 213
+    },
+    {
+      "name": null,
+      "description": "Defensin alpha-3",
+      "pubchem_hnid": 2295985,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16056",
+      "id": 214
+    },
+    {
+      "name": null,
+      "description": "Defensin alpha-4",
+      "pubchem_hnid": 2295986,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16057",
+      "id": 215
+    },
+    {
+      "name": null,
+      "description": "Defensin alpha-5",
+      "pubchem_hnid": 2295987,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16058",
+      "id": 216
+    },
+    {
+      "name": null,
+      "description": "Defensin beta-1",
+      "pubchem_hnid": 2295988,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16059",
+      "id": 217
+    },
+    {
+      "name": null,
+      "description": "Defensin beta-2",
+      "pubchem_hnid": 2295989,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16060",
+      "id": 218
+    },
+    {
+      "name": null,
+      "description": "Defensin beta-3",
+      "pubchem_hnid": 2295990,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16061",
+      "id": 219
+    },
+    {
+      "name": null,
+      "description": "Defensin beta-4",
+      "pubchem_hnid": 2295991,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16062",
+      "id": 220
+    },
+    {
+      "name": null,
+      "description": "Liver-expressed antimicrobial peptide 1",
+      "pubchem_hnid": 2295992,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16063",
+      "id": 221
+    },
+    {
+      "name": null,
+      "description": "Liver-expressed antimicrobial peptide 2",
+      "pubchem_hnid": 2295993,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C16064",
+      "id": 222
+    },
+    {
+      "name": null,
+      "description": "Cathelicidin LL-37",
+      "pubchem_hnid": 2295995,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C18313",
+      "id": 223
+    },
+    {
+      "name": null,
+      "description": "Indolicidin",
+      "pubchem_hnid": 2295996,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15922",
+      "id": 224
+    },
+    {
+      "name": null,
+      "description": "Histatin 5",
+      "pubchem_hnid": 2295997,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08005&query=C15921",
+      "id": 225
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "target": 11
+    },
+    {
+      "source": 1,
+      "target": 14
+    },
+    {
+      "source": 1,
+      "target": 38
+    },
+    {
+      "source": 1,
+      "target": 53
+    },
+    {
+      "source": 2,
+      "target": 3
+    },
+    {
+      "source": 2,
+      "target": 4
+    },
+    {
+      "source": 2,
+      "target": 5
+    },
+    {
+      "source": 2,
+      "target": 6
+    },
+    {
+      "source": 2,
+      "target": 7
+    },
+    {
+      "source": 2,
+      "target": 8
+    },
+    {
+      "source": 2,
+      "target": 9
+    },
+    {
+      "source": 2,
+      "target": 10
+    },
+    {
+      "source": 11,
+      "target": 12
+    },
+    {
+      "source": 11,
+      "target": 13
+    },
+    {
+      "source": 14,
+      "target": 15
+    },
+    {
+      "source": 14,
+      "target": 16
+    },
+    {
+      "source": 14,
+      "target": 17
+    },
+    {
+      "source": 14,
+      "target": 18
+    },
+    {
+      "source": 14,
+      "target": 19
+    },
+    {
+      "source": 14,
+      "target": 20
+    },
+    {
+      "source": 14,
+      "target": 21
+    },
+    {
+      "source": 14,
+      "target": 22
+    },
+    {
+      "source": 14,
+      "target": 23
+    },
+    {
+      "source": 14,
+      "target": 24
+    },
+    {
+      "source": 14,
+      "target": 25
+    },
+    {
+      "source": 14,
+      "target": 26
+    },
+    {
+      "source": 14,
+      "target": 27
+    },
+    {
+      "source": 14,
+      "target": 28
+    },
+    {
+      "source": 14,
+      "target": 29
+    },
+    {
+      "source": 14,
+      "target": 30
+    },
+    {
+      "source": 14,
+      "target": 31
+    },
+    {
+      "source": 14,
+      "target": 32
+    },
+    {
+      "source": 14,
+      "target": 33
+    },
+    {
+      "source": 14,
+      "target": 34
+    },
+    {
+      "source": 14,
+      "target": 35
+    },
+    {
+      "source": 14,
+      "target": 36
+    },
+    {
+      "source": 14,
+      "target": 37
+    },
+    {
+      "source": 38,
+      "target": 39
+    },
+    {
+      "source": 38,
+      "target": 40
+    },
+    {
+      "source": 38,
+      "target": 41
+    },
+    {
+      "source": 38,
+      "target": 42
+    },
+    {
+      "source": 38,
+      "target": 43
+    },
+    {
+      "source": 38,
+      "target": 44
+    },
+    {
+      "source": 38,
+      "target": 45
+    },
+    {
+      "source": 38,
+      "target": 46
+    },
+    {
+      "source": 38,
+      "target": 47
+    },
+    {
+      "source": 38,
+      "target": 48
+    },
+    {
+      "source": 38,
+      "target": 49
+    },
+    {
+      "source": 38,
+      "target": 50
+    },
+    {
+      "source": 38,
+      "target": 51
+    },
+    {
+      "source": 38,
+      "target": 52
+    },
+    {
+      "source": 53,
+      "target": 54
+    },
+    {
+      "source": 53,
+      "target": 55
+    },
+    {
+      "source": 53,
+      "target": 56
+    },
+    {
+      "source": 53,
+      "target": 57
+    },
+    {
+      "source": 53,
+      "target": 58
+    },
+    {
+      "source": 53,
+      "target": 59
+    },
+    {
+      "source": 60,
+      "target": 61
+    },
+    {
+      "source": 60,
+      "target": 71
+    },
+    {
+      "source": 60,
+      "target": 75
+    },
+    {
+      "source": 60,
+      "target": 78
+    },
+    {
+      "source": 60,
+      "target": 83
+    },
+    {
+      "source": 60,
+      "target": 86
+    },
+    {
+      "source": 60,
+      "target": 91
+    },
+    {
+      "source": 60,
+      "target": 94
+    },
+    {
+      "source": 61,
+      "target": 62
+    },
+    {
+      "source": 61,
+      "target": 63
+    },
+    {
+      "source": 61,
+      "target": 64
+    },
+    {
+      "source": 61,
+      "target": 65
+    },
+    {
+      "source": 61,
+      "target": 66
+    },
+    {
+      "source": 61,
+      "target": 67
+    },
+    {
+      "source": 61,
+      "target": 68
+    },
+    {
+      "source": 61,
+      "target": 69
+    },
+    {
+      "source": 61,
+      "target": 70
+    },
+    {
+      "source": 71,
+      "target": 72
+    },
+    {
+      "source": 71,
+      "target": 73
+    },
+    {
+      "source": 71,
+      "target": 74
+    },
+    {
+      "source": 75,
+      "target": 76
+    },
+    {
+      "source": 75,
+      "target": 77
+    },
+    {
+      "source": 78,
+      "target": 79
+    },
+    {
+      "source": 78,
+      "target": 80
+    },
+    {
+      "source": 78,
+      "target": 81
+    },
+    {
+      "source": 78,
+      "target": 82
+    },
+    {
+      "source": 83,
+      "target": 84
+    },
+    {
+      "source": 83,
+      "target": 85
+    },
+    {
+      "source": 86,
+      "target": 87
+    },
+    {
+      "source": 86,
+      "target": 88
+    },
+    {
+      "source": 86,
+      "target": 89
+    },
+    {
+      "source": 86,
+      "target": 90
+    },
+    {
+      "source": 91,
+      "target": 92
+    },
+    {
+      "source": 91,
+      "target": 93
+    },
+    {
+      "source": 94,
+      "target": 95
+    },
+    {
+      "source": 94,
+      "target": 96
+    },
+    {
+      "source": 94,
+      "target": 97
+    },
+    {
+      "source": 98,
+      "target": 99
+    },
+    {
+      "source": 98,
+      "target": 103
+    },
+    {
+      "source": 98,
+      "target": 105
+    },
+    {
+      "source": 99,
+      "target": 100
+    },
+    {
+      "source": 99,
+      "target": 101
+    },
+    {
+      "source": 99,
+      "target": 102
+    },
+    {
+      "source": 103,
+      "target": 104
+    },
+    {
+      "source": 105,
+      "target": 106
+    },
+    {
+      "source": 105,
+      "target": 107
+    },
+    {
+      "source": 105,
+      "target": 108
+    },
+    {
+      "source": 105,
+      "target": 109
+    },
+    {
+      "source": 110,
+      "target": 111
+    },
+    {
+      "source": 110,
+      "target": 117
+    },
+    {
+      "source": 110,
+      "target": 123
+    },
+    {
+      "source": 111,
+      "target": 112
+    },
+    {
+      "source": 111,
+      "target": 113
+    },
+    {
+      "source": 111,
+      "target": 114
+    },
+    {
+      "source": 111,
+      "target": 115
+    },
+    {
+      "source": 111,
+      "target": 116
+    },
+    {
+      "source": 117,
+      "target": 118
+    },
+    {
+      "source": 117,
+      "target": 119
+    },
+    {
+      "source": 117,
+      "target": 120
+    },
+    {
+      "source": 117,
+      "target": 121
+    },
+    {
+      "source": 117,
+      "target": 122
+    },
+    {
+      "source": 123,
+      "target": 124
+    },
+    {
+      "source": 123,
+      "target": 125
+    },
+    {
+      "source": 123,
+      "target": 126
+    },
+    {
+      "source": 123,
+      "target": 127
+    },
+    {
+      "source": 123,
+      "target": 128
+    },
+    {
+      "source": 123,
+      "target": 129
+    },
+    {
+      "source": 123,
+      "target": 130
+    },
+    {
+      "source": 123,
+      "target": 131
+    },
+    {
+      "source": 123,
+      "target": 132
+    },
+    {
+      "source": 123,
+      "target": 133
+    },
+    {
+      "source": 134,
+      "target": 135
+    },
+    {
+      "source": 134,
+      "target": 140
+    },
+    {
+      "source": 134,
+      "target": 143
+    },
+    {
+      "source": 134,
+      "target": 149
+    },
+    {
+      "source": 134,
+      "target": 151
+    },
+    {
+      "source": 134,
+      "target": 154
+    },
+    {
+      "source": 134,
+      "target": 157
+    },
+    {
+      "source": 135,
+      "target": 136
+    },
+    {
+      "source": 135,
+      "target": 137
+    },
+    {
+      "source": 135,
+      "target": 138
+    },
+    {
+      "source": 135,
+      "target": 139
+    },
+    {
+      "source": 140,
+      "target": 141
+    },
+    {
+      "source": 140,
+      "target": 142
+    },
+    {
+      "source": 143,
+      "target": 144
+    },
+    {
+      "source": 143,
+      "target": 145
+    },
+    {
+      "source": 143,
+      "target": 146
+    },
+    {
+      "source": 143,
+      "target": 147
+    },
+    {
+      "source": 143,
+      "target": 148
+    },
+    {
+      "source": 149,
+      "target": 150
+    },
+    {
+      "source": 151,
+      "target": 152
+    },
+    {
+      "source": 151,
+      "target": 153
+    },
+    {
+      "source": 154,
+      "target": 155
+    },
+    {
+      "source": 154,
+      "target": 156
+    },
+    {
+      "source": 157,
+      "target": 158
+    },
+    {
+      "source": 157,
+      "target": 159
+    },
+    {
+      "source": 157,
+      "target": 160
+    },
+    {
+      "source": 157,
+      "target": 161
+    },
+    {
+      "source": 162,
+      "target": 163
+    },
+    {
+      "source": 162,
+      "target": 168
+    },
+    {
+      "source": 162,
+      "target": 174
+    },
+    {
+      "source": 162,
+      "target": 180
+    },
+    {
+      "source": 163,
+      "target": 164
+    },
+    {
+      "source": 163,
+      "target": 165
+    },
+    {
+      "source": 163,
+      "target": 166
+    },
+    {
+      "source": 163,
+      "target": 167
+    },
+    {
+      "source": 168,
+      "target": 169
+    },
+    {
+      "source": 168,
+      "target": 170
+    },
+    {
+      "source": 168,
+      "target": 171
+    },
+    {
+      "source": 168,
+      "target": 172
+    },
+    {
+      "source": 168,
+      "target": 173
+    },
+    {
+      "source": 174,
+      "target": 175
+    },
+    {
+      "source": 174,
+      "target": 176
+    },
+    {
+      "source": 174,
+      "target": 177
+    },
+    {
+      "source": 174,
+      "target": 178
+    },
+    {
+      "source": 174,
+      "target": 179
+    },
+    {
+      "source": 180,
+      "target": 181
+    },
+    {
+      "source": 182,
+      "target": 183
+    },
+    {
+      "source": 183,
+      "target": 184
+    },
+    {
+      "source": 183,
+      "target": 185
+    },
+    {
+      "source": 183,
+      "target": 186
+    },
+    {
+      "source": 183,
+      "target": 187
+    },
+    {
+      "source": 183,
+      "target": 188
+    },
+    {
+      "source": 189,
+      "target": 190
+    },
+    {
+      "source": 189,
+      "target": 204
+    },
+    {
+      "source": 189,
+      "target": 206
+    },
+    {
+      "source": 190,
+      "target": 191
+    },
+    {
+      "source": 190,
+      "target": 192
+    },
+    {
+      "source": 190,
+      "target": 193
+    },
+    {
+      "source": 190,
+      "target": 194
+    },
+    {
+      "source": 190,
+      "target": 195
+    },
+    {
+      "source": 190,
+      "target": 196
+    },
+    {
+      "source": 190,
+      "target": 197
+    },
+    {
+      "source": 190,
+      "target": 198
+    },
+    {
+      "source": 190,
+      "target": 199
+    },
+    {
+      "source": 190,
+      "target": 200
+    },
+    {
+      "source": 190,
+      "target": 201
+    },
+    {
+      "source": 190,
+      "target": 202
+    },
+    {
+      "source": 190,
+      "target": 203
+    },
+    {
+      "source": 204,
+      "target": 205
+    },
+    {
+      "source": 206,
+      "target": 207
+    },
+    {
+      "source": 206,
+      "target": 208
+    },
+    {
+      "source": 206,
+      "target": 209
+    },
+    {
+      "source": 210,
+      "target": 211
+    },
+    {
+      "source": 211,
+      "target": 212
+    },
+    {
+      "source": 211,
+      "target": 213
+    },
+    {
+      "source": 211,
+      "target": 214
+    },
+    {
+      "source": 211,
+      "target": 215
+    },
+    {
+      "source": 211,
+      "target": 216
+    },
+    {
+      "source": 211,
+      "target": 217
+    },
+    {
+      "source": 211,
+      "target": 218
+    },
+    {
+      "source": 211,
+      "target": 219
+    },
+    {
+      "source": 211,
+      "target": 220
+    },
+    {
+      "source": 211,
+      "target": 221
+    },
+    {
+      "source": 211,
+      "target": 222
+    },
+    {
+      "source": 211,
+      "target": 223
+    },
+    {
+      "source": 211,
+      "target": 224
+    },
+    {
+      "source": 211,
+      "target": 225
+    }
+  ]
+}

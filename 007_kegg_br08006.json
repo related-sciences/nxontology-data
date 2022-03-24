@@ -1,0 +1,1257 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "name": "007_kegg_br08006",
+    "pubchem_hierarchy_id": 7,
+    "pubchem_source_id": "br08006",
+    "pubchem_source_name": "KEGG",
+    "pubchem_description": null,
+    "pubchem_comments": [
+      "Last updated: November 17, 2010"
+    ],
+    "source_url": "http://www.genome.jp/kegg-bin/get_htext?br08006.keg"
+  },
+  "nodes": [
+    {
+      "name": null,
+      "description": "Plasticizers and plastics",
+      "pubchem_hnid": 2296011,
+      "url": null,
+      "id": 1
+    },
+    {
+      "name": null,
+      "description": "Alkylphenols",
+      "pubchem_hnid": 2296000,
+      "url": null,
+      "id": 2
+    },
+    {
+      "name": null,
+      "description": "Nonylphenol",
+      "pubchem_hnid": 2295999,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14993",
+      "id": 3
+    },
+    {
+      "name": null,
+      "description": "4-Octylphenol",
+      "pubchem_hnid": 2296065,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14132",
+      "id": 4
+    },
+    {
+      "name": null,
+      "description": "Styrenes",
+      "pubchem_hnid": 2296001,
+      "url": null,
+      "id": 5
+    },
+    {
+      "name": null,
+      "description": "Styrene",
+      "pubchem_hnid": 2296059,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C07083",
+      "id": 6
+    },
+    {
+      "name": null,
+      "description": "Octachlorostyrene",
+      "pubchem_hnid": 2296066,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18148",
+      "id": 7
+    },
+    {
+      "name": null,
+      "description": "Bisphenols",
+      "pubchem_hnid": 2296056,
+      "url": null,
+      "id": 8
+    },
+    {
+      "name": null,
+      "description": "Bisphenol A",
+      "pubchem_hnid": 2296069,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C13624",
+      "id": 9
+    },
+    {
+      "name": null,
+      "description": "Phthalates",
+      "pubchem_hnid": 2296061,
+      "url": null,
+      "id": 10
+    },
+    {
+      "name": null,
+      "description": "Di-n-pentyl phthalate",
+      "pubchem_hnid": 2296005,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14300",
+      "id": 11
+    },
+    {
+      "name": null,
+      "description": "Diethylhexyl adipate",
+      "pubchem_hnid": 2296015,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14240",
+      "id": 12
+    },
+    {
+      "name": null,
+      "description": "Butylbenzyl phthalate",
+      "pubchem_hnid": 2296037,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14211",
+      "id": 13
+    },
+    {
+      "name": null,
+      "description": "Di-n-propylphthalate",
+      "pubchem_hnid": 2296044,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14469",
+      "id": 14
+    },
+    {
+      "name": null,
+      "description": "Dicyclohexyl phthalate",
+      "pubchem_hnid": 2296048,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14529",
+      "id": 15
+    },
+    {
+      "name": null,
+      "description": "Di-n-hexyl phthalate",
+      "pubchem_hnid": 2296068,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14504",
+      "id": 16
+    },
+    {
+      "name": null,
+      "description": "Diethylhexyl phthalate",
+      "pubchem_hnid": 2296090,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C03690",
+      "id": 17
+    },
+    {
+      "name": null,
+      "description": "Diethyl phthalate",
+      "pubchem_hnid": 2296096,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14175",
+      "id": 18
+    },
+    {
+      "name": null,
+      "description": "Dibutyl phthalate",
+      "pubchem_hnid": 2296104,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14214",
+      "id": 19
+    },
+    {
+      "name": null,
+      "description": "Flame retardants",
+      "pubchem_hnid": 2296017,
+      "url": null,
+      "id": 20
+    },
+    {
+      "name": null,
+      "description": "PBDEs",
+      "pubchem_hnid": 2296111,
+      "url": null,
+      "id": 21
+    },
+    {
+      "name": null,
+      "description": "2,2',4,4',5-Pentabromodiphenyl ether (PBDE 99)",
+      "pubchem_hnid": 2296018,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18203",
+      "id": 22
+    },
+    {
+      "name": null,
+      "description": "2,2',4,4'-Tetrabromodiphenyl ether (PBDE 47)",
+      "pubchem_hnid": 2296064,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18205",
+      "id": 23
+    },
+    {
+      "name": null,
+      "description": "2,2',4,5'-Tetrabromodiphenyl ether (PBDE 49)",
+      "pubchem_hnid": 2296074,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18204",
+      "id": 24
+    },
+    {
+      "name": null,
+      "description": "2,2',4,4',5,6'-Hexabromodiphenyl ether (PBDE 154)",
+      "pubchem_hnid": 2296085,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18138",
+      "id": 25
+    },
+    {
+      "name": null,
+      "description": "Pesticides and herbicides",
+      "pubchem_hnid": 2296022,
+      "url": null,
+      "id": 26
+    },
+    {
+      "name": null,
+      "description": "Carbamate pesticides",
+      "pubchem_hnid": 2296024,
+      "url": null,
+      "id": 27
+    },
+    {
+      "name": null,
+      "description": "Methomyl",
+      "pubchem_hnid": 2296002,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C11196",
+      "id": 28
+    },
+    {
+      "name": null,
+      "description": "Carbaryl",
+      "pubchem_hnid": 2296060,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C07491",
+      "id": 29
+    },
+    {
+      "name": null,
+      "description": "Aldicarb",
+      "pubchem_hnid": 2296076,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C11015",
+      "id": 30
+    },
+    {
+      "name": null,
+      "description": "Vinclozolin",
+      "pubchem_hnid": 2296103,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C10981",
+      "id": 31
+    },
+    {
+      "name": null,
+      "description": "Benlate",
+      "pubchem_hnid": 2296110,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C10896",
+      "id": 32
+    },
+    {
+      "name": null,
+      "description": "Phenoxy herbicides",
+      "pubchem_hnid": 2296032,
+      "url": null,
+      "id": 33
+    },
+    {
+      "name": null,
+      "description": "2,4,5-Trichlorophenoxyacetic acid",
+      "pubchem_hnid": 2296012,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C07100",
+      "id": 34
+    },
+    {
+      "name": null,
+      "description": "2,4-Dichlorophenoxyacetate",
+      "pubchem_hnid": 2296100,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C03664",
+      "id": 35
+    },
+    {
+      "name": null,
+      "description": "Dithiocarbamate pesticides",
+      "pubchem_hnid": 2296035,
+      "url": null,
+      "id": 36
+    },
+    {
+      "name": null,
+      "description": "Metiram",
+      "pubchem_hnid": 2296028,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18144",
+      "id": 37
+    },
+    {
+      "name": null,
+      "description": "Maneb",
+      "pubchem_hnid": 2296045,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C15231",
+      "id": 38
+    },
+    {
+      "name": null,
+      "description": "Zineb",
+      "pubchem_hnid": 2296051,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C15232",
+      "id": 39
+    },
+    {
+      "name": null,
+      "description": "Ziram",
+      "pubchem_hnid": 2296078,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C15229",
+      "id": 40
+    },
+    {
+      "name": null,
+      "description": "Mancozeb",
+      "pubchem_hnid": 2296087,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C15225",
+      "id": 41
+    },
+    {
+      "name": null,
+      "description": "Organochlorine pesticides",
+      "pubchem_hnid": 2296063,
+      "url": null,
+      "id": 42
+    },
+    {
+      "name": null,
+      "description": "Chlordane",
+      "pubchem_hnid": 2296009,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14176",
+      "id": 43
+    },
+    {
+      "name": null,
+      "description": "Oxychlordane",
+      "pubchem_hnid": 2296010,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18146",
+      "id": 44
+    },
+    {
+      "name": null,
+      "description": "Toxaphene",
+      "pubchem_hnid": 2296016,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C15470",
+      "id": 45
+    },
+    {
+      "name": null,
+      "description": "DDT",
+      "pubchem_hnid": 2296023,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C04623",
+      "id": 46
+    },
+    {
+      "name": null,
+      "description": "DDE",
+      "pubchem_hnid": 2296027,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C04596",
+      "id": 47
+    },
+    {
+      "name": null,
+      "description": "Endosulfan",
+      "pubchem_hnid": 2296034,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C11090",
+      "id": 48
+    },
+    {
+      "name": null,
+      "description": "Dieldrin",
+      "pubchem_hnid": 2296040,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C13718",
+      "id": 49
+    },
+    {
+      "name": null,
+      "description": "Chlordecone",
+      "pubchem_hnid": 2296046,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C01792",
+      "id": 50
+    },
+    {
+      "name": null,
+      "description": "Methoxychlor",
+      "pubchem_hnid": 2296050,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C11043",
+      "id": 51
+    },
+    {
+      "name": null,
+      "description": "Heptachlor",
+      "pubchem_hnid": 2296057,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14185",
+      "id": 52
+    },
+    {
+      "name": null,
+      "description": "Aldrin",
+      "pubchem_hnid": 2296058,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C07552",
+      "id": 53
+    },
+    {
+      "name": null,
+      "description": "DDD",
+      "pubchem_hnid": 2296072,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C06636",
+      "id": 54
+    },
+    {
+      "name": null,
+      "description": "Endrin",
+      "pubchem_hnid": 2296079,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18124",
+      "id": 55
+    },
+    {
+      "name": null,
+      "description": "Mirex",
+      "pubchem_hnid": 2296081,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14184",
+      "id": 56
+    },
+    {
+      "name": null,
+      "description": "alpha-Hexachlorocyclohexane",
+      "pubchem_hnid": 2296094,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C15214",
+      "id": 57
+    },
+    {
+      "name": null,
+      "description": "trans-Nonachlor",
+      "pubchem_hnid": 2296095,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18145",
+      "id": 58
+    },
+    {
+      "name": null,
+      "description": "Heptachlor epoxide",
+      "pubchem_hnid": 2296107,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14327",
+      "id": 59
+    },
+    {
+      "name": null,
+      "description": "Pyrethroid pesticides",
+      "pubchem_hnid": 2296080,
+      "url": null,
+      "id": 60
+    },
+    {
+      "name": null,
+      "description": "Permethrin",
+      "pubchem_hnid": 2296014,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14388",
+      "id": 61
+    },
+    {
+      "name": null,
+      "description": "Fenvalerate",
+      "pubchem_hnid": 2296036,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C10988",
+      "id": 62
+    },
+    {
+      "name": null,
+      "description": "Esfenvalerate",
+      "pubchem_hnid": 2296041,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18147",
+      "id": 63
+    },
+    {
+      "name": null,
+      "description": "Cypermethrin",
+      "pubchem_hnid": 2296106,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C10984",
+      "id": 64
+    },
+    {
+      "name": null,
+      "description": "Others",
+      "pubchem_hnid": 2296083,
+      "url": null,
+      "id": 65
+    },
+    {
+      "name": null,
+      "description": "Hexachlorobenzene",
+      "pubchem_hnid": 2296003,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C11042",
+      "id": 66
+    },
+    {
+      "name": null,
+      "description": "2,4-Dichlorophenol",
+      "pubchem_hnid": 2296008,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C02625",
+      "id": 67
+    },
+    {
+      "name": null,
+      "description": "Pentachlorophenol",
+      "pubchem_hnid": 2296052,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C02575",
+      "id": 68
+    },
+    {
+      "name": null,
+      "description": "Dicofol",
+      "pubchem_hnid": 2296071,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14301",
+      "id": 69
+    },
+    {
+      "name": null,
+      "description": "Parathion",
+      "pubchem_hnid": 2296077,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C06604",
+      "id": 70
+    },
+    {
+      "name": null,
+      "description": "Amitrole",
+      "pubchem_hnid": 2296092,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C11261",
+      "id": 71
+    },
+    {
+      "name": null,
+      "description": "Alachlor",
+      "pubchem_hnid": 2296097,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C10928",
+      "id": 72
+    },
+    {
+      "name": null,
+      "description": "Nitrofen",
+      "pubchem_hnid": 2296098,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C11065",
+      "id": 73
+    },
+    {
+      "name": null,
+      "description": "Malathion",
+      "pubchem_hnid": 2296108,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C07497",
+      "id": 74
+    },
+    {
+      "name": null,
+      "description": "Trifluralin",
+      "pubchem_hnid": 2296109,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14343",
+      "id": 75
+    },
+    {
+      "name": null,
+      "description": "Dibromochloropropane",
+      "pubchem_hnid": 2296112,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14336",
+      "id": 76
+    },
+    {
+      "name": null,
+      "description": "Triazine herbicides",
+      "pubchem_hnid": 2296086,
+      "url": null,
+      "id": 77
+    },
+    {
+      "name": null,
+      "description": "Atrazine",
+      "pubchem_hnid": 2296013,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C06551",
+      "id": 78
+    },
+    {
+      "name": null,
+      "description": "Simazine",
+      "pubchem_hnid": 2296043,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C11172",
+      "id": 79
+    },
+    {
+      "name": null,
+      "description": "Metribuzin",
+      "pubchem_hnid": 2296099,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14332",
+      "id": 80
+    },
+    {
+      "name": null,
+      "description": "Dioxins and dioxin-like compounds",
+      "pubchem_hnid": 2296039,
+      "url": null,
+      "id": 81
+    },
+    {
+      "name": null,
+      "description": "Non-ortho (coplanar) PCBs",
+      "pubchem_hnid": 2296006,
+      "url": null,
+      "id": 82
+    },
+    {
+      "name": null,
+      "description": "3,4,5,3',4',5'-Hexachlorobiphenyl (PCB 169)",
+      "pubchem_hnid": 2296030,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18115",
+      "id": 83
+    },
+    {
+      "name": null,
+      "description": "3,4,3',4'-Tetrachlorobiphenyl (PCB 77)",
+      "pubchem_hnid": 2296031,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C11057",
+      "id": 84
+    },
+    {
+      "name": null,
+      "description": "3,3',4,4',5-Pentachlorobiphenyl (PCB 126)",
+      "pubchem_hnid": 2296073,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C14573",
+      "id": 85
+    },
+    {
+      "name": null,
+      "description": "3,4,4',5-Tetrachlorobiphenyl (PDB 81)",
+      "pubchem_hnid": 2296091,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18114",
+      "id": 86
+    },
+    {
+      "name": null,
+      "description": "Mono-ortho PCBs",
+      "pubchem_hnid": 2296007,
+      "url": null,
+      "id": 87
+    },
+    {
+      "name": null,
+      "description": "2,3,4,4',5-Pentachlorobiphenyl (PCB 114)",
+      "pubchem_hnid": 2296020,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18117",
+      "id": 88
+    },
+    {
+      "name": null,
+      "description": "2,3,3',4,4',5'-Hexachlorobiphenyl (PCB 157)",
+      "pubchem_hnid": 2296029,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18121",
+      "id": 89
+    },
+    {
+      "name": null,
+      "description": "2,3',4,4',5-Pentachlorobiphenyl (PCB 118)",
+      "pubchem_hnid": 2296042,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18118",
+      "id": 90
+    },
+    {
+      "name": null,
+      "description": "2,3',4,4',5'-Pentachlorobiphenyl (PCB 123)",
+      "pubchem_hnid": 2296053,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18119",
+      "id": 91
+    },
+    {
+      "name": null,
+      "description": "2,3',4,4',5,5'-Hexachlorobiphenyl (PCB 167)",
+      "pubchem_hnid": 2296055,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18122",
+      "id": 92
+    },
+    {
+      "name": null,
+      "description": "2,3,4,3',4'-Pentachlorobiphenyl (PCB 105)",
+      "pubchem_hnid": 2296088,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18116",
+      "id": 93
+    },
+    {
+      "name": null,
+      "description": "2,3,3',4,4',5,5'-Heptachlorobiphenyl (PCB 189)",
+      "pubchem_hnid": 2296089,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18123",
+      "id": 94
+    },
+    {
+      "name": null,
+      "description": "2,3,3',4,4',5-Hexachlorobiphenyl (PCB 156)",
+      "pubchem_hnid": 2296093,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18120",
+      "id": 95
+    },
+    {
+      "name": null,
+      "description": "PCDDs",
+      "pubchem_hnid": 2296026,
+      "url": null,
+      "id": 96
+    },
+    {
+      "name": null,
+      "description": "2,3,7,8-Tetrachlorodibenzodioxin (PCDD 48)",
+      "pubchem_hnid": 2296033,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C07557",
+      "id": 97
+    },
+    {
+      "name": null,
+      "description": "1,2,3,7,8-Pentachlorodibenzodioxin (PCDD 54)",
+      "pubchem_hnid": 2296038,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18099",
+      "id": 98
+    },
+    {
+      "name": null,
+      "description": "1,2,3,6,7,8-Hexachlorodibenzodioxin (PCDD 67)",
+      "pubchem_hnid": 2296062,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18101",
+      "id": 99
+    },
+    {
+      "name": null,
+      "description": "1,2,3,4,6,7,8-Heptachlorodibenzodioxin (PCDD 73)",
+      "pubchem_hnid": 2296070,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18103",
+      "id": 100
+    },
+    {
+      "name": null,
+      "description": "1,2,3,7,8,9-Hexachlorodibenzodioxin (PCDD 70)",
+      "pubchem_hnid": 2296075,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18102",
+      "id": 101
+    },
+    {
+      "name": null,
+      "description": "1,2,3,4,6,7,8,9-Octachlorodibenzo-p-dioxin (PCDD 75)",
+      "pubchem_hnid": 2296102,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18180",
+      "id": 102
+    },
+    {
+      "name": null,
+      "description": "1,2,3,4,7,8-Hexachlorodibenzodioxin (PCDD 66)",
+      "pubchem_hnid": 2296105,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18100",
+      "id": 103
+    },
+    {
+      "name": null,
+      "description": "PCDFs",
+      "pubchem_hnid": 2296054,
+      "url": null,
+      "id": 104
+    },
+    {
+      "name": null,
+      "description": "1,2,3,7,8-Pentachlorodibenzofuran (PCDF 94)",
+      "pubchem_hnid": 2296004,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18105",
+      "id": 105
+    },
+    {
+      "name": null,
+      "description": "1,2,3,4,7,8-Hexachlorodibenzofuran (PCDF 118)",
+      "pubchem_hnid": 2296019,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18107",
+      "id": 106
+    },
+    {
+      "name": null,
+      "description": "1,2,3,4,7,8,9-Heptachlorodibenzofuran (PCDF 134)",
+      "pubchem_hnid": 2296021,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18112",
+      "id": 107
+    },
+    {
+      "name": null,
+      "description": "1,2,3,6,7,8-Hexachlorodibenzofuran (PCDF 121)",
+      "pubchem_hnid": 2296025,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18109",
+      "id": 108
+    },
+    {
+      "name": null,
+      "description": "1,2,3,4,6,7,8-Heptachlorodibenzofuran (PCDF 131)",
+      "pubchem_hnid": 2296047,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18111",
+      "id": 109
+    },
+    {
+      "name": null,
+      "description": "2,3,4,6,7,8-Hexachlorodibenzofuran (PCDF 130)",
+      "pubchem_hnid": 2296049,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18110",
+      "id": 110
+    },
+    {
+      "name": null,
+      "description": "1,2,3,4,6,7,8,9-Octachlorodibenzofuran (PCDF 135)",
+      "pubchem_hnid": 2296067,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18113",
+      "id": 111
+    },
+    {
+      "name": null,
+      "description": "2,3,7,8-Tetrachlorodibenzofuran (PCDF 83)",
+      "pubchem_hnid": 2296082,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18104",
+      "id": 112
+    },
+    {
+      "name": null,
+      "description": "1,2,3,7,8,9-Hexachlorodibenzofuran (PCDF 124)",
+      "pubchem_hnid": 2296084,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18108",
+      "id": 113
+    },
+    {
+      "name": null,
+      "description": "2,3,4,7,8-Pentachlorodibenzofuran (PCDF 114)",
+      "pubchem_hnid": 2296101,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08006&query=C18106",
+      "id": 114
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "target": 5
+    },
+    {
+      "source": 1,
+      "target": 8
+    },
+    {
+      "source": 1,
+      "target": 10
+    },
+    {
+      "source": 2,
+      "target": 3
+    },
+    {
+      "source": 2,
+      "target": 4
+    },
+    {
+      "source": 5,
+      "target": 6
+    },
+    {
+      "source": 5,
+      "target": 7
+    },
+    {
+      "source": 8,
+      "target": 9
+    },
+    {
+      "source": 10,
+      "target": 11
+    },
+    {
+      "source": 10,
+      "target": 12
+    },
+    {
+      "source": 10,
+      "target": 13
+    },
+    {
+      "source": 10,
+      "target": 14
+    },
+    {
+      "source": 10,
+      "target": 15
+    },
+    {
+      "source": 10,
+      "target": 16
+    },
+    {
+      "source": 10,
+      "target": 17
+    },
+    {
+      "source": 10,
+      "target": 18
+    },
+    {
+      "source": 10,
+      "target": 19
+    },
+    {
+      "source": 20,
+      "target": 21
+    },
+    {
+      "source": 21,
+      "target": 22
+    },
+    {
+      "source": 21,
+      "target": 23
+    },
+    {
+      "source": 21,
+      "target": 24
+    },
+    {
+      "source": 21,
+      "target": 25
+    },
+    {
+      "source": 26,
+      "target": 27
+    },
+    {
+      "source": 26,
+      "target": 33
+    },
+    {
+      "source": 26,
+      "target": 36
+    },
+    {
+      "source": 26,
+      "target": 42
+    },
+    {
+      "source": 26,
+      "target": 60
+    },
+    {
+      "source": 26,
+      "target": 65
+    },
+    {
+      "source": 26,
+      "target": 77
+    },
+    {
+      "source": 27,
+      "target": 28
+    },
+    {
+      "source": 27,
+      "target": 29
+    },
+    {
+      "source": 27,
+      "target": 30
+    },
+    {
+      "source": 27,
+      "target": 31
+    },
+    {
+      "source": 27,
+      "target": 32
+    },
+    {
+      "source": 33,
+      "target": 34
+    },
+    {
+      "source": 33,
+      "target": 35
+    },
+    {
+      "source": 36,
+      "target": 37
+    },
+    {
+      "source": 36,
+      "target": 38
+    },
+    {
+      "source": 36,
+      "target": 39
+    },
+    {
+      "source": 36,
+      "target": 40
+    },
+    {
+      "source": 36,
+      "target": 41
+    },
+    {
+      "source": 42,
+      "target": 43
+    },
+    {
+      "source": 42,
+      "target": 44
+    },
+    {
+      "source": 42,
+      "target": 45
+    },
+    {
+      "source": 42,
+      "target": 46
+    },
+    {
+      "source": 42,
+      "target": 47
+    },
+    {
+      "source": 42,
+      "target": 48
+    },
+    {
+      "source": 42,
+      "target": 49
+    },
+    {
+      "source": 42,
+      "target": 50
+    },
+    {
+      "source": 42,
+      "target": 51
+    },
+    {
+      "source": 42,
+      "target": 52
+    },
+    {
+      "source": 42,
+      "target": 53
+    },
+    {
+      "source": 42,
+      "target": 54
+    },
+    {
+      "source": 42,
+      "target": 55
+    },
+    {
+      "source": 42,
+      "target": 56
+    },
+    {
+      "source": 42,
+      "target": 57
+    },
+    {
+      "source": 42,
+      "target": 58
+    },
+    {
+      "source": 42,
+      "target": 59
+    },
+    {
+      "source": 60,
+      "target": 61
+    },
+    {
+      "source": 60,
+      "target": 62
+    },
+    {
+      "source": 60,
+      "target": 63
+    },
+    {
+      "source": 60,
+      "target": 64
+    },
+    {
+      "source": 65,
+      "target": 66
+    },
+    {
+      "source": 65,
+      "target": 67
+    },
+    {
+      "source": 65,
+      "target": 68
+    },
+    {
+      "source": 65,
+      "target": 69
+    },
+    {
+      "source": 65,
+      "target": 70
+    },
+    {
+      "source": 65,
+      "target": 71
+    },
+    {
+      "source": 65,
+      "target": 72
+    },
+    {
+      "source": 65,
+      "target": 73
+    },
+    {
+      "source": 65,
+      "target": 74
+    },
+    {
+      "source": 65,
+      "target": 75
+    },
+    {
+      "source": 65,
+      "target": 76
+    },
+    {
+      "source": 77,
+      "target": 78
+    },
+    {
+      "source": 77,
+      "target": 79
+    },
+    {
+      "source": 77,
+      "target": 80
+    },
+    {
+      "source": 81,
+      "target": 82
+    },
+    {
+      "source": 81,
+      "target": 87
+    },
+    {
+      "source": 81,
+      "target": 96
+    },
+    {
+      "source": 81,
+      "target": 104
+    },
+    {
+      "source": 82,
+      "target": 83
+    },
+    {
+      "source": 82,
+      "target": 84
+    },
+    {
+      "source": 82,
+      "target": 85
+    },
+    {
+      "source": 82,
+      "target": 86
+    },
+    {
+      "source": 87,
+      "target": 88
+    },
+    {
+      "source": 87,
+      "target": 89
+    },
+    {
+      "source": 87,
+      "target": 90
+    },
+    {
+      "source": 87,
+      "target": 91
+    },
+    {
+      "source": 87,
+      "target": 92
+    },
+    {
+      "source": 87,
+      "target": 93
+    },
+    {
+      "source": 87,
+      "target": 94
+    },
+    {
+      "source": 87,
+      "target": 95
+    },
+    {
+      "source": 96,
+      "target": 97
+    },
+    {
+      "source": 96,
+      "target": 98
+    },
+    {
+      "source": 96,
+      "target": 99
+    },
+    {
+      "source": 96,
+      "target": 100
+    },
+    {
+      "source": 96,
+      "target": 101
+    },
+    {
+      "source": 96,
+      "target": 102
+    },
+    {
+      "source": 96,
+      "target": 103
+    },
+    {
+      "source": 104,
+      "target": 105
+    },
+    {
+      "source": 104,
+      "target": 106
+    },
+    {
+      "source": 104,
+      "target": 107
+    },
+    {
+      "source": 104,
+      "target": 108
+    },
+    {
+      "source": 104,
+      "target": 109
+    },
+    {
+      "source": 104,
+      "target": 110
+    },
+    {
+      "source": 104,
+      "target": 111
+    },
+    {
+      "source": 104,
+      "target": 112
+    },
+    {
+      "source": 104,
+      "target": 113
+    },
+    {
+      "source": 104,
+      "target": 114
+    }
+  ]
+}
