@@ -69,5 +69,16 @@ pre-commit run --all
 
 ## License
 
-This repository is released under an Apache License 2.0 License (see [LICENSE.md](LICENSE.md)).
-Please see the source licenses of ontologies imported into NXOntology objects.
+This source code in this repository is released under an Apache License 2.0 License
+(see [LICENSE.md](LICENSE.md)).
+Source code refers to the contents of the `main` branch and any other development branches containing code and documentation.
+
+The output branches contain data from external ontologies.
+Please refer to each respective ontology for its data license.
+If available, we include license information in the graph metadata for each ontology,
+but often license information is not supplied in the ontology data we ingest.
+Please attribute the source ontology when reusing data obtained from this project,
+and as best practice mention that the data was obtained via [NXOntology data](https://github.com/related-sciences/nxontology-data).
+
+Any original data produced by this repository is released under a [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+As noted above, the underlying ontology data is not original to this repository and upstream licenses should be consulted.
