@@ -3,16 +3,16 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "nxontology_imports"
+name = "nxontology_data"
 version = "0.0.0"
 description = "Pipelines to import ontologies into NXOntology objects."
 authors = ["Related Sciences Data Team"]
 readme = "README.md"
-repository = "https://github.com/related-sciences/nxontology-imports"
+repository = "https://github.com/related-sciences/nxontology-data"
 license = "Apache-2.0"
 
 [tool.poetry.scripts]
-nxontology_import = "nxontology_imports.commands:cli"
+nxontology_data = "nxontology_data.commands:cli"
 
 # https://python-poetry.org/docs/versions/
 [tool.poetry.dependencies]
