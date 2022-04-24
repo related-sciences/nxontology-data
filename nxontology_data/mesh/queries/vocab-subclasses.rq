@@ -1,0 +1,10 @@
+# MeSH vocabulary subclass relationships
+# output visualized at https://github.com/HHS/meshrdf/issues/153#issuecomment-740648015
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?subject_suffix ?object_suffix
+WHERE {
+  ?subject rdfs:subClassOf ?object .
+  BIND( STRAFTER(STR(?subject), "#") AS ?subject_suffix)
+  BIND( STRAFTER(STR(?object), "#") AS ?object_suffix)
+}
+ORDER BY ?subject_suffix ?predicate_suffix
