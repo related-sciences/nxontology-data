@@ -1,0 +1,10 @@
+# Extract tree numbers for descriptors
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
+SELECT ?mesh_id ?tree_number
+WHERE {
+  ?mesh_uri meshv:treeNumber ?tree_number_uri.
+  ?mesh_uri meshv:identifier ?mesh_id.
+  ?tree_number_uri rdfs:label ?tree_number.
+}
+ORDER BY ?mesh_id ?tree_number

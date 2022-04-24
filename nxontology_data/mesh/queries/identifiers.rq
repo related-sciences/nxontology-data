@@ -1,0 +1,18 @@
+# https://hhs.github.io/meshrdf/descriptors
+# https://www.nlm.nih.gov/mesh/intro_record_types.html
+# meshv:TopicalDescriptor is used for Class 1 Descriptors - Main Headings
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
+SELECT ?mesh_id ?mesh_class ?mesh_uri ?mesh_label
+WHERE {
+  ?mesh_uri a ?mesh_class_uri .
+  BIND( STRAFTER(STR(?mesh_class_uri), "mesh/vocab#") AS ?mesh_class)
+  ?mesh_uri meshv:identifier ?mesh_id.
+  OPTIONAL {
+    # meshv:prefLabel is used for meshv:Term
+    ?mesh_uri rdfs:label|meshv:prefLabel ?mesh_label .
+    FILTER (langMatches(lang(?mesh_label), "EN")) .
+  }
+}
+ORDER BY ?mesh_uri
+# LIMIT 10

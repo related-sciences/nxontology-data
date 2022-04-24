@@ -56,9 +56,7 @@ class MeshLoader:
         """
         Read SPARQL query from text file.
         """
-        return (
-            pathlib.Path(__file__).parent.joinpath(f"queries/{name}.sparql").read_text()
-        )
+        return pathlib.Path(__file__).parent.joinpath(f"queries/{name}.rq").read_text()
 
     @classmethod
     def run_query(

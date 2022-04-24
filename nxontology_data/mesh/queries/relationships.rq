@@ -1,0 +1,21 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
+SELECT ?parent_mesh_id ?child_mesh_id ?mesh_predicate ?child_uri ?parent_uri
+WHERE {
+  VALUES ?predicate_uri {
+    # match any of the following
+    # https://stackoverflow.com/a/28270671/4651668
+    meshv:broaderDescriptor
+    # preferredMappedTo versus mappedTo https://github.com/HHS/meshrdf/issues/155
+    meshv:preferredMappedTo
+    meshv:mappedTo
+  }
+  ?child_uri ?predicate_uri ?parent_uri.
+  ?parent_uri meshv:identifier ?parent_mesh_id.
+  ?child_uri meshv:identifier ?child_mesh_id .
+  BIND( STRAFTER(STR(?predicate_uri), "mesh/vocab#") AS ?mesh_predicate)
+#   ?parent rdfs:label ?parent_mesh_label .
+#   ?child rdfs:label ?child_mesh_label .
+}
+ORDER BY ?parent_mesh_id ?child_mesh_id
+# LIMIT 10
