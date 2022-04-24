@@ -34,7 +34,6 @@ LIMIT 10
 """
 
 
-@pytest.mark.slow
 def test_sparql_results_to_df(rdflib_foaf_graph: rdflib.Graph) -> None:
     results = rdflib_foaf_graph.query(_foaf_sparql)
     df = sparql_results_to_df(results)
