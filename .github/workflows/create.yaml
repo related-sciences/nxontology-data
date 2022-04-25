@@ -5,6 +5,12 @@ on:
   # - cron: '05 11 * * 2'
   workflow_dispatch:
     inputs:
+      source:
+        type: choice
+        description: 'Which data source to generate.'
+        options: 
+        - mesh
+        - pubchem
       overwrite:
         type: boolean
         description: 'Overwrite output on an existing branch.'
@@ -21,7 +27,7 @@ jobs:
       id: params
       shell: bash
       run: |
-        OUTPUT_PATH="output/pubchem"
+        OUTPUT_PATH="output/${{ github.event.inputs.source }}"
         echo "Setting parameter output_path=$OUTPUT_PATH"
         echo "::set-output name=output_path::$OUTPUT_PATH"
         OUTPUT_EXISTS="true"
@@ -40,7 +46,7 @@ jobs:
     - name: Create nxontologies
       id: extract
       if: steps.params.outputs.export == 'true'
-      run: poetry run nxontology_data pubchem
+      run: poetry run nxontology_data ${{ github.event.inputs.source }}
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: steps.params.outputs.export == 'true'

@@ -1,20 +1,17 @@
-import gzip
 import json
 import logging
 import re
-import sys
-from pathlib import Path
 from typing import Any, Counter
 
 import requests
-from networkx.readwrite.json_graph import node_link_data
 from nxontology import NXOntology
+
+from nxontology_data.utils import get_output_dir, write_ontology
 
 logger = logging.getLogger(__name__)
 
 
-root_dir = Path(__file__).parent.parent.parent
-output_dir = root_dir.joinpath("output", "pubchem")
+output_dir = get_output_dir().joinpath("pubchem")
 
 
 class PubchemClassificationApi:
@@ -164,21 +161,6 @@ skip_hierarchy_ids = [
 ]
 
 
-def write_ontology(nxo: NXOntology[Any]) -> Path:
-    data = node_link_data(nxo.graph)
-    json_bytes = json.dumps(data, indent=2, ensure_ascii=False).encode()
-    json_size_mb = sys.getsizeof(json_bytes) / 1_000_000
-    path = output_dir.joinpath(f"{nxo.graph.graph['name']}.json")
-    if json_size_mb > 10.0:
-        json_bytes = gzip.compress(json_bytes, mtime=0)
-        path = path.with_name(f"{path.name}.gz")
-        logging.info(
-            f"{path.name}: gzip reduced size from {json_size_mb:.1f} to {sys.getsizeof(json_bytes) / 1_000_000:.1f} MB"
-        )
-    path.write_bytes(json_bytes)
-    return path
-
-
 def export_all_heirarchies() -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
     hierarchies = PubchemClassificationApi.write_hierarchy_catalog()
@@ -196,7 +178,7 @@ def export_all_heirarchies() -> None:
         except requests.HTTPError:
             logging.info(f"Skipping {nxo_name} because request failed.")
             continue
-        write_ontology(nxo)
+        write_ontology(nxo=nxo, output_dir=output_dir)
 
 
 if __name__ == "__main__":
