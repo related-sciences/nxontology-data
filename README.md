@@ -40,6 +40,11 @@ digraph = node_link_graph(requests.get(url).json())
 The data sources that are currently imported are listed below.
 Please open an issue if you are interested in contributing support for additional sources.
 
+### MeSH
+
+MeSH (Medical Subject Headings) is created by the National Library Medicine and integrated into many projects including PubMed.
+See [nxontology_data/mesh](nxontology_data/mesh) for a detailed README.
+
 ### PubChem
 
 We import ontologies from the PubChem Classifications service
