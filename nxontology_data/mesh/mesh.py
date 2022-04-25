@@ -12,7 +12,7 @@ import rdflib
 from nxontology import NXOntology
 from rdflib.term import URIRef
 
-from nxontology_data.utils import sparql_results_to_df
+from nxontology_data.utils import get_output_dir, sparql_results_to_df, write_ontology
 
 logger = logging.getLogger(__name__)
 
@@ -48,7 +48,7 @@ class MeshLoader:
         directory: local or remote directory with raw MeSH RDF files.
         For example, <ftp://ftp.nlm.nih.gov/online/mesh/rdf/2020>.
         """
-        logging.info(f"Loading MeSH into rdflib from {directory}")
+        logger.info(f"Loading MeSH into rdflib from {directory}")
         rdf = rdflib.Graph()
         rdf.namespace_manager.bind("meshv", "http://id.nlm.nih.gov/mesh/vocab#")
         # load MeSH vocabulary (takes ~2 seconds)
@@ -56,12 +56,13 @@ class MeshLoader:
             # https://github.com/HHS/meshrdf/issues/153
             rdf.parse(source=src, format="n3")
         # load MeSH triples (takes ~30 minutes)
-        logging.info(f"Loading triples from {nt_filename}")
+        logger.info(f"Loading triples from {nt_filename}")
         with fsspec.open(
             f"{directory}/{nt_filename}", "rb", compression="infer"
         ) as src:
             # read in binary mode https://github.com/RDFLib/rdflib/issues/1144
             rdf.parse(source=src, format="nt")
+        logger.info("Reading rdflib.Graph is complete.")
         return rdf
 
     @staticmethod
@@ -133,8 +134,9 @@ class MeshLoader:
     @classmethod
     def create_nxo(cls, rdf: rdflib.Graph, year_yyyy: str) -> NXOntology[str]:
         nxo: NXOntology[str] = NXOntology()
-        nxo.graph.graph["name"] = "MeSH"
-        nxo.graph.graph["year"] = str(year_yyyy)
+        nxo.graph.graph["name"] = f"mesh_{year_yyyy}"
+        nxo.graph.graph["description"] = "Medical Subject Headings"
+        nxo.graph.graph["mesh_year"] = str(year_yyyy)
         nxo.set_graph_attributes(
             node_name_attribute="mesh_label",
             node_identifier_attribute="mesh_id",
@@ -237,3 +239,22 @@ class MeshLoader:
             if re.match(pattern, tree_number):
                 return True
         return False
+
+    @classmethod
+    def export_mesh_outputs(cls, year_yyyy: str = "2021") -> None:
+        year_yyyy = str(year_yyyy)  # protect against fire
+        output_dir = get_output_dir().joinpath("mesh")
+        output_dir.mkdir(parents=True, exist_ok=True)
+        rdf = cls.get_mesh_rdf(year_yyyy)
+        logger.info(f"Creating NXOntology for mesh {year_yyyy}.")
+        nxo = cls.create_nxo(rdf=rdf, year_yyyy=year_yyyy)
+        nxo_path = write_ontology(nxo=nxo, output_dir=output_dir)
+        logger.info(f"Wrote mesh nxontology to {nxo_path}.")
+        logger.info(f"Creating top-level term mapping for mesh {year_yyyy}.")
+        top_map_df = cls.create_top_level_map_df(nxo)
+        top_map_df.to_json(
+            output_dir.joinpath("mesh_{year_yyyy}.json.gz"),
+            orient="records",
+            compression={"method": "gzip", "mtime": 0},
+            indent=2,
+        )
