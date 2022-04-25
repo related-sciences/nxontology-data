@@ -9,6 +9,7 @@ import networkx as nx
 import nxontology
 import pandas as pd
 import rdflib
+import requests
 from nxontology import NXOntology
 from rdflib.term import URIRef
 
@@ -28,7 +29,7 @@ mesh_id_pattern: str = r"^[CD][0-9]{6}([0-9]{3}|)$"
 
 class MeshLoader:
 
-    MESH_FTP_ROOT = "ftp://ftp.nlm.nih.gov/online/mesh/rdf"
+    MESH_RDF_ROOT = "https://nlmpubs.nlm.nih.gov/projects/mesh/rdf"
 
     @classmethod
     def get_mesh_rdf(cls, year_yyyy: str) -> rdflib.Graph:
@@ -37,7 +38,7 @@ class MeshLoader:
         https://www.nlm.nih.gov/databases/download/mesh.html
         """
         return cls._read_mesh_rdf(
-            directory=f"{cls.MESH_FTP_ROOT}/{year_yyyy}",
+            directory=f"{cls.MESH_RDF_ROOT}/{year_yyyy}",
             nt_filename=f"mesh{year_yyyy}.nt.gz",
         )
 
@@ -56,12 +57,17 @@ class MeshLoader:
             # https://github.com/HHS/meshrdf/issues/153
             rdf.parse(source=src, format="n3")
         # load MeSH triples (takes ~30 minutes)
-        logger.info(f"Loading triples from {nt_filename}")
-        with fsspec.open(
-            f"{directory}/{nt_filename}", "rb", compression="infer"
-        ) as src:
-            # read in binary mode https://github.com/RDFLib/rdflib/issues/1144
-            rdf.parse(source=src, format="nt")
+        nt_path = f"{directory}/{nt_filename}"
+        logger.info(f"Loading triples from {nt_path}")
+        # Hit error with fsspec/aiohttp: Can not decode content-encoding: gzip
+        # https://github.com/fsspec/filesystem_spec/issues/389
+        # Use requests instead.
+        response = requests.get(url=nt_path, stream=True)
+        # gzip transfer-encoding is specified such that compression is automatically decoded.
+        # https://github.com/HHS/meshrdf/issues/193
+        response.raw.decode_content = True
+        # read in binary mode https://github.com/RDFLib/rdflib/issues/1144
+        rdf.parse(source=response.raw, format="nt")
         logger.info("Reading rdflib.Graph is complete.")
         return rdf
 
