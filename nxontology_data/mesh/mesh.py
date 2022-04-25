@@ -2,14 +2,15 @@ import functools
 import logging
 import pathlib
 import re
+import tempfile
 from typing import Iterator
+from urllib.request import urlretrieve
 
 import fsspec
 import networkx as nx
 import nxontology
 import pandas as pd
 import rdflib
-import requests
 from nxontology import NXOntology
 from rdflib.term import URIRef
 
@@ -37,17 +38,22 @@ class MeshLoader:
         Read MeSH into rdflib from the MeSH RDF FPT site.
         https://www.nlm.nih.gov/databases/download/mesh.html
         """
-        return cls._read_mesh_rdf(
-            directory=f"{cls.MESH_RDF_ROOT}/{year_yyyy}",
-            nt_filename=f"mesh{year_yyyy}.nt.gz",
-        )
+        # The .nt.gz file is around 115 MB.
+        # Reading from HTTPS/FTP to rdflib was causing timeout errors,
+        # so using a local temporary directory instead.
+        temp_dir = tempfile.mkdtemp(suffix="_nxontology_data_mesh")
+        logging.info(f"Copying mesh rdf files to {temp_dir}")
+        nt_filename = f"mesh{year_yyyy}.nt.gz"
+        for filename in "vocabulary_1.0.0.ttl", nt_filename:
+            url = f"{cls.MESH_RDF_ROOT}/{year_yyyy}/{filename}"
+            urlretrieve(url, f"{temp_dir}/{filename}")
+        return cls._read_mesh_rdf(directory=temp_dir, nt_filename=nt_filename)
 
     @staticmethod
     @functools.cache
     def _read_mesh_rdf(directory: str, nt_filename: str) -> rdflib.Graph:
         """
-        directory: local or remote directory with raw MeSH RDF files.
-        For example, <ftp://ftp.nlm.nih.gov/online/mesh/rdf/2020>.
+        directory: local directory with raw MeSH RDF files.
         """
         logger.info(f"Loading MeSH into rdflib from {directory}")
         rdf = rdflib.Graph()
@@ -57,17 +63,19 @@ class MeshLoader:
             # https://github.com/HHS/meshrdf/issues/153
             rdf.parse(source=src, format="n3")
         # load MeSH triples (takes ~30 minutes)
-        nt_path = f"{directory}/{nt_filename}"
-        logger.info(f"Loading triples from {nt_path}")
-        # Hit error with fsspec/aiohttp: Can not decode content-encoding: gzip
+        logger.info(f"Loading triples from {nt_filename}")
+        with fsspec.open(
+            f"{directory}/{nt_filename}", mode="rb", compression="infer"
+        ) as src:
+            # read in binary mode https://github.com/RDFLib/rdflib/issues/1144
+            rdf.parse(source=src, format="nt")
+        # When directory is an HTTPS or FTP URL, we encountered several issues:
+        # - Hit error with fsspec/aiohttp: Can not decode content-encoding: gzip
         # https://github.com/fsspec/filesystem_spec/issues/389
-        # Use requests instead.
-        response = requests.get(url=nt_path, stream=True)
-        # gzip transfer-encoding is specified such that compression is automatically decoded.
+        # - gzip transfer-encoding is specified such that compression is automatically decoded.
         # https://github.com/HHS/meshrdf/issues/193
-        response.raw.decode_content = True
-        # read in binary mode https://github.com/RDFLib/rdflib/issues/1144
-        rdf.parse(source=response.raw, format="nt")
+        # - requests.get with `stream=True` and `response.raw.decode_content=True` choked
+        # rdflib.exceptions.ParserError: Invalid line: <http://id.nlm.nih.gov/mesh/2021/D00895
         logger.info("Reading rdflib.Graph is complete.")
         return rdf
 
