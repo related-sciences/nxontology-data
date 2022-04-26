@@ -272,9 +272,14 @@ class MeshLoader:
     @classmethod
     def export_mesh_outputs(cls, year_yyyy: str | None = None) -> None:
         if year_yyyy is None:
+            # MeSH 2022 has a cycle, so hardcode to 2021 until fixed.
+            # https://github.com/HHS/meshrdf/issues/194
+            year_yyyy = "2021"
+        if year_yyyy is None:
             year_yyyy = bioversions.get_version("mesh")
         year_yyyy = str(year_yyyy)  # protect against fire
         output_dir = get_output_dir().joinpath("mesh")
+        logging.info(f"Processing mesh {year_yyyy} to {output_dir}")
         output_dir.mkdir(parents=True, exist_ok=True)
         rdf = cls.get_mesh_rdf(year_yyyy)
         logger.info(f"Creating NXOntology for mesh {year_yyyy}.")
