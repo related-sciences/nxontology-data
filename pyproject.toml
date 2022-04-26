@@ -18,7 +18,7 @@ nxontology_data = "nxontology_data.commands:cli"
 [tool.poetry.dependencies]
 python = "^3.10"
 bioregistry = "^0.4.77"
-bioversions = "^0.4.6"
+bioversions = "^0.4.54"
 fire = "^0.4.0"
 jupyter = "^1.0.0"
 nbconvert = "^6.2.0"
@@ -51,6 +51,7 @@ python_version = "3.10"
 # https://mypy.readthedocs.io/en/stable/config_file.html#using-a-pyproject-toml-file
 [[tool.mypy.overrides]]
 module = [
+    "bioversions.*",
     "fire.*",
     "fsspec.*",
     "networkx.*",

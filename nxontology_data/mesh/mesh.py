@@ -6,6 +6,7 @@ import tempfile
 from typing import Iterator
 from urllib.request import urlretrieve
 
+import bioversions
 import fsspec
 import networkx as nx
 import nxontology
@@ -148,7 +149,7 @@ class MeshLoader:
     @classmethod
     def create_nxo(cls, rdf: rdflib.Graph, year_yyyy: str) -> NXOntology[str]:
         nxo: NXOntology[str] = NXOntology()
-        nxo.graph.graph["name"] = f"mesh_{year_yyyy}"
+        nxo.graph.graph["name"] = "mesh"
         nxo.graph.graph["description"] = "Medical Subject Headings"
         nxo.graph.graph["mesh_year"] = str(year_yyyy)
         nxo.set_graph_attributes(
@@ -255,7 +256,9 @@ class MeshLoader:
         return False
 
     @classmethod
-    def export_mesh_outputs(cls, year_yyyy: str = "2021") -> None:
+    def export_mesh_outputs(cls, year_yyyy: str | None = None) -> None:
+        if year_yyyy is None:
+            year_yyyy = bioversions.get_version("mesh")
         year_yyyy = str(year_yyyy)  # protect against fire
         output_dir = get_output_dir().joinpath("mesh")
         output_dir.mkdir(parents=True, exist_ok=True)
@@ -267,7 +270,7 @@ class MeshLoader:
         logger.info(f"Creating top-level term mapping for mesh {year_yyyy}.")
         top_map_df = cls.create_top_level_map_df(nxo)
         top_map_df.to_json(
-            output_dir.joinpath("mesh_{year_yyyy}.json.gz"),
+            output_dir.joinpath("mesh_top_level_map.json.gz"),
             orient="records",
             compression={"method": "gzip", "mtime": 0},
             indent=2,
