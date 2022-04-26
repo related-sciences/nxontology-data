@@ -165,8 +165,11 @@ class MeshLoader:
         cls, rdf: rdflib.Graph, year_yyyy: str
     ) -> tuple[NXOntology[str], pd.DataFrame]:
         nxo: NXOntology[str] = NXOntology()
-        nxo.graph.graph["name"] = "mesh"
-        nxo.graph.graph["description"] = "Medical Subject Headings"
+        nxo.graph.graph["name"] = "mesh_full"
+        nxo.graph.graph["description"] = (
+            "Medical Subject Headings as an ontology, "
+            "including nodes beyond the traditional Topical Descriptor hierarchy such as Geographical Descriptors, Publication Types, and isolated Supplemental Concept Records."
+        )
         nxo.graph.graph["mesh_year"] = str(year_yyyy)
         nxo.set_graph_attributes(
             node_name_attribute="mesh_label",
@@ -193,10 +196,27 @@ class MeshLoader:
             except nxontology.exceptions.NodeNotFound:
                 # meshv:AllowedDescriptorQualifierPair nodes like D014199Q000031 aren't included as nodes
                 pass
-        # TODO: should we remove disconnected nodes
-        # nxo.graph = nxo.graph.remove_nodes_from(nxo.isolates)
-        id_df["in_nxo"] = id_df.mesh_id.isin(set(nxo.graph))
         return nxo, id_df
+
+    @classmethod
+    def create_topical_descriptor_nxo(cls, nxo: NXOntology[str]) -> NXOntology[str]:
+        """
+        Create a new NXOntology that is a subgraph of the input nxo
+        where only nodes that descend from a Topical Descriptor are retained.
+        """
+        topical_descriptor_descendants = set()
+        for node in nxo.roots:
+            info = nxo.node_info(node)
+            if info.data["mesh_class"] != "TopicalDescriptor":
+                continue
+            topical_descriptor_descendants |= info.descendants
+        graph_desc = nxo.graph.subgraph(topical_descriptor_descendants).copy()
+        graph_desc.graph["name"] = "mesh_topical_descriptor_descendants"
+        graph_desc.graph["description"] = (
+            "Medical Subject Headings as an ontology, "
+            "retaining only nodes that descend from a Topical Descriptor."
+        )
+        return NXOntology(graph_desc)
 
     @classmethod
     def create_vocab_digraph(cls, rdf: rdflib.Graph) -> nx.DiGraph:
@@ -282,13 +302,26 @@ class MeshLoader:
         logging.info(f"Processing mesh {year_yyyy} to {output_dir}")
         output_dir.mkdir(parents=True, exist_ok=True)
         rdf = cls.get_mesh_rdf(year_yyyy)
-        logger.info(f"Creating NXOntology for mesh {year_yyyy}.")
+        # Full NXOntology
+        logger.info(f"Creating full NXOntology for mesh {year_yyyy}.")
         nxo, id_df = cls.create_nxo(rdf=rdf, year_yyyy=year_yyyy)
         nxo_path = write_ontology(nxo=nxo, output_dir=output_dir)
-        logger.info(f"Wrote mesh nxontology to {nxo_path}.")
+        # Topical descriptor NXOntology
+        nxo_desc = cls.create_topical_descriptor_nxo(nxo)
+        nxo_path = write_ontology(nxo=nxo_desc, output_dir=output_dir)
+        logger.info(
+            f"Wrote mesh topical descriptor descendant nxontology to {nxo_path}."
+        )
+        # Identifier table
+        id_df["in_full_nxo"] = id_df.mesh_id.isin(set(nxo.graph))
+        id_df["in_desc_nxo"] = id_df.mesh_id.isin(set(nxo_desc.graph))
         write_dataframe(df=id_df, path=output_dir.joinpath("mesh_identifiers.json.gz"))
+        # Top level node mapping
         logger.info(f"Creating top-level term mapping for mesh {year_yyyy}.")
-        top_map_df = cls.create_top_level_map_df(nxo)
+        top_map_df = cls.create_top_level_map_df(nxo_desc)
         write_dataframe(
-            df=top_map_df, path=output_dir.joinpath("mesh_top_level_map.json.gz")
+            df=top_map_df,
+            path=output_dir.joinpath(
+                "mesh_topical_descriptor_descendants_top_level_map.json.gz"
+            ),
         )
