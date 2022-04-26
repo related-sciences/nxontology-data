@@ -174,7 +174,7 @@ web = ["pyyaml", "rdflib", "rdflib-jsonld", "flask", "flasgger", "bootstrap-flas
 
 [[package]]
 name = "bioversions"
-version = "0.4.53"
+version = "0.4.54"
 description = "What's the current version for each biological database?"
 category = "main"
 optional = false
@@ -1854,8 +1854,8 @@ bioregistry = [
     {file = "bioregistry-0.4.97.tar.gz", hash = "sha256:05f70882e9c8578da9b0e00794d060e9c32ad7295c6bb2e75219aaf48a4f2a33"},
 ]
 bioversions = [
-    {file = "bioversions-0.4.53-py3-none-any.whl", hash = "sha256:48df9d39a026e7913cdb7d00ecd5fcc9a83e0c6bbcd86e6480e6e2de3d55fccf"},
-    {file = "bioversions-0.4.53.tar.gz", hash = "sha256:b5f3d6d4492485de5279075e7bc8e25af54e96aa1ccbf8fd4bf792766180702b"},
+    {file = "bioversions-0.4.54-py3-none-any.whl", hash = "sha256:d1c08af6b7fcf4453226becdee907c53b7c21fbb603d4a8039eb7ad8a4e08409"},
+    {file = "bioversions-0.4.54.tar.gz", hash = "sha256:39f94b083afe686e7a9b845e25d95b3354d0c385cdc62a12ea8c73898ac1f9e8"},
 ]
 bleach = [
     {file = "bleach-5.0.0-py3-none-any.whl", hash = "sha256:08a1fe86d253b5c88c92cc3d810fd8048a16d15762e1e5b74d502256e5926aa1"},
