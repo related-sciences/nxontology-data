@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import functools
 import logging
 import pathlib
@@ -15,7 +17,12 @@ import rdflib
 from nxontology import NXOntology
 from rdflib.term import URIRef
 
-from nxontology_data.utils import get_output_dir, sparql_results_to_df, write_ontology
+from nxontology_data.utils import (
+    get_output_dir,
+    sparql_results_to_df,
+    write_dataframe,
+    write_ontology,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -127,6 +134,12 @@ class MeshLoader:
             for mesh_id, tns in tree_number_df.groupby("mesh_id").tree_number
         }
 
+    @classmethod
+    def get_identifier_df(cls, rdf: rdflib.Graph) -> pd.DataFrame:
+        id_df = cls.run_query(rdf, "identifiers")
+        id_df["tree_numbers"] = id_df["mesh_id"].map(cls._get_id_to_tree_numbers(rdf))
+        return id_df
+
     _node_classes = {
         "CheckTag",  # 2 disconnected terms: male and female
         "GeographicalDescriptor",
@@ -144,10 +157,13 @@ class MeshLoader:
         "mesh_class",
         "mesh_uri",
         "mesh_label",
+        "tree_numbers",
     ]
 
     @classmethod
-    def create_nxo(cls, rdf: rdflib.Graph, year_yyyy: str) -> NXOntology[str]:
+    def create_nxo(
+        cls, rdf: rdflib.Graph, year_yyyy: str
+    ) -> tuple[NXOntology[str], pd.DataFrame]:
         nxo: NXOntology[str] = NXOntology()
         nxo.graph.graph["name"] = "mesh"
         nxo.graph.graph["description"] = "Medical Subject Headings"
@@ -158,16 +174,13 @@ class MeshLoader:
             node_url_attribute="mesh_uri",
         )
         # add nodes
-        id_df = cls.run_query(rdf, "identifiers")
-        id_to_tns = cls._get_id_to_tree_numbers(rdf)
+        id_df = cls.get_identifier_df(rdf)
         for row in (
             id_df[cls._node_attrs]
             .query("mesh_class in @cls._node_classes")
             .to_dict(orient="records")
         ):
             mesh_id = row["mesh_id"]
-            if tns := id_to_tns.get(mesh_id):
-                row["tree_numbers"] = tns
             nxo.add_node(mesh_id, **row)
         # add edges
         for s, p, o in cls._get_relationship_triples(rdf):
@@ -182,7 +195,8 @@ class MeshLoader:
                 pass
         # TODO: should we remove disconnected nodes
         # nxo.graph = nxo.graph.remove_nodes_from(nxo.isolates)
-        return nxo
+        id_df["in_nxo"] = id_df.mesh_id.isin(set(nxo.graph))
+        return nxo, id_df
 
     @classmethod
     def create_vocab_digraph(cls, rdf: rdflib.Graph) -> nx.DiGraph:
@@ -264,14 +278,12 @@ class MeshLoader:
         output_dir.mkdir(parents=True, exist_ok=True)
         rdf = cls.get_mesh_rdf(year_yyyy)
         logger.info(f"Creating NXOntology for mesh {year_yyyy}.")
-        nxo = cls.create_nxo(rdf=rdf, year_yyyy=year_yyyy)
+        nxo, id_df = cls.create_nxo(rdf=rdf, year_yyyy=year_yyyy)
         nxo_path = write_ontology(nxo=nxo, output_dir=output_dir)
         logger.info(f"Wrote mesh nxontology to {nxo_path}.")
+        write_dataframe(df=id_df, path=output_dir.joinpath("mesh_identifiers.json.gz"))
         logger.info(f"Creating top-level term mapping for mesh {year_yyyy}.")
         top_map_df = cls.create_top_level_map_df(nxo)
-        top_map_df.to_json(
-            output_dir.joinpath("mesh_top_level_map.json.gz"),
-            orient="records",
-            compression={"method": "gzip", "mtime": 0},
-            indent=2,
+        write_dataframe(
+            df=top_map_df, path=output_dir.joinpath("mesh_top_level_map.json.gz")
         )

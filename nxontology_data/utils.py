@@ -33,6 +33,15 @@ def write_ontology(nxo: NXOntology[Any], output_dir: Path) -> Path:
     return path
 
 
+def write_dataframe(df: pd.DataFrame, path: Path) -> None:
+    df.to_json(
+        path,
+        orient="records",
+        compression={"method": "gzip", "mtime": 0},
+        indent=2,
+    )
+
+
 def sparql_results_to_df(results: SPARQLResult) -> pd.DataFrame:
     """
     Export results from an rdflib SPARQL query into a `pandas.DataFrame`,
