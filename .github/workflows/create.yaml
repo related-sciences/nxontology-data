@@ -1,4 +1,4 @@
-name: Create NXOntology Imports
+name: Create NXOntology
 on:
   # schedule:
   # # https://crontab.guru/#05_11_*_*_2
@@ -15,9 +15,26 @@ on:
         type: boolean
         description: 'Overwrite output on an existing branch.'
         default: false
+permissions: write-all
 jobs:
-  export:
+  create-runner:
     runs-on: ubuntu-latest
+    outputs:
+      label: ${{ steps.create-runner.outputs.label }}
+    steps:
+      - id: create-runner
+        uses: related-sciences/gce-github-runner@main
+        with:
+          token: ${{ secrets.GH_SA_TOKEN }}
+          project_id: ${{ secrets.GCP_PROJECT_ID }}
+          runner_service_account: ${{ secrets.GCP_SA }}
+          service_account_key: ${{ secrets.GCP_SA_KEY }}
+          machine_type: n2-highmem-8
+          image_project: ubuntu-os-cloud
+          image_family: ubuntu-2004-lts
+  export:
+    needs: create-runner
+    runs-on: ${{ needs.create-runner.outputs.label }}
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
@@ -43,7 +60,7 @@ jobs:
         fi
         echo "Setting parameter export=$EXPORT"
         echo "::set-output name=export::$EXPORT"
-    - name: Create nxontologies
+    - name: Create output
       id: extract
       if: steps.params.outputs.export == 'true'
       run: poetry run nxontology_data ${{ github.event.inputs.source }}
@@ -57,3 +74,8 @@ jobs:
         # Won't actually enable jekyll because we're not using GitHub Pages.
         # https://github.com/peaceiris/actions-gh-pages/issues/660
         enable_jekyll: true
+    - name: Stop GCE runner
+      if: always()
+      uses: related-sciences/gce-github-runner@main
+      with:
+        command: stop
