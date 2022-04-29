@@ -11,6 +11,7 @@ on:
         options: 
         - mesh
         - pubchem
+        - test  # for testing this action
       overwrite:
         type: boolean
         description: 'Overwrite output on an existing branch.'

@@ -30,6 +30,7 @@ def write_ontology(nxo: NXOntology[Any], output_dir: Path) -> Path:
             f"{path.name}: gzip reduced size from {json_size_mb:.1f} to {sys.getsizeof(json_bytes) / 1_000_000:.1f} MB"
         )
     path.write_bytes(json_bytes)
+    logger.info(f"Wrote ontology to {path}")
     return path
 
 
