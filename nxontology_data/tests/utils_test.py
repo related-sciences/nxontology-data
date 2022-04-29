@@ -1,7 +1,14 @@
 import pytest
 import rdflib
 
-from nxontology_data.utils import sparql_results_to_df
+from nxontology_data.utils import get_output_dir, sparql_results_to_df
+
+
+def test_get_output_dir() -> None:
+    output_dir = get_output_dir()
+    root = output_dir.parent
+    # file that should only exist in root directory
+    assert root.joinpath("pyproject.toml").exists()
 
 
 @pytest.fixture
