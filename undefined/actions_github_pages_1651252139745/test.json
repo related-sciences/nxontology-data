@@ -1,0 +1,11 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "nxontology_version": "0.4.1",
+    "nxontology_created": "2022-04-29T17:08:59+00:00",
+    "name": "test"
+  },
+  "nodes": [],
+  "links": []
+}
