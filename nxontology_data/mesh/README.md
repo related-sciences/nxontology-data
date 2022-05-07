@@ -3,10 +3,12 @@
 Key links:
 
 - [`HHS/meshrdf` GitHub Repository](https://github.com/HHS/meshrdf).
-  Issues below:
+  Relevant issues below:
     - [Difference between mappedTo and preferredMappedTo predicates?](https://github.com/HHS/meshrdf/issues/155)
     - [Comment by Dan Davis on creating a TopicalDescriptor Ontology](https://github.com/HHS/meshrdf/issues/156#issuecomment-752226217)
     - [Pagination / offset of results for the SPARQL endpoint is faulty](https://github.com/HHS/meshrdf/issues/150)
+    - [2022 MeSH descriptor hierarchy contains a cycle](https://github.com/HHS/meshrdf/issues/194)
+
 - [MeSH RDF Technical Documentation](https://hhs.github.io/meshrdf/)
 - [MeSH Homepage](https://www.nlm.nih.gov/mesh/meshhome.html)
 - [MeSH SPARQL Endpoint](https://id.nlm.nih.gov/mesh/query)
