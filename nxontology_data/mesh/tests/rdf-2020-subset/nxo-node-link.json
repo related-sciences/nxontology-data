@@ -2,9 +2,12 @@
   "directed": true,
   "multigraph": false,
   "graph": {
-    "name": "MeSH",
-    "year": "2020",
-    "node_label_attribute": "mesh_label",
+    "nxontology_version": "0.4.1",
+    "nxontology_created": "2022-05-18T13:07:00+00:00",
+    "name": "mesh_full",
+    "description": "Medical Subject Headings as an ontology, including nodes beyond the traditional Topical Descriptor hierarchy such as Geographical Descriptors, Publication Types, and isolated Supplemental Concept Records.",
+    "mesh_year": "2020",
+    "node_name_attribute": "mesh_label",
     "node_identifier_attribute": "mesh_id",
     "node_url_attribute": "mesh_uri"
   },
@@ -14,6 +17,7 @@
       "mesh_class": "SCR_Disease",
       "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/C000598941",
       "mesh_label": "Keratoactinomycosis",
+      "tree_numbers": null,
       "id": "C000598941"
     },
     {
@@ -21,6 +25,7 @@
       "mesh_class": "TopicalDescriptor",
       "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/D003316",
       "mesh_label": "Corneal Diseases",
+      "tree_numbers": null,
       "id": "D003316"
     },
     {
@@ -28,6 +33,7 @@
       "mesh_class": "TopicalDescriptor",
       "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/D003320",
       "mesh_label": "Corneal Ulcer",
+      "tree_numbers": null,
       "id": "D003320"
     },
     {
@@ -35,6 +41,7 @@
       "mesh_class": "TopicalDescriptor",
       "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/D003607",
       "mesh_label": "Dacryocystitis",
+      "tree_numbers": null,
       "id": "D003607"
     },
     {
@@ -42,6 +49,7 @@
       "mesh_class": "TopicalDescriptor",
       "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/D005128",
       "mesh_label": "Eye Diseases",
+      "tree_numbers": null,
       "id": "D005128"
     },
     {
@@ -49,6 +57,7 @@
       "mesh_class": "TopicalDescriptor",
       "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/D007239",
       "mesh_label": "Infections",
+      "tree_numbers": null,
       "id": "D007239"
     },
     {
@@ -56,6 +65,7 @@
       "mesh_class": "TopicalDescriptor",
       "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/D007634",
       "mesh_label": "Keratitis",
+      "tree_numbers": null,
       "id": "D007634"
     },
     {
@@ -63,6 +73,7 @@
       "mesh_class": "TopicalDescriptor",
       "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/D007766",
       "mesh_label": "Lacrimal Apparatus Diseases",
+      "tree_numbers": null,
       "id": "D007766"
     },
     {
@@ -70,6 +81,7 @@
       "mesh_class": "TopicalDescriptor",
       "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/D015817",
       "mesh_label": "Eye Infections",
+      "tree_numbers": null,
       "id": "D015817"
     }
   ],
@@ -92,7 +104,7 @@
     {
       "predicate": "meshv:broaderDescriptor",
       "source": "D005128",
-      "target": "D015817"
+      "target": "D003316"
     },
     {
       "predicate": "meshv:broaderDescriptor",
@@ -102,7 +114,7 @@
     {
       "predicate": "meshv:broaderDescriptor",
       "source": "D005128",
-      "target": "D003316"
+      "target": "D015817"
     },
     {
       "predicate": "meshv:broaderDescriptor",

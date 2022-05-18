@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import functools
+import json
 import logging
 import pathlib
 import re
@@ -124,13 +125,13 @@ class MeshLoader:
             predicate = rdflib.util.from_n3(
                 f"meshv:{rel_type}", nsm=rdf.namespace_manager
             )
-            yield from rdf.triples((None, predicate, None))
+            yield from sorted(rdf.triples((None, predicate, None)))
 
     @classmethod
-    def _get_id_to_tree_numbers(cls, rdf: rdflib.Graph) -> dict[str, str]:
+    def _get_id_to_tree_numbers(cls, rdf: rdflib.Graph) -> dict[str, list[str]]:
         tree_number_df = cls.run_query(rdf, "tree-numbers")
         return {
-            mesh_id: tns.to_list()
+            mesh_id: sorted(tns.to_list())
             for mesh_id, tns in tree_number_df.groupby("mesh_id").tree_number
         }
 
@@ -138,6 +139,8 @@ class MeshLoader:
     def get_identifier_df(cls, rdf: rdflib.Graph) -> pd.DataFrame:
         id_df = cls.run_query(rdf, "identifiers")
         id_df["tree_numbers"] = id_df["mesh_id"].map(cls._get_id_to_tree_numbers(rdf))
+        # SPARQL includes ORDER BY, but sort again for extra safety
+        id_df = id_df.sort_values("mesh_uri")
         return id_df
 
     _node_classes = {
@@ -178,10 +181,11 @@ class MeshLoader:
         )
         # add nodes
         id_df = cls.get_identifier_df(rdf)
-        for row in (
+        # Use .to_json and not .to_dict to convert NaN to None
+        for row in json.loads(
             id_df[cls._node_attrs]
             .query("mesh_class in @cls._node_classes")
-            .to_dict(orient="records")
+            .to_json(orient="records")
         ):
             mesh_id = row["mesh_id"]
             nxo.add_node(mesh_id, **row)
