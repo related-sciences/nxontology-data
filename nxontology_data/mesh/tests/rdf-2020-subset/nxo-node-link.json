@@ -1,0 +1,128 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "name": "MeSH",
+    "year": "2020",
+    "node_label_attribute": "mesh_label",
+    "node_identifier_attribute": "mesh_id",
+    "node_url_attribute": "mesh_uri"
+  },
+  "nodes": [
+    {
+      "mesh_id": "C000598941",
+      "mesh_class": "SCR_Disease",
+      "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/C000598941",
+      "mesh_label": "Keratoactinomycosis",
+      "id": "C000598941"
+    },
+    {
+      "mesh_id": "D003316",
+      "mesh_class": "TopicalDescriptor",
+      "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/D003316",
+      "mesh_label": "Corneal Diseases",
+      "id": "D003316"
+    },
+    {
+      "mesh_id": "D003320",
+      "mesh_class": "TopicalDescriptor",
+      "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/D003320",
+      "mesh_label": "Corneal Ulcer",
+      "id": "D003320"
+    },
+    {
+      "mesh_id": "D003607",
+      "mesh_class": "TopicalDescriptor",
+      "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/D003607",
+      "mesh_label": "Dacryocystitis",
+      "id": "D003607"
+    },
+    {
+      "mesh_id": "D005128",
+      "mesh_class": "TopicalDescriptor",
+      "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/D005128",
+      "mesh_label": "Eye Diseases",
+      "id": "D005128"
+    },
+    {
+      "mesh_id": "D007239",
+      "mesh_class": "TopicalDescriptor",
+      "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/D007239",
+      "mesh_label": "Infections",
+      "id": "D007239"
+    },
+    {
+      "mesh_id": "D007634",
+      "mesh_class": "TopicalDescriptor",
+      "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/D007634",
+      "mesh_label": "Keratitis",
+      "id": "D007634"
+    },
+    {
+      "mesh_id": "D007766",
+      "mesh_class": "TopicalDescriptor",
+      "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/D007766",
+      "mesh_label": "Lacrimal Apparatus Diseases",
+      "id": "D007766"
+    },
+    {
+      "mesh_id": "D015817",
+      "mesh_class": "TopicalDescriptor",
+      "mesh_uri": "http://id.nlm.nih.gov/mesh/2020/D015817",
+      "mesh_label": "Eye Infections",
+      "id": "D015817"
+    }
+  ],
+  "links": [
+    {
+      "predicate": "meshv:broaderDescriptor",
+      "source": "D003316",
+      "target": "D007634"
+    },
+    {
+      "predicate": "meshv:preferredMappedTo",
+      "source": "D003320",
+      "target": "C000598941"
+    },
+    {
+      "predicate": "meshv:preferredMappedTo",
+      "source": "D003607",
+      "target": "C000598941"
+    },
+    {
+      "predicate": "meshv:broaderDescriptor",
+      "source": "D005128",
+      "target": "D015817"
+    },
+    {
+      "predicate": "meshv:broaderDescriptor",
+      "source": "D005128",
+      "target": "D007766"
+    },
+    {
+      "predicate": "meshv:broaderDescriptor",
+      "source": "D005128",
+      "target": "D003316"
+    },
+    {
+      "predicate": "meshv:broaderDescriptor",
+      "source": "D007239",
+      "target": "D015817"
+    },
+    {
+      "predicate": "meshv:broaderDescriptor",
+      "source": "D007634",
+      "target": "D003320"
+    },
+    {
+      "predicate": "meshv:broaderDescriptor",
+      "source": "D007766",
+      "target": "D003607"
+    },
+    {
+      "predicate": "meshv:broaderDescriptor",
+      "source": "D015817",
+      "target": "D003320"
+    }
+  ]
+}
