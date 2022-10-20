@@ -38,7 +38,7 @@ jobs:
     runs-on: ${{ needs.create-runner.outputs.label }}
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Setup dependencies
       uses: ./.github/actions/setup
     - name: Set parameters
@@ -47,20 +47,20 @@ jobs:
       run: |
         OUTPUT_PATH="output/${{ github.event.inputs.source }}"
         echo "Setting parameter output_path=$OUTPUT_PATH"
-        echo "::set-output name=output_path::$OUTPUT_PATH"
+        echo "output_path=$OUTPUT_PATH" >> $GITHUB_OUTPUT
         OUTPUT_EXISTS="true"
         git ls-remote --exit-code origin $OUTPUT_PATH || OUTPUT_EXISTS="false"
         echo "$OUTPUT_PATH branch exists on origin: $OUTPUT_EXISTS"
-        echo "::set-output name=output_exists::$OUTPUT_EXISTS"
+        echo "output_exists=$OUTPUT_EXISTS" >> $GITHUB_OUTPUT
         OVERWRITE=${{ github.event.inputs.overwrite || 'false' }}
         echo "Setting parameter overwrite=$OVERWRITE"
-        echo "::set-output name=overwrite::$OVERWRITE"
+        echo "overwrite=$OVERWRITE" >> $GITHUB_OUTPUT
         EXPORT="false"
         if [[ $OUTPUT_EXISTS = "false" || $OVERWRITE = "true" ]]; then
           EXPORT="true"
         fi
         echo "Setting parameter export=$EXPORT"
-        echo "::set-output name=export::$EXPORT"
+        echo "export=$EXPORT" >> $GITHUB_OUTPUT
     - name: Create output
       id: extract
       if: steps.params.outputs.export == 'true'
