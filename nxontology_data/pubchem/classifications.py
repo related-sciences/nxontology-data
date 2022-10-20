@@ -1,7 +1,8 @@
 import json
 import logging
 import re
-from typing import Any, Counter
+from collections import Counter
+from typing import Any
 
 import requests
 from nxontology import NXOntology

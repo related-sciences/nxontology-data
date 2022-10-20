@@ -6,7 +6,7 @@ import logging
 import pathlib
 import re
 import tempfile
-from typing import Iterator
+from collections.abc import Iterator
 from urllib.request import urlretrieve
 
 import bioversions

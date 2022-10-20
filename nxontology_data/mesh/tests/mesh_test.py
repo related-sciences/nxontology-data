@@ -53,7 +53,7 @@ def create_testing_nt(full_nxo: NXOntology[str], full_nt_path: str) -> None:
     source_mesh_id = "C000598941"
     nodes = full_nxo.node_info(source_mesh_id).ancestors
     with fsspec.open(full_nt_path, "rt", compression="infer") as rf, open(
-        f"{test_data_dir}/mesh2020-subset.nt", "wt"
+        f"{test_data_dir}/mesh2020-subset.nt", "w"
     ) as wf:
         for line in rf:
             for node in nodes:
