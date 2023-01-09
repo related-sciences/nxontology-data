@@ -1,7 +1,7 @@
 # NXOntology data: making ontologies accessible as simple JSON files
 
-[![GitHub Actions CI Build Status](https://img.shields.io/github/workflow/status/related-sciences/nxontology/Build/main?label=actions&style=for-the-badge&logo=github&logoColor=white)](https://github.com/related-sciences/nxontology/actions)  
-[![Software License](https://img.shields.io/github/license/related-sciences/nxontology?style=for-the-badge&logo=Apache&logoColor=white)](https://github.com/related-sciences/nxontology/blob/main/LICENSE)  
+[![GitHub Actions CI Build Status](https://img.shields.io/github/actions/workflow/status/related-sciences/nxontology-data/test.yaml?branch=main&label=actions&style=for-the-badge&logo=github&logoColor=white)](https://github.com/related-sciences/nxontology-data/actions)  
+[![Software License](https://img.shields.io/github/license/related-sciences/nxontology-data?style=for-the-badge&logo=Apache&logoColor=white)](https://github.com/related-sciences/nxontology-data/blob/main/LICENSE.md)  
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg?style=for-the-badge&logo=Python&logoColor=white)](https://github.com/psf/black)  
 
 This repository imports public ontologies/taxonomies into Python [NXOntology](https://github.com/related-sciences/nxontology) objects
