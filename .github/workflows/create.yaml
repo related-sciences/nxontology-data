@@ -33,6 +33,9 @@ jobs:
           machine_type: n2-highmem-8
           image_project: ubuntu-os-cloud
           image_family: ubuntu-2004-lts
+          ephemeral: true
+          no_external_address: true
+
   export:
     needs: create-runner
     runs-on: ${{ needs.create-runner.outputs.label }}
