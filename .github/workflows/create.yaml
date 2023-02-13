@@ -1,4 +1,4 @@
-name: Create NXOntology
+name: Create ${{ inputs.source }} NXOntology
 on:
   # schedule:
   # # https://crontab.guru/#05_11_*_*_2
@@ -75,6 +75,11 @@ jobs:
       with:
         folder: ./${{ steps.params.outputs.output_path }}
         branch: ${{ steps.params.outputs.output_path }}
+        commit-message: |
+          Export ${{ github.event.inputs.source }}
+          
+          Ontology generated from source code at ${{ sha }}.
+          Triggered by @${{ github.actor }}.
     - name: Stop GCE runner
       if: always()
       uses: related-sciences/gce-github-runner@main
