@@ -143,8 +143,36 @@ class MeshLoader:
         return id_df
 
     @classmethod
+    def get_concept_relation_df(cls, rdf: rdflib.Graph) -> pd.DataFrame:
+        """Get concept relation to the preferred concept for MeSH nodes."""
+        # MeSH node to preferred concept mapping
+        pref_concepts = (
+            cls.run_query(rdf, "synonyms")
+            .query("concept_is_preferred")[["mesh_id", "concept_id"]]
+            .drop_duplicates()
+        )
+        return (
+            pref_concepts.rename(columns={"concept_id": "concept_1_id"})
+            .merge(cls.run_query(rdf, "concept-relations"), on="concept_1_id")
+            .drop(columns=["concept_1_id"])
+            .rename(
+                columns={
+                    "concept_2_id": "concept_id",
+                    "concept_relation": "concept_relation_to_preferred",
+                }
+            )
+            .append(pref_concepts.assign(concept_relation_to_preferred="exact"))
+        )
+
+    @classmethod
     def get_synonym_df(cls, rdf: rdflib.Graph) -> pd.DataFrame:
-        return cls.run_query(rdf, "synonyms")
+        """
+        Get synonyms for MeSH nodes, via the synonyms SPARQL query
+        with the addition of the concept_relation_to_preferred column.
+        """
+        return cls.run_query(rdf, "synonyms").merge(
+            cls.get_concept_relation_df(rdf), how="left", on=["mesh_id", "concept_id"]
+        )
 
     _node_classes = {
         "CheckTag",  # 2 disconnected terms: male and female
