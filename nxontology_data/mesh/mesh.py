@@ -38,7 +38,6 @@ mesh_id_pattern: str = r"^[CD][0-9]{6}([0-9]{3}|)$"
 
 
 class MeshLoader:
-
     MESH_RDF_ROOT = "https://nlmpubs.nlm.nih.gov/projects/mesh/rdf"
 
     @classmethod
