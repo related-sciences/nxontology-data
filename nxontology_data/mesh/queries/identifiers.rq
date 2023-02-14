@@ -1,18 +1,45 @@
 # https://hhs.github.io/meshrdf/descriptors
 # https://www.nlm.nih.gov/mesh/intro_record_types.html
 # meshv:TopicalDescriptor is used for Class 1 Descriptors - Main Headings
+# Note MeSH RDF releases do not include inactive nodes (or even meshv:active relations)
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
-SELECT ?mesh_id ?mesh_class ?mesh_uri ?mesh_label
+SELECT
+  ?mesh_id ?mesh_class ?mesh_uri ?mesh_label
+  ?mesh_date_created ?mesh_date_revised ?mesh_date_established
+  ?mesh_frequency ?mesh_description
 WHERE {
-  ?mesh_uri a ?mesh_class_uri .
-  BIND( STRAFTER(STR(?mesh_class_uri), "mesh/vocab#") AS ?mesh_class)
-  ?mesh_uri meshv:identifier ?mesh_id.
+  ?mesh_uri rdf:type ?mesh_class_uri .
+  ?mesh_uri meshv:identifier ?mesh_id .
   OPTIONAL {
     # meshv:prefLabel is used for meshv:Term
     ?mesh_uri rdfs:label|meshv:prefLabel ?mesh_label .
     FILTER (langMatches(lang(?mesh_label), "EN")) .
   }
+  # dateCreated: A property of Descriptors, Qualifiers, SupplementaryConceptRecords or Terms.
+  # Date in YYYY-MM-DD format when a Descriptor, Qualifer, SupplementaryConceptRecord or Term was first added to MeSH provisionally.
+  # This timestamp may be a year behind the dateEstablished.
+  # Upon conversion to a new MeSH maintenance system in 1999, a default value of 1999-01-01 was supplied.
+  OPTIONAL {?mesh_uri meshv:dateCreated ?mesh_date_created .}
+  # dateRevised: A property of Descriptors, Qualifiers, or SupplementaryConceptRecords.
+  # Indicates that a revision was made to Descriptor, Qualifier, or SupplementaryConceptRecord data in YYYY-MM-DD format.
+  OPTIONAL {?mesh_uri meshv:dateRevised ?mesh_date_revised .}
+  # dateEstablished: A property of Descriptors or Qualifiers. Date in YYYY-MM-DD format when the Descriptor or Qualifier became effective for use;
+  # set to YYYY-01-01 where YYYY = year of introduction to MeSH.
+  OPTIONAL {?mesh_uri meshv:dateEstablished ?mesh_date_established .}
+  OPTIONAL {?mesh_uri meshv:frequency ?mesh_frequency .}
+  # Combine the following properties into ?mesh_description
+  # meshv:annotation: A property of Descriptors or Qualifiers.
+  #     Free-text information for indexers and catalogers concerning the use of the Descriptor or Qualifier.
+  # meshv:note: Free-text narrative giving information about the SupplementaryConceptRecord,
+  #     and may include information such as the registryNumber.
+  # meshv:scopeNote: A property of Concepts.
+  #     Free-text narrative giving the scope and meaning (definition) of a Concept.
+  OPTIONAL {?mesh_uri meshv:annotation|meshv:note|meshv:scopeNote ?mesh_description .}
+  BIND( STRAFTER(STR(?mesh_class_uri), "mesh/vocab#") AS ?mesh_class)
+  # date objects confound downstream JSON exports
+  BIND( STR(?mesh_date_created) AS ?mesh_date_created)
+  BIND( STR(?mesh_date_revised) AS ?mesh_date_revised)
+  BIND( STR(?mesh_date_established) AS ?mesh_date_established)
 }
 ORDER BY ?mesh_uri
-# LIMIT 10

@@ -27,5 +27,6 @@ WHERE {
   BIND( ?concept_predicate = meshv:preferredConcept AS ?concept_is_preferred)
   BIND( ?term_predicate = meshv:preferredTerm AS ?term_is_preferred)
   BIND( ?term_label_predicate = meshv:prefLabel AS ?term_label_is_preferred)
+  BIND( STR(?term_date_created) AS ?term_date_created)
 }
 ORDER BY ?mesh_id DESC(?concept_is_preferred) ?concept_id DESC(?term_is_preferred) ?term_id DESC(?term_label_is_preferred) ?term_label
