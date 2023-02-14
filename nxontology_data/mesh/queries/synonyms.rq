@@ -1,0 +1,31 @@
+# Find mesh node (e.g. descriptors & SCRs) - concept - term - term label quadruples.
+# One main application of this table is to identify synonyms for a given MeSH node.
+# https://github.com/related-sciences/nxontology-data/issues/7
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
+SELECT
+  ?mesh_id ?concept_id ?term_id
+  ?mesh_label ?concept_label ?term_label
+  ?concept_is_preferred ?term_is_preferred ?term_label_is_preferred
+  ?term_lexical_tag ?term_date_created 
+WHERE {
+  ?mesh_uri (meshv:preferredConcept|meshv:concept) ?concept_uri.
+  ?mesh_uri ?concept_predicate ?concept_uri.
+  ?concept_uri rdf:type meshv:Concept.
+  ?mesh_uri meshv:identifier ?mesh_id.
+  ?mesh_uri rdfs:label ?mesh_label.
+  ?concept_uri meshv:identifier ?concept_id.
+  ?concept_uri rdfs:label ?concept_label.
+  ?concept_uri ?term_predicate ?term_uri.
+  ?concept_uri (meshv:preferredTerm|meshv:term) ?term_uri.
+  ?term_uri meshv:identifier ?term_id.
+  ?term_uri (meshv:prefLabel|meshv:altLabel) ?term_label.
+  ?term_uri ?term_label_predicate ?term_label.
+  OPTIONAL {?term_uri meshv:lexicalTag ?term_lexical_tag.}
+  OPTIONAL {?term_uri meshv:dateCreated ?term_date_created.}
+  # python rdflib was slow with multiple BINDs unless placed together at end
+  BIND( ?concept_predicate = meshv:preferredConcept AS ?concept_is_preferred)
+  BIND( ?term_predicate = meshv:preferredTerm AS ?term_is_preferred)
+  BIND( ?term_label_predicate = meshv:prefLabel AS ?term_label_is_preferred)
+}
+ORDER BY ?mesh_id DESC(?concept_is_preferred) ?concept_id DESC(?term_is_preferred) ?term_id DESC(?term_label_is_preferred) ?term_label
