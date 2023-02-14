@@ -2114,6 +2114,7 @@ files = [
 fsspec = {version = "*", extras = ["http"]}
 networkx = ">=2"
 pronto = ">=2.4.0"
+pygraphviz = {version = "*", optional = true, markers = "extra == \"viz\""}
 
 [package.extras]
 dev = ["fire", "pandas", "pre-commit", "pytest"]
@@ -2546,6 +2547,17 @@ files = [
 
 [package.extras]
 plugins = ["importlib-metadata"]
+
+[[package]]
+name = "pygraphviz"
+version = "1.10"
+description = "Python interface to Graphviz"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "pygraphviz-1.10.zip", hash = "sha256:457e093a888128903251a266a8cc16b4ba93f3f6334b3ebfed92c7471a74d867"},
+]
 
 [[package]]
 name = "pyparsing"
@@ -3534,4 +3546,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "fd585da7d87c8d5bcb50aef0738ef3e2b7919f1426b136f42bd1f126dbf5b312"
+content-hash = "7b33920a7d12213af8f6aecee4a44321c74313f61879d344aa5d35405eb83c8b"

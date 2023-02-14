@@ -23,7 +23,7 @@ fire = "^0.4.0"
 jupyter = "^1.0.0"
 nbconvert = "^6.2.0"
 notebook = "^6.4.4"
-nxontology = "^0.4.1"
+nxontology = {extras = ["viz"], version = "^0.4.1"}
 openpyxl = "^3.0.9"
 pandas = "^1.4.1"
 papermill = "^2.3.3"
