@@ -1,0 +1,17 @@
+# Extract relations between MeSH concepts (broader, narrower, related)
+# https://www.nlm.nih.gov/mesh/concept_structure.html
+# https://www.nlm.nih.gov/mesh/xml_data_elements.html#ConceptRelation
+# https://github.com/related-sciences/nxontology-data/issues/7
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
+SELECT
+  # concept_relation denotes how concept_2 is related to concept_1
+  ?concept_1_id ?concept_2_id ?concept_relation
+WHERE {
+  ?concept_1_uri (meshv:broaderConcept|meshv:narrowerConcept|meshv:relatedConcept) ?concept_2_uri.
+  ?concept_1_uri ?predicate_uri ?concept_2_uri.
+  ?concept_1_uri meshv:identifier ?concept_1_id.
+  ?concept_2_uri meshv:identifier ?concept_2_id.
+  BIND( STRBEFORE(STRAFTER(STR(?predicate_uri), "mesh/vocab#"), "Concept") AS ?concept_relation)
+}
+ORDER BY ?concept_1_id ?concept_2_id ?concept_relation
