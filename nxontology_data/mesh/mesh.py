@@ -239,7 +239,7 @@ class MeshLoader:
         assignments of just diseases to their therapeutic areas.
         """
         nxo.freeze()
-        rows = list()
+        rows = []
         for node in nxo.graph:
             info = nxo.node_info(node)
             for root in info.roots:
