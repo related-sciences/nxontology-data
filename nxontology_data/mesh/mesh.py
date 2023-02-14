@@ -195,6 +195,11 @@ class MeshLoader:
         "mesh_class",
         "mesh_uri",
         "mesh_label",
+        "mesh_date_created",
+        "mesh_date_revised",
+        "mesh_date_established",
+        "mesh_frequency",
+        "mesh_description",
         "tree_numbers",
     ]
 

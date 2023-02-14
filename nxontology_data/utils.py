@@ -40,6 +40,7 @@ def write_dataframe(df: pd.DataFrame, path: Path) -> None:
         orient="records",
         compression={"method": "gzip", "mtime": 0},
         indent=2,
+        date_format="iso",
     )
 
 
