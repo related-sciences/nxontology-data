@@ -142,6 +142,10 @@ class MeshLoader:
         id_df = id_df.sort_values("mesh_uri")
         return id_df
 
+    @classmethod
+    def get_synonym_df(cls, rdf: rdflib.Graph) -> pd.DataFrame:
+        return cls.run_query(rdf, "synonyms")
+
     _node_classes = {
         "CheckTag",  # 2 disconnected terms: male and female
         "GeographicalDescriptor",
@@ -316,6 +320,12 @@ class MeshLoader:
         id_df["in_full_nxo"] = id_df.mesh_id.isin(set(nxo.graph))
         id_df["in_desc_nxo"] = id_df.mesh_id.isin(set(nxo_desc.graph))
         write_dataframe(df=id_df, path=output_dir.joinpath("mesh_identifiers.json.gz"))
+        # Synonyms table
+        logger.info(f"Creating synonyms for mesh {year_yyyy}.")
+        write_dataframe(
+            df=cls.get_synonym_df(rdf=rdf),
+            path=output_dir.joinpath("mesh_synonyms.json.gz"),
+        )
         # Top level node mapping
         logger.info(f"Creating top-level term mapping for mesh {year_yyyy}.")
         top_map_df = cls.create_top_level_map_df(nxo_desc)
