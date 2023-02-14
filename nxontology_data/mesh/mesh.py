@@ -181,9 +181,10 @@ class MeshLoader:
         # add nodes
         id_df = cls.get_identifier_df(rdf)
         # Use .to_json and not .to_dict to convert NaN to None
+        _node_classes = cls._node_classes
         for row in json.loads(
             id_df[cls._node_attrs]
-            .query("mesh_class in @cls._node_classes")
+            .query("mesh_class in @_node_classes")
             .to_json(orient="records")
         ):
             mesh_id = row["mesh_id"]
