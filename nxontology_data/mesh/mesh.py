@@ -7,6 +7,7 @@ import pathlib
 import re
 import tempfile
 from collections.abc import Iterator
+from enum import Enum
 from urllib.request import urlretrieve
 
 import bioversions
@@ -35,6 +36,21 @@ References:
 - https://id.nlm.nih.gov/mesh/describe?uri=http%3A%2F%2Fid.nlm.nih.gov%2Fmesh%2Fvocab%23identifier
 """
 mesh_id_pattern: str = r"^[CD][0-9]{6}([0-9]{3}|)$"
+
+
+class MeshNodeClassEnum(str, Enum):
+    """MeSH classes for which to create ontology nodes."""
+
+    # TODO: replace with StrEnum in Python 3.11
+    check_tag = "CheckTag"
+    """2 disconnected terms: male and female"""
+    descriptor_geographical = "GeographicalDescriptor"
+    descriptor_topical = "TopicalDescriptor"
+    pub_type = "PublicationType"
+    scr_chemical = "SCR_Chemical"
+    scr_disease = "SCR_Disease"
+    scr_organism = "SCR_Organism"
+    scr_protocol = "SCR_Protocol"
 
 
 class MeshLoader:
@@ -174,18 +190,6 @@ class MeshLoader:
             cls.get_concept_relation_df(rdf), how="left", on=["mesh_id", "concept_id"]
         )
 
-    _node_classes = {
-        "CheckTag",  # 2 disconnected terms: male and female
-        "GeographicalDescriptor",
-        "PublicationType",
-        "SCR_Chemical",
-        "SCR_Disease",
-        "SCR_Organism",
-        "SCR_Protocol",
-        "TopicalDescriptor",
-    }
-    """Create ontology nodes for these MeSH classes."""
-
     _node_attrs = [
         "mesh_id",
         "mesh_class",
@@ -213,7 +217,7 @@ class MeshLoader:
         # add nodes
         id_df = cls.get_identifier_df(rdf)
         # Use .to_json and not .to_dict to convert NaN to None
-        _node_classes = cls._node_classes
+        _node_classes = [e.value for e in MeshNodeClassEnum]
         for row in json.loads(
             id_df[cls._node_attrs]
             .query("mesh_class in @_node_classes")
