@@ -1,0 +1,397 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "nxontology_version": "0.4.1",
+    "nxontology_created": "2023-02-14T00:41:54+00:00",
+    "name": "127_pubchem_pathway_toc",
+    "pubchem_hierarchy_id": 127,
+    "pubchem_source_id": "Pathway TOC",
+    "pubchem_source_name": "PubChem",
+    "pubchem_description": [
+      "This classification was created automatically from the PubChem Pathway TOC on 2023/01/31.",
+      "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
+      "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
+    ],
+    "pubchem_comments": null,
+    "source_url": null
+  },
+  "nodes": [
+    {
+      "name": "Identity",
+      "description": "Information describing the identity of this pathway, including the data source and external identifier.",
+      "pubchem_hnid": 5567003,
+      "url": null,
+      "id": 1
+    },
+    {
+      "name": "Source",
+      "description": "Data source from which this pathway record was derived.",
+      "pubchem_hnid": 5567004,
+      "url": null,
+      "id": 2
+    },
+    {
+      "name": "External ID",
+      "description": "The identifier used for this pathway by the external data source.",
+      "pubchem_hnid": 5567005,
+      "url": null,
+      "id": 3
+    },
+    {
+      "name": "Creators",
+      "description": "Creators of this pathway record in the original data source.",
+      "pubchem_hnid": 5567006,
+      "url": null,
+      "id": 4
+    },
+    {
+      "name": "Pathway Information",
+      "description": "General information about this pathway.",
+      "pubchem_hnid": 5567007,
+      "url": null,
+      "id": 5
+    },
+    {
+      "name": "Taxonomic Scope",
+      "description": "Indicates if the pathway is organism-specific or conserved.",
+      "pubchem_hnid": 5567008,
+      "url": null,
+      "id": 6
+    },
+    {
+      "name": "Taxonomy",
+      "description": "Source organism of this pathway.",
+      "pubchem_hnid": 5567009,
+      "url": null,
+      "id": 7
+    },
+    {
+      "name": "Category",
+      "description": "Descriptive category of this pathway (e.g., signaling, metabolic, disease).",
+      "pubchem_hnid": 5567010,
+      "url": null,
+      "id": 8
+    },
+    {
+      "name": "Record Description",
+      "description": "Textual summary about this pathway",
+      "pubchem_hnid": 5567011,
+      "url": null,
+      "id": 9
+    },
+    {
+      "name": "Diagram",
+      "description": "Schematic overview of this pathway.  Clicking this diagram directs to the corresponding pathway record in the data source.",
+      "pubchem_hnid": 5567012,
+      "url": null,
+      "id": 10
+    },
+    {
+      "name": "Interactions",
+      "description": "Specific interactions between biochemicals involved in this pathway.",
+      "pubchem_hnid": 5567013,
+      "url": null,
+      "id": 11
+    },
+    {
+      "name": "Chemicals",
+      "description": "Chemicals involved in this pathway.",
+      "pubchem_hnid": 5567014,
+      "url": null,
+      "id": 12
+    },
+    {
+      "name": "Glycans",
+      "description": "Glycans involved in this pathway.",
+      "pubchem_hnid": 5567015,
+      "url": null,
+      "id": 13
+    },
+    {
+      "name": "Proteins",
+      "description": "Proteins involved in this pathway.",
+      "pubchem_hnid": 5567016,
+      "url": null,
+      "id": 14
+    },
+    {
+      "name": "GlycoProteins",
+      "description": "Glycoproteins involved in this pathway.",
+      "pubchem_hnid": 5567017,
+      "url": null,
+      "id": 15
+    },
+    {
+      "name": "Genes",
+      "description": "Genes involved in this pathway.",
+      "pubchem_hnid": 5567018,
+      "url": null,
+      "id": 16
+    },
+    {
+      "name": "GlycoGenes",
+      "description": "Glycogenes involved in this pathway. Glycogene includes genes associated with glycan synthesis such as glycosyltransferase, sugar nucleotide synthases, sugar-nucleotide transporters, sulfotransferases, etc.",
+      "pubchem_hnid": 5567019,
+      "url": null,
+      "id": 17
+    },
+    {
+      "name": "Related Pathways",
+      "description": "Related pathway records in PubChem (e.g. linked pathways).",
+      "pubchem_hnid": 5567020,
+      "url": null,
+      "id": 18
+    },
+    {
+      "name": "Linked Pathways",
+      "description": "Linked pathways provided by original source. Available link types are conserved, linked, subset, and superset. \"Conserved\" means the linked pathway is conserved in evolution for the current one. \"Linked\" means the linked pathway and the current one are connected to each other in a larger network. \"Superset\" means the linked pathway contains the current one. \"Subset\" means linked pathway is contained within the current one.",
+      "pubchem_hnid": 5567021,
+      "url": null,
+      "id": 19
+    },
+    {
+      "name": "GlycoPathways",
+      "description": "Pathways that involve glycoproteins.",
+      "pubchem_hnid": 5567022,
+      "url": null,
+      "id": 20
+    },
+    {
+      "name": "Literature",
+      "description": "Scientific articles associated with this pathway, provided by the data source.",
+      "pubchem_hnid": 5567023,
+      "url": null,
+      "id": 21
+    },
+    {
+      "name": "Classification",
+      "description": "Classifications and ontologies of this pathway.",
+      "pubchem_hnid": 5567024,
+      "url": null,
+      "id": 22
+    },
+    {
+      "name": "NCI Thesaurus Tree",
+      "description": "NCI Thesaurus (NCIt) hierarchy",
+      "pubchem_hnid": 5567025,
+      "url": null,
+      "id": 23
+    },
+    {
+      "name": "Information Sources",
+      "description": "Sources of annotation information attached to PubChem compounds",
+      "pubchem_hnid": 5567026,
+      "url": null,
+      "id": 24
+    },
+    {
+      "name": "Reactome",
+      "description": null,
+      "pubchem_hnid": 5567027,
+      "url": null,
+      "id": 25
+    },
+    {
+      "name": "GlyCosmos Glycoscience Portal",
+      "description": null,
+      "pubchem_hnid": 5567028,
+      "url": null,
+      "id": 26
+    },
+    {
+      "name": "BioCyc",
+      "description": null,
+      "pubchem_hnid": 5567029,
+      "url": null,
+      "id": 27
+    },
+    {
+      "name": "WikiPathways",
+      "description": null,
+      "pubchem_hnid": 5567030,
+      "url": null,
+      "id": 28
+    },
+    {
+      "name": "Pathway Interaction Database",
+      "description": null,
+      "pubchem_hnid": 5567031,
+      "url": null,
+      "id": 29
+    },
+    {
+      "name": "NCI Thesaurus (NCIt)",
+      "description": null,
+      "pubchem_hnid": 5567032,
+      "url": null,
+      "id": 30
+    },
+    {
+      "name": "LIPID MAPS",
+      "description": null,
+      "pubchem_hnid": 5567033,
+      "url": null,
+      "id": 31
+    },
+    {
+      "name": "Plant Reactome",
+      "description": null,
+      "pubchem_hnid": 5567034,
+      "url": null,
+      "id": 32
+    },
+    {
+      "name": "PathBank",
+      "description": null,
+      "pubchem_hnid": 5567035,
+      "url": null,
+      "id": 33
+    },
+    {
+      "name": "PharmGKB",
+      "description": null,
+      "pubchem_hnid": 5567036,
+      "url": null,
+      "id": 34
+    },
+    {
+      "name": "PlantCyc",
+      "description": null,
+      "pubchem_hnid": 5567037,
+      "url": null,
+      "id": 35
+    },
+    {
+      "name": "INOH",
+      "description": null,
+      "pubchem_hnid": 5567038,
+      "url": null,
+      "id": 36
+    },
+    {
+      "name": "COVID-19 Disease Map",
+      "description": null,
+      "pubchem_hnid": 5567039,
+      "url": null,
+      "id": 37
+    },
+    {
+      "name": "PANTHER",
+      "description": null,
+      "pubchem_hnid": 5567040,
+      "url": null,
+      "id": 38
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "target": 3
+    },
+    {
+      "source": 1,
+      "target": 4
+    },
+    {
+      "source": 5,
+      "target": 6
+    },
+    {
+      "source": 5,
+      "target": 7
+    },
+    {
+      "source": 5,
+      "target": 8
+    },
+    {
+      "source": 5,
+      "target": 9
+    },
+    {
+      "source": 12,
+      "target": 13
+    },
+    {
+      "source": 14,
+      "target": 15
+    },
+    {
+      "source": 16,
+      "target": 17
+    },
+    {
+      "source": 18,
+      "target": 19
+    },
+    {
+      "source": 18,
+      "target": 20
+    },
+    {
+      "source": 22,
+      "target": 23
+    },
+    {
+      "source": 24,
+      "target": 25
+    },
+    {
+      "source": 24,
+      "target": 26
+    },
+    {
+      "source": 24,
+      "target": 27
+    },
+    {
+      "source": 24,
+      "target": 28
+    },
+    {
+      "source": 24,
+      "target": 29
+    },
+    {
+      "source": 24,
+      "target": 30
+    },
+    {
+      "source": 24,
+      "target": 31
+    },
+    {
+      "source": 24,
+      "target": 32
+    },
+    {
+      "source": 24,
+      "target": 33
+    },
+    {
+      "source": 24,
+      "target": 34
+    },
+    {
+      "source": 24,
+      "target": 35
+    },
+    {
+      "source": 24,
+      "target": 36
+    },
+    {
+      "source": 24,
+      "target": 37
+    },
+    {
+      "source": 24,
+      "target": 38
+    }
+  ]
+}

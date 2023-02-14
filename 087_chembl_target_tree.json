@@ -2,19 +2,18 @@
   "directed": true,
   "multigraph": false,
   "graph": {
+    "nxontology_version": "0.4.1",
+    "nxontology_created": "2023-02-14T00:39:47+00:00",
     "name": "087_chembl_target_tree",
     "pubchem_hierarchy_id": 87,
     "pubchem_source_id": "Target Tree",
     "pubchem_source_name": "ChEMBL",
     "pubchem_description": [
-      "The ChEMBL Protein Target Tree is a structured classification of the protein target entities contained with the ChEMBL resource.",
-      "Author: ChEMBL curation team",
-      "ChEMBL Release version 29",
-      "For any queries contact chembl-help@ebi.ac.uk",
-      "Created on 01/31/2022 09:16:50"
+      "The ChEMBL Protein Target Tree is a structured classification of the protein target entities contained with the ChEMBL resource release version 31.",
+      "Created on 2023-02-07"
     ],
     "pubchem_comments": null,
-    "source_url": "https://www.ebi.ac.uk/chembl/target/browser"
+    "source_url": "https://www.ebi.ac.uk/chembl/g/#browse/targets"
   },
   "nodes": [
     {

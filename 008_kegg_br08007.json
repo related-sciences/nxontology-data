@@ -2,6 +2,8 @@
   "directed": true,
   "multigraph": false,
   "graph": {
+    "nxontology_version": "0.4.1",
+    "nxontology_created": "2023-02-14T00:39:34+00:00",
     "name": "008_kegg_br08007",
     "pubchem_hierarchy_id": 8,
     "pubchem_source_id": "br08007",

@@ -2,6 +2,8 @@
   "directed": true,
   "multigraph": false,
   "graph": {
+    "nxontology_version": "0.4.1",
+    "nxontology_created": "2023-02-14T00:40:34+00:00",
     "name": "109_nist_synthetic_polymer_maldi_recipes_database_tree",
     "pubchem_hierarchy_id": 109,
     "pubchem_source_id": "nist_maldi_tree",

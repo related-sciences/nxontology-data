@@ -1,0 +1,504 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "nxontology_version": "0.4.1",
+    "nxontology_created": "2023-02-14T00:41:54+00:00",
+    "name": "125_pubchem_cell_toc",
+    "pubchem_hierarchy_id": 125,
+    "pubchem_source_id": "Cell TOC",
+    "pubchem_source_name": "PubChem",
+    "pubchem_description": [
+      "This classification was created automatically from the PubChem Cell TOC on 2023/01/31.",
+      "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
+      "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
+    ],
+    "pubchem_comments": null,
+    "source_url": null
+  },
+  "nodes": [
+    {
+      "name": "Cell Information",
+      "description": "General information about a cell line.",
+      "pubchem_hnid": 5566856,
+      "url": null,
+      "id": 1
+    },
+    {
+      "name": "Cell Type",
+      "description": "Type of this cell or cell line",
+      "pubchem_hnid": 5566857,
+      "url": null,
+      "id": 2
+    },
+    {
+      "name": "Cell Category",
+      "description": "Category of this cell or cell line",
+      "pubchem_hnid": 5566858,
+      "url": null,
+      "id": 3
+    },
+    {
+      "name": "Sex of Cell",
+      "description": "Donor sex (i.e. Male or Female) of this cell or cell",
+      "pubchem_hnid": 5566859,
+      "url": null,
+      "id": 4
+    },
+    {
+      "name": "Record Description",
+      "description": "Textual summary about this PubChem record",
+      "pubchem_hnid": 5566860,
+      "url": null,
+      "id": 5
+    },
+    {
+      "name": "Names and Identifiers",
+      "description": "cell names, synonyms, and identifiers",
+      "pubchem_hnid": 5566861,
+      "url": null,
+      "id": 6
+    },
+    {
+      "name": "Synonyms",
+      "description": "alternative names",
+      "pubchem_hnid": 5566862,
+      "url": null,
+      "id": 7
+    },
+    {
+      "name": "MeSH Entry Terms",
+      "description": "Medical Subject Heading (MeSH) names or identifiers matching this cell line.",
+      "pubchem_hnid": 5566863,
+      "url": null,
+      "id": 8
+    },
+    {
+      "name": "Other Identifiers",
+      "description": "Important identifiers assigned to or associated with this cell line",
+      "pubchem_hnid": 5566864,
+      "url": null,
+      "id": 9
+    },
+    {
+      "name": "Cellosaurus ID",
+      "description": "Cellosaurus identifier",
+      "pubchem_hnid": 5566865,
+      "url": null,
+      "id": 10
+    },
+    {
+      "name": "MeSH ID",
+      "description": "Medical Subject Headings (MeSH) unique identifier",
+      "pubchem_hnid": 5566866,
+      "url": null,
+      "id": 11
+    },
+    {
+      "name": "ChEMBL Cell Line ID",
+      "description": "ChEMBL cell line identifier",
+      "pubchem_hnid": 5566867,
+      "url": null,
+      "id": 12
+    },
+    {
+      "name": "LINCS ID",
+      "description": "LINCS Data Portal cell line identifier",
+      "pubchem_hnid": 5566868,
+      "url": null,
+      "id": 13
+    },
+    {
+      "name": "HMS LINCS ID",
+      "description": "The HMS LINCS cell line identifier",
+      "pubchem_hnid": 5566869,
+      "url": null,
+      "id": 14
+    },
+    {
+      "name": "Cell Line Ontology ID",
+      "description": "Cell Line Ontology (CLO) identifier",
+      "pubchem_hnid": 5566870,
+      "url": null,
+      "id": 15
+    },
+    {
+      "name": "Cell Ontology ID",
+      "description": "Cell ontology (CL) identifier",
+      "pubchem_hnid": 5566871,
+      "url": null,
+      "id": 16
+    },
+    {
+      "name": "Experimental Factor Ontology ID",
+      "description": "Experimental Factor Ontology (EFO) identifier",
+      "pubchem_hnid": 5566872,
+      "url": null,
+      "id": 17
+    },
+    {
+      "name": "BRENDA Tissue Ontology ID",
+      "description": "BRENDA Tissue Ontology (BTO) identifier",
+      "pubchem_hnid": 5566873,
+      "url": null,
+      "id": 18
+    },
+    {
+      "name": "NCI Thesaurus Code",
+      "description": "Stable, unique code for biomedical concept",
+      "pubchem_hnid": 5566874,
+      "url": null,
+      "id": 19
+    },
+    {
+      "name": "Source",
+      "description": "Source organism, tissue, and organ of this cell line",
+      "pubchem_hnid": 5566875,
+      "url": null,
+      "id": 20
+    },
+    {
+      "name": "Source Organism",
+      "description": "Source organism of this cell line.",
+      "pubchem_hnid": 5566876,
+      "url": null,
+      "id": 21
+    },
+    {
+      "name": "Source Tissue",
+      "description": "Source tissue of this cell line.",
+      "pubchem_hnid": 5566877,
+      "url": null,
+      "id": 22
+    },
+    {
+      "name": "Source Organ",
+      "description": "Source organ of this cell or cell line",
+      "pubchem_hnid": 5566878,
+      "url": null,
+      "id": 23
+    },
+    {
+      "name": "Chemicals and Bioactivities",
+      "description": "Drugs, chemical probes, curated ligands, and compounds that are known for this cell line.",
+      "pubchem_hnid": 5566879,
+      "url": null,
+      "id": 24
+    },
+    {
+      "name": "Tested Compounds",
+      "description": "Compounds tested against this cell line in PubChem BioAssay",
+      "pubchem_hnid": 5566880,
+      "url": null,
+      "id": 25
+    },
+    {
+      "name": "BioAssays",
+      "description": "Biological experiments deposited in PubChem BioAssay that were conducted against this cell line",
+      "pubchem_hnid": 5566881,
+      "url": null,
+      "id": 26
+    },
+    {
+      "name": "Small-Molecule BioAssays",
+      "description": "Bioassays that tested small-molecule chemicals",
+      "pubchem_hnid": 5566882,
+      "url": null,
+      "id": 27
+    },
+    {
+      "name": "RNAi BioAssays",
+      "description": "Functional genomic bioassays that tested RNAi reagents",
+      "pubchem_hnid": 5566883,
+      "url": null,
+      "id": 28
+    },
+    {
+      "name": "Diseases",
+      "description": "Diseases associated with this cell line",
+      "pubchem_hnid": 5566884,
+      "url": null,
+      "id": 29
+    },
+    {
+      "name": "Literature",
+      "description": "Literature information associated with this cell line",
+      "pubchem_hnid": 5566885,
+      "url": null,
+      "id": 30
+    },
+    {
+      "name": "NLM Curated PubMed Citations",
+      "description": "PubMed records that are tagged with the same MeSH term that has been associated with this cell line.",
+      "pubchem_hnid": 5566886,
+      "url": null,
+      "id": 31
+    },
+    {
+      "name": "BioAssay Provided PubMed Citations",
+      "description": "PubMed citations provided by the bioassays associated with this cell line",
+      "pubchem_hnid": 5566887,
+      "url": null,
+      "id": 32
+    },
+    {
+      "name": "Cellosaurus References",
+      "description": "PubMed citations associated with this cell line curated by Swiss Institute of Bioinformatics Cellosaurus",
+      "pubchem_hnid": 5566888,
+      "url": null,
+      "id": 33
+    },
+    {
+      "name": "Classification",
+      "description": "Classifications and ontologies of this cell line.",
+      "pubchem_hnid": 5566889,
+      "url": null,
+      "id": 34
+    },
+    {
+      "name": "MeSH Tree",
+      "description": "The Medical Subject Headings (MeSH) tree for this entity.  MeSH is a controlled and hierarchically-organized vocabulary produced by the National Library of Medicine.",
+      "pubchem_hnid": 5566890,
+      "url": null,
+      "id": 35
+    },
+    {
+      "name": "NCI Thesaurus Tree",
+      "description": "NCI Thesaurus (NCIt) hierarchy",
+      "pubchem_hnid": 5566891,
+      "url": null,
+      "id": 36
+    },
+    {
+      "name": "Cell Ontology",
+      "description": "Ontological terms related to this cell line, from the Cell Line Ontology (CLO)",
+      "pubchem_hnid": 5566892,
+      "url": null,
+      "id": 37
+    },
+    {
+      "name": "Cell Line Ontology",
+      "description": "Cell line ontology (CLO)",
+      "pubchem_hnid": 5566893,
+      "url": null,
+      "id": 38
+    },
+    {
+      "name": "Information Sources",
+      "description": "Sources of annotation information attached to PubChem compounds",
+      "pubchem_hnid": 5566894,
+      "url": null,
+      "id": 39
+    },
+    {
+      "name": "Cell Line Ontology (CLO)",
+      "description": null,
+      "pubchem_hnid": 5566895,
+      "url": null,
+      "id": 40
+    },
+    {
+      "name": "ChEMBL",
+      "description": null,
+      "pubchem_hnid": 5566896,
+      "url": null,
+      "id": 41
+    },
+    {
+      "name": "LINCS Data Portal",
+      "description": null,
+      "pubchem_hnid": 5566897,
+      "url": null,
+      "id": 42
+    },
+    {
+      "name": "Swiss Institute of Bioinformatics Cellosaurus",
+      "description": null,
+      "pubchem_hnid": 5566898,
+      "url": null,
+      "id": 43
+    },
+    {
+      "name": "Medical Subject Headings (MeSH)",
+      "description": null,
+      "pubchem_hnid": 5566899,
+      "url": null,
+      "id": 44
+    },
+    {
+      "name": "Harvard Medical School (HMS) LINCS",
+      "description": null,
+      "pubchem_hnid": 5566900,
+      "url": null,
+      "id": 45
+    },
+    {
+      "name": "NCI Thesaurus (NCIt)",
+      "description": null,
+      "pubchem_hnid": 5566901,
+      "url": null,
+      "id": 46
+    },
+    {
+      "name": "Cell Ontology (CL)",
+      "description": null,
+      "pubchem_hnid": 5566902,
+      "url": null,
+      "id": 47
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "target": 3
+    },
+    {
+      "source": 1,
+      "target": 4
+    },
+    {
+      "source": 1,
+      "target": 5
+    },
+    {
+      "source": 6,
+      "target": 7
+    },
+    {
+      "source": 6,
+      "target": 9
+    },
+    {
+      "source": 7,
+      "target": 8
+    },
+    {
+      "source": 9,
+      "target": 10
+    },
+    {
+      "source": 9,
+      "target": 11
+    },
+    {
+      "source": 9,
+      "target": 12
+    },
+    {
+      "source": 9,
+      "target": 13
+    },
+    {
+      "source": 9,
+      "target": 14
+    },
+    {
+      "source": 9,
+      "target": 15
+    },
+    {
+      "source": 9,
+      "target": 16
+    },
+    {
+      "source": 9,
+      "target": 17
+    },
+    {
+      "source": 9,
+      "target": 18
+    },
+    {
+      "source": 9,
+      "target": 19
+    },
+    {
+      "source": 20,
+      "target": 21
+    },
+    {
+      "source": 20,
+      "target": 22
+    },
+    {
+      "source": 20,
+      "target": 23
+    },
+    {
+      "source": 24,
+      "target": 25
+    },
+    {
+      "source": 26,
+      "target": 27
+    },
+    {
+      "source": 26,
+      "target": 28
+    },
+    {
+      "source": 30,
+      "target": 31
+    },
+    {
+      "source": 30,
+      "target": 32
+    },
+    {
+      "source": 30,
+      "target": 33
+    },
+    {
+      "source": 34,
+      "target": 35
+    },
+    {
+      "source": 34,
+      "target": 36
+    },
+    {
+      "source": 34,
+      "target": 37
+    },
+    {
+      "source": 34,
+      "target": 38
+    },
+    {
+      "source": 39,
+      "target": 40
+    },
+    {
+      "source": 39,
+      "target": 41
+    },
+    {
+      "source": 39,
+      "target": 42
+    },
+    {
+      "source": 39,
+      "target": 43
+    },
+    {
+      "source": 39,
+      "target": 44
+    },
+    {
+      "source": 39,
+      "target": 45
+    },
+    {
+      "source": 39,
+      "target": 46
+    },
+    {
+      "source": 39,
+      "target": 47
+    }
+  ]
+}

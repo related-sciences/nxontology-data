@@ -1,0 +1,244 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "nxontology_version": "0.4.1",
+    "nxontology_created": "2023-02-14T00:41:54+00:00",
+    "name": "124_baker_lab_chemistry_department_the_university_of_north_carolina_at_chapel_hill_ccs_tree",
+    "pubchem_hierarchy_id": 124,
+    "pubchem_source_id": "ccs_baker_tree",
+    "pubchem_source_name": "Baker Lab, Chemistry Department, The University of North Carolina at Chapel Hill",
+    "pubchem_description": [
+      "Collision Cross Section (CCS) values provided by the Baker Lab, Chemistry Department, The University of North Carolina at Chapel Hill. <br>Update: 2022-11-15 16:27:15"
+    ],
+    "pubchem_comments": null,
+    "source_url": "https://tarheels.live/bakerlab/"
+  },
+  "nodes": [
+    {
+      "name": "PFAS",
+      "description": "Collision Cross Section (CCS) values from PFAS datasets from the Baker Lab. The methods used to acquire these values are described in Foster et al. (2022) Environ. Sci. Technol. 56, 12, 9133-9143. DOI:10.1021/acs.est.2c00201",
+      "pubchem_hnid": 5564976,
+      "url": "https://doi.org/10.1021/acs.est.2c00201",
+      "id": 1
+    },
+    {
+      "name": "[M-H-CO2]-",
+      "description": null,
+      "pubchem_hnid": 5564995,
+      "url": null,
+      "id": 2
+    },
+    {
+      "name": "[M-H]-",
+      "description": null,
+      "pubchem_hnid": 5564996,
+      "url": null,
+      "id": 3
+    },
+    {
+      "name": "Lipids",
+      "description": "Collision Cross Section (CCS) values from lipids datasets from the Baker Lab. The methods used to acquire these values are described in Kirkwood et al. (2022) J. Proteome Res. 21, 1, 232-242. DOI:10.1021/acs.jproteome.1c00820",
+      "pubchem_hnid": 5564977,
+      "url": "https://doi.org/10.1021/acs.jproteome.1c00820",
+      "id": 4
+    },
+    {
+      "name": "Ambiguous Lipids",
+      "description": null,
+      "pubchem_hnid": 5564992,
+      "url": null,
+      "id": 5
+    },
+    {
+      "name": "[M+CH3COO]-",
+      "description": null,
+      "pubchem_hnid": 5564978,
+      "url": null,
+      "id": 6
+    },
+    {
+      "name": "[M+H]+",
+      "description": null,
+      "pubchem_hnid": 5564979,
+      "url": null,
+      "id": 7
+    },
+    {
+      "name": "[M+NH4]+",
+      "description": null,
+      "pubchem_hnid": 5564980,
+      "url": null,
+      "id": 8
+    },
+    {
+      "name": "[M+Na]+",
+      "description": null,
+      "pubchem_hnid": 5564981,
+      "url": null,
+      "id": 9
+    },
+    {
+      "name": "[M-H]-",
+      "description": null,
+      "pubchem_hnid": 5564982,
+      "url": null,
+      "id": 10
+    },
+    {
+      "name": "Sphingolipids",
+      "description": null,
+      "pubchem_hnid": 5564993,
+      "url": null,
+      "id": 11
+    },
+    {
+      "name": "[M+CH3COO]-",
+      "description": null,
+      "pubchem_hnid": 5564983,
+      "url": null,
+      "id": 12
+    },
+    {
+      "name": "[M+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 5564984,
+      "url": null,
+      "id": 13
+    },
+    {
+      "name": "[M+H]+",
+      "description": null,
+      "pubchem_hnid": 5564985,
+      "url": null,
+      "id": 14
+    },
+    {
+      "name": "[M-H]-",
+      "description": null,
+      "pubchem_hnid": 5564986,
+      "url": null,
+      "id": 15
+    },
+    {
+      "name": "Unambiguous Lipids",
+      "description": null,
+      "pubchem_hnid": 5564994,
+      "url": null,
+      "id": 16
+    },
+    {
+      "name": "[M+CH3COO]-",
+      "description": null,
+      "pubchem_hnid": 5564987,
+      "url": null,
+      "id": 17
+    },
+    {
+      "name": "[M+H]+",
+      "description": null,
+      "pubchem_hnid": 5564988,
+      "url": null,
+      "id": 18
+    },
+    {
+      "name": "[M+NH4]+",
+      "description": null,
+      "pubchem_hnid": 5564989,
+      "url": null,
+      "id": 19
+    },
+    {
+      "name": "[M+Na]+",
+      "description": null,
+      "pubchem_hnid": 5564990,
+      "url": null,
+      "id": 20
+    },
+    {
+      "name": "[M-H]-",
+      "description": null,
+      "pubchem_hnid": 5564991,
+      "url": null,
+      "id": 21
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "target": 3
+    },
+    {
+      "source": 4,
+      "target": 5
+    },
+    {
+      "source": 4,
+      "target": 11
+    },
+    {
+      "source": 4,
+      "target": 16
+    },
+    {
+      "source": 5,
+      "target": 6
+    },
+    {
+      "source": 5,
+      "target": 7
+    },
+    {
+      "source": 5,
+      "target": 8
+    },
+    {
+      "source": 5,
+      "target": 9
+    },
+    {
+      "source": 5,
+      "target": 10
+    },
+    {
+      "source": 11,
+      "target": 12
+    },
+    {
+      "source": 11,
+      "target": 13
+    },
+    {
+      "source": 11,
+      "target": 14
+    },
+    {
+      "source": 11,
+      "target": 15
+    },
+    {
+      "source": 16,
+      "target": 17
+    },
+    {
+      "source": 16,
+      "target": 18
+    },
+    {
+      "source": 16,
+      "target": 19
+    },
+    {
+      "source": 16,
+      "target": 20
+    },
+    {
+      "source": 16,
+      "target": 21
+    }
+  ]
+}

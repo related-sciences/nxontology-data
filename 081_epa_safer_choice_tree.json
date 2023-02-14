@@ -2,6 +2,8 @@
   "directed": true,
   "multigraph": false,
   "graph": {
+    "nxontology_version": "0.4.1",
+    "nxontology_created": "2023-02-14T00:39:46+00:00",
     "name": "081_epa_safer_choice_tree",
     "pubchem_hierarchy_id": 81,
     "pubchem_source_id": "EPA_Safer_Choice_tree",
@@ -308,116 +310,123 @@
       "id": 42
     },
     {
+      "name": "Specialized Industrial Chemicals",
+      "description": null,
+      "pubchem_hnid": 5539490,
+      "url": null,
+      "id": 43
+    },
+    {
       "name": "Antimicrobial Actives",
       "description": null,
       "pubchem_hnid": 2955729,
       "url": null,
-      "id": 43
+      "id": 44
     },
     {
       "name": "Chelating Agents",
       "description": null,
       "pubchem_hnid": 2955730,
       "url": null,
-      "id": 44
+      "id": 45
     },
     {
       "name": "Colorants",
       "description": null,
       "pubchem_hnid": 2955731,
       "url": null,
-      "id": 45
+      "id": 46
     },
     {
       "name": "Defoamers",
       "description": null,
       "pubchem_hnid": 2955732,
       "url": null,
-      "id": 46
+      "id": 47
     },
     {
       "name": "Emollients",
       "description": null,
       "pubchem_hnid": 2955733,
       "url": null,
-      "id": 47
+      "id": 48
     },
     {
       "name": "Enzymes and Enzyme Stabilizers",
       "description": null,
       "pubchem_hnid": 2955734,
       "url": null,
-      "id": 48
+      "id": 49
     },
     {
       "name": "Fragrances",
       "description": null,
       "pubchem_hnid": 2955735,
       "url": null,
-      "id": 49
+      "id": 50
     },
     {
       "name": "Oxidants and Oxidant Stabilizers",
       "description": null,
       "pubchem_hnid": 2955736,
       "url": null,
-      "id": 50
+      "id": 51
     },
     {
       "name": "Polymers",
       "description": null,
       "pubchem_hnid": 2955737,
       "url": null,
-      "id": 51
+      "id": 52
     },
     {
       "name": "Preservatives and Antioxidants",
       "description": null,
       "pubchem_hnid": 2955738,
       "url": null,
-      "id": 52
+      "id": 53
     },
     {
       "name": "Processing Aids and Additives",
       "description": null,
       "pubchem_hnid": 2955739,
       "url": null,
-      "id": 53
+      "id": 54
     },
     {
       "name": "Skin Conditioning Agents",
       "description": null,
       "pubchem_hnid": 2955740,
       "url": null,
-      "id": 54
+      "id": 55
     },
     {
       "name": "Solvents",
       "description": null,
       "pubchem_hnid": 2955741,
       "url": null,
-      "id": 55
+      "id": 56
     },
     {
       "name": "Specialized Industrial Chemicals",
       "description": null,
       "pubchem_hnid": 2955742,
       "url": null,
-      "id": 56
+      "id": 57
     },
     {
       "name": "Surfactants",
       "description": null,
       "pubchem_hnid": 2955743,
       "url": null,
-      "id": 57
+      "id": 58
     },
     {
       "name": "Uncategorized",
       "description": null,
       "pubchem_hnid": 2955744,
       "url": null,
-      "id": 58
+      "id": 59
     }
   ],
   "links": [
@@ -572,6 +581,10 @@
     {
       "source": 30,
       "target": 41
+    },
+    {
+      "source": 42,
+      "target": 43
     }
   ]
 }

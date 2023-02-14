@@ -2,6 +2,8 @@
   "directed": true,
   "multigraph": false,
   "graph": {
+    "nxontology_version": "0.4.1",
+    "nxontology_created": "2023-02-14T00:40:33+00:00",
     "name": "107_international_agency_for_research_on_cancer_iarc_tree",
     "pubchem_hierarchy_id": 107,
     "pubchem_source_id": "iarc_tree",
