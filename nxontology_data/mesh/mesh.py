@@ -190,6 +190,10 @@ class MeshLoader:
             cls.get_concept_relation_df(rdf), how="left", on=["mesh_id", "concept_id"]
         )
 
+    @classmethod
+    def get_allowed_qualifiers_df(cls, rdf: rdflib.Graph) -> pd.DataFrame:
+        return cls.run_query(rdf, "allowed-qualifiers")
+
     _node_attrs = [
         "mesh_id",
         "mesh_class",
@@ -362,6 +366,12 @@ class MeshLoader:
         write_dataframe(
             df=cls.get_synonym_df(rdf=rdf),
             path=output_dir.joinpath("mesh_synonyms.json.gz"),
+        )
+        # Allowed qualifiers
+        logger.info(f"Creating allowed qualifiers for mesh {year_yyyy}.")
+        write_dataframe(
+            df=cls.run_query(rdf, "allowed-qualifiers"),
+            path=output_dir.joinpath("mesh_allowed_qualifiers.json.gz"),
         )
         # Top level node mapping
         logger.info(f"Creating top-level term mapping for mesh {year_yyyy}.")
