@@ -46,9 +46,12 @@ class MeshNodeClassEnum(str, Enum):
     descriptor_geographical = "GeographicalDescriptor"
     descriptor_topical = "TopicalDescriptor"
     pub_type = "PublicationType"
+    scr_anatomy = "SCR_Anatomy"
+    """"SCRClass 6 - Anatomy" announced but not observed as of 2023-02-14"""
     scr_chemical = "SCR_Chemical"
     scr_disease = "SCR_Disease"
     scr_organism = "SCR_Organism"
+    scr_population = "SCR_Population"
     scr_protocol = "SCR_Protocol"
 
 
