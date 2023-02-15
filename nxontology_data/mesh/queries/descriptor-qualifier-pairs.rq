@@ -22,7 +22,7 @@ WHERE {
     ?use_instead_uri rdfs:label ?use_instead_label.
     ?use_instead_uri rdf:type ?use_instead_class.
   }
-  BIND( ?type = meshv:AllowedDescriptorQualifierPair AS ?pair_allowed )
+  BIND( ?type_uri = meshv:AllowedDescriptorQualifierPair AS ?pair_allowed )
   BIND( STRAFTER(STR(?type_uri), "mesh/vocab#") AS ?pair_type )
   BIND( STRAFTER(STR(?use_instead_class), "mesh/vocab#") AS ?use_instead_class )
 }
