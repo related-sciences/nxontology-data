@@ -191,8 +191,8 @@ class MeshLoader:
         )
 
     @classmethod
-    def get_allowed_qualifiers_df(cls, rdf: rdflib.Graph) -> pd.DataFrame:
-        return cls.run_query(rdf, "allowed-qualifiers")
+    def get_descriptor_qualifier_pairs_df(cls, rdf: rdflib.Graph) -> pd.DataFrame:
+        return cls.run_query(rdf, "descriptor-qualifier-pairs")
 
     _node_attrs = [
         "mesh_id",
@@ -368,10 +368,10 @@ class MeshLoader:
             path=output_dir.joinpath("mesh_synonyms.json.gz"),
         )
         # Allowed qualifiers
-        logger.info(f"Creating allowed qualifiers for mesh {year_yyyy}.")
+        logger.info(f"Creating qualifier-descriptor pairs for mesh {year_yyyy}.")
         write_dataframe(
-            df=cls.run_query(rdf, "allowed-qualifiers"),
-            path=output_dir.joinpath("mesh_allowed_qualifiers.json.gz"),
+            df=cls.get_descriptor_qualifier_pairs_df(rdf=rdf),
+            path=output_dir.joinpath("mesh_descriptor_qualifier_pairs.json.gz"),
         )
         # Top level node mapping
         logger.info(f"Creating top-level term mapping for mesh {year_yyyy}.")

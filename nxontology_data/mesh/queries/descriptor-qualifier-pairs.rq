@@ -1,0 +1,29 @@
+# Extract allowed/disallowed descriptor-qualifier pairs
+# https://github.com/related-sciences/nxontology-data/issues/3
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
+SELECT
+  ?pair_label ?pair_allowed ?pair_type ?pair_uri
+  ?descriptor_id ?qualifier_id
+  ?descriptor_label ?qualifier_label
+  ?use_instead_uri ?use_instead_label ?use_instead_class
+WHERE {
+  ?pair_uri rdf:type ?type_uri.
+  ?type_uri rdfs:subClassOf meshv:DescriptorQualifierPair.
+  ?pair_uri rdfs:label ?pair_label.
+  ?pair_uri meshv:hasDescriptor ?descriptor_uri.
+  ?pair_uri meshv:hasQualifier ?qualifier_uri.
+  ?descriptor_uri meshv:identifier ?descriptor_id.
+  ?qualifier_uri meshv:identifier ?qualifier_id.
+  ?descriptor_uri rdfs:label ?descriptor_label.
+  ?qualifier_uri rdfs:label ?qualifier_label.
+  OPTIONAL {
+    ?pair_uri meshv:useInstead ?use_instead_uri.
+    ?use_instead_uri rdfs:label ?use_instead_label.
+    ?use_instead_uri rdf:type ?use_instead_class.
+  }
+  BIND( ?type = meshv:AllowedDescriptorQualifierPair AS ?pair_allowed )
+  BIND( STRAFTER(STR(?type_uri), "mesh/vocab#") AS ?pair_type )
+  BIND( STRAFTER(STR(?use_instead_class), "mesh/vocab#") AS ?use_instead_class )
+}
+ORDER BY ?descriptor_id DESC(?pair_allowed) ?qualifier_id
