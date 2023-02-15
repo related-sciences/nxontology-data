@@ -3,8 +3,6 @@ description: "Abstract common workflow steps for setting up application dependen
 runs:
   using: "composite"
   steps:
-    - name: Setup Graphviz
-      uses: ts-graphviz/setup-graphviz@v1
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
@@ -13,4 +11,4 @@ runs:
       uses: snok/install-poetry@v1
     - name: Install dependencies
       shell: bash
-      run: poetry install --ansi --quiet --no-interaction
+      run: poetry install --ansi --no-interaction
