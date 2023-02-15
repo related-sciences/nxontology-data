@@ -1,9 +1,33 @@
 # Converting MeSH to NXOntology
 
+Key features:
+
+- Convert MeSH to a directed acyclic graph that includes Topical Descriptors and Supplemental Concept Records.
+  Data output to `mesh_topical_descriptor_descendants.json.gz`.
+
+- Create a map of MeSH node to top-level (root) Topical Descriptors.
+  Includes top-level tree numbers for categorization.
+  Data output to `mesh_topical_descriptor_descendants_top_level_map.json.gz`
+
+- Preserve edges from Supplemental Concept Records (SCRs) to Descriptors that go through an `AllowedDescriptorQualifierPair`.
+  See [nxontology-data/issues/4](https://github.com/related-sciences/nxontology-data/issues/4).
+
+- Extract all MeSH identifiers across RDF classes including many properties / metadata fields.
+  Data output to `mesh_identifiers.json.gz`.
+
+- Extract MeSH synonyms consisting of Concepts & Terms including whether they are preferred.
+  Concept relations to the preferred concept are exposed.
+  See [nxontology-data/issues/7](https://github.com/related-sciences/nxontology-data/issues/7).
+  Data output to `mesh_synonyms.json.gz`.
+
+- Extract a table of all allowed and disallowed descriptor-qualifier pairs.
+  See [nxontology-data/issues/3](https://github.com/related-sciences/nxontology-data/issues/3).
+  Data output to `mesh_descriptor_qualifier_pairs.json.gz`
+
 Key links:
 
 - [`HHS/meshrdf` GitHub Repository](https://github.com/HHS/meshrdf).
-  Relevant issues below:
+  Relevant issues below ([currently offline](https://github.com/HHS/meshrdf/discussions/206)):
     - [Difference between mappedTo and preferredMappedTo predicates?](https://github.com/HHS/meshrdf/issues/155)
     - [Comment by Dan Davis on creating a TopicalDescriptor Ontology](https://github.com/HHS/meshrdf/issues/156#issuecomment-752226217)
     - [Pagination / offset of results for the SPARQL endpoint is faulty](https://github.com/HHS/meshrdf/issues/150)
@@ -41,8 +65,14 @@ DOI: [10.1109/chicc.2015.7260989](https://doi.org/10.1109/chicc.2015.7260989)
 
 6. **pyMeSHSim: an integrative python package for biomedical named entity recognition, normalization, and comparison of MeSH terms**   
 Zhi-Hui Luo, Meng-Wei Shi, Zhuang Yang, Hong-Yu Zhang, Zhen-Xia Chen  
-*BMC Bioinformatics* (2020-06-18) <https://doi.org/ghnvj9>   
+*BMC Bioinformatics* (2020-06-18) <https://doi.org/ghnvj9>  
 DOI: [10.1186/s12859-020-03583-6](https://doi.org/10.1186/s12859-020-03583-6) · PMID: [32552728](https://www.ncbi.nlm.nih.gov/pubmed/32552728) · PMCID: [PMC7301509](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7301509)
+
+7. **Redefining a Thesaurus: Term-Centric No More**  
+Douglas Johnston, Stuart J Nelson, Jacque-Lynne A Schulman, Allan G Savage, Tammy P Powell  
+*Proceedings of the AMIA Symposium* (1998)  
+PMCID: [PMC2232255](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2232255)
+
 
 ### Key Quotations
 
