@@ -3,7 +3,7 @@
   "multigraph": false,
   "graph": {
     "nxontology_version": "0.4.1",
-    "nxontology_created": "2023-02-14T22:37:05+00:00",
+    "nxontology_created": "2023-02-15T02:29:20+00:00",
     "name": "mesh_full",
     "description": "Medical Subject Headings as an ontology, including nodes beyond the traditional Topical Descriptor hierarchy such as Geographical Descriptors, Publication Types, and isolated Supplemental Concept Records.",
     "mesh_year": "2020",
@@ -132,52 +132,72 @@
   ],
   "links": [
     {
-      "predicate": "meshv:broaderDescriptor",
+      "relationship_type": "broaderDescriptor",
+      "parent_qualified_id": "D003316",
+      "parent_qualifier_id": null,
       "source": "D003316",
       "target": "D007634"
     },
     {
-      "predicate": "meshv:preferredMappedTo",
+      "relationship_type": "preferredMappedTo",
+      "parent_qualified_id": "D003320",
+      "parent_qualifier_id": null,
       "source": "D003320",
       "target": "C000598941"
     },
     {
-      "predicate": "meshv:preferredMappedTo",
+      "relationship_type": "preferredMappedTo",
+      "parent_qualified_id": "D003607",
+      "parent_qualifier_id": null,
       "source": "D003607",
       "target": "C000598941"
     },
     {
-      "predicate": "meshv:broaderDescriptor",
+      "relationship_type": "broaderDescriptor",
+      "parent_qualified_id": "D005128",
+      "parent_qualifier_id": null,
       "source": "D005128",
       "target": "D003316"
     },
     {
-      "predicate": "meshv:broaderDescriptor",
+      "relationship_type": "broaderDescriptor",
+      "parent_qualified_id": "D005128",
+      "parent_qualifier_id": null,
       "source": "D005128",
       "target": "D007766"
     },
     {
-      "predicate": "meshv:broaderDescriptor",
+      "relationship_type": "broaderDescriptor",
+      "parent_qualified_id": "D005128",
+      "parent_qualifier_id": null,
       "source": "D005128",
       "target": "D015817"
     },
     {
-      "predicate": "meshv:broaderDescriptor",
+      "relationship_type": "broaderDescriptor",
+      "parent_qualified_id": "D007239",
+      "parent_qualifier_id": null,
       "source": "D007239",
       "target": "D015817"
     },
     {
-      "predicate": "meshv:broaderDescriptor",
+      "relationship_type": "broaderDescriptor",
+      "parent_qualified_id": "D007634",
+      "parent_qualifier_id": null,
       "source": "D007634",
       "target": "D003320"
     },
     {
-      "predicate": "meshv:broaderDescriptor",
+      "relationship_type": "broaderDescriptor",
+      "parent_qualified_id": "D007766",
+      "parent_qualifier_id": null,
       "source": "D007766",
       "target": "D003607"
     },
     {
-      "predicate": "meshv:broaderDescriptor",
+      "relationship_type": "broaderDescriptor",
+      "parent_qualified_id": "D015817",
+      "parent_qualifier_id": null,
       "source": "D015817",
       "target": "D003320"
     }

@@ -1,0 +1,32 @@
+# Extract parent-child relations (edges) from the MeSH ontology
+# https://github.com/related-sciences/nxontology-data/issues/4
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
+SELECT
+  ?parent_uri ?child_id ?relationship_type ?parent_qualified_uri ?parent_qualifier_id
+WHERE {
+  # broaderDescriptor: Relates one Descriptor to another.
+  #    The immediate parent Descriptor(s) of a given Descriptor based on the TreeNumber hierarchy.
+  # preferredMappedTo: Relates SupplementaryConceptRecords to Descriptors or DescriptorQualifierPairs
+  #    Designates a Descriptor or DescriptorQualifierPair that is a main parent
+  #    (includes an asterisk designation in the Source XML) for the SupplementaryConceptRecord and that is automatically added to the journal citation for which the SupplementaryConceptRecord is indexed.
+  #    meshv:preferredMappedTo is a subproperty of meshv:mappedTo
+  # mappedTo: Relates SupplementaryConceptRecords to Descriptors or DescriptorQualifierPairs.
+  #    A Descriptor or DescriptorQualifierPair that is a parent
+  #    (not the main parent; lacks an asterisk designation in the Source XML) for the SupplementaryConceptRecord and that is automatically added to the journal citation for which the SupplementaryConceptRecord is indexed.
+  ?child_uri meshv:broaderDescriptor|meshv:preferredMappedTo|meshv:mappedTo ?parent_qualified_uri.
+  ?child_uri ?predicate_uri ?parent_qualified_uri.
+  ?child_uri meshv:identifier ?child_id.
+  # NOTE cannot do `?parent_uri meshv:identifier ?parent_id`
+  # because DescriptorQualifierPair does not have meshv:identifier.
+  OPTIONAL {
+    ?parent_qualified_uri meshv:hasDescriptor ?parent_descriptor_uri.
+    ?parent_qualified_uri meshv:hasQualifier ?parent_qualifier_uri.
+    ?parent_qualifier_uri meshv:identifier ?parent_qualifier_id.
+  }
+  BIND( STRAFTER(STR(?predicate_uri), "mesh/vocab#") AS ?relationship_type )
+  # Would be nice to extract parent_id, but rdflib does not support REPLACE
+  # which is needed to get final part of URI https://stackoverflow.com/a/72922219/4651668
+  BIND( COALESCE(?parent_descriptor_uri, ?parent_qualified_uri) AS ?parent_uri )
+}
+ORDER BY ?parent_uri ?parent_qualified_uri ?child_id

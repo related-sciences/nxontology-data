@@ -6,7 +6,6 @@ import logging
 import pathlib
 import re
 import tempfile
-from collections.abc import Iterator
 from enum import Enum
 from urllib.request import urlretrieve
 
@@ -131,16 +130,14 @@ class MeshLoader:
             raise ValueError(f"{uri} does not look like a MeSH identifier")
         return str(uri).rsplit("/", 1)[1]
 
-    @staticmethod
-    def _get_relationship_triples(
-        rdf: rdflib.Graph,
-    ) -> Iterator[tuple[URIRef, URIRef, URIRef]]:
-        for rel_type in "broaderDescriptor", "preferredMappedTo", "mappedTo":
-            # expand CURIE to URI https://github.com/RDFLib/rdflib/issues/626
-            predicate = rdflib.util.from_n3(
-                f"meshv:{rel_type}", nsm=rdf.namespace_manager
-            )
-            yield from sorted(rdf.triples((None, predicate, None)))
+    @classmethod
+    def get_edge_df(cls, rdf: rdflib.Graph) -> pd.DataFrame:
+        edge_df = cls.run_query(rdf, "edges")
+        edge_df["parent_id"] = edge_df["parent_uri"].map(cls._mesh_uri_to_id)
+        edge_df["parent_qualified_id"] = edge_df["parent_qualified_uri"].map(
+            cls._mesh_uri_to_id
+        )
+        return edge_df
 
     @classmethod
     def _get_id_to_tree_numbers(cls, rdf: rdflib.Graph) -> dict[str, list[str]]:
@@ -235,15 +232,18 @@ class MeshLoader:
             mesh_id = row["mesh_id"]
             nxo.add_node(mesh_id, **row)
         # add edges
-        for s, p, o in cls._get_relationship_triples(rdf):
+        edge_df = cls.get_edge_df(rdf=rdf)
+        for edge in edge_df.itertuples():
             try:
                 nxo.add_edge(
-                    u_of_edge=cls._mesh_uri_to_id(o),
-                    v_of_edge=cls._mesh_uri_to_id(s),
-                    predicate=rdf.namespace_manager.qname_strict(p),
+                    u_of_edge=edge.parent_id,
+                    v_of_edge=edge.child_id,
+                    relationship_type=edge.relationship_type,
+                    parent_qualified_id=edge.parent_qualified_id,
+                    parent_qualifier_id=edge.parent_qualifier_id,
                 )
             except nxontology.exceptions.NodeNotFound:
-                # meshv:AllowedDescriptorQualifierPair nodes like D014199Q000031 aren't included as nodes
+                logger.error(f"Edge {edge} not added to nxo")
                 pass
         return nxo, id_df
 
