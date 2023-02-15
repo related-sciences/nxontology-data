@@ -15,6 +15,18 @@ WHERE {
   #    A Descriptor or DescriptorQualifierPair that is a parent
   #    (not the main parent; lacks an asterisk designation in the Source XML) for the SupplementaryConceptRecord and that is automatically added to the journal citation for which the SupplementaryConceptRecord is indexed.
   ?child_uri meshv:broaderDescriptor|meshv:preferredMappedTo|meshv:mappedTo ?parent_qualified_uri.
+  # The commented out VALUES clause would be ideal to restrict to the desired predicates,
+  # but it is too slow in rdflib.
+  # VALUES ?predicate_uri {
+  #   # match any of the following
+  #   # https://stackoverflow.com/a/28270671/4651668
+  #   meshv:broaderDescriptor
+  #   # preferredMappedTo versus mappedTo https://github.com/HHS/meshrdf/issues/155
+  #   meshv:preferredMappedTo
+  #   meshv:mappedTo
+  # }
+  # FIXME: ?predicate_uri can match additional predicates between ?child_uri and ?parent_qualified_uri
+  # Example being indexerConsiderAlso for http://id.nlm.nih.gov/mesh/2022/C101335 and http://id.nlm.nih.gov/mesh/2022/D000017
   ?child_uri ?predicate_uri ?parent_qualified_uri.
   ?child_uri meshv:identifier ?child_id.
   # NOTE cannot do `?parent_uri meshv:identifier ?parent_id`

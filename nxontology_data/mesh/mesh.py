@@ -132,7 +132,14 @@ class MeshLoader:
 
     @classmethod
     def get_edge_df(cls, rdf: rdflib.Graph) -> pd.DataFrame:
-        edge_df = cls.run_query(rdf, "edges")
+        _valid_relationship_types = {
+            "broaderDescriptor",
+            "preferredMappedTo",
+            "mappedTo",
+        }
+        edge_df = cls.run_query(rdf, "edges").query(
+            "relationship_type in @_valid_relationship_types"
+        )
         edge_df["parent_id"] = edge_df["parent_uri"].map(cls._mesh_uri_to_id)
         edge_df["parent_qualified_id"] = edge_df["parent_qualified_uri"].map(
             cls._mesh_uri_to_id

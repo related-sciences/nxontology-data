@@ -8,6 +8,8 @@ SELECT
   # concept_relation denotes how concept_2 is related to concept_1
   ?concept_1_id ?concept_2_id ?concept_relation
 WHERE {
+  # FIXME: ?predicate_uri is not neccessarily filtered to the three relations,
+  # although in this case with the current schema the problem is theoretical.
   ?concept_1_uri (meshv:broaderConcept|meshv:narrowerConcept|meshv:relatedConcept) ?concept_2_uri.
   ?concept_1_uri ?predicate_uri ?concept_2_uri.
   ?concept_1_uri meshv:identifier ?concept_1_id.
