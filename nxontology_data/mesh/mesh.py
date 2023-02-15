@@ -159,6 +159,8 @@ class MeshLoader:
 
     @classmethod
     def get_identifier_df(cls, rdf: rdflib.Graph) -> pd.DataFrame:
+        # pandas conversion is converting mesh_frequency to float due to missing values
+        # Can consider .convert_dtypes()
         id_df = cls.run_query(rdf, "identifiers")
         id_df["tree_numbers"] = id_df["mesh_id"].map(cls._get_id_to_tree_numbers(rdf))
         # SPARQL includes ORDER BY, but sort again for extra safety
@@ -184,6 +186,7 @@ class MeshLoader:
                     "concept_relation": "concept_relation_to_preferred",
                 }
             )
+            # DataFrame.append is deprecated, but concat is unwieldy in the pipe
             .append(pref_concepts.assign(concept_relation_to_preferred="exact"))
         )
 
