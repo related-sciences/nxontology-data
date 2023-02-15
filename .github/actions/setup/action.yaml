@@ -9,9 +9,8 @@ runs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
-    - name: Install poetry
-      shell: bash
-      run: pip install poetry
+    - name: Install Poetry
+      uses: snok/install-poetry@v1
     - name: Install dependencies
       shell: bash
-      run: poetry install --ansi
+      run: poetry install --ansi --quiet --no-interaction
