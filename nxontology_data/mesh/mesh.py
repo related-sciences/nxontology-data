@@ -154,6 +154,7 @@ class MeshLoader:
     def get_edge_df(cls, rdf: rdflib.Graph) -> pd.DataFrame:
         _valid_relationship_types = {
             "broaderDescriptor",
+            "pharmacologicalAction",
             "preferredMappedTo",
             "mappedTo",
         }
@@ -164,6 +165,14 @@ class MeshLoader:
         edge_df["parent_qualified_id"] = edge_df["parent_qualified_uri"].map(
             cls._mesh_uri_to_id
         )
+        duplicate_edge_df = edge_df[
+            edge_df.duplicated(["parent_id", "child_id"], keep=False)
+        ]
+        if not duplicate_edge_df.empty:
+            logger.warning(
+                f"Encountered duplicate edges for parent-child pairs, will keep first only:\n{duplicate_edge_df.to_string()}"
+            )
+            edge_df = edge_df.drop_duplicates(["parent_id", "child_id"], keep="first")
         return edge_df
 
     @classmethod

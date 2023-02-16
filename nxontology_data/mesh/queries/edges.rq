@@ -14,18 +14,23 @@ WHERE {
   # mappedTo: Relates SupplementaryConceptRecords to Descriptors or DescriptorQualifierPairs.
   #    A Descriptor or DescriptorQualifierPair that is a parent
   #    (not the main parent; lacks an asterisk designation in the Source XML) for the SupplementaryConceptRecord and that is automatically added to the journal citation for which the SupplementaryConceptRecord is indexed.
-  ?child_uri meshv:broaderDescriptor|meshv:preferredMappedTo|meshv:mappedTo ?parent_qualified_uri.
+  # pharmacologicalAction: Relates Descriptors or SupplementaryConceptRecords to Descriptors.
+  #    Reference to a Descriptor describing observed biological activity of an exogenously administered chemical represented by a Descriptor or SupplementaryConceptRecord.
+  #    https://github.com/related-sciences/nxontology-data/issues/10
+  ?child_uri meshv:broaderDescriptor|meshv:pharmacologicalAction|meshv:preferredMappedTo|meshv:mappedTo ?parent_qualified_uri.
   # The commented out VALUES clause would be ideal to restrict to the desired predicates,
   # but it is too slow in rdflib.
   # VALUES ?predicate_uri {
   #   # match any of the following
   #   # https://stackoverflow.com/a/28270671/4651668
   #   meshv:broaderDescriptor
+  #   meshv:pharmacologicalAction
   #   # preferredMappedTo versus mappedTo https://github.com/HHS/meshrdf/issues/155
   #   meshv:preferredMappedTo
   #   meshv:mappedTo
   # }
   # FIXME: ?predicate_uri can match additional predicates between ?child_uri and ?parent_qualified_uri
+  # FIXME: ?predicate_uri can duplicate rows
   # Example being indexerConsiderAlso for http://id.nlm.nih.gov/mesh/2022/C101335 and http://id.nlm.nih.gov/mesh/2022/D000017
   ?child_uri ?predicate_uri ?parent_qualified_uri.
   ?child_uri meshv:identifier ?child_id.
@@ -41,4 +46,4 @@ WHERE {
   # which is needed to get final part of URI https://stackoverflow.com/a/72922219/4651668
   BIND( COALESCE(?parent_descriptor_uri, ?parent_qualified_uri) AS ?parent_uri )
 }
-ORDER BY ?parent_uri ?parent_qualified_uri ?child_id
+ORDER BY ?parent_uri ?parent_qualified_uri ?child_id ?relationship_type
