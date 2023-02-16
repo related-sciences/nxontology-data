@@ -55,6 +55,23 @@ class MeshNodeClassEnum(str, Enum):
     scr_protocol = "SCR_Protocol"
 
 
+class MeshLexicalTagEnum(str, Enum):
+    """
+    A property of Terms. A 3-letter value that indicates the lexical category.
+    Note that in the XML, a Permuted Term will always have the same Lexical Tag value as the term from which it is generated.
+    """
+
+    ABB = "Abbreviation"
+    ABX = "Embedded abbreviation"
+    ACR = "Acronym"
+    ACX = "Embedded acronym"
+    EPO = "Eponym"
+    LAB = "Lab number"
+    NAM = "Proper name"
+    NON = "None"
+    TRD = "Trade name"
+
+
 class MeshLoader:
     MESH_RDF_ROOT = "https://nlmpubs.nlm.nih.gov/projects/mesh/rdf"
 
