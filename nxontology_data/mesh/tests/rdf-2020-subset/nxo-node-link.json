@@ -3,7 +3,7 @@
   "multigraph": false,
   "graph": {
     "nxontology_version": "0.4.1",
-    "nxontology_created": "2023-02-15T02:29:20+00:00",
+    "nxontology_created": "2023-02-20T16:31:41+00:00",
     "name": "mesh_full",
     "description": "Medical Subject Headings as an ontology, including nodes beyond the traditional Topical Descriptor hierarchy such as Geographical Descriptors, Publication Types, and isolated Supplemental Concept Records.",
     "mesh_year": "2020",
@@ -22,6 +22,7 @@
       "mesh_date_established": null,
       "mesh_frequency": 0.0,
       "mesh_description": null,
+      "mesh_nlm_classification": null,
       "tree_numbers": null,
       "id": "C000598941"
     },
@@ -35,6 +36,7 @@
       "mesh_date_established": "1976-01-01",
       "mesh_frequency": null,
       "mesh_description": "inflamm dis = KERATITIS & specific",
+      "mesh_nlm_classification": "WW 220",
       "tree_numbers": null,
       "id": "D003316"
     },
@@ -48,6 +50,7 @@
       "mesh_date_established": "1965-01-01",
       "mesh_frequency": null,
       "mesh_description": "a form of keratitis",
+      "mesh_nlm_classification": "WW 220",
       "tree_numbers": null,
       "id": "D003320"
     },
@@ -61,6 +64,7 @@
       "mesh_date_established": "1966-01-01",
       "mesh_frequency": null,
       "mesh_description": "inflamm of lacrimal sac",
+      "mesh_nlm_classification": "WW 208",
       "tree_numbers": null,
       "id": "D003607"
     },
@@ -74,6 +78,7 @@
       "mesh_date_established": "1965-01-01",
       "mesh_frequency": null,
       "mesh_description": "general or unspecified; prefer specifics; coordinate IM with specific part of eye (IM); /diag: consider also DIAGNOSTIC TECHNIQUES, OPHTHALMOLOGICAL",
+      "mesh_nlm_classification": null,
       "tree_numbers": null,
       "id": "D005128"
     },
@@ -87,6 +92,7 @@
       "mesh_date_established": "1960-01-01",
       "mesh_frequency": null,
       "mesh_description": "general only; prefer specifics; /prev = INFECTION CONTROL but see note there",
+      "mesh_nlm_classification": null,
       "tree_numbers": null,
       "id": "D007239"
     },
@@ -100,6 +106,7 @@
       "mesh_date_established": "1966-01-01",
       "mesh_frequency": null,
       "mesh_description": "general or unspecified; prefer specifics",
+      "mesh_nlm_classification": "WW 220",
       "tree_numbers": null,
       "id": "D007634"
     },
@@ -113,6 +120,7 @@
       "mesh_date_established": "1976-01-01",
       "mesh_frequency": null,
       "mesh_description": "inflamm dis = DACRYOCYSTITIS",
+      "mesh_nlm_classification": "WW 208",
       "tree_numbers": null,
       "id": "D007766"
     },
@@ -126,6 +134,7 @@
       "mesh_date_established": "1990-01-01",
       "mesh_frequency": null,
       "mesh_description": "coordinate with specific infection",
+      "mesh_nlm_classification": null,
       "tree_numbers": null,
       "id": "D015817"
     }

@@ -7,7 +7,7 @@ PREFIX meshv: <http://id.nlm.nih.gov/mesh/vocab#>
 SELECT
   ?mesh_id ?mesh_class ?mesh_uri ?mesh_label
   ?mesh_date_created ?mesh_date_revised ?mesh_date_established
-  ?mesh_frequency ?mesh_description
+  ?mesh_frequency ?mesh_description ?mesh_nlm_classification
 WHERE {
   ?mesh_uri rdf:type ?mesh_class_uri .
   ?mesh_uri meshv:identifier ?mesh_id .
@@ -38,6 +38,12 @@ WHERE {
   # meshv:scopeNote: A property of Concepts.
   #     Free-text narrative giving the scope and meaning (definition) of a Concept.
   OPTIONAL {?mesh_uri meshv:annotation|meshv:note|meshv:scopeNote ?mesh_description .}
+  # meshv:nlmClassificationNumber: A property of Descriptors. Most MeSH Descriptors have a corresponding NLM Classification
+  # (the system for the organization of literature).
+  # Descriptors that lack an NLM Classification Number include those that point to more than one number, those in the Z Tree (Geographicals), and many of those in the V Tree (Publication Characteristics).
+  # This NLM classification is similar to the Library of Congress Classification (LCC).
+  # See also https://classification.nlm.nih.gov/
+  OPTIONAL {?mesh_uri meshv:nlmClassificationNumber ?mesh_nlm_classification .}
   BIND( STRAFTER(STR(?mesh_class_uri), "mesh/vocab#") AS ?mesh_class)
   # date objects confound downstream JSON exports
   BIND( STR(?mesh_date_created) AS ?mesh_date_created)

@@ -240,6 +240,7 @@ class MeshLoader:
         "mesh_date_established",
         "mesh_frequency",
         "mesh_description",
+        "mesh_nlm_classification",
         "tree_numbers",
     ]
 
