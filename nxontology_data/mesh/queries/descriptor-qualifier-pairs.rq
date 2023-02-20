@@ -25,5 +25,8 @@ WHERE {
   BIND( ?type_uri = meshv:AllowedDescriptorQualifierPair AS ?pair_allowed )
   BIND( STRAFTER(STR(?type_uri), "mesh/vocab#") AS ?pair_type )
   BIND( STRAFTER(STR(?use_instead_class), "mesh/vocab#") AS ?use_instead_class )
+  # Exclude non-English labels (only occurs for a single descriptor)
+  # https://github.com/related-sciences/nxontology-data/issues/12
+  FILTER (langMatches(lang(?descriptor_label), "EN")) .
 }
 ORDER BY ?descriptor_id DESC(?pair_allowed) ?qualifier_id

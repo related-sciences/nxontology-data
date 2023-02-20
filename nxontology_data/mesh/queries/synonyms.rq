@@ -14,6 +14,9 @@ WHERE {
   ?concept_uri rdf:type meshv:Concept.
   ?mesh_uri meshv:identifier ?mesh_id.
   ?mesh_uri rdfs:label ?mesh_label.
+  # Exclude non-English labels (only occurs for a single descriptor)
+  # https://github.com/related-sciences/nxontology-data/issues/12
+  FILTER (langMatches(lang(?mesh_label), "EN")) .
   ?concept_uri meshv:identifier ?concept_id.
   ?concept_uri rdfs:label ?concept_label.
   ?concept_uri ?term_predicate ?term_uri.

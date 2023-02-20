@@ -14,6 +14,8 @@ WHERE {
   OPTIONAL {
     # meshv:prefLabel is used for meshv:Term
     ?mesh_uri rdfs:label|meshv:prefLabel ?mesh_label .
+    # Exclude non-English labels
+    # https://github.com/related-sciences/nxontology-data/issues/12
     FILTER (langMatches(lang(?mesh_label), "EN")) .
   }
   # dateCreated: A property of Descriptors, Qualifiers, SupplementaryConceptRecords or Terms.
