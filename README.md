@@ -35,6 +35,21 @@ from networkx.readwrite.json_graph import node_link_graph
 digraph = node_link_graph(requests.get(url).json())
 ```
 
+or in R:
+
+``` r
+url <- "https://github.com/related-sciences/nxontology-data/raw/71cf538dc5c258ada880d58663b0205b7b7f8561/087_chembl_target_tree.json"
+json_ont <- jsonlite::read_json(path = url)
+digraph <- tidygraph::tbl_graph(
+  nodes = dplyr::bind_rows(json_ont$nodes),
+  edges = dplyr::bind_rows(json_ont$links),
+)
+digraph
+#> # A tbl_graph: 904 nodes and 889 edges
+```
+
+Note: There's currently an [open issue](https://github.com/jeroen/jsonlite/issues/414) on reading in `json.gz` files with the R package **jsonlite**. 
+
 ## Sources
 
 The data sources that are currently imported are listed below.
