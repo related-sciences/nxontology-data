@@ -50,8 +50,6 @@ digraph
 
 Note: There's currently an [open issue](https://github.com/jeroen/jsonlite/issues/414) on reading in `json.gz` files with the R package **jsonlite**. 
 
-
-
 ## Sources
 
 The data sources that are currently imported are listed below.
