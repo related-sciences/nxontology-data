@@ -18,12 +18,14 @@ def get_output_dir() -> Path:
     return Path(__file__).parent.parent.joinpath("output")
 
 
-def write_ontology(nxo: NXOntology[Any], output_dir: Path) -> Path:
+def write_ontology(
+    nxo: NXOntology[Any], output_dir: Path, compression_threshold_mb: float = 10.0
+) -> Path:
     data = node_link_data(nxo.graph)
     json_bytes = json.dumps(data, indent=2, ensure_ascii=False).encode()
     json_size_mb = sys.getsizeof(json_bytes) / 1_000_000
     path = output_dir.joinpath(f"{nxo.name}.json")
-    if json_size_mb > 10.0:
+    if json_size_mb > compression_threshold_mb:
         json_bytes = gzip.compress(json_bytes, mtime=0)
         path = path.with_name(f"{path.name}.gz")
         logger.info(
