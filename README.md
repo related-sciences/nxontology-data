@@ -59,11 +59,13 @@ Please open an issue if you are interested in contributing support for additiona
 
 HGNC (HUGO Gene Nomenclature Committee) maintains a directed acyclic graph of gene groups/families.
 See [`nxontology_data/hgnc`](nxontology_data/hgnc) for a detailed README.
+Output data is on the [`output/hgnc`](https://github.com/related-sciences/nxontology-data/tree/output/hgnc) branch.
 
 ### MeSH
 
 MeSH (Medical Subject Headings) is created by the National Library Medicine and integrated into many projects including PubMed.
 See [`nxontology_data/mesh`](nxontology_data/mesh) for a detailed README.
+Output data is on the [`output/mesh`](https://github.com/related-sciences/nxontology-data/tree/output/mesh) branch.
 
 ### PubChem
 
@@ -71,6 +73,7 @@ We import ontologies from the PubChem Classifications service
 (see [browser](https://pubchem.ncbi.nlm.nih.gov/classification/) & [docs](https://pubchem.ncbi.nlm.nih.gov/classification/docs/classification_help.html)).
 Most ontologies indexed by service do not originate with PubChem,
 but PubChem provides convenient and standardized bulk access.
+Output data is on the [`output/pubchem`](https://github.com/related-sciences/nxontology-data/tree/output/pubchem) branch.
 
 ## Development
 
