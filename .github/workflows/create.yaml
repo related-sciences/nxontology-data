@@ -9,7 +9,8 @@ on:
       source:
         type: choice
         description: 'Which data source to generate.'
-        options: 
+        options:
+        - hgnc
         - mesh
         - pubchem
         - test  # for testing this action

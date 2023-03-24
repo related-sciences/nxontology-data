@@ -3,6 +3,7 @@ import logging
 import fire
 from nxontology import NXOntology
 
+from nxontology_data.hgnc.hgnc import HgncGeneGroupNxoLoader
 from nxontology_data.mesh.mesh import MeshLoader
 from nxontology_data.pubchem.classifications import export_all_heirarchies
 from nxontology_data.utils import get_output_dir, write_ontology
@@ -26,6 +27,7 @@ def cli() -> None:
     commands = {
         "mesh": MeshLoader.export_mesh_outputs,
         "pubchem": export_all_heirarchies,
+        "hgnc": HgncGeneGroupNxoLoader.export_hgnc_outputs,
         "test": write_test_output,
     }
     fire.Fire(commands)
