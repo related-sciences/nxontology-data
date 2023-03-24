@@ -34,21 +34,32 @@ class HgncGeneGroupDownloader:
         "hierarchy_closure.csv",
     ]
     OUTPUT_FILENAME = "hgnc_gene_group_db_tables.zip"
+    SYMBOL_URL = "https://www.genenames.org/cgi-bin/download/custom?col=gd_hgnc_id&col=gd_app_sym&status=Approved&hgnc_dbtag=on&order_by=gd_hgnc_id&format=text&submit=submit"
+    """Custom download of gene symbols from HGNC."""
 
     @classmethod
     def download_zip(cls) -> Path:
-        """Download all files in genefamily_db_tables to a zip archive."""
+        """
+        Download all files in genefamily_db_tables to a zip archive.
+        Also downloads a custom query for gene symbols.
+        """
         zip_path = get_hgnc_output_dir().joinpath(cls.OUTPUT_FILENAME)
         # download all files to a zip archive
         with zipfile.ZipFile(
             zip_path, mode="w", compression=zipfile.ZIP_DEFLATED
         ) as zip_file:
+            # genefamily_db_tables downloads
             for filename in cls.FILENAMES:
                 url = cls.BASE_URL + filename
                 logger.info(f"Downloading {url}")
                 response = requests.get(url)
                 response.raise_for_status()
                 zip_file.writestr(filename, response.content)
+            # custom gene symbol download
+            logger.info(f"Downloading {cls.SYMBOL_URL}")
+            response = requests.get(cls.SYMBOL_URL)
+            response.raise_for_status()
+            zip_file.writestr("gene_symbols.csv", response.text.replace("\t", ","))
         return zip_path
 
 
@@ -67,12 +78,21 @@ class HgncGeneGroupNxoLoader:
     def export_hgnc_outputs(cls) -> None:
         tables = HgncGeneGroupNxoLoader.load_tables()
         nxo = cls._create_nxo_from_tables(tables)
-        write_ontology(nxo=nxo, output_dir=get_hgnc_output_dir())
+        # set a higher compression threshold, because the git diff will help monitor for changes.
+        write_ontology(
+            nxo=nxo, output_dir=get_hgnc_output_dir(), compression_threshold_mb=25.0
+        )
 
     @classmethod
     def _create_nxo_from_tables(
         cls, tables: dict[str, pd.DataFrame]
     ) -> NXOntology[int]:
+        symbol_map = (
+            tables["gene_symbols"]
+            .copy()
+            .set_index("HGNC ID")
+            .to_dict()["Approved symbol"]
+        )
         logger.info("Creating HGNC Gene Group NXOntology")
         nxo: NXOntology[int] = NXOntology()
         nxo.graph.graph["name"] = "hgnc_gene_group"
@@ -101,8 +121,30 @@ class HgncGeneGroupNxoLoader:
                 node_info.data["genes_closure"] = sorted(genes_closure)
             node_info.data["genes_direct_count"] = len(node_info.data["genes_direct"])
             node_info.data["genes_closure_count"] = len(node_info.data["genes_closure"])
-        nxo.check_is_dag()
+        for node in nxo.graph.nodes:
+            # expand genes_direct/genes_closure from strs to dicts to include symbols
+            node_info = nxo.node_info(node)
+            node_info.data["genes_direct"] = cls._add_symbols(
+                hgnc_ids=node_info.data["genes_direct"], symbol_map=symbol_map
+            )
+            node_info.data["genes_closure"] = cls._add_symbols(
+                hgnc_ids=node_info.data["genes_closure"], symbol_map=symbol_map
+            )
         return nxo
+
+    @staticmethod
+    def _add_symbols(
+        hgnc_ids: list[str], symbol_map: dict[str, str]
+    ) -> list[dict[str, str | None]]:
+        genes = [
+            {
+                "hgnc_id": hgnc_id,
+                "symbol": symbol_map.get(hgnc_id),
+            }
+            for hgnc_id in hgnc_ids
+        ]
+        genes.sort(key=lambda x: x["symbol"] or "")
+        return genes
 
     @classmethod
     def _get_nodes(cls, tables: dict[str, pd.DataFrame]) -> list[dict[str, Any]]:
@@ -122,6 +164,25 @@ class HgncGeneGroupNxoLoader:
             .map(cls._get_gene_assignments(tables))
             .apply(lambda x: x if isinstance(x, list) else [])
         )
+        # reorder columns
+        df = df[
+            [
+                "id",
+                "name",
+                "name_aliases",
+                "root_symbol",
+                "typical_gene",
+                "desc_label",
+                "desc_comment",
+                "desc_source",
+                "desc_source_url",
+                "desc_go",
+                "pubmed_ids",
+                "external_note",
+                "external_resources",
+                "genes_direct",
+            ]
+        ]
         # Use .to_json and not .to_dict to convert NaN to None
         return json.loads(df.to_json(orient="records"))  # type: ignore [no-any-return]
 
