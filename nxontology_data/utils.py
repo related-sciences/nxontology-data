@@ -22,7 +22,7 @@ def write_ontology(nxo: NXOntology[Any], output_dir: Path) -> Path:
     data = node_link_data(nxo.graph)
     json_bytes = json.dumps(data, indent=2, ensure_ascii=False).encode()
     json_size_mb = sys.getsizeof(json_bytes) / 1_000_000
-    path = output_dir.joinpath(f"{nxo.graph.graph['name']}.json")
+    path = output_dir.joinpath(f"{nxo.name}.json")
     if json_size_mb > 10.0:
         json_bytes = gzip.compress(json_bytes, mtime=0)
         path = path.with_name(f"{path.name}.gz")
@@ -31,6 +31,8 @@ def write_ontology(nxo: NXOntology[Any], output_dir: Path) -> Path:
         )
     path.write_bytes(json_bytes)
     logger.info(f"Wrote ontology to {path}")
+    # ensure JSON is valid and check_is_dag
+    nxo.read_node_link_json(path.as_posix())
     return path
 
 
