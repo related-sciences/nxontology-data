@@ -55,10 +55,15 @@ Note: There's currently an [open issue](https://github.com/jeroen/jsonlite/issue
 The data sources that are currently imported are listed below.
 Please open an issue if you are interested in contributing support for additional sources.
 
+### HGNC Gene Groups
+
+HGNC (HUGO Gene Nomenclature Committee) maintains a directed acyclic graph of gene groups/families.
+See [`nxontology_data/hgnc`](nxontology_data/hgnc) for a detailed README.
+
 ### MeSH
 
 MeSH (Medical Subject Headings) is created by the National Library Medicine and integrated into many projects including PubMed.
-See [nxontology_data/mesh](nxontology_data/mesh) for a detailed README.
+See [`nxontology_data/mesh`](nxontology_data/mesh) for a detailed README.
 
 ### PubChem
 
