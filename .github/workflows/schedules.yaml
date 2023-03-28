@@ -1,16 +1,42 @@
-name: Schedule NXOntology Creation
+name: Schedule Create
 on:
   schedule:
     - cron: '0 0 1 * *'  # https://crontab.guru/#0_0_1_*_*
   workflow_dispatch:
+    inputs:
+      schedule_date:
+        description: 'Date like YYYY-MM-DD, which is used as the schedule date to determine which NXOntologies to create.'
+        required: true
 jobs:
   schedule_create:
     permissions:
       actions: write
     runs-on: ubuntu-latest
     steps:
-    - name: Create test
+    - name: Set date
+      id: params
+      shell: bash
+      run: |
+        SCHEDULE_DATE=${{ inputs.schedule_date }}
+        TODAY=$(date --utc --iso)
+        SCHEDULE_DATE=${SCHEDULE_DATE:-$TODAY}
+        echo "Setting parameter schedule_date=$SCHEDULE_DATE"
+        echo "schedule_date=$SCHEDULE_DATE" >> $GITHUB_OUTPUT
+    - name: Create hgnc
+      if: endsWith(steps.params.outputs.schedule_date, '-01')
       uses: benc-uk/workflow-dispatch@v1
       with:
         workflow: create.yaml
-        inputs: '{ "source": "test", "overwrite": false }'
+        inputs: '{ "source": "hgnc", "overwrite": true }'
+    - name: Create mesh
+      if: endsWith(steps.params.outputs.schedule_date, '-01-01')
+      uses: benc-uk/workflow-dispatch@v1
+      with:
+        workflow: create.yaml
+        inputs: '{ "source": "mesh", "overwrite": true }'
+    - name: Create pubchem
+      if: endsWith(steps.params.outputs.schedule_date, '-01-01')
+      uses: benc-uk/workflow-dispatch@v1
+      with:
+        workflow: create.yaml
+        inputs: '{ "source": "pubchem", "overwrite": true }'
