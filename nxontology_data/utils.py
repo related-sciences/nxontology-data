@@ -5,7 +5,9 @@ import sys
 from pathlib import Path
 from typing import Any
 
+import bioregistry
 import pandas as pd
+from bioregistry.utils import curie_to_str
 from networkx.readwrite.json_graph import node_link_data
 from nxontology import NXOntology
 from rdflib.plugins.sparql.processor import SPARQLResult
@@ -64,3 +66,18 @@ def sparql_results_to_df(results: SPARQLResult) -> pd.DataFrame:
         data=([None if x is None else x.toPython() for x in row] for row in results),
         columns=[str(x) for x in results.vars],
     )
+
+
+def normalize_parsed_curie(xref_prefix: str, xref_accession: str) -> str | None:
+    """
+    Normalize a parsed CURIE according to Bioregistry.
+    Return a string using preferred prefix capitalization.
+    https://github.com/biopragmatics/bioregistry/issues/790
+    """
+    xref_prefix, xref_accession = bioregistry.normalize_parsed_curie(
+        xref_prefix, xref_accession
+    )
+    if xref_prefix is None:
+        return None
+    xref_prefix = bioregistry.get_preferred_prefix(xref_prefix) or xref_prefix.upper()
+    return curie_to_str(xref_prefix, xref_accession)  # type: ignore [no-any-return]
