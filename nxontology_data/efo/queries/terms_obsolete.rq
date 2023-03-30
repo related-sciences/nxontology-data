@@ -1,0 +1,38 @@
+# find deprecated/obsolete terms
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX efo: <http://www.ebi.ac.uk/efo/>
+SELECT 
+  ?efo_uri ?efo_id ?efo_label
+  ?replaced_by_efo_uri ?replaced_by_efo_id ?replaced_by_efo_label
+  ?obsoleted ?obsoleted_version ?obsoleted_reason
+WHERE {
+  # find obsolete terms
+  # issue: deprecated terms whose owl:deprecated value is a string not a boolean true
+  # https://github.com/EBISPOT/efo/issues/869
+  ?efo_uri owl:deprecated ?obsoleted_dirty.
+  # ensure ?obsolete is a consistent type
+  BIND(xsd:boolean(?obsoleted_dirty) AS ?obsoleted)
+  # infer efo_id from efo_uri since not all nodes have oboInOwl:id
+  # https://github.com/EBISPOT/efo/issues/867
+  BIND( REPLACE( STR(?efo_uri), "^http.+/([^:]+)_(.+)$", "$1:$2" ) AS ?efo_id )
+  OPTIONAL {?efo_uri rdfs:label ?efo_label.}
+  OPTIONAL {
+    # issue: term replaced by is poorly standardized
+    # https://github.com/EBISPOT/efo/issues/868
+    ?efo_uri obo:IAO_0100001 ?replaced_by.
+    BIND(REPLACE(STR(?replaced_by), " ", "") AS ?replaced_by_uri_str)
+    BIND(URI(?replaced_by_uri_str) AS ?replaced_by_efo_uri)
+    BIND( REPLACE( ?replaced_by_uri_str, "^http.+/([^:]+)_(.+)$", "$1:$2" ) AS ?replaced_by_efo_id )
+    OPTIONAL {?replaced_by_efo_uri rdfs:label ?replaced_by_efo_label.}
+  }
+  # efo:obsoleted_in_version mixes xsd:string and xsd:decimal types
+  # https://github.com/EBISPOT/efo/issues/877
+  OPTIONAL {?efo_uri efo:obsoleted_in_version ?obsoleted_version_dirty.}
+  BIND(STR(?obsoleted_version_dirty) AS ?obsoleted_version)
+  OPTIONAL {?efo_uri efo:reason_for_obsolescence ?obsoleted_reason.}
+}
+ORDER BY ?efo_id

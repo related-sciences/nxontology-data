@@ -1,0 +1,9 @@
+# Extract alternative IDs for nodes.
+# Background info at https://github.com/althonos/pronto/issues/116
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+SELECT ?efo_uri ?efo_id ?alt_id
+WHERE {
+  ?efo_uri oboInOwl:hasAlternativeId ?alt_id.
+  BIND( REPLACE( STR(?efo_uri), "^http.+/([^:]+)_(.+)$", "$1:$2" ) AS ?efo_id )
+}
+ORDER BY ?efo_id ?alt_id

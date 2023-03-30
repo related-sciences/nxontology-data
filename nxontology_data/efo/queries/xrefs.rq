@@ -1,0 +1,70 @@
+# Extract cross-references (xrefs) to other terminologies.
+# Only returns xrefs to non-obsolete EFO terms.
+# However, xrefs are extracted from obsolete terms and applied to the EFO term that
+# replaced them. Filter for ?via_replaced_by = False to remove xrefs that were only
+# ascertained via a replaced-obsolete term.
+# issue: some UBERON MeSH xrefs are to tree locations rather than valid identifiers
+# https://github.com/obophenotype/uberon/issues/698
+# WARNING: results are unique to efo_uri-xref pair, where xref includes dirty prefixes.
+# Applications that expect unique efo_uri-xref_prefix-xref_accession combinations must deduplicate.
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+SELECT
+  ?efo_uri ?efo_id ?efo_label
+  ?xref ?xref_prefix ?xref_accession
+  ?via_replaced_by ?source_efo_uris
+WHERE {
+  {
+    SELECT
+      ?efo_uri
+      (MIN(?efo_label) AS ?efo_label)
+      ?xref
+      (MIN(?via_replaced_by) AS ?via_replaced_by)
+      (GROUP_CONCAT(DISTINCT ?source_efo_uri; separator=" | ") AS ?source_efo_uris)
+    WHERE {
+      ?source_efo_uri rdf:type owl:Class.
+      ?source_efo_uri oboInOwl:hasDbXref ?xref_raw.
+      # convert URI xrefs to strings and trim whitespace https://github.com/EBISPOT/efo/issues/872
+      BIND( REPLACE( STR(?xref_raw), "^\\s*(.+?)\\s*$", "$1", "s") AS ?xref)
+      # match one or more replaced_by relationships for terms that have been replaced multiple times.
+      # RS Internal issue 176 and https://github.com/EBISPOT/efo/issues/868#issuecomment-713720490
+      ?source_efo_uri obo:IAO_0100001* ?efo_uri_dirty.
+      # issue: term replaced by is poorly standardized
+      # https://github.com/EBISPOT/efo/issues/868
+      BIND(URI(REPLACE(STR(?efo_uri_dirty), " ", "")) AS ?efo_uri)
+      BIND(?efo_uri != ?source_efo_uri AS ?via_replaced_by)
+      # remove xrefs to URIs that are not actually in EFO
+      # term replaced by can point to non-existent nodes https://github.com/EBISPOT/efo/issues/868
+      FILTER EXISTS {?efo_uri rdf:type owl:Class.}
+      # remove obsolete terms. Be careful of https://github.com/EBISPOT/efo/issues/869
+      FILTER NOT EXISTS {?efo_uri owl:deprecated ?obsoleted.}
+      # some terms have multiple labels https://github.com/EBISPOT/efo/issues/871
+      OPTIONAL {?efo_uri rdfs:label ?efo_label.}
+    }
+    GROUP BY ?efo_uri ?xref
+  }
+  # issue: infer efo_id from efo_uri since not all nodes have oboInOwl:id
+  # https://github.com/EBISPOT/efo/issues/867
+  BIND( REPLACE( STR(?efo_uri), "^http.+/([^:]+)_(.+)$", "$1:$2" ) AS ?efo_id )
+  BIND( LCASE(STRBEFORE( ?xref, ":" )) AS ?xref_prefix_dirty )
+  # Standardize prefixes. https://github.com/EBISPOT/efo/issues/878
+  BIND(
+    COALESCE(
+      # https://blog.semaku.com/post/140876753748/using-coalesce-and-if-in-sparql-for-nested
+      IF(?xref_prefix_dirty = "msh", "mesh", ?error),
+      IF(?xref_prefix_dirty = "icd-10", "icd10", ?error),
+      IF(?xref_prefix_dirty = "umls_cui", "umls", ?error),
+      IF(?xref_prefix_dirty = "sctid", "snomedct", ?error),
+      # Looked at several of these SNOMEDCT_US terms (US Edition of SNOMED CT) and they existed in the International Edition
+      IF(?xref_prefix_dirty = "snomedct_us", "snomedct", ?error),
+      IF(?xref_prefix_dirty = "snomedct_2010_1_31", "snomedct", ?error),
+      IF(?xref_prefix_dirty = "snomedct_us_2018_03_01", "snomedct", ?error),
+      ?xref_prefix_dirty
+    ) AS ?xref_prefix
+  )
+  BIND( STRAFTER( ?xref, ":" ) AS ?xref_accession )
+}
+ORDER BY ?efo_id ?xref

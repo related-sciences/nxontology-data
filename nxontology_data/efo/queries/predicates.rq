@@ -1,0 +1,9 @@
+# find most common predicates
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?predicate (MIN(?label) AS ?label) (COUNT(?predicate) AS ?count)
+WHERE {
+  ?subject ?predicate ?object 
+  OPTIONAL {?predicate rdfs:label ?label}
+}
+GROUP BY ?predicate
+ORDER BY DESC(?count)

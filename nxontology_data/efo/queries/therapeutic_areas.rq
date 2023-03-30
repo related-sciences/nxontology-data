@@ -1,0 +1,20 @@
+# Find therapeutic areas in EFO OTAR
+# A similar dataset can be downloaded directly from Open Targets at
+# https://github.com/opentargets/platform-therapeutic-areas/blob/c16a85da9371f4257fdbc125eae1946445dbf54f/tas.tsv
+# But it is more reliable to get it from the EFO-OTAR RDF, as the lists do differ.
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT 
+  ?efo_uri
+  (MIN(?efo_id) AS ?efo_id)
+  (MIN(?efo_label) AS ?efo_label)
+WHERE {
+  ?efo_uri oboInOwl:inSubset "therapeutic_area".
+  FILTER (isURI(?efo_uri))
+  # infer efo_id from efo_uri since not all nodes have oboInOwl:id https://github.com/EBISPOT/efo/issues/867
+  BIND( REPLACE( STR(?efo_uri), "^http.+/([^:]+)_(.+)$", "$1:$2" ) AS ?efo_id )
+  # some terms have multiple labels. https://github.com/EBISPOT/efo/issues/871
+  OPTIONAL {?efo_uri rdfs:label ?efo_label.}
+}
+GROUP BY ?efo_uri
+ORDER BY ?efo_id

@@ -1,0 +1,16 @@
+# find subClassOf relationships
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT *
+WHERE {
+  ?efo_uri rdf:type owl:Class.
+  FILTER(!isBlank(?efo_uri))
+  BIND( REPLACE( STR(?efo_uri), "^http.+/([^:]+)_(.+)$", "$1:$2" ) AS ?efo_id )
+  ?child_efo_uri rdfs:subClassOf ?efo_uri .
+  FILTER(!isBlank(?child_efo_uri))
+  BIND( REPLACE( STR(?child_efo_uri), "^http.+/([^:]+)_(.+)$", "$1:$2" ) AS ?child_efo_id )
+  # Workaround for EFO:0004193 self-loop in v3.26.0 https://github.com/EBISPOT/efo/issues/961
+  FILTER(?child_efo_uri != ?efo_uri)
+}
+ORDER BY ?efo_id ?child_efo_id
