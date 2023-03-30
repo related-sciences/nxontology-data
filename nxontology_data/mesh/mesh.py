@@ -19,7 +19,7 @@ from nxontology import NXOntology
 from rdflib.term import URIRef
 
 from nxontology_data.utils import (
-    get_output_dir,
+    get_source_output_dir,
     sparql_results_to_df,
     write_dataframe,
     write_ontology,
@@ -383,9 +383,8 @@ class MeshLoader:
         if year_yyyy is None:
             year_yyyy = bioversions.get_version("mesh")
         year_yyyy = str(year_yyyy)  # protect against fire
-        output_dir = get_output_dir().joinpath("mesh")
+        output_dir = get_source_output_dir("mesh")
         logging.info(f"Processing mesh {year_yyyy} to {output_dir}")
-        output_dir.mkdir(parents=True, exist_ok=True)
         rdf = cls.get_mesh_rdf(year_yyyy)
         # Full NXOntology
         logger.info(f"Creating full NXOntology for mesh {year_yyyy}.")

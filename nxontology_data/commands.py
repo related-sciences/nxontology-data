@@ -6,13 +6,12 @@ from nxontology import NXOntology
 from nxontology_data.hgnc.hgnc import HgncGeneGroupNxoLoader
 from nxontology_data.mesh.mesh import MeshLoader
 from nxontology_data.pubchem.classifications import export_all_heirarchies
-from nxontology_data.utils import get_output_dir, write_ontology
+from nxontology_data.utils import get_source_output_dir, write_ontology
 
 
 def write_test_output() -> None:
     """Export an empty test ontology, useful for testing CI deployment."""
-    output_dir = get_output_dir().joinpath("test")
-    output_dir.mkdir(parents=True, exist_ok=True)
+    output_dir = get_source_output_dir("test")
     nxo: NXOntology[str] = NXOntology()
     nxo.graph.graph["name"] = "test"
     write_ontology(nxo, output_dir)

@@ -8,15 +8,13 @@ import pandas as pd
 import requests
 from nxontology import NXOntology
 
-from nxontology_data.utils import get_output_dir, write_ontology
+from nxontology_data.utils import get_source_output_dir, write_ontology
 
 logger = logging.getLogger(__name__)
 
 
 def get_hgnc_output_dir() -> Path:
-    output_dir = get_output_dir().joinpath("hgnc")
-    output_dir.mkdir(parents=True, exist_ok=True)
-    return output_dir
+    return get_source_output_dir(source="hgnc")
 
 
 class HgncGeneGroupDownloader:

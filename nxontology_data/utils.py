@@ -18,6 +18,12 @@ def get_output_dir() -> Path:
     return Path(__file__).parent.parent.joinpath("output")
 
 
+def get_source_output_dir(source: str) -> Path:
+    output_dir = get_output_dir().joinpath(source)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    return output_dir
+
+
 def write_ontology(
     nxo: NXOntology[Any], output_dir: Path, compression_threshold_mb: float = 10.0
 ) -> Path:
