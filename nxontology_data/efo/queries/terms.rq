@@ -1,0 +1,25 @@
+# find all non-obsolete ontology terms
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX efo: <http://www.ebi.ac.uk/efo/>
+SELECT
+  ?efo_uri
+  (MIN(?efo_id) AS ?efo_id)
+  (MIN(?efo_label) AS ?efo_label)
+  (MIN(?efo_definition) AS ?efo_definition)
+WHERE {
+  ?efo_uri rdf:type owl:Class.
+  FILTER (isURI(?efo_uri))
+  # infer efo_id from efo_uri since not all nodes have oboInOwl:id https://github.com/EBISPOT/efo/issues/867
+  BIND( REPLACE( STR(?efo_uri), "^http.+/([^:]+)_(.+)$", "$1:$2" ) AS ?efo_id )
+  # some terms have multiple labels. https://github.com/EBISPOT/efo/issues/871
+  OPTIONAL {?efo_uri rdfs:label ?efo_label.}
+  # some terms like http://www.ebi.ac.uk/efo/EFO_1000025 have multiple definitions
+  OPTIONAL {?efo_uri obo:IAO_0000115 ?efo_definition.}
+  # remove obsolete terms https://github.com/EBISPOT/efo/issues/869
+  FILTER NOT EXISTS {?efo_uri owl:deprecated ?obsoleted.}
+}
+GROUP BY ?efo_uri
+ORDER BY ?efo_id
