@@ -2,6 +2,8 @@
 
 See <https://github.com/EBISPOT/efo>.
 
+https://github.com/EBISPOT/efo/issues/926
+
 ## References
 
 1. **Modeling sample variables with an Experimental Factor Ontology**

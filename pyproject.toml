@@ -60,6 +60,7 @@ python_version = "3.10"
 [[tool.mypy.overrides]]
 module = [
     "bioversions.*",
+    "bioregistry.*",  # TODO: update bioregistry and remove?
     "fire.*",
     "fsspec.*",
     "networkx.*",
