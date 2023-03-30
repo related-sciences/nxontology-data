@@ -2,17 +2,15 @@ import json
 import logging
 import re
 from collections import Counter
+from pathlib import Path
 from typing import Any
 
 import requests
 from nxontology import NXOntology
 
-from nxontology_data.utils import get_output_dir, write_ontology
+from nxontology_data.utils import get_source_output_dir, write_ontology
 
 logger = logging.getLogger(__name__)
-
-
-output_dir = get_output_dir().joinpath("pubchem")
 
 
 class PubchemClassificationApi:
@@ -146,7 +144,7 @@ class PubchemClassificationApi:
         return sep.join(Counter(name.split(sep)))
 
     @classmethod
-    def write_hierarchy_catalog(cls) -> list[dict[str, Any]]:
+    def write_hierarchy_catalog(cls, output_dir: Path) -> list[dict[str, Any]]:
         hierarchies = cls.get_hierarchy_catalog()
         hierarchies.sort(key=lambda h: h["HID"])  # type: ignore [no-any-return]
         for hierarchy in hierarchies:
@@ -163,8 +161,10 @@ skip_hierarchy_ids = [
 
 
 def export_all_heirarchies() -> None:
-    output_dir.mkdir(parents=True, exist_ok=True)
-    hierarchies = PubchemClassificationApi.write_hierarchy_catalog()
+    output_dir = get_source_output_dir("pubchem")
+    hierarchies = PubchemClassificationApi.write_hierarchy_catalog(
+        output_dir=output_dir
+    )
     for hierarchy in hierarchies:
         nxo_name = hierarchy["nxo_name"]
         if hierarchy["HID"] in skip_hierarchy_ids:
