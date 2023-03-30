@@ -1,9 +1,6 @@
 name: Create NXOntology
 run-name: Create ${{ inputs.source }}
 on:
-  # schedule:
-  # # https://crontab.guru/#05_11_*_*_2
-  # - cron: '05 11 * * 2'
   workflow_dispatch:
     inputs:
       source:
