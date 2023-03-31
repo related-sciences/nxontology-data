@@ -1,6 +1,7 @@
 import functools
 import json
 import logging
+import re
 import shutil
 from pathlib import Path
 from typing import Any
@@ -29,19 +30,18 @@ class EfoProcessor:
     EFO_REPO = "https://github.com/EBISPOT/efo"
 
     def __init__(
-        self, name: str = "efo_otar_profile", version: str | None = None
+        self, name: str = "efo_otar_profile", version: str | None = "current"
     ) -> None:
         """
         name: variant of efo. Valid options include 'efo', 'efo_otar_profile', and 'efo_otar_slim'.
               Note that efo_otar_slim gets computed by nxontology-data from efo_otar_profile.
         version: EFO version to use like 'v3.52.0'. If None, use the latest version from bioversions.
+              If version='current', download current tag from GitHub <https://github.com/EBISPOT/efo/releases/tag/current>.
+              See owl_version property for version extracted from the OWL download.
         """
         self.name = name
         if version is None:
-            # WARNING: bioregistry is out of date
-            # Could use https://github.com/EBISPOT/efo/releases/tag/current
-            # and then read version from owl in line like:
-            # <owl:versionIRI rdf:resource="http://www.ebi.ac.uk/efo/releases/v3.52.0/efo.owl"/>
+            # WARNING: Bioregistry version is out of date
             version = bioversions.get_version("efo")
             if not version.startswith("v"):
                 version = f"v{version}"
@@ -70,6 +70,33 @@ class EfoProcessor:
         ) as dst:
             shutil.copyfileobj(src, dst)
         return self.owl_path
+
+    @functools.cached_property
+    def owl_version(self) -> str | None:
+        """
+        Get the version from the versionIRI from the EFO OWL file.
+        https://github.com/EBISPOT/efo/issues/1972
+        """
+        with fsspec.open(self.owl_path, "rt", compression="infer") as read_file:
+            # <owl:versionIRI rdf:resource="http://www.ebi.ac.uk/efo/releases/v3.52.0/efo.owl"/>
+            for line in read_file:
+                line = line.strip()
+                if line.startswith("<owl:versionIRI rdf:resource"):
+                    break
+            else:
+                logger.warning(f"Could not find a versionIRI line in {self.owl_path}")
+                # efo_otar_profile.owl and efo_otar_slim.owl missing versionIRI
+                # https://github.com/EBISPOT/efo/issues/1972
+                return None
+        logger.info(f"Found versionIRI line: {line}")
+        match = re.match(
+            r"<owl:versionIRI rdf:resource=\"http://www.ebi.ac.uk/efo/releases/(?P<version>v\d+\.\d+\.\d+)/\w+.owl\"/>",
+            line,
+        )
+        assert match is not None
+        version = match.group("version")
+        logger.info(f"Extracted version from versionIRI: {version!r}")
+        return version
 
     @functools.cache  # noqa: B019
     def load_rdf(self) -> rdflib.graph.Graph:
@@ -183,7 +210,7 @@ class EfoProcessor:
     def create_nxo(self) -> NXOntology[str]:
         nxo: NXOntology[str] = NXOntology()
         nxo.graph.graph["name"] = self.name
-        nxo.graph.graph["version"] = self.version
+        nxo.graph.graph["version"] = self.owl_version
         nxo.graph.graph["source_url"] = self.owl_url
         nxo.set_graph_attributes(
             node_name_attribute="efo_label",
@@ -200,7 +227,7 @@ class EfoProcessor:
             except nx.NodeNotFound as e:
                 logger.warning(f"Skipping edge {source}, {target} due to: {e}")
         logging.info(
-            f"Created {nxo.__class__.__name__} for {self.name} {self.version} with "
+            f"Created {nxo.__class__.__name__} for {self.name} {self.owl_version} with "
             f"{nxo.n_nodes:,} nodes and {nxo.graph.number_of_edges():,} edges."
         )
         return nxo
@@ -241,12 +268,14 @@ class EfoProcessor:
         return nxo_slim
 
 
-def process_efo(name: str = "efo_otar_profile", version: str | None = None) -> None:
+def process_efo(
+    name: str = "efo_otar_profile", version: str | None = "current"
+) -> None:
     processor = EfoProcessor(name=name, version=version)
     processor.download_owl()
     processor.write_outputs()
 
 
-def process_efo_all(version: str | None = None) -> None:
+def process_efo_all(version: str | None = "current") -> None:
     for name in "efo", "efo_otar_profile":
         process_efo(name=name, version=version)
