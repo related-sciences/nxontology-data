@@ -18,11 +18,11 @@ WHERE {
   BIND( REPLACE( STR(?efo_uri), "^http.+/([^:]+)_(.+)$", "$1:$2" ) AS ?efo_id )
   # NOTE: therapeutic_area only applies to EFO OTAR releases
   BIND( EXISTS {?efo_uri oboInOwl:inSubset "therapeutic_area".} AS ?therapeutic_area)
+  BIND( EXISTS {?efo_uri efo:gwas_trait "true"^^xsd:boolean.} AS ?gwas_trait)
   # some terms have multiple labels. https://github.com/EBISPOT/efo/issues/871
   OPTIONAL {?efo_uri rdfs:label ?efo_label.}
   # some terms like http://www.ebi.ac.uk/efo/EFO_1000025 have multiple definitions
   OPTIONAL {?efo_uri obo:IAO_0000115 ?efo_definition.}
-  OPTIONAL {?efo_uri efo:gwas_trait ?gwas_trait.}
   # remove obsolete terms https://github.com/EBISPOT/efo/issues/869
   FILTER NOT EXISTS {?efo_uri owl:deprecated ?obsoleted.}
 }

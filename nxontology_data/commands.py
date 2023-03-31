@@ -3,7 +3,7 @@ import logging
 import fire
 from nxontology import NXOntology
 
-from nxontology_data.efo.efo import process_efo
+from nxontology_data.efo.efo import process_efo_all
 from nxontology_data.hgnc.hgnc import HgncGeneGroupNxoLoader
 from nxontology_data.mesh.mesh import MeshLoader
 from nxontology_data.pubchem.classifications import export_all_heirarchies
@@ -25,7 +25,7 @@ def cli() -> None:
     logging.basicConfig()
     logging.getLogger().setLevel(logging.INFO)
     commands = {
-        "efo": process_efo,
+        "efo": process_efo_all,
         "hgnc": HgncGeneGroupNxoLoader.export_hgnc_outputs,
         "mesh": MeshLoader.export_mesh_outputs,
         "pubchem": export_all_heirarchies,
