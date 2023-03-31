@@ -5,6 +5,7 @@ import shutil
 from pathlib import Path
 from typing import Any
 
+import bioversions
 import fsspec
 import networkx as nx
 import pandas as pd
@@ -28,10 +29,22 @@ class EfoProcessor:
     EFO_REPO = "https://github.com/EBISPOT/efo"
 
     def __init__(
-        self, name: str = "efo_otar_profile", version: str = "v3.52.0"
+        self, name: str = "efo_otar_profile", version: str | None = None
     ) -> None:
+        """
+        name: variant of efo. Valid options include 'efo', 'efo_otar_profile', and 'efo_otar_slim'.
+              Note that efo_otar_slim gets computed by nxontology-data from efo_otar_profile.
+        version: EFO version to use like 'v3.52.0'. If None, use the latest version from bioversions.
+        """
         self.name = name
-        # TODO: support bioversions lookup
+        if version is None:
+            # WARNING: bioregistry is out of date
+            # Could use https://github.com/EBISPOT/efo/releases/tag/current
+            # and then read version from owl in line like:
+            # <owl:versionIRI rdf:resource="http://www.ebi.ac.uk/efo/releases/v3.52.0/efo.owl"/>
+            version = bioversions.get_version("efo")
+            if not version.startswith("v"):
+                version = f"v{version}"
         self.version = version
 
     @property
@@ -196,13 +209,44 @@ class EfoProcessor:
         output_dir = get_source_output_dir("efo")
         nxo = self.create_nxo()
         write_ontology(nxo, output_dir)
-        write_dataframe(self.get_xrefs_df(), output_dir.joinpath("efo_xrefs.json.gz"))
         write_dataframe(
-            self.get_obsolete_df(), output_dir.joinpath("efo_obsolete.json")
+            self.get_xrefs_df(), output_dir.joinpath(f"{self.name}_xrefs.json.gz")
         )
+        write_dataframe(
+            self.get_obsolete_df(), output_dir.joinpath(f"{self.name}_obsolete.json.gz")
+        )
+        if nxo.name == "efo_otar_profile":
+            nxo_slim = self.create_slim_nxo(nxo)
+            write_ontology(nxo_slim, output_dir, compression_threshold_mb=25.0)
+
+    @staticmethod
+    def create_slim_nxo(nxo: NXOntology[str]) -> NXOntology[str]:
+        """
+        EFO OTAR Slim is created by pruning EFO OTAR Profile to only include therapeutic area terms and their descendants.
+        https://github.com/EBISPOT/efo/issues/926
+        """
+        logger.info("Creating EFO OTAR slim")
+        assert nxo.name == "efo_otar_profile"
+        otar_slim_nodes = set()
+        for node, data in nxo.graph.nodes(data=True):
+            if data.get("therapeutic_area"):
+                otar_slim_nodes |= nxo.node_info(node).descendants
+        nxo_slim: NXOntology[str] = NXOntology(
+            nxo.graph.subgraph(otar_slim_nodes).copy()
+        )
+        nxo_slim.graph.graph["name"] = "efo_otar_slim"
+        nxo_slim.graph.graph[
+            "note"
+        ] = "EFO OTAR Slim was created from EFO OTAR Profile by nxontology-data."
+        return nxo_slim
 
 
-def process_efo() -> None:
-    processor = EfoProcessor()
+def process_efo(name: str = "efo_otar_profile", version: str | None = None) -> None:
+    processor = EfoProcessor(name=name, version=version)
     processor.download_owl()
     processor.write_outputs()
+
+
+def process_efo_all(version: str | None = None) -> None:
+    for name in "efo", "efo_otar_profile":
+        process_efo(name=name, version=version)
