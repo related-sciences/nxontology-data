@@ -55,6 +55,11 @@ Note: There's currently an [open issue](https://github.com/jeroen/jsonlite/issue
 The data sources that are currently imported are listed below.
 Please open an issue if you are interested in contributing support for additional sources.
 
+### EFO
+
+This project converts all three variants of the Experimental Factor Ontology (EFO, EFO OTAR Profile, and EFO OTAR Slim) into NXOntology objects.
+See [`nxontology_data/efo`](nxontology_data/efo) for a detailed README.
+
 ### HGNC Gene Groups
 
 HGNC (HUGO Gene Nomenclature Committee) maintains a directed acyclic graph of gene groups/families.
