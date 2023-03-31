@@ -22,6 +22,12 @@ jobs:
         SCHEDULE_DATE=${SCHEDULE_DATE:-$TODAY}
         echo "Setting parameter schedule_date=$SCHEDULE_DATE"
         echo "schedule_date=$SCHEDULE_DATE" >> $GITHUB_OUTPUT
+    - name: Create efo
+      if: endsWith(steps.params.outputs.schedule_date, '-01')
+      uses: benc-uk/workflow-dispatch@v1
+      with:
+        workflow: create.yaml
+        inputs: '{ "source": "efo", "overwrite": true }'
     - name: Create hgnc
       if: endsWith(steps.params.outputs.schedule_date, '-01')
       uses: benc-uk/workflow-dispatch@v1
