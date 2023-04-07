@@ -49,6 +49,9 @@ jobs:
       id: params
       shell: bash
       run: |
+        CURRENT_DATE=$(date --utc --iso)
+        echo "Setting parameter current_date=$CURRENT_DATE"
+        echo "current_date=$CURRENT_DATE" >> $GITHUB_OUTPUT
         OUTPUT_PATH="output/${{ github.event.inputs.source }}"
         echo "Setting parameter output_path=$OUTPUT_PATH"
         echo "output_path=$OUTPUT_PATH" >> $GITHUB_OUTPUT
@@ -76,7 +79,7 @@ jobs:
         folder: ./${{ steps.params.outputs.output_path }}
         branch: ${{ steps.params.outputs.output_path }}
         commit-message: |
-          Export ${{ github.event.inputs.source }}
+          Export ${{ github.event.inputs.source }} on ${{ steps.params.outputs.current_date }}
           
           Ontology generated from source code at ${{ github.sha }}.
           Run in https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
