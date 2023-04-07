@@ -5,9 +5,9 @@ import sys
 from pathlib import Path
 from typing import Any
 
-import bioregistry
+import bioregistry.resolve
 import pandas as pd
-from bioregistry.utils import curie_to_str
+from bioregistry.resource_manager import _safe_curie_to_str
 from networkx.readwrite.json_graph import node_link_data
 from nxontology import NXOntology
 from rdflib.plugins.sparql.processor import SPARQLResult
@@ -74,10 +74,7 @@ def normalize_parsed_curie(xref_prefix: str, xref_accession: str) -> str | None:
     Return a string using preferred prefix capitalization.
     https://github.com/biopragmatics/bioregistry/issues/790
     """
-    xref_prefix, xref_accession = bioregistry.normalize_parsed_curie(
-        xref_prefix, xref_accession
+    prefix, accession = bioregistry.resolve.normalize_parsed_curie(
+        xref_prefix, xref_accession, use_preferred=True
     )
-    if xref_prefix is None:
-        return None
-    xref_prefix = bioregistry.get_preferred_prefix(xref_prefix) or xref_prefix.upper()
-    return curie_to_str(xref_prefix, xref_accession)  # type: ignore [no-any-return]
+    return _safe_curie_to_str(prefix, accession)

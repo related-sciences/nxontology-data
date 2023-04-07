@@ -23,8 +23,9 @@ repos:
     rev: v1.0.0
     hooks:
       - id: mypy
-        args: ["--strict", "--show-error-codes", "--pretty", "--show-error-context"]
         additional_dependencies:
+          - bioregistry==0.8.3
+          - bioversions==0.5.98
           - nxontology==0.4.1
           - pandas==1.5.3
           - pytest
