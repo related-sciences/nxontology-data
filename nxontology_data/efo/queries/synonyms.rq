@@ -1,0 +1,12 @@
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT 
+  ?efo_uri ?efo_id ?predicate_id ?synonym ?predicate_uri
+WHERE {
+  ?efo_uri rdf:type owl:Class.
+  ?efo_uri oboInOwl:hasExactSynonym|oboInOwl:hasRelatedSynonym|oboInOwl:hasRelatedSynonym|oboInOwl:hasNarrowSynonym|oboInOwl:hasBroadSynonym ?synonym.
+  ?efo_uri ?predicate_uri ?synonym
+  BIND( REPLACE( STR(?efo_uri), "^http.+/([^:]+)_(.+)$", "$1:$2" ) AS ?efo_id )
+  BIND( REPLACE( STR(?predicate_uri), "^http://www\\.geneontology\\.org/formats/oboInOwl#(.+)$", "$1" ) AS ?predicate_id )
+}
+ORDER BY ?efo_id ?predicate_id ?synonym

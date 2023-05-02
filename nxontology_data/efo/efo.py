@@ -142,6 +142,26 @@ class EfoProcessor:
     def get_alt_id_df(self) -> pd.DataFrame:
         return self.run_query("alt_id", cache=True)
 
+    def get_synonyms(self) -> dict[str, dict[str, str]]:
+        synonym_scopes = {
+            "hasExactSynonym": "exact",
+            "hasNarrowSynonym": "narrow",
+            "hasBroadSynonym": "broad",
+            "hasRelatedSynonym": "related",
+        }
+        df = self.run_query("synonyms", cache=True)
+        df["scope"] = df.predicate_id.map(synonym_scopes)
+        df = (
+            df.rename(columns={"synonym": "name"})[["efo_id", "name", "scope"]]
+            .dropna()
+            .drop_duplicates()
+            .sort_values(["efo_id", "name", "scope"])
+        )
+        return {
+            k: v[["name", "scope"]].to_dict(orient="records")
+            for k, v in df.groupby("efo_id")
+        }
+
     def get_xrefs_df(self) -> pd.DataFrame:
         xref_df = self.run_query("xrefs", cache=True)
         xref_df["xref_bioregistry"] = xref_df.apply(
@@ -197,6 +217,7 @@ class EfoProcessor:
     def get_nodes(self) -> list[dict[str, Any]]:
         logger.info("Generating nodes")
         node_df = self.get_terms_df()
+        node_df["synonyms"] = node_df.efo_id.map(self.get_synonyms())
         node_df["replaces"] = node_df.efo_id.map(self.get_replaced_terms())
         node_df["xrefs"] = node_df.efo_id.map(
             self.get_xrefs_df()
@@ -244,7 +265,7 @@ class EfoProcessor:
         )
         if nxo.name == "efo_otar_profile":
             nxo_slim = self.create_slim_nxo(nxo)
-            write_ontology(nxo_slim, output_dir, compression_threshold_mb=25.0)
+            write_ontology(nxo_slim, output_dir, compression_threshold_mb=30.0)
 
     @staticmethod
     def create_slim_nxo(nxo: NXOntology[str]) -> NXOntology[str]:
