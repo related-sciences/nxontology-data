@@ -29,7 +29,7 @@ SELECT
   ?subject_is_tim
   (COUNT(*) AS ?n_triples)
   (MIN(?predicate) AS ?sample_predicate)
-  (SAMPLE(?missing) AS ?missing) 
+  (SAMPLE(?missing) AS ?missing)
 WHERE {
   ?subject ?predicate ?object.
   BIND(?subject = <http://www.w3.org/People/Berners-Lee/card#i> AS ?subject_is_tim)

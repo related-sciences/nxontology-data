@@ -146,7 +146,7 @@ class PubchemClassificationApi:
     @classmethod
     def write_hierarchy_catalog(cls, output_dir: Path) -> list[dict[str, Any]]:
         hierarchies = cls.get_hierarchy_catalog()
-        hierarchies.sort(key=lambda h: h["HID"])  # type: ignore [no-any-return]
+        hierarchies.sort(key=lambda h: h["HID"])
         for hierarchy in hierarchies:
             simple_name = cls._get_simple_name(hierarchy)
             hierarchy["nxo_name"] = simple_name
