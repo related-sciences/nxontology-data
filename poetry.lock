@@ -2192,14 +2192,14 @@ files = [
 
 [[package]]
 name = "nxontology"
-version = "0.4.1"
+version = "0.5.0"
 description = "NetworkX for ontologies"
 category = "main"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "nxontology-0.4.1-py3-none-any.whl", hash = "sha256:74cc228adcbbde49c4b35eb40c8b69db40e0a07757533573a775e88b7b2d29f9"},
-    {file = "nxontology-0.4.1.tar.gz", hash = "sha256:8f1e5d6d7787542e9414be4ae34bb09e369dbaf2d6c646bba2d18b122c083d44"},
+    {file = "nxontology-0.5.0-py3-none-any.whl", hash = "sha256:c95d2d47c2ce8c0bb48e839a3bdc70e489c13f4579b6e88b8d93a2be87c2c07f"},
+    {file = "nxontology-0.5.0.tar.gz", hash = "sha256:727712c2bdbcaf7113f0012aa66bb9097ddef375f604939fb279b0871aed2c2f"},
 ]
 
 [package.dependencies]
@@ -3724,4 +3724,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "a8085da4b0f848669cc1d79c84785ac966b46804b911f5039aa9ccd5648ee923"
+content-hash = "8f086dadcf8ef362640f96da182accabb5e014132124b908c803d466b02aac8a"

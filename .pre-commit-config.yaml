@@ -26,7 +26,7 @@ repos:
         additional_dependencies:
           - bioregistry==0.8.3
           - bioversions==0.5.98
-          - nxontology==0.4.1
+          - nxontology==0.5.0
           - pandas==1.5.3
           - pytest
   - repo: https://github.com/python-poetry/poetry
