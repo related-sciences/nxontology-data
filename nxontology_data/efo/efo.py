@@ -165,7 +165,9 @@ class EfoProcessor:
     def get_xrefs_df(self) -> pd.DataFrame:
         xref_df = self.run_query("xrefs", cache=True)
         xref_df["xref_bioregistry"] = xref_df.apply(
-            lambda row: normalize_parsed_curie(row.xref_prefix, row.xref_accession),
+            lambda row: normalize_parsed_curie(
+                row.xref_prefix, row.xref_accession, collapse_orphanet=True
+            ),
             axis="columns",
         )
         return xref_df

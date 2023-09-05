@@ -68,7 +68,9 @@ def sparql_results_to_df(results: SPARQLResult) -> pd.DataFrame:
     )
 
 
-def normalize_parsed_curie(xref_prefix: str, xref_accession: str) -> str | None:
+def normalize_parsed_curie(
+    xref_prefix: str, xref_accession: str, collapse_orphanet: bool = True
+) -> str | None:
     """
     Normalize a parsed CURIE according to Bioregistry.
     Return a string using preferred prefix capitalization.
@@ -77,4 +79,11 @@ def normalize_parsed_curie(xref_prefix: str, xref_accession: str) -> str | None:
     prefix, accession = bioregistry.resolve.normalize_parsed_curie(
         xref_prefix, xref_accession, use_preferred=True
     )
+    if prefix is None:
+        return None
+    if collapse_orphanet and prefix.lower() == "orphanet.ordo":
+        # In EFO, all orphanet.ordo terms existed in orphanet.
+        # The consistency of using a single prefix will help with mapping.
+        # https://github.com/biopragmatics/bioregistry/issues/187#issuecomment-1706308305
+        prefix = "Orphanet"
     return _safe_curie_to_str(prefix, accession)
