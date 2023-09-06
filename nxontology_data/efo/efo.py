@@ -162,6 +162,12 @@ class EfoProcessor:
             for k, v in df.groupby("efo_id")
         }
 
+    def get_subsets(self) -> dict[str, list[str]]:
+        df = self.run_query("subsets", cache=True)
+        return {
+            k: sorted(set(v["subset_id"].dropna())) for k, v in df.groupby("efo_id")
+        }
+
     def get_xrefs_df(self) -> pd.DataFrame:
         xref_df = self.run_query("xrefs", cache=True)
         xref_df["xref_bioregistry"] = xref_df.apply(
@@ -227,6 +233,7 @@ class EfoProcessor:
             .groupby("efo_id")
             .apply(lambda df: sorted(set(df.xref_bioregistry.dropna())))
         )
+        node_df["subsets"] = node_df.efo_id.map(self.get_subsets())
         # Use .to_json and not .to_dict to convert NaN to None
         return json.loads(node_df.to_json(orient="records"))  # type: ignore [no-any-return]
 

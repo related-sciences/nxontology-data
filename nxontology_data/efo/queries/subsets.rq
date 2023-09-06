@@ -1,0 +1,16 @@
+# Find subsets for classes
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT
+  ?efo_id
+  ?efo_uri
+  ?subset
+  ?subset_id
+WHERE {
+  ?efo_uri rdf:type owl:Class.
+  ?efo_uri oboInOwl:inSubset ?subset.
+  FILTER (isURI(?efo_uri))
+  BIND( REPLACE( STR(?efo_uri), "^http.+/([^:]+)_(.+)$", "$1:$2" ) AS ?efo_id )
+  BIND( REPLACE( STR(?subset), "^http.+/([^#]+)#(.+)$", "$1#$2" ) AS ?subset_id )
+}
