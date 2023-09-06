@@ -84,8 +84,3 @@ jobs:
           Ontology generated from source code at ${{ github.sha }}.
           Run in https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
           Triggered by @${{ github.actor }}.
-    - name: Stop GCE runner
-      if: always()
-      uses: related-sciences/gce-github-runner@main
-      with:
-        command: stop
