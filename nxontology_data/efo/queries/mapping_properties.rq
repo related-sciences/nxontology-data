@@ -1,0 +1,28 @@
+PREFIX mondo: <http://purl.obolibrary.org/obo/mondo#>
+PREFIX efo: <http://www.ebi.ac.uk/efo/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?efo_id ?xref_id  ?mapping_property_id ?efo_uri ?xref_uri ?mapping_property_uri
+WHERE {
+  VALUES ?mapping_property_uri {mondo:closeMatch mondo:exactMatch skos:mappingRelation skos:closeMatch skos:exactMatch skos:broadMatch skos:narrowMatch skos:relatedMatch}
+
+  ?efo_uri rdf:type owl:Class .
+  ?efo_uri ?mapping_property_uri ?xref_uri
+
+
+  BIND( REPLACE( STR(?efo_uri), "^http.+/([^:]+)_(.+)$", "$1:$2" ) AS ?efo_id )
+  BIND( REPLACE( STR(?xref_uri), "^http.+/([^:]+)_(.+)$", "$1:$2" ) AS ?xref_id_dirty )
+  BIND(
+    COALESCE(
+        IF( STRSTARTS( ?xref_id_dirty, "http://identifiers.org" ), REPLACE( ?xref_id_dirty, "^http.*/(.+)/(.+)$", "$1:$2" ), ?error ),
+        IF( STRSTARTS( ?xref_id_dirty, "http://linkedlifedata.com/resource/umls/id" ), REPLACE( ?xref_id_dirty, "^http.*/(.+)$", "UMLS:$1" ), ?error ),
+        IF( STRSTARTS( ?xref_id_dirty, "http://purl.bioontology.org/ontology/ICD10CM" ), REPLACE( ?xref_id_dirty, "^http.*/(.+)$", "ICD10CM:$1" ), ?error ),
+        IF( STRSTARTS( ?xref_id_dirty, "https://icd.who.int/browse10/2019/en#" ), REPLACE( ?xref_id_dirty, "^http.*/(.+)$", "ICD10:$1" ), ?error ),
+        IF( STRSTARTS( ?xref_id_dirty, "https://omim.org/entry" ), REPLACE( ?xref_id_dirty, "^http.*/(.+)$", "OMIM:$1" ), ?error ),
+        IF( STRSTARTS( ?xref_id_dirty, "https://omim.org/phenotypicSeries" ), REPLACE( ?xref_id_dirty, "^http.*/PS(.+)$", "OMIMPS:$1" ), ?error ),
+        ?xref_id_dirty
+    ) AS ?xref_id 
+  )
+  BIND( REPLACE( STR(?mapping_property_uri), "^http://purl\\.obolibrary\\.org/obo/mondo#(.+)$", "mondo:$1" ) AS ?mapping_property_id )
+  BIND( REPLACE( STR(?mapping_property_id), "^http://www\\.w3\\.org/2004/02/skos/core#(.+)$", "skos:$1" ) AS ?mapping_property_id )
+}
