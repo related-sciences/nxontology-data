@@ -152,12 +152,28 @@ class EfoProcessor:
         converter.add_prefix(
             "icd10cm-missing-prefix", "http://purl.bioontology.org/ontology/ICD10CM/"
         )
-        df = self.run_query("mapping_properties", cache=True)
-        converter.pd_compress(df, "xref_id")
 
-        df = df.assign(
-            xref_id=lambda df: df["xref_id"].str.replace(
-                "icd10cm-missing-prefix", "icd10cm"
+        df = (
+            self.run_query("mapping_properties", cache=True)
+            .assign(
+                xref_id=lambda df: df["xref_id"].apply(
+                    lambda xref: converter.compress(xref)
+                )
+            )
+            .dropna()
+            .assign(
+                xref_id=lambda df: df["xref_id"]
+                .str.replace("icd10cm-missing-prefix:", "icd10cm:")
+                .str.replace("obo:Orphanet_", "Orphanet:")
+                .str.split(":", expand=True)
+                .apply(
+                    lambda row: normalize_parsed_curie(
+                        xref_prefix=row[0],
+                        xref_accession=row[1],
+                        collapse_orphanet=True,
+                    ),
+                    axis="columns",
+                )
             )
         )
 
