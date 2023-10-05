@@ -7,6 +7,7 @@ from pathlib import Path
 from typing import Any
 
 import bioversions
+import curies
 import fsspec
 import networkx as nx
 import pandas as pd
@@ -142,6 +143,42 @@ class EfoProcessor:
     def get_alt_id_df(self) -> pd.DataFrame:
         return self.run_query("alt_id", cache=True)
 
+    def get_xref_sources_df(self) -> pd.DataFrame:
+        return self.run_query("xref_sources", cache=True)
+
+    def get_mapping_properties_df(self) -> pd.DataFrame:
+        converter = curies.get_bioregistry_converter()
+
+        converter.add_prefix(
+            "icd10cm-missing-prefix", "http://purl.bioontology.org/ontology/ICD10CM/"
+        )
+
+        df = (
+            self.run_query("mapping_properties", cache=True)
+            .assign(
+                xref_id=lambda df: df["xref_id"].apply(
+                    lambda xref: converter.compress(xref)
+                )
+            )
+            .dropna()
+            .assign(
+                xref_id=lambda df: df["xref_id"]
+                .str.replace("icd10cm-missing-prefix:", "icd10cm:")
+                .str.replace("obo:Orphanet_", "Orphanet:")
+                .str.split(":", expand=True)
+                .apply(
+                    lambda row: normalize_parsed_curie(
+                        xref_prefix=row[0],
+                        xref_accession=row[1],
+                        collapse_orphanet=True,
+                    ),
+                    axis="columns",
+                )
+            )
+        )
+
+        return df
+
     def get_synonyms(self) -> dict[str, dict[str, str]]:
         synonym_scopes = {
             "hasExactSynonym": "exact",
@@ -271,6 +308,14 @@ class EfoProcessor:
         )
         write_dataframe(
             self.get_obsolete_df(), output_dir.joinpath(f"{self.name}_obsolete.json.gz")
+        )
+        write_dataframe(
+            self.get_mapping_properties_df(),
+            output_dir.joinpath(f"{self.name}_mapping_properties.json.gz"),
+        )
+        write_dataframe(
+            self.get_xref_sources_df(),
+            output_dir.joinpath(f"{self.name}_xref_sources.json.gz"),
         )
         if nxo.name == "efo_otar_profile":
             nxo_slim = self.create_slim_nxo(nxo)

@@ -1,0 +1,18 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+
+SELECT ?efo_id ?xref  ?axiom_source
+WHERE {
+  ?axiom rdf:type owl:Axiom.
+  ?axiom owl:annotatedSource ?source.
+  ?axiom owl:annotatedProperty oboInOwl:hasDbXref.
+  ?axiom owl:annotatedTarget ?xref.
+
+  OPTIONAL { ?axiom oboInOwl:source ?axiom_source }.
+
+  BIND( REPLACE( STR(?source), "^http.+/([^:]+)_(.+)$", "$1:$2" ) AS ?efo_id )
+}
+
+GROUP BY ?efo_id ?xref ?axiom_source
+ORDER BY ?efo_id ?xref ?axiom_source
