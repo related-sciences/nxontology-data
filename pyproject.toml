@@ -1,5 +1,5 @@
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core>=1.5.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
@@ -17,20 +17,33 @@ nxontology_data = "nxontology_data.commands:cli"
 # https://python-poetry.org/docs/versions/
 [tool.poetry.dependencies]
 python = "^3.10"
-bioregistry = "^0.8.3"
-bioversions = "^0.5.98"
-fire = "^0.4.0"
-jupyter = "^1.0.0"
-nbconvert = "^6.2.0"
-notebook = "^6.4.4"
-nxontology = "^0.5.0"
-openpyxl = "^3.0.9"
-pandas = "^1.4.1"
-papermill = "^2.3.3"
-requests = "^2.26.0"
-rdflib = "^6.2.0"
+bioregistry = "^0.10"
+bioversions = "^0.5"
+fire = "^0.5"
+jupyter = "^1.0"
+nbconvert = "^6.2"
+notebook = "^6.4"
+nxontology = "^0.5"
+openpyxl = "^3.0"
+pandas = "^2.0"
+papermill = "^2.3"
+requests = "^2.26"
+rdflib = "^6.2"
 fsspec = "^2022.3.0"
-numpy = "^1.22.3"
+numpy = "^1.22"
+torch = [
+    { version = "^2.0.1", markers = "sys_platform != 'linux'", source = "pypi" },
+    # Use different src for linux, see: https://pytorch.org/get-started/locally/
+    { version = "^2.0.1", markers = "sys_platform == 'linux'", source = "pytorch-cpu-src" },
+]
+nxontology-ml = {git = "https://github.com/related-sciences/nxontology-ml", rev = "4fe78192209277e56acb34ffd2ec8fccee0ce77c"}
+
+[[tool.poetry.source]]
+# pytorch is used by nxontology-ml. Without this, we were getting the error:
+# Repository "pytorch-cpu-src" does not exist.
+name = "pytorch-cpu-src"
+url = "https://download.pytorch.org/whl/cpu"
+priority = "explicit"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^3.0.4"
