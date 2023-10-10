@@ -13,6 +13,7 @@ import networkx as nx
 import pandas as pd
 import rdflib
 from nxontology import NXOntology
+from nxontology_ml.model.predict import train_predict as nxontology_ml_train_predict
 
 from nxontology_data.utils import (
     get_source_output_dir,
@@ -299,6 +300,22 @@ class EfoProcessor:
         )
         return nxo
 
+    def classify_disease_precision(self, nxo: NXOntology[str]) -> pd.DataFrame:
+        """
+        Use nxontology-ml to classify nodes in EFO OTAR Slim based on their disease precision.
+        Modifies nxo node attributes in place. Returns a pd.DataFrame of the predictions and features.
+        """
+        assert nxo.name == "efo_otar_slim"
+        nxo.freeze()
+        logger.info("Beginning nxontology-ml disease precision classification.")
+        precision_df = nxontology_ml_train_predict(nxo=nxo)
+        id_to_precision = {
+            row.identifier: row.precision for row in precision_df.itertuples()
+        }
+        for node, data in nxo.graph.nodes(data=True):
+            data["disease_precision"] = id_to_precision.get(node, "non_disease")
+        return precision_df
+
     def write_outputs(self) -> None:
         output_dir = get_source_output_dir("efo")
         nxo = self.create_nxo()
@@ -319,6 +336,12 @@ class EfoProcessor:
         )
         if nxo.name == "efo_otar_profile":
             nxo_slim = self.create_slim_nxo(nxo)
+            # classify EFO node/disease precision using nxontology-ml
+            precision_df = self.classify_disease_precision(nxo_slim)
+            write_dataframe(
+                precision_df,
+                output_dir.joinpath(f"{self.name}_precision_classifications.json.gz"),
+            )
             write_ontology(nxo_slim, output_dir, compression_threshold_mb=30.0)
 
     @staticmethod
