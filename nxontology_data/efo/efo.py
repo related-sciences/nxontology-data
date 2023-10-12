@@ -149,12 +149,7 @@ class EfoProcessor:
 
     def get_mapping_properties_df(self) -> pd.DataFrame:
         converter = curies.get_bioregistry_converter()
-
-        converter.add_prefix(
-            "icd10cm-missing-prefix", "http://purl.bioontology.org/ontology/ICD10CM/"
-        )
-
-        df = (
+        return (
             self.run_query("mapping_properties", cache=True)
             .assign(
                 xref_id=lambda df: df["xref_id"].apply(
@@ -177,8 +172,6 @@ class EfoProcessor:
                 )
             )
         )
-
-        return df
 
     def get_synonyms(self) -> dict[str, dict[str, str]]:
         synonym_scopes = {
