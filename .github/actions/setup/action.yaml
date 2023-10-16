@@ -3,6 +3,10 @@ description: "Abstract common workflow steps for setting up application dependen
 runs:
   using: "composite"
   steps:
+    - name: Install GCC
+      # Installing lsm-db failed with `command 'gcc' failed: No such file or directory`
+      shell: bash
+      run: sudo apt-get install --yes gcc
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
