@@ -1,5 +1,7 @@
 # output data
 /output
+# created by nxontology-ml
+catboost_info/
 
 # Python
 __pycache__/
