@@ -36,7 +36,7 @@ torch = [
     # Use different src for linux, see: https://pytorch.org/get-started/locally/
     { version = "^2.0.1", markers = "sys_platform == 'linux'", source = "pytorch-cpu-src" },
 ]
-nxontology-ml = {git = "https://github.com/related-sciences/nxontology-ml", rev = "4fe78192209277e56acb34ffd2ec8fccee0ce77c"}
+nxontology-ml = {git = "https://github.com/related-sciences/nxontology-ml", rev = "1b5923314f880818485aacecbc0b544679a9f0eb"}
 
 [[tool.poetry.source]]
 # pytorch is used by nxontology-ml. Without this, we were getting the error:
