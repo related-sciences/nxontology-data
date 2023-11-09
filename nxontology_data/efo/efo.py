@@ -317,7 +317,7 @@ class EfoProcessor:
         )
 
         return {
-            k: v[["xref_id", "sources", "relation"]].to_dict(orient="records")
+            k: v[["xref_id", "relation", "sources"]].to_dict(orient="records")
             for k, v in xref_details.groupby("efo_id")
         }
 
