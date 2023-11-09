@@ -253,6 +253,68 @@ class EfoProcessor:
         )
         return {k: sorted(v) for k, v in current_to_old.items()}
 
+    def get_xref_details(self) -> dict[str, dict[str, str | list[str] | None]]:
+        xrefs = self.get_xrefs_df()[["efo_id", "xref_bioregistry"]].rename(
+            columns={"xref_bioregistry": "xref_id"}
+        )
+
+        xref_sources = (
+            self.get_xref_sources_df()
+            .assign(
+                xref_id=lambda df: df["xref"]
+                .str.split(":", expand=True)
+                .apply(
+                    lambda row: normalize_parsed_curie(
+                        xref_prefix=row[0],
+                        xref_accession=row[1],
+                        collapse_orphanet=True,
+                    ),
+                    axis="columns",
+                )
+            )
+            .groupby(["efo_id", "xref_id"])["axiom_source"]
+            .apply(list)
+            .reset_index()
+            .rename(columns={"axiom_source": "sources"})
+        )
+
+        def get_relation(x: list[str]) -> str | None:
+            if "skos:exactMatch" in x or "mondo:exactMatch" in x:
+                return "skos:exactMatch"
+            if "skos:closeMatch" in x or "mondo:closeMatch" in x:
+                return "skos:closeMatch"
+            return None
+
+        mapping_properties = (
+            self.get_mapping_properties_df()
+            .groupby(["efo_id", "xref_id"])["mapping_property_id"]
+            .apply(list)
+            .reset_index()
+            .rename(columns={"mapping_property_id": "mapping_properties"})
+            .assign(
+                relation=lambda x: x["mapping_properties"].apply(get_relation),
+            )
+        )
+
+        xref_details = (
+            xrefs.merge(
+                mapping_properties,
+                how="outer",
+                on=["efo_id", "xref_id"],
+            )
+            .merge(
+                xref_sources,
+                how="outer",
+                on=["efo_id", "xref_id"],
+            )
+            .query("efo_id != xref_id")
+        )
+
+        return {
+            k: v[["xref_id", "relation", "sources"]].to_dict(orient="records")
+            for k, v in xref_details.groupby("efo_id")
+        }
+
     def get_nodes(self) -> list[dict[str, Any]]:
         logger.info("Generating nodes")
         node_df = self.get_terms_df()
@@ -265,6 +327,7 @@ class EfoProcessor:
             .apply(lambda df: sorted(set(df.xref_bioregistry.dropna())))
         )
         node_df["subsets"] = node_df.efo_id.map(self.get_subsets())
+        node_df["xref_details"] = node_df.efo_id.map(self.get_xref_details())
         # Use .to_json and not .to_dict to convert NaN to None
         return json.loads(node_df.to_json(orient="records"))  # type: ignore [no-any-return]
 
@@ -318,14 +381,6 @@ class EfoProcessor:
         )
         write_dataframe(
             self.get_obsolete_df(), output_dir.joinpath(f"{self.name}_obsolete.json.gz")
-        )
-        write_dataframe(
-            self.get_mapping_properties_df(),
-            output_dir.joinpath(f"{self.name}_mapping_properties.json.gz"),
-        )
-        write_dataframe(
-            self.get_xref_sources_df(),
-            output_dir.joinpath(f"{self.name}_xref_sources.json.gz"),
         )
         if nxo.name == "efo_otar_profile":
             nxo_slim = self.create_slim_nxo(nxo)
