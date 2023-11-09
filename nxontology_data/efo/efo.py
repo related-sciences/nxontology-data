@@ -259,7 +259,7 @@ class EfoProcessor:
         )
         return {k: sorted(v) for k, v in current_to_old.items()}
 
-    def get_xref_details(self) -> dict[str, dict[str, list[str]]]:
+    def get_xref_details(self) -> dict[str, dict[str, str | list[str] | None]]:
         xrefs = self.get_xrefs_df()[["efo_id", "xref_bioregistry"]].rename(
             columns={"xref_bioregistry": "xref_id"}
         )
