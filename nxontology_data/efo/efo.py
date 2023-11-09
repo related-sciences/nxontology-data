@@ -372,14 +372,6 @@ class EfoProcessor:
         write_dataframe(
             self.get_obsolete_df(), output_dir.joinpath(f"{self.name}_obsolete.json.gz")
         )
-        write_dataframe(
-            self.get_mapping_properties_df(),
-            output_dir.joinpath(f"{self.name}_mapping_properties.json.gz"),
-        )
-        write_dataframe(
-            self.get_xref_sources_df(),
-            output_dir.joinpath(f"{self.name}_xref_sources.json.gz"),
-        )
         if nxo.name == "efo_otar_profile":
             nxo_slim = self.create_slim_nxo(nxo)
             write_ontology(nxo_slim, output_dir, compression_threshold_mb=30.0)
