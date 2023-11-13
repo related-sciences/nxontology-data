@@ -308,6 +308,7 @@ class EfoProcessor:
                 on=["efo_id", "xref_id"],
             )
             .query("efo_id != xref_id")
+            .dropna(subset=["xref_id"])
         )
 
         return {
