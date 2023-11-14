@@ -391,7 +391,7 @@ class EfoProcessor:
                 precision_df,
                 output_dir.joinpath(f"{self.name}_precision_classifications.json.gz"),
             )
-            write_ontology(nxo_slim, output_dir, compression_threshold_mb=30.0)
+            write_ontology(nxo_slim, output_dir)
 
     @staticmethod
     def create_slim_nxo(nxo: NXOntology[str]) -> NXOntology[str]:
