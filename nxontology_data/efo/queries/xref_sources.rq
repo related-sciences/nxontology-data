@@ -9,7 +9,8 @@ WHERE {
   ?axiom owl:annotatedProperty oboInOwl:hasDbXref.
   ?axiom owl:annotatedTarget ?xref.
 
-  OPTIONAL { ?axiom oboInOwl:source ?axiom_source }.
+  # Require axiom source. OPTIONAL would include extra results where axiom source is not present
+  ?axiom oboInOwl:source ?axiom_source.
 
   BIND( REPLACE( STR(?source), "^http.+/([^:]+)_(.+)$", "$1:$2" ) AS ?efo_id )
 }
