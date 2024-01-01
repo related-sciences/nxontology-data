@@ -2,14 +2,14 @@
   "directed": true,
   "multigraph": false,
   "graph": {
-    "nxontology_version": "0.4.1",
-    "nxontology_created": "2023-02-14T00:41:54+00:00",
+    "nxontology_version": "0.5.1.dev7+gb68411d",
+    "nxontology_created": "2024-01-01T00:35:20+00:00",
     "name": "127_pubchem_pathway_toc",
     "pubchem_hierarchy_id": 127,
     "pubchem_source_id": "Pathway TOC",
     "pubchem_source_name": "PubChem",
     "pubchem_description": [
-      "This classification was created automatically from the PubChem Pathway TOC on 2023/01/31.",
+      "This classification was created automatically from the PubChem Pathway TOC on 2023/12/26.",
       "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
       "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
     ],
@@ -165,123 +165,130 @@
       "id": 21
     },
     {
+      "name": "Consolidated References",
+      "description": "The consolidated references include literature data from all sources including Reactome, WikiPathways, PharmGKB, PathBank, LIPID MAPS, etc.",
+      "pubchem_hnid": 5603662,
+      "url": null,
+      "id": 22
+    },
+    {
       "name": "Classification",
       "description": "Classifications and ontologies of this pathway.",
       "pubchem_hnid": 5567024,
       "url": null,
-      "id": 22
+      "id": 23
     },
     {
       "name": "NCI Thesaurus Tree",
       "description": "NCI Thesaurus (NCIt) hierarchy",
       "pubchem_hnid": 5567025,
       "url": null,
-      "id": 23
+      "id": 24
     },
     {
       "name": "Information Sources",
       "description": "Sources of annotation information attached to PubChem compounds",
       "pubchem_hnid": 5567026,
       "url": null,
-      "id": 24
+      "id": 25
     },
     {
       "name": "Reactome",
       "description": null,
       "pubchem_hnid": 5567027,
       "url": null,
-      "id": 25
+      "id": 26
     },
     {
       "name": "GlyCosmos Glycoscience Portal",
       "description": null,
       "pubchem_hnid": 5567028,
       "url": null,
-      "id": 26
+      "id": 27
     },
     {
       "name": "BioCyc",
       "description": null,
       "pubchem_hnid": 5567029,
       "url": null,
-      "id": 27
+      "id": 28
     },
     {
       "name": "WikiPathways",
       "description": null,
       "pubchem_hnid": 5567030,
       "url": null,
-      "id": 28
+      "id": 29
     },
     {
       "name": "Pathway Interaction Database",
       "description": null,
       "pubchem_hnid": 5567031,
       "url": null,
-      "id": 29
+      "id": 30
     },
     {
       "name": "NCI Thesaurus (NCIt)",
       "description": null,
       "pubchem_hnid": 5567032,
       "url": null,
-      "id": 30
+      "id": 31
     },
     {
       "name": "LIPID MAPS",
       "description": null,
       "pubchem_hnid": 5567033,
       "url": null,
-      "id": 31
+      "id": 32
     },
     {
       "name": "Plant Reactome",
       "description": null,
       "pubchem_hnid": 5567034,
       "url": null,
-      "id": 32
+      "id": 33
     },
     {
       "name": "PathBank",
       "description": null,
       "pubchem_hnid": 5567035,
       "url": null,
-      "id": 33
+      "id": 34
     },
     {
       "name": "PharmGKB",
       "description": null,
       "pubchem_hnid": 5567036,
       "url": null,
-      "id": 34
+      "id": 35
     },
     {
       "name": "PlantCyc",
       "description": null,
       "pubchem_hnid": 5567037,
       "url": null,
-      "id": 35
+      "id": 36
     },
     {
       "name": "INOH",
       "description": null,
       "pubchem_hnid": 5567038,
       "url": null,
-      "id": 36
+      "id": 37
     },
     {
       "name": "COVID-19 Disease Map",
       "description": null,
       "pubchem_hnid": 5567039,
       "url": null,
-      "id": 37
+      "id": 38
     },
     {
       "name": "PANTHER",
       "description": null,
       "pubchem_hnid": 5567040,
       "url": null,
-      "id": 38
+      "id": 39
     }
   ],
   "links": [
@@ -334,64 +341,68 @@
       "target": 20
     },
     {
-      "source": 22,
-      "target": 23
+      "source": 21,
+      "target": 22
     },
     {
-      "source": 24,
-      "target": 25
+      "source": 23,
+      "target": 24
     },
     {
-      "source": 24,
+      "source": 25,
       "target": 26
     },
     {
-      "source": 24,
+      "source": 25,
       "target": 27
     },
     {
-      "source": 24,
+      "source": 25,
       "target": 28
     },
     {
-      "source": 24,
+      "source": 25,
       "target": 29
     },
     {
-      "source": 24,
+      "source": 25,
       "target": 30
     },
     {
-      "source": 24,
+      "source": 25,
       "target": 31
     },
     {
-      "source": 24,
+      "source": 25,
       "target": 32
     },
     {
-      "source": 24,
+      "source": 25,
       "target": 33
     },
     {
-      "source": 24,
+      "source": 25,
       "target": 34
     },
     {
-      "source": 24,
+      "source": 25,
       "target": 35
     },
     {
-      "source": 24,
+      "source": 25,
       "target": 36
     },
     {
-      "source": 24,
+      "source": 25,
       "target": 37
     },
     {
-      "source": 24,
+      "source": 25,
       "target": 38
+    },
+    {
+      "source": 25,
+      "target": 39
     }
   ]
 }

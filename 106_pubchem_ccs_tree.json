@@ -2,8 +2,8 @@
   "directed": true,
   "multigraph": false,
   "graph": {
-    "nxontology_version": "0.4.1",
-    "nxontology_created": "2023-02-14T00:40:33+00:00",
+    "nxontology_version": "0.5.1.dev7+gb68411d",
+    "nxontology_created": "2024-01-01T00:32:36+00:00",
     "name": "106_pubchem_ccs_tree",
     "pubchem_hierarchy_id": 106,
     "pubchem_source_id": "ccs_tree",
@@ -1395,6 +1395,160 @@
       "pubchem_hnid": 4335054,
       "url": null,
       "id": 197
+    },
+    {
+      "name": "Baker Lab CCS",
+      "description": "This node contains CCS information from Baker Lab",
+      "pubchem_hnid": 5614315,
+      "url": null,
+      "id": 198
+    },
+    {
+      "name": "PFAS",
+      "description": null,
+      "pubchem_hnid": 5614316,
+      "url": null,
+      "id": 199
+    },
+    {
+      "name": "[M-H-CO2]-",
+      "description": null,
+      "pubchem_hnid": 5614335,
+      "url": null,
+      "id": 200
+    },
+    {
+      "name": "[M-H]-",
+      "description": null,
+      "pubchem_hnid": 5614336,
+      "url": null,
+      "id": 201
+    },
+    {
+      "name": "Lipids",
+      "description": null,
+      "pubchem_hnid": 5614317,
+      "url": null,
+      "id": 202
+    },
+    {
+      "name": "Ambiguous Lipids",
+      "description": null,
+      "pubchem_hnid": 5614332,
+      "url": null,
+      "id": 203
+    },
+    {
+      "name": "[M+CH3COO]-",
+      "description": null,
+      "pubchem_hnid": 5614318,
+      "url": null,
+      "id": 204
+    },
+    {
+      "name": "[M+H]+",
+      "description": null,
+      "pubchem_hnid": 5614319,
+      "url": null,
+      "id": 205
+    },
+    {
+      "name": "[M+NH4]+",
+      "description": null,
+      "pubchem_hnid": 5614320,
+      "url": null,
+      "id": 206
+    },
+    {
+      "name": "[M+Na]+",
+      "description": null,
+      "pubchem_hnid": 5614321,
+      "url": null,
+      "id": 207
+    },
+    {
+      "name": "[M-H]-",
+      "description": null,
+      "pubchem_hnid": 5614322,
+      "url": null,
+      "id": 208
+    },
+    {
+      "name": "Sphingolipids",
+      "description": null,
+      "pubchem_hnid": 5614333,
+      "url": null,
+      "id": 209
+    },
+    {
+      "name": "[M+CH3COO]-",
+      "description": null,
+      "pubchem_hnid": 5614323,
+      "url": null,
+      "id": 210
+    },
+    {
+      "name": "[M+HCOO]-",
+      "description": null,
+      "pubchem_hnid": 5614324,
+      "url": null,
+      "id": 211
+    },
+    {
+      "name": "[M+H]+",
+      "description": null,
+      "pubchem_hnid": 5614325,
+      "url": null,
+      "id": 212
+    },
+    {
+      "name": "[M-H]-",
+      "description": null,
+      "pubchem_hnid": 5614326,
+      "url": null,
+      "id": 213
+    },
+    {
+      "name": "Unambiguous Lipids",
+      "description": null,
+      "pubchem_hnid": 5614334,
+      "url": null,
+      "id": 214
+    },
+    {
+      "name": "[M+CH3COO]-",
+      "description": null,
+      "pubchem_hnid": 5614327,
+      "url": null,
+      "id": 215
+    },
+    {
+      "name": "[M+H]+",
+      "description": null,
+      "pubchem_hnid": 5614328,
+      "url": null,
+      "id": 216
+    },
+    {
+      "name": "[M+NH4]+",
+      "description": null,
+      "pubchem_hnid": 5614329,
+      "url": null,
+      "id": 217
+    },
+    {
+      "name": "[M+Na]+",
+      "description": null,
+      "pubchem_hnid": 5614330,
+      "url": null,
+      "id": 218
+    },
+    {
+      "name": "[M-H]-",
+      "description": null,
+      "pubchem_hnid": 5614331,
+      "url": null,
+      "id": 219
     }
   ],
   "links": [
@@ -2165,6 +2319,90 @@
     {
       "source": 190,
       "target": 197
+    },
+    {
+      "source": 198,
+      "target": 199
+    },
+    {
+      "source": 198,
+      "target": 202
+    },
+    {
+      "source": 199,
+      "target": 200
+    },
+    {
+      "source": 199,
+      "target": 201
+    },
+    {
+      "source": 202,
+      "target": 203
+    },
+    {
+      "source": 202,
+      "target": 209
+    },
+    {
+      "source": 202,
+      "target": 214
+    },
+    {
+      "source": 203,
+      "target": 204
+    },
+    {
+      "source": 203,
+      "target": 205
+    },
+    {
+      "source": 203,
+      "target": 206
+    },
+    {
+      "source": 203,
+      "target": 207
+    },
+    {
+      "source": 203,
+      "target": 208
+    },
+    {
+      "source": 209,
+      "target": 210
+    },
+    {
+      "source": 209,
+      "target": 211
+    },
+    {
+      "source": 209,
+      "target": 212
+    },
+    {
+      "source": 209,
+      "target": 213
+    },
+    {
+      "source": 214,
+      "target": 215
+    },
+    {
+      "source": 214,
+      "target": 216
+    },
+    {
+      "source": 214,
+      "target": 217
+    },
+    {
+      "source": 214,
+      "target": 218
+    },
+    {
+      "source": 214,
+      "target": 219
     }
   ]
 }

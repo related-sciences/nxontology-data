@@ -2,14 +2,14 @@
   "directed": true,
   "multigraph": false,
   "graph": {
-    "nxontology_version": "0.4.1",
-    "nxontology_created": "2023-02-14T00:41:55+00:00",
+    "nxontology_version": "0.5.1.dev7+gb68411d",
+    "nxontology_created": "2024-01-01T00:35:20+00:00",
     "name": "129_pubchem_taxonomy_toc",
     "pubchem_hierarchy_id": 129,
     "pubchem_source_id": "Taxonomy TOC",
     "pubchem_source_name": "PubChem",
     "pubchem_description": [
-      "This classification was created automatically from the PubChem Taxonomy TOC on 2023/01/31.",
+      "This classification was created automatically from the PubChem Taxonomy TOC on 2023/12/26.",
       "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
       "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
     ],
@@ -137,184 +137,184 @@
       "id": 17
     },
     {
-      "name": "Related Taxonomies",
-      "description": "Related taxonomies (i.e. parent or child according NCBI Taxonomy) to this organism",
-      "pubchem_hnid": 5567145,
-      "url": null,
-      "id": 18
-    },
-    {
       "name": "Chemicals and Bioactivities",
       "description": "Drugs, chemical probes, curated ligands, and compounds tested against or related to this organism, along with associated bioactivity information.",
       "pubchem_hnid": 5567146,
       "url": null,
-      "id": 19
+      "id": 18
     },
     {
       "name": "Tested Compounds",
       "description": "Compounds tested against this organism as a whole or its gene/protein in any bioassay deposited in PubChem.",
       "pubchem_hnid": 5567147,
       "url": null,
-      "id": 20
+      "id": 19
     },
     {
       "name": "Whole-Organism Bioactivities",
       "description": "Compounds tested in PubChem BioAssays where target is this organism",
       "pubchem_hnid": 5567148,
       "url": null,
-      "id": 21
+      "id": 20
     },
     {
       "name": "Pathway Compounds",
       "description": "Compounds found in the PubChem Pathways of this taxon (organism).",
       "pubchem_hnid": 5567149,
       "url": null,
-      "id": 22
+      "id": 21
     },
     {
       "name": "Metabolites",
       "description": "Metabolites found in this organism",
       "pubchem_hnid": 5567150,
       "url": null,
-      "id": 23
+      "id": 22
     },
     {
       "name": "Phytotoxins",
       "description": "Phytotoxins are substances that are poisonous or toxic to the growth of plants.",
       "pubchem_hnid": 5567151,
       "url": null,
-      "id": 24
+      "id": 23
     },
     {
       "name": "Natural Products",
       "description": "Natural products orginated from this organism",
       "pubchem_hnid": 5567152,
       "url": null,
-      "id": 25
+      "id": 24
     },
     {
       "name": "Glycans",
       "description": "Glycans associated with this organism",
       "pubchem_hnid": 5567153,
       "url": null,
-      "id": 26
+      "id": 25
     },
     {
       "name": "Toxins",
       "description": "Toxin is an antigenic poison or venom of plant or animal origin, especially one produced by or derived from microorganisms and causing disease when present at low concentration in the body.",
       "pubchem_hnid": 5592507,
       "url": null,
-      "id": 27
+      "id": 26
     },
     {
       "name": "BioAssays",
       "description": "Biological experiments deposited in PubChem BioAssay that were conducted against this organism or its genes/proteins.",
       "pubchem_hnid": 5567154,
       "url": null,
-      "id": 28
+      "id": 27
     },
     {
       "name": "Small-Molecule BioAssays",
       "description": "Biossays that tested small molecules against this taxon (organism).",
       "pubchem_hnid": 5567155,
       "url": null,
-      "id": 29
+      "id": 28
     },
     {
       "name": "RNAi BioAssays",
       "description": "Functional genomic bioassays that tested RNAi reagents",
       "pubchem_hnid": 5567156,
       "url": null,
-      "id": 30
+      "id": 29
     },
     {
       "name": "Whole-Organism BioAssays",
       "description": "PubChem BioAssays where target is this organism",
       "pubchem_hnid": 5567157,
       "url": null,
-      "id": 31
+      "id": 30
     },
     {
       "name": "Proteins",
       "description": "Proteins known for this taxon (organism).",
       "pubchem_hnid": 5567158,
       "url": null,
-      "id": 32
+      "id": 31
     },
     {
       "name": "BioAssay Proteins",
       "description": "Proteins of this organism that were tested in one or more assays archived in PubChem BioAssay.",
       "pubchem_hnid": 5567159,
       "url": null,
-      "id": 33
+      "id": 32
     },
     {
       "name": "Pathway Proteins",
       "description": "Proteins found in the PubChem Pathways of this taxon (organism).",
       "pubchem_hnid": 5567160,
       "url": null,
-      "id": 34
+      "id": 33
     },
     {
       "name": "Genes",
-      "description": "Genes of this taxon that have associated bioassay or pathway records in PubChem.",
+      "description": "Genes of this taxon (organism) that have associated bioassay or pathway records in PubChem.",
       "pubchem_hnid": 5567161,
       "url": null,
-      "id": 35
+      "id": 34
     },
     {
       "name": "BioAssay Genes",
-      "description": "Genes of this organism that were tested in one or more assays archived in PubChem BioAssay.",
+      "description": "Genes of this taxon (organism) that were tested in one or more assays archived in PubChem BioAssay.",
       "pubchem_hnid": 5567162,
       "url": null,
-      "id": 36
+      "id": 35
     },
     {
       "name": "Pathway Genes",
       "description": "Genes found in the PubChem Pathways of this taxon (organism).",
       "pubchem_hnid": 5567163,
       "url": null,
-      "id": 37
+      "id": 36
     },
     {
       "name": "Interactions and Pathways",
       "description": "Interactions and pathways that associate with this taxon (organism)",
       "pubchem_hnid": 5567164,
       "url": null,
-      "id": 38
+      "id": 37
     },
     {
       "name": "Chemical-Target Interactions",
       "description": "Interactions between a chemical and a target (gene/protein) associated with this taxon (organism)",
       "pubchem_hnid": 5567165,
       "url": null,
-      "id": 39
+      "id": 38
     },
     {
       "name": "Target Interactions",
       "description": "Interactions between gene/protein associated with this taxon (organism)",
       "pubchem_hnid": 5567166,
       "url": null,
-      "id": 40
+      "id": 39
     },
     {
       "name": "Pathways",
       "description": "Biological pathways associated with this taxon (organism)",
       "pubchem_hnid": 5567167,
       "url": null,
-      "id": 41
+      "id": 40
     },
     {
       "name": "Literature",
       "description": "Scientific articles associated with this taxon (organism), provided by the data source. ",
       "pubchem_hnid": 5567168,
       "url": null,
-      "id": 42
+      "id": 41
     },
     {
       "name": "NLM Curated PubMed Citations",
       "description": "The NLM Curated PubMed Citations section links to all PubMed records that are tagged with the same MeSH term that has been associated with a particular taxon (organism).",
       "pubchem_hnid": 5567169,
+      "url": null,
+      "id": 42
+    },
+    {
+      "name": "Consolidated References",
+      "description": "The consolidated references include literature data from all sources including depositors of PubChem BioAssays, the natural products occurrence database (LOTUS), Natural Product Activity and Species Source (NPASS), The Natural Products Atlas, etc.",
+      "pubchem_hnid": 5603664,
       "url": null,
       "id": 43
     },
@@ -355,7 +355,7 @@
     },
     {
       "name": "LOTUS Tree",
-      "description": "Biological and chemical tree provided by the the naturaL prOducTs occUrrence databaSe (LOTUS)",
+      "description": "Biological and chemical tree provided by the naturaL prOducTs occUrrence databaSe (LOTUS)",
       "pubchem_hnid": 5567175,
       "url": null,
       "id": 49
@@ -368,200 +368,249 @@
       "id": 50
     },
     {
+      "name": "Catalogue of Life",
+      "description": "Classification provided by the Catalogue of Life (COL)",
+      "pubchem_hnid": 11194502,
+      "url": null,
+      "id": 51
+    },
+    {
+      "name": "Integrated Taxonomic Information System",
+      "description": "Classification provided by the Integrated Taxonomic Information System (ITIS)",
+      "pubchem_hnid": 11194503,
+      "url": null,
+      "id": 52
+    },
+    {
       "name": "Information Sources",
       "description": "Sources of annotation information attached to PubChem compounds",
       "pubchem_hnid": 5567177,
       "url": null,
-      "id": 51
+      "id": 53
     },
     {
       "name": "NCBI Taxonomy",
       "description": null,
       "pubchem_hnid": 5567178,
       "url": null,
-      "id": 52
+      "id": 54
     },
     {
       "name": "Medical Subject Headings (MeSH)",
       "description": null,
       "pubchem_hnid": 5567179,
       "url": null,
-      "id": 53
+      "id": 55
     },
     {
       "name": "NCI Thesaurus (NCIt)",
       "description": null,
       "pubchem_hnid": 5567180,
       "url": null,
-      "id": 54
+      "id": 56
     },
     {
       "name": "Catalogue of Life (COL)",
       "description": null,
       "pubchem_hnid": 5567181,
       "url": null,
-      "id": 55
+      "id": 57
     },
     {
       "name": "Integrated Taxonomic Information System (ITIS)",
       "description": null,
       "pubchem_hnid": 5567182,
       "url": null,
-      "id": 56
+      "id": 58
     },
     {
       "name": "UniProt",
       "description": null,
       "pubchem_hnid": 5567183,
       "url": null,
-      "id": 57
+      "id": 59
     },
     {
       "name": "World Register of Marine Species (WoRMS)",
       "description": null,
       "pubchem_hnid": 5567184,
       "url": null,
-      "id": 58
+      "id": 60
     },
     {
       "name": "LOTUS - the natural products occurrence database",
       "description": null,
       "pubchem_hnid": 5567185,
       "url": null,
-      "id": 59
+      "id": 61
     },
     {
       "name": "The Natural Products Atlas",
       "description": null,
       "pubchem_hnid": 5567186,
       "url": null,
-      "id": 60
+      "id": 62
     },
     {
       "name": "ChEMBL",
       "description": null,
       "pubchem_hnid": 5567187,
       "url": null,
-      "id": 61
+      "id": 63
     },
     {
       "name": "Swiss Institute of Bioinformatics ENZYME",
       "description": null,
       "pubchem_hnid": 5567188,
       "url": null,
-      "id": 62
+      "id": 64
     },
     {
       "name": "BindingDB",
       "description": null,
       "pubchem_hnid": 5567189,
       "url": null,
-      "id": 63
+      "id": 65
     },
     {
       "name": "Therapeutic Target Database (TTD)",
       "description": null,
       "pubchem_hnid": 5567190,
       "url": null,
-      "id": 64
+      "id": 66
     },
     {
       "name": "NORMAN Suspect List Exchange",
       "description": null,
       "pubchem_hnid": 5567191,
       "url": null,
-      "id": 65
+      "id": 67
     },
     {
       "name": "BioGRID",
       "description": null,
       "pubchem_hnid": 5567192,
       "url": null,
-      "id": 66
+      "id": 68
     },
     {
       "name": "Gene Ontology (GO)",
       "description": null,
       "pubchem_hnid": 5567193,
       "url": null,
-      "id": 67
+      "id": 69
     },
     {
       "name": "Yeast Metabolome Database (YMDB)",
       "description": null,
       "pubchem_hnid": 5567194,
       "url": null,
-      "id": 68
+      "id": 70
     },
     {
       "name": "IUPHAR/BPS Guide to PHARMACOLOGY",
       "description": null,
       "pubchem_hnid": 5567195,
       "url": null,
-      "id": 69
+      "id": 71
     },
     {
       "name": "ECI Group, LCSB, University of Luxembourg",
       "description": null,
       "pubchem_hnid": 5567196,
       "url": null,
-      "id": 70
+      "id": 72
     },
     {
       "name": "GlyCosmos Glycoscience Portal",
       "description": null,
       "pubchem_hnid": 5567197,
       "url": null,
-      "id": 71
+      "id": 73
     },
     {
       "name": "Chemical Probes Portal",
       "description": null,
       "pubchem_hnid": 5567198,
       "url": null,
-      "id": 72
+      "id": 74
     },
     {
       "name": "Human Metabolome Database (HMDB)",
       "description": null,
       "pubchem_hnid": 5567199,
       "url": null,
-      "id": 73
+      "id": 75
     },
     {
       "name": "West Coast Metabolomics Center-UC Davis",
       "description": null,
       "pubchem_hnid": 5567200,
       "url": null,
-      "id": 74
+      "id": 76
     },
     {
       "name": "E. coli Metabolome Database (ECMDB)",
       "description": null,
       "pubchem_hnid": 5567201,
       "url": null,
-      "id": 75
+      "id": 77
     },
     {
       "name": "KNApSAcK Species-Metabolite Database",
       "description": null,
       "pubchem_hnid": 5592508,
       "url": null,
-      "id": 76
+      "id": 78
     },
     {
       "name": "Natural Product Activity and Species Source (NPASS)",
       "description": null,
       "pubchem_hnid": 5592509,
       "url": null,
-      "id": 77
+      "id": 79
     },
     {
       "name": "Toxin and Toxin Target Database (T3DB)",
       "description": null,
       "pubchem_hnid": 5592510,
       "url": null,
-      "id": 78
+      "id": 80
+    },
+    {
+      "name": "Database of Interacting Proteins (DIP)",
+      "description": null,
+      "pubchem_hnid": 5592746,
+      "url": null,
+      "id": 81
+    },
+    {
+      "name": "Cell Lines",
+      "description": "Cell lines of this organism that have data or annotation in PubChem.",
+      "pubchem_hnid": 5593202,
+      "url": null,
+      "id": 82
+    },
+    {
+      "name": "Related Records",
+      "description": "Records related to this organism, including substances and organisms",
+      "pubchem_hnid": 11378256,
+      "url": null,
+      "id": 83
+    },
+    {
+      "name": "Related Taxonomies",
+      "description": "Related taxonomies (i.e. parent or child according to NCBI Taxonomy) to this organism",
+      "pubchem_hnid": 5567145,
+      "url": null,
+      "id": 84
+    },
+    {
+      "name": "Related Substances",
+      "description": "Related substances to this organism",
+      "pubchem_hnid": 11552352,
+      "url": null,
+      "id": 85
     }
   ],
   "links": [
@@ -622,79 +671,83 @@
       "target": 17
     },
     {
-      "source": 19,
+      "source": 18,
+      "target": 19
+    },
+    {
+      "source": 18,
       "target": 20
     },
     {
-      "source": 19,
+      "source": 18,
       "target": 21
     },
     {
-      "source": 19,
+      "source": 18,
       "target": 22
     },
     {
-      "source": 19,
+      "source": 18,
       "target": 23
     },
     {
-      "source": 19,
+      "source": 18,
       "target": 24
     },
     {
-      "source": 19,
+      "source": 18,
       "target": 25
     },
     {
-      "source": 19,
+      "source": 18,
       "target": 26
     },
     {
-      "source": 19,
-      "target": 27
+      "source": 27,
+      "target": 28
     },
     {
-      "source": 28,
+      "source": 27,
       "target": 29
     },
     {
-      "source": 28,
+      "source": 27,
       "target": 30
     },
     {
-      "source": 28,
-      "target": 31
+      "source": 31,
+      "target": 32
     },
     {
-      "source": 32,
+      "source": 31,
       "target": 33
     },
     {
-      "source": 32,
-      "target": 34
+      "source": 34,
+      "target": 35
     },
     {
-      "source": 35,
+      "source": 34,
       "target": 36
     },
     {
-      "source": 35,
-      "target": 37
+      "source": 37,
+      "target": 38
     },
     {
-      "source": 38,
+      "source": 37,
       "target": 39
     },
     {
-      "source": 38,
+      "source": 37,
       "target": 40
     },
     {
-      "source": 38,
-      "target": 41
+      "source": 41,
+      "target": 42
     },
     {
-      "source": 42,
+      "source": 41,
       "target": 43
     },
     {
@@ -718,112 +771,132 @@
       "target": 50
     },
     {
-      "source": 51,
+      "source": 45,
+      "target": 51
+    },
+    {
+      "source": 45,
       "target": 52
     },
     {
-      "source": 51,
-      "target": 53
-    },
-    {
-      "source": 51,
+      "source": 53,
       "target": 54
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 55
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 56
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 57
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 58
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 59
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 60
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 61
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 62
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 63
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 64
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 65
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 66
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 67
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 68
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 69
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 70
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 71
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 72
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 73
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 74
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 75
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 76
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 77
     },
     {
-      "source": 51,
+      "source": 53,
       "target": 78
+    },
+    {
+      "source": 53,
+      "target": 79
+    },
+    {
+      "source": 53,
+      "target": 80
+    },
+    {
+      "source": 53,
+      "target": 81
+    },
+    {
+      "source": 83,
+      "target": 84
+    },
+    {
+      "source": 83,
+      "target": 85
     }
   ]
 }

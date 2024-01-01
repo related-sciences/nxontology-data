@@ -2,15 +2,15 @@
   "directed": true,
   "multigraph": false,
   "graph": {
-    "nxontology_version": "0.4.1",
-    "nxontology_created": "2023-02-14T00:39:33+00:00",
+    "nxontology_version": "0.5.1.dev7+gb68411d",
+    "nxontology_created": "2024-01-01T00:31:13+00:00",
     "name": "003_kegg_br08001",
     "pubchem_hierarchy_id": 3,
     "pubchem_source_id": "br08001",
     "pubchem_source_name": "KEGG",
     "pubchem_description": null,
     "pubchem_comments": [
-      "Last updated: May 22, 2015"
+      "Last updated: September 18, 2022"
     ],
     "source_url": "http://www.genome.jp/kegg-bin/get_htext?br08001.keg"
   },
@@ -5022,920 +5022,927 @@
     },
     {
       "name": null,
+      "description": "Estetrol (E4)",
+      "pubchem_hnid": 5599358,
+      "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C22548",
+      "id": 716
+    },
+    {
+      "name": null,
       "description": "Progestagens",
       "pubchem_hnid": 2289875,
       "url": null,
-      "id": 716
+      "id": 717
     },
     {
       "name": null,
       "description": "Pregnenolone",
       "pubchem_hnid": 2289671,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C01953",
-      "id": 717
+      "id": 718
     },
     {
       "name": null,
       "description": "Progesterone",
       "pubchem_hnid": 2289672,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00410",
-      "id": 718
+      "id": 719
     },
     {
       "name": null,
       "description": "17alpha-Hydroxyprogesterone",
       "pubchem_hnid": 2289876,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C01176",
-      "id": 719
+      "id": 720
     },
     {
       "name": null,
       "description": "17alpha-Hydroxypregnenolone",
       "pubchem_hnid": 2289877,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C05138",
-      "id": 720
+      "id": 721
     },
     {
       "name": null,
       "description": "Glucocorticoids",
       "pubchem_hnid": 2289878,
       "url": null,
-      "id": 721
+      "id": 722
     },
     {
       "name": null,
       "description": "Cortisol",
       "pubchem_hnid": 2289676,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00735",
-      "id": 722
+      "id": 723
     },
     {
       "name": null,
       "description": "Cortisone",
       "pubchem_hnid": 2289677,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00762",
-      "id": 723
+      "id": 724
     },
     {
       "name": null,
       "description": "11-Deoxycortisol",
       "pubchem_hnid": 2289879,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C05488",
-      "id": 724
+      "id": 725
     },
     {
       "name": null,
       "description": "Tetrahydrocortisone",
       "pubchem_hnid": 2289880,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C05470",
-      "id": 725
+      "id": 726
     },
     {
       "name": null,
       "description": "21-Deoxycortisol",
       "pubchem_hnid": 2289881,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C05497",
-      "id": 726
+      "id": 727
     },
     {
       "name": null,
       "description": "Mineralocorticoids",
       "pubchem_hnid": 2289882,
       "url": null,
-      "id": 727
+      "id": 728
     },
     {
       "name": null,
       "description": "Aldosterone",
       "pubchem_hnid": 2289673,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C01780",
-      "id": 728
+      "id": 729
     },
     {
       "name": null,
       "description": "11-Deoxycorticosterone",
       "pubchem_hnid": 2289674,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C03205",
-      "id": 729
+      "id": 730
     },
     {
       "name": null,
       "description": "Corticosterone",
       "pubchem_hnid": 2289675,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C02140",
-      "id": 730
+      "id": 731
     },
     {
       "name": null,
       "description": "18-Hydroxycorticosterone",
       "pubchem_hnid": 2289883,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C01124",
-      "id": 731
+      "id": 732
     },
     {
       "name": null,
       "description": "11-Dehydrocorticosterone",
       "pubchem_hnid": 2289884,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C05490",
-      "id": 732
+      "id": 733
     },
     {
       "name": null,
       "description": "Others",
       "pubchem_hnid": 2289885,
       "url": null,
-      "id": 733
+      "id": 734
     },
     {
       "name": null,
       "description": "Ecdysone",
       "pubchem_hnid": 2289717,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00477",
-      "id": 734
+      "id": 735
     },
     {
       "name": null,
       "description": "Calcitriol (Vitamin D)",
       "pubchem_hnid": 2289886,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C01673",
-      "id": 735
+      "id": 736
     },
     {
       "name": null,
       "description": "Other hormones",
       "pubchem_hnid": 2289887,
       "url": null,
-      "id": 736
+      "id": 737
     },
     {
       "name": null,
       "description": "Melatonin",
       "pubchem_hnid": 2289888,
       "url": null,
-      "id": 737
+      "id": 738
     },
     {
       "name": null,
       "description": "Melatonin",
       "pubchem_hnid": 2289889,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C01598",
-      "id": 738
+      "id": 739
     },
     {
       "name": null,
       "description": "Thyroid hormones",
       "pubchem_hnid": 2289890,
       "url": null,
-      "id": 739
+      "id": 740
     },
     {
       "name": null,
       "description": "Triiodothyronine",
       "pubchem_hnid": 2289553,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C02465",
-      "id": 740
+      "id": 741
     },
     {
       "name": null,
       "description": "L-Thyroxine",
       "pubchem_hnid": 2289554,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C01829",
-      "id": 741
+      "id": 742
     },
     {
       "name": null,
       "description": "Adrenalines",
       "pubchem_hnid": 2289891,
       "url": null,
-      "id": 742
+      "id": 743
     },
     {
       "name": null,
       "description": "Adrenaline",
       "pubchem_hnid": 2289892,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00788",
-      "id": 743
+      "id": 744
     },
     {
       "name": null,
       "description": "Noradrenaline",
       "pubchem_hnid": 2289893,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00547",
-      "id": 744
+      "id": 745
     },
     {
       "name": null,
       "description": "Dopamine",
       "pubchem_hnid": 2289894,
       "url": null,
-      "id": 745
+      "id": 746
     },
     {
       "name": null,
       "description": "Dopamine",
       "pubchem_hnid": 2289588,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C03758",
-      "id": 746
+      "id": 747
     },
     {
       "name": null,
       "description": "Histamine",
       "pubchem_hnid": 2289895,
       "url": null,
-      "id": 747
+      "id": 748
     },
     {
       "name": null,
       "description": "Histamine",
       "pubchem_hnid": 2289587,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00388",
-      "id": 748
+      "id": 749
     },
     {
       "name": null,
       "description": "Neurotransmitters [Fig]",
       "pubchem_hnid": 2289896,
       "url": null,
-      "id": 749
+      "id": 750
     },
     {
       "name": null,
       "description": "Acetylcholine",
       "pubchem_hnid": 2289897,
       "url": null,
-      "id": 750
+      "id": 751
     },
     {
       "name": null,
       "description": "Acetylcholine",
       "pubchem_hnid": 2289898,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C01996",
-      "id": 751
+      "id": 752
     },
     {
       "name": null,
       "description": "Amino acids",
       "pubchem_hnid": 2289899,
       "url": null,
-      "id": 752
+      "id": 753
     },
     {
       "name": null,
       "description": "Glycine (Gly)",
       "pubchem_hnid": 2289521,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00037",
-      "id": 753
+      "id": 754
     },
     {
       "name": null,
       "description": "Aspartic acid (Asp)",
       "pubchem_hnid": 2289526,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00049",
-      "id": 754
+      "id": 755
     },
     {
       "name": null,
       "description": "Glutamic acid (Glu)",
       "pubchem_hnid": 2289528,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00025",
-      "id": 755
+      "id": 756
     },
     {
       "name": null,
       "description": "3,4-Dihydroxy-L-phenylalanine",
       "pubchem_hnid": 2289550,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00355",
-      "id": 756
+      "id": 757
     },
     {
       "name": null,
       "description": "L-Thyroxine",
       "pubchem_hnid": 2289554,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C01829",
-      "id": 757
+      "id": 758
     },
     {
       "name": null,
       "description": "gamma-Aminobutyric acid",
       "pubchem_hnid": 2289556,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00334",
-      "id": 758
+      "id": 759
     },
     {
       "name": null,
       "description": "Biogenic amines",
       "pubchem_hnid": 2289900,
       "url": null,
-      "id": 759
+      "id": 760
     },
     {
       "name": null,
       "description": "Histamine",
       "pubchem_hnid": 2289587,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00388",
-      "id": 760
+      "id": 761
     },
     {
       "name": null,
       "description": "Dopamine",
       "pubchem_hnid": 2289588,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C03758",
-      "id": 761
+      "id": 762
     },
     {
       "name": null,
       "description": "Serotonin",
       "pubchem_hnid": 2289589,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00780",
-      "id": 762
+      "id": 763
     },
     {
       "name": null,
       "description": "Adrenaline",
       "pubchem_hnid": 2289892,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00788",
-      "id": 763
+      "id": 764
     },
     {
       "name": null,
       "description": "Noradrenaline",
       "pubchem_hnid": 2289893,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00547",
-      "id": 764
+      "id": 765
     },
     {
       "name": null,
       "description": "Antibiotics",
       "pubchem_hnid": 2289901,
       "url": null,
-      "id": 765
+      "id": 766
     },
     {
       "name": null,
       "description": "beta-Lactams [Fig]",
       "pubchem_hnid": 2289902,
       "url": null,
-      "id": 766
+      "id": 767
     },
     {
       "name": null,
       "description": "Penams",
       "pubchem_hnid": 2289903,
       "url": null,
-      "id": 767
+      "id": 768
     },
     {
       "name": null,
       "description": "Penicillin G",
       "pubchem_hnid": 2289904,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C05551",
-      "id": 768
+      "id": 769
     },
     {
       "name": null,
       "description": "Ampicillin",
       "pubchem_hnid": 2289905,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06574",
-      "id": 769
+      "id": 770
     },
     {
       "name": null,
       "description": "Cephems",
       "pubchem_hnid": 2289906,
       "url": null,
-      "id": 770
+      "id": 771
     },
     {
       "name": null,
       "description": "Cephalosporin C",
       "pubchem_hnid": 2289907,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00916",
-      "id": 771
+      "id": 772
     },
     {
       "name": null,
       "description": "Cephamycin C",
       "pubchem_hnid": 2289908,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06566",
-      "id": 772
+      "id": 773
     },
     {
       "name": null,
       "description": "Cefazolin",
       "pubchem_hnid": 2289909,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06880",
-      "id": 773
+      "id": 774
     },
     {
       "name": null,
       "description": "Ceftriaxone",
       "pubchem_hnid": 2289910,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06683",
-      "id": 774
+      "id": 775
     },
     {
       "name": null,
       "description": "Clavams",
       "pubchem_hnid": 2289911,
       "url": null,
-      "id": 775
+      "id": 776
     },
     {
       "name": null,
       "description": "Clavulanic acid",
       "pubchem_hnid": 2289912,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06662",
-      "id": 776
+      "id": 777
     },
     {
       "name": null,
       "description": "Carbapenems",
       "pubchem_hnid": 2289913,
       "url": null,
-      "id": 777
+      "id": 778
     },
     {
       "name": null,
       "description": "Thienamycin",
       "pubchem_hnid": 2289914,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06664",
-      "id": 778
+      "id": 779
     },
     {
       "name": null,
       "description": "Imipenem",
       "pubchem_hnid": 2289915,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06665",
-      "id": 779
+      "id": 780
     },
     {
       "name": null,
       "description": "Monobactams",
       "pubchem_hnid": 2289916,
       "url": null,
-      "id": 780
+      "id": 781
     },
     {
       "name": null,
       "description": "Nocardicin A",
       "pubchem_hnid": 2289917,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C01941",
-      "id": 781
+      "id": 782
     },
     {
       "name": null,
       "description": "Aztreonam",
       "pubchem_hnid": 2289918,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06840",
-      "id": 782
+      "id": 783
     },
     {
       "name": null,
       "description": "Aminoglycosides [Fig]",
       "pubchem_hnid": 2289919,
       "url": null,
-      "id": 783
+      "id": 784
     },
     {
       "name": null,
       "description": "Streptidines",
       "pubchem_hnid": 2289920,
       "url": null,
-      "id": 784
+      "id": 785
     },
     {
       "name": null,
       "description": "Streptomycin",
       "pubchem_hnid": 2289921,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00413",
-      "id": 785
+      "id": 786
     },
     {
       "name": null,
       "description": "Actinamines",
       "pubchem_hnid": 2289922,
       "url": null,
-      "id": 786
+      "id": 787
     },
     {
       "name": null,
       "description": "Spectinomycin",
       "pubchem_hnid": 2289923,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C02078",
-      "id": 787
+      "id": 788
     },
     {
       "name": null,
       "description": "2-Deoxystreptamines",
       "pubchem_hnid": 2289924,
       "url": null,
-      "id": 788
+      "id": 789
     },
     {
       "name": null,
       "description": "Kanamycin",
       "pubchem_hnid": 2289925,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00304",
-      "id": 789
+      "id": 790
     },
     {
       "name": null,
       "description": "Gentamicin C",
       "pubchem_hnid": 2289926,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C01918",
-      "id": 790
+      "id": 791
     },
     {
       "name": null,
       "description": "Neomycin B",
       "pubchem_hnid": 2289927,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C01737",
-      "id": 791
+      "id": 792
     },
     {
       "name": null,
       "description": "Butirosin A",
       "pubchem_hnid": 2289928,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C17585",
-      "id": 792
+      "id": 793
     },
     {
       "name": null,
       "description": "Polyketides and nonribosomal peptides [Fig]",
       "pubchem_hnid": 2289929,
       "url": null,
-      "id": 793
+      "id": 794
     },
     {
       "name": null,
       "description": "Macrolides",
       "pubchem_hnid": 2289930,
       "url": null,
-      "id": 794
+      "id": 795
     },
     {
       "name": null,
       "description": "Erythromycin",
       "pubchem_hnid": 2289931,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C01912",
-      "id": 795
+      "id": 796
     },
     {
       "name": null,
       "description": "Oleandomycin",
       "pubchem_hnid": 2289932,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C01946",
-      "id": 796
+      "id": 797
     },
     {
       "name": null,
       "description": "Tylosin",
       "pubchem_hnid": 2289933,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C01457",
-      "id": 797
+      "id": 798
     },
     {
       "name": null,
       "description": "Candicidin D",
       "pubchem_hnid": 2289934,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06690",
-      "id": 798
+      "id": 799
     },
     {
       "name": null,
       "description": "Ansamycins",
       "pubchem_hnid": 2289935,
       "url": null,
-      "id": 799
+      "id": 800
     },
     {
       "name": null,
       "description": "Geldanamycin",
       "pubchem_hnid": 2289936,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C11222",
-      "id": 800
+      "id": 801
     },
     {
       "name": null,
       "description": "Rifamycin W",
       "pubchem_hnid": 2289937,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C12247",
-      "id": 801
+      "id": 802
     },
     {
       "name": null,
       "description": "Rifampicin",
       "pubchem_hnid": 2289938,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06688",
-      "id": 802
+      "id": 803
     },
     {
       "name": null,
       "description": "Tetracyclines",
       "pubchem_hnid": 2289939,
       "url": null,
-      "id": 803
+      "id": 804
     },
     {
       "name": null,
       "description": "Tetracycline",
       "pubchem_hnid": 2289940,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06570",
-      "id": 804
+      "id": 805
     },
     {
       "name": null,
       "description": "Chlortetracycline",
       "pubchem_hnid": 2289941,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06571",
-      "id": 805
+      "id": 806
     },
     {
       "name": null,
       "description": "Other polyketides",
       "pubchem_hnid": 2289942,
       "url": null,
-      "id": 806
+      "id": 807
     },
     {
       "name": null,
       "description": "Adriamycin",
       "pubchem_hnid": 2289943,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C01661",
-      "id": 807
+      "id": 808
     },
     {
       "name": null,
       "description": "Actinorhodine",
       "pubchem_hnid": 2289944,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06691",
-      "id": 808
+      "id": 809
     },
     {
       "name": null,
       "description": "Tetranactin",
       "pubchem_hnid": 2289945,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06764",
-      "id": 809
+      "id": 810
     },
     {
       "name": null,
       "description": "Monensin",
       "pubchem_hnid": 2289946,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06693",
-      "id": 810
+      "id": 811
     },
     {
       "name": null,
       "description": "Griseofulvin",
       "pubchem_hnid": 2289947,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06686",
-      "id": 811
+      "id": 812
     },
     {
       "name": null,
       "description": "Non-ribosomal peptides",
       "pubchem_hnid": 2289948,
       "url": null,
-      "id": 812
+      "id": 813
     },
     {
       "name": null,
       "description": "Vancomycin",
       "pubchem_hnid": 2289949,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06689",
-      "id": 813
+      "id": 814
     },
     {
       "name": null,
       "description": "Teicoplanin A2-2",
       "pubchem_hnid": 2289950,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C12046",
-      "id": 814
+      "id": 815
     },
     {
       "name": null,
       "description": "Bleomycin B2",
       "pubchem_hnid": 2289951,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C01895",
-      "id": 815
+      "id": 816
     },
     {
       "name": null,
       "description": "Bacitracin A",
       "pubchem_hnid": 2289952,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C15482",
-      "id": 816
+      "id": 817
     },
     {
       "name": null,
       "description": "Valinomycin",
       "pubchem_hnid": 2289953,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06684",
-      "id": 817
+      "id": 818
     },
     {
       "name": null,
       "description": "Polymyxin B",
       "pubchem_hnid": 2289954,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C11612",
-      "id": 818
+      "id": 819
     },
     {
       "name": null,
       "description": "Actinomycin D",
       "pubchem_hnid": 2289955,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06770",
-      "id": 819
+      "id": 820
     },
     {
       "name": null,
       "description": "Quinolones [Fig]",
       "pubchem_hnid": 2289956,
       "url": null,
-      "id": 820
+      "id": 821
     },
     {
       "name": null,
       "description": "4-Quinolones",
       "pubchem_hnid": 2289957,
       "url": null,
-      "id": 821
+      "id": 822
     },
     {
       "name": null,
       "description": "Nalidixic acid",
       "pubchem_hnid": 2289958,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C05079",
-      "id": 822
+      "id": 823
     },
     {
       "name": null,
       "description": "Fluoroquinolones",
       "pubchem_hnid": 2289959,
       "url": null,
-      "id": 823
+      "id": 824
     },
     {
       "name": null,
       "description": "Norfloxacin",
       "pubchem_hnid": 2289960,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06687",
-      "id": 824
+      "id": 825
     },
     {
       "name": null,
       "description": "Others [Fig]",
       "pubchem_hnid": 2289961,
       "url": null,
-      "id": 825
+      "id": 826
     },
     {
       "name": null,
       "description": "Pure sugars",
       "pubchem_hnid": 2289962,
       "url": null,
-      "id": 826
+      "id": 827
     },
     {
       "name": null,
       "description": "Nojirimycin",
       "pubchem_hnid": 2289963,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06763",
-      "id": 827
+      "id": 828
     },
     {
       "name": null,
       "description": "Glycolipids",
       "pubchem_hnid": 2289964,
       "url": null,
-      "id": 828
+      "id": 829
     },
     {
       "name": null,
       "description": "Flavomycin",
       "pubchem_hnid": 2289965,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06765",
-      "id": 829
+      "id": 830
     },
     {
       "name": null,
       "description": "Amino acid derivatives",
       "pubchem_hnid": 2289966,
       "url": null,
-      "id": 830
+      "id": 831
     },
     {
       "name": null,
       "description": "Cycloserine",
       "pubchem_hnid": 2289967,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06682",
-      "id": 831
+      "id": 832
     },
     {
       "name": null,
       "description": "Peptide nucleosides",
       "pubchem_hnid": 2289968,
       "url": null,
-      "id": 832
+      "id": 833
     },
     {
       "name": null,
       "description": "Polyoxin B",
       "pubchem_hnid": 2289969,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06692",
-      "id": 833
+      "id": 834
     },
     {
       "name": null,
       "description": "Cycloalkane derivatives",
       "pubchem_hnid": 2289970,
       "url": null,
-      "id": 834
+      "id": 835
     },
     {
       "name": null,
       "description": "Cycloheximide",
       "pubchem_hnid": 2289971,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06685",
-      "id": 835
+      "id": 836
     },
     {
       "name": null,
       "description": "Steroids",
       "pubchem_hnid": 2289972,
       "url": null,
-      "id": 836
+      "id": 837
     },
     {
       "name": null,
       "description": "Fusidic acid",
       "pubchem_hnid": 2289973,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06694",
-      "id": 837
+      "id": 838
     },
     {
       "name": null,
       "description": "Aromatic compounds",
       "pubchem_hnid": 2289974,
       "url": null,
-      "id": 838
+      "id": 839
     },
     {
       "name": null,
       "description": "Chloramphenicol",
       "pubchem_hnid": 2289975,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C00918",
-      "id": 839
+      "id": 840
     },
     {
       "name": null,
       "description": "Novobiocin",
       "pubchem_hnid": 2289976,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C05080",
-      "id": 840
+      "id": 841
     },
     {
       "name": null,
       "description": "Aliphatic compounds",
       "pubchem_hnid": 2289977,
       "url": null,
-      "id": 841
+      "id": 842
     },
     {
       "name": null,
       "description": "Fosfomycin",
       "pubchem_hnid": 2289978,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06454",
-      "id": 842
+      "id": 843
     },
     {
       "name": null,
       "description": "Quinones",
       "pubchem_hnid": 2289979,
       "url": null,
-      "id": 843
+      "id": 844
     },
     {
       "name": null,
       "description": "Mitomycin",
       "pubchem_hnid": 2289980,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06681",
-      "id": 844
+      "id": 845
     },
     {
       "name": null,
       "description": "Cyclic lactones",
       "pubchem_hnid": 2289981,
       "url": null,
-      "id": 845
+      "id": 846
     },
     {
       "name": null,
       "description": "2-Oxazolidinone",
       "pubchem_hnid": 2289982,
       "url": "http://www.genome.jp/kegg-bin/get_htext?htext=br08001&query=C06695",
-      "id": 846
+      "id": 847
     }
   ],
   "links": [
@@ -8265,11 +8272,11 @@
     },
     {
       "source": 587,
-      "target": 736
+      "target": 737
     },
     {
       "source": 587,
-      "target": 749
+      "target": 750
     },
     {
       "source": 588,
@@ -8729,19 +8736,19 @@
     },
     {
       "source": 701,
-      "target": 716
+      "target": 717
     },
     {
       "source": 701,
-      "target": 721
+      "target": 722
     },
     {
       "source": 701,
-      "target": 727
+      "target": 728
     },
     {
       "source": 701,
-      "target": 733
+      "target": 734
     },
     {
       "source": 702,
@@ -8792,196 +8799,180 @@
       "target": 715
     },
     {
-      "source": 716,
-      "target": 717
+      "source": 710,
+      "target": 716
     },
     {
-      "source": 716,
+      "source": 717,
       "target": 718
     },
     {
-      "source": 716,
+      "source": 717,
       "target": 719
     },
     {
-      "source": 716,
+      "source": 717,
       "target": 720
     },
     {
-      "source": 721,
-      "target": 722
+      "source": 717,
+      "target": 721
     },
     {
-      "source": 721,
+      "source": 722,
       "target": 723
     },
     {
-      "source": 721,
+      "source": 722,
       "target": 724
     },
     {
-      "source": 721,
+      "source": 722,
       "target": 725
     },
     {
-      "source": 721,
+      "source": 722,
       "target": 726
     },
     {
-      "source": 727,
-      "target": 728
+      "source": 722,
+      "target": 727
     },
     {
-      "source": 727,
+      "source": 728,
       "target": 729
     },
     {
-      "source": 727,
+      "source": 728,
       "target": 730
     },
     {
-      "source": 727,
+      "source": 728,
       "target": 731
     },
     {
-      "source": 727,
+      "source": 728,
       "target": 732
     },
     {
-      "source": 733,
-      "target": 734
+      "source": 728,
+      "target": 733
     },
     {
-      "source": 733,
+      "source": 734,
       "target": 735
     },
     {
-      "source": 736,
-      "target": 737
-    },
-    {
-      "source": 736,
-      "target": 739
-    },
-    {
-      "source": 736,
-      "target": 742
-    },
-    {
-      "source": 736,
-      "target": 745
-    },
-    {
-      "source": 736,
-      "target": 747
+      "source": 734,
+      "target": 736
     },
     {
       "source": 737,
       "target": 738
     },
     {
-      "source": 739,
+      "source": 737,
       "target": 740
     },
     {
-      "source": 739,
-      "target": 741
-    },
-    {
-      "source": 742,
+      "source": 737,
       "target": 743
     },
     {
-      "source": 742,
-      "target": 744
-    },
-    {
-      "source": 745,
+      "source": 737,
       "target": 746
     },
     {
-      "source": 747,
+      "source": 737,
       "target": 748
     },
     {
-      "source": 749,
-      "target": 750
+      "source": 738,
+      "target": 739
     },
     {
-      "source": 749,
-      "target": 752
+      "source": 740,
+      "target": 741
     },
     {
-      "source": 749,
-      "target": 759
+      "source": 740,
+      "target": 742
+    },
+    {
+      "source": 743,
+      "target": 744
+    },
+    {
+      "source": 743,
+      "target": 745
+    },
+    {
+      "source": 746,
+      "target": 747
+    },
+    {
+      "source": 748,
+      "target": 749
     },
     {
       "source": 750,
       "target": 751
     },
     {
-      "source": 752,
+      "source": 750,
       "target": 753
     },
     {
-      "source": 752,
-      "target": 754
-    },
-    {
-      "source": 752,
-      "target": 755
-    },
-    {
-      "source": 752,
-      "target": 756
-    },
-    {
-      "source": 752,
-      "target": 757
-    },
-    {
-      "source": 752,
-      "target": 758
-    },
-    {
-      "source": 759,
+      "source": 750,
       "target": 760
     },
     {
-      "source": 759,
+      "source": 751,
+      "target": 752
+    },
+    {
+      "source": 753,
+      "target": 754
+    },
+    {
+      "source": 753,
+      "target": 755
+    },
+    {
+      "source": 753,
+      "target": 756
+    },
+    {
+      "source": 753,
+      "target": 757
+    },
+    {
+      "source": 753,
+      "target": 758
+    },
+    {
+      "source": 753,
+      "target": 759
+    },
+    {
+      "source": 760,
       "target": 761
     },
     {
-      "source": 759,
+      "source": 760,
       "target": 762
     },
     {
-      "source": 759,
+      "source": 760,
       "target": 763
     },
     {
-      "source": 759,
+      "source": 760,
       "target": 764
     },
     {
-      "source": 765,
-      "target": 766
-    },
-    {
-      "source": 765,
-      "target": 783
-    },
-    {
-      "source": 765,
-      "target": 793
-    },
-    {
-      "source": 765,
-      "target": 820
-    },
-    {
-      "source": 765,
-      "target": 825
+      "source": 760,
+      "target": 765
     },
     {
       "source": 766,
@@ -8989,19 +8980,19 @@
     },
     {
       "source": 766,
-      "target": 770
+      "target": 784
     },
     {
       "source": 766,
-      "target": 775
+      "target": 794
     },
     {
       "source": 766,
-      "target": 777
+      "target": 821
     },
     {
       "source": 766,
-      "target": 780
+      "target": 826
     },
     {
       "source": 767,
@@ -9009,99 +9000,99 @@
     },
     {
       "source": 767,
-      "target": 769
-    },
-    {
-      "source": 770,
       "target": 771
     },
     {
-      "source": 770,
-      "target": 772
-    },
-    {
-      "source": 770,
-      "target": 773
-    },
-    {
-      "source": 770,
-      "target": 774
-    },
-    {
-      "source": 775,
+      "source": 767,
       "target": 776
     },
     {
-      "source": 777,
+      "source": 767,
       "target": 778
     },
     {
-      "source": 777,
-      "target": 779
-    },
-    {
-      "source": 780,
+      "source": 767,
       "target": 781
     },
     {
-      "source": 780,
+      "source": 768,
+      "target": 769
+    },
+    {
+      "source": 768,
+      "target": 770
+    },
+    {
+      "source": 771,
+      "target": 772
+    },
+    {
+      "source": 771,
+      "target": 773
+    },
+    {
+      "source": 771,
+      "target": 774
+    },
+    {
+      "source": 771,
+      "target": 775
+    },
+    {
+      "source": 776,
+      "target": 777
+    },
+    {
+      "source": 778,
+      "target": 779
+    },
+    {
+      "source": 778,
+      "target": 780
+    },
+    {
+      "source": 781,
       "target": 782
     },
     {
-      "source": 783,
-      "target": 784
-    },
-    {
-      "source": 783,
-      "target": 786
-    },
-    {
-      "source": 783,
-      "target": 788
+      "source": 781,
+      "target": 783
     },
     {
       "source": 784,
       "target": 785
     },
     {
-      "source": 786,
+      "source": 784,
       "target": 787
     },
     {
-      "source": 788,
+      "source": 784,
       "target": 789
     },
     {
-      "source": 788,
+      "source": 785,
+      "target": 786
+    },
+    {
+      "source": 787,
+      "target": 788
+    },
+    {
+      "source": 789,
       "target": 790
     },
     {
-      "source": 788,
+      "source": 789,
       "target": 791
     },
     {
-      "source": 788,
+      "source": 789,
       "target": 792
     },
     {
-      "source": 793,
-      "target": 794
-    },
-    {
-      "source": 793,
-      "target": 799
-    },
-    {
-      "source": 793,
-      "target": 803
-    },
-    {
-      "source": 793,
-      "target": 806
-    },
-    {
-      "source": 793,
-      "target": 812
+      "source": 789,
+      "target": 793
     },
     {
       "source": 794,
@@ -9109,183 +9100,203 @@
     },
     {
       "source": 794,
-      "target": 796
-    },
-    {
-      "source": 794,
-      "target": 797
-    },
-    {
-      "source": 794,
-      "target": 798
-    },
-    {
-      "source": 799,
       "target": 800
     },
     {
-      "source": 799,
-      "target": 801
-    },
-    {
-      "source": 799,
-      "target": 802
-    },
-    {
-      "source": 803,
+      "source": 794,
       "target": 804
     },
     {
-      "source": 803,
-      "target": 805
-    },
-    {
-      "source": 806,
+      "source": 794,
       "target": 807
     },
     {
-      "source": 806,
-      "target": 808
-    },
-    {
-      "source": 806,
-      "target": 809
-    },
-    {
-      "source": 806,
-      "target": 810
-    },
-    {
-      "source": 806,
-      "target": 811
-    },
-    {
-      "source": 812,
+      "source": 794,
       "target": 813
     },
     {
-      "source": 812,
+      "source": 795,
+      "target": 796
+    },
+    {
+      "source": 795,
+      "target": 797
+    },
+    {
+      "source": 795,
+      "target": 798
+    },
+    {
+      "source": 795,
+      "target": 799
+    },
+    {
+      "source": 800,
+      "target": 801
+    },
+    {
+      "source": 800,
+      "target": 802
+    },
+    {
+      "source": 800,
+      "target": 803
+    },
+    {
+      "source": 804,
+      "target": 805
+    },
+    {
+      "source": 804,
+      "target": 806
+    },
+    {
+      "source": 807,
+      "target": 808
+    },
+    {
+      "source": 807,
+      "target": 809
+    },
+    {
+      "source": 807,
+      "target": 810
+    },
+    {
+      "source": 807,
+      "target": 811
+    },
+    {
+      "source": 807,
+      "target": 812
+    },
+    {
+      "source": 813,
       "target": 814
     },
     {
-      "source": 812,
+      "source": 813,
       "target": 815
     },
     {
-      "source": 812,
+      "source": 813,
       "target": 816
     },
     {
-      "source": 812,
+      "source": 813,
       "target": 817
     },
     {
-      "source": 812,
+      "source": 813,
       "target": 818
     },
     {
-      "source": 812,
+      "source": 813,
       "target": 819
     },
     {
-      "source": 820,
-      "target": 821
-    },
-    {
-      "source": 820,
-      "target": 823
+      "source": 813,
+      "target": 820
     },
     {
       "source": 821,
       "target": 822
     },
     {
-      "source": 823,
+      "source": 821,
       "target": 824
     },
     {
-      "source": 825,
-      "target": 826
+      "source": 822,
+      "target": 823
     },
     {
-      "source": 825,
-      "target": 828
-    },
-    {
-      "source": 825,
-      "target": 830
-    },
-    {
-      "source": 825,
-      "target": 832
-    },
-    {
-      "source": 825,
-      "target": 834
-    },
-    {
-      "source": 825,
-      "target": 836
-    },
-    {
-      "source": 825,
-      "target": 838
-    },
-    {
-      "source": 825,
-      "target": 841
-    },
-    {
-      "source": 825,
-      "target": 843
-    },
-    {
-      "source": 825,
-      "target": 845
+      "source": 824,
+      "target": 825
     },
     {
       "source": 826,
       "target": 827
     },
     {
-      "source": 828,
+      "source": 826,
       "target": 829
     },
     {
-      "source": 830,
+      "source": 826,
       "target": 831
     },
     {
-      "source": 832,
+      "source": 826,
       "target": 833
     },
     {
-      "source": 834,
+      "source": 826,
       "target": 835
     },
     {
-      "source": 836,
+      "source": 826,
       "target": 837
     },
     {
-      "source": 838,
+      "source": 826,
       "target": 839
     },
     {
-      "source": 838,
-      "target": 840
-    },
-    {
-      "source": 841,
+      "source": 826,
       "target": 842
     },
     {
-      "source": 843,
+      "source": 826,
       "target": 844
     },
     {
-      "source": 845,
+      "source": 826,
       "target": 846
+    },
+    {
+      "source": 827,
+      "target": 828
+    },
+    {
+      "source": 829,
+      "target": 830
+    },
+    {
+      "source": 831,
+      "target": 832
+    },
+    {
+      "source": 833,
+      "target": 834
+    },
+    {
+      "source": 835,
+      "target": 836
+    },
+    {
+      "source": 837,
+      "target": 838
+    },
+    {
+      "source": 839,
+      "target": 840
+    },
+    {
+      "source": 839,
+      "target": 841
+    },
+    {
+      "source": 842,
+      "target": 843
+    },
+    {
+      "source": 844,
+      "target": 845
+    },
+    {
+      "source": 846,
+      "target": 847
     }
   ]
 }

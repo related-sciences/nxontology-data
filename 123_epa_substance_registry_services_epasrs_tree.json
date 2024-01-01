@@ -2,8 +2,8 @@
   "directed": true,
   "multigraph": false,
   "graph": {
-    "nxontology_version": "0.4.1",
-    "nxontology_created": "2023-02-14T00:41:54+00:00",
+    "nxontology_version": "0.5.1.dev7+gb68411d",
+    "nxontology_created": "2024-01-01T00:35:20+00:00",
     "name": "123_epa_substance_registry_services_epasrs_tree",
     "pubchem_hierarchy_id": 123,
     "pubchem_source_id": "epasrs_tree",

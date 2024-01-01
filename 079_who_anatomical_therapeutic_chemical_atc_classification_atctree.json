@@ -2,8 +2,8 @@
   "directed": true,
   "multigraph": false,
   "graph": {
-    "nxontology_version": "0.4.1",
-    "nxontology_created": "2023-02-14T00:39:45+00:00",
+    "nxontology_version": "0.5.1.dev7+gb68411d",
+    "nxontology_created": "2024-01-01T00:31:31+00:00",
     "name": "079_who_anatomical_therapeutic_chemical_atc_classification_atctree",
     "pubchem_hierarchy_id": 79,
     "pubchem_source_id": "ATCTree",
@@ -6459,7 +6459,7 @@
       "id": 920
     },
     {
-      "name": "B01AF03 - \"edoxaban",
+      "name": "B01AF03 - Edoxaban",
       "description": null,
       "pubchem_hnid": 2667000,
       "url": "https://www.whocc.no/atc_ddd_index/?code=B01AF03",
@@ -46714,6 +46714,13 @@
       "pubchem_hnid": 5567584,
       "url": "https://www.whocc.no/atc_ddd_index/?code=V10XX05",
       "id": 6671
+    },
+    {
+      "name": "V20 - Surgical dressings",
+      "description": null,
+      "pubchem_hnid": 1955739,
+      "url": "https://www.whocc.no/atc_ddd_index/?code=V20",
+      "id": 6672
     }
   ],
   "links": [
@@ -71648,6 +71655,10 @@
     {
       "source": 6239,
       "target": 6642
+    },
+    {
+      "source": 6239,
+      "target": 6672
     },
     {
       "source": 6240,

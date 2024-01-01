@@ -2,14 +2,14 @@
   "directed": true,
   "multigraph": false,
   "graph": {
-    "nxontology_version": "0.4.1",
-    "nxontology_created": "2023-02-14T00:41:54+00:00",
+    "nxontology_version": "0.5.1.dev7+gb68411d",
+    "nxontology_created": "2024-01-01T00:35:20+00:00",
     "name": "125_pubchem_cell_toc",
     "pubchem_hierarchy_id": 125,
     "pubchem_source_id": "Cell TOC",
     "pubchem_source_name": "PubChem",
     "pubchem_description": [
-      "This classification was created automatically from the PubChem Cell TOC on 2023/01/31.",
+      "This classification was created automatically from the PubChem Cell TOC on 2023/12/26.",
       "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
       "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
     ],
@@ -32,23 +32,23 @@
       "id": 2
     },
     {
-      "name": "Cell Category",
-      "description": "Category of this cell or cell line",
-      "pubchem_hnid": 5566858,
+      "name": "Record Description",
+      "description": "Textual summary about this PubChem record",
+      "pubchem_hnid": 5566860,
       "url": null,
       "id": 3
     },
     {
-      "name": "Sex of Cell",
-      "description": "Donor sex (i.e. Male or Female) of this cell or cell",
-      "pubchem_hnid": 5566859,
+      "name": "Source Organism",
+      "description": "Source organism of this cell line",
+      "pubchem_hnid": 5566876,
       "url": null,
       "id": 4
     },
     {
-      "name": "Record Description",
-      "description": "Textual summary about this PubChem record",
-      "pubchem_hnid": 5566860,
+      "name": "Source Tissue",
+      "description": "Tissue/organ where this cell or cell line is derived",
+      "pubchem_hnid": 5566877,
       "url": null,
       "id": 5
     },
@@ -151,100 +151,100 @@
       "id": 19
     },
     {
-      "name": "Source",
-      "description": "Source organism, tissue, and organ of this cell line",
-      "pubchem_hnid": 5566875,
+      "name": "COSMIC ID",
+      "description": "Sample identifier used by the COSMIC Cell Project",
+      "pubchem_hnid": 11289960,
       "url": null,
       "id": 20
     },
     {
-      "name": "Source Organism",
-      "description": "Source organism of this cell line.",
-      "pubchem_hnid": 5566876,
+      "name": "GDSC",
+      "description": "Cell line identifier used by the Genomics of Drug Sensitivity in Cancer (GDSC) project",
+      "pubchem_hnid": 11289961,
       "url": null,
       "id": 21
     },
     {
-      "name": "Source Tissue",
-      "description": "Source tissue of this cell line.",
-      "pubchem_hnid": 5566877,
+      "name": "Cell Model Passports",
+      "description": "Model identifier used by the Cell Line Passports",
+      "pubchem_hnid": 11289962,
       "url": null,
       "id": 22
     },
     {
-      "name": "Source Organ",
-      "description": "Source organ of this cell or cell line",
-      "pubchem_hnid": 5566878,
+      "name": "DepMap ID",
+      "description": "Identifier used by the DepMap portal",
+      "pubchem_hnid": 11289963,
       "url": null,
       "id": 23
+    },
+    {
+      "name": "Wikidata",
+      "description": "Wikidata entity identifier",
+      "pubchem_hnid": 11289964,
+      "url": null,
+      "id": 24
     },
     {
       "name": "Chemicals and Bioactivities",
       "description": "Drugs, chemical probes, curated ligands, and compounds that are known for this cell line.",
       "pubchem_hnid": 5566879,
       "url": null,
-      "id": 24
+      "id": 25
     },
     {
       "name": "Tested Compounds",
       "description": "Compounds tested against this cell line in PubChem BioAssay",
       "pubchem_hnid": 5566880,
       "url": null,
-      "id": 25
+      "id": 26
     },
     {
       "name": "BioAssays",
       "description": "Biological experiments deposited in PubChem BioAssay that were conducted against this cell line",
       "pubchem_hnid": 5566881,
       "url": null,
-      "id": 26
+      "id": 27
     },
     {
       "name": "Small-Molecule BioAssays",
       "description": "Bioassays that tested small-molecule chemicals",
       "pubchem_hnid": 5566882,
       "url": null,
-      "id": 27
+      "id": 28
     },
     {
       "name": "RNAi BioAssays",
       "description": "Functional genomic bioassays that tested RNAi reagents",
       "pubchem_hnid": 5566883,
       "url": null,
-      "id": 28
+      "id": 29
     },
     {
       "name": "Diseases",
       "description": "Diseases associated with this cell line",
       "pubchem_hnid": 5566884,
       "url": null,
-      "id": 29
+      "id": 30
     },
     {
       "name": "Literature",
       "description": "Literature information associated with this cell line",
       "pubchem_hnid": 5566885,
       "url": null,
-      "id": 30
+      "id": 31
     },
     {
       "name": "NLM Curated PubMed Citations",
       "description": "PubMed records that are tagged with the same MeSH term that has been associated with this cell line.",
       "pubchem_hnid": 5566886,
       "url": null,
-      "id": 31
-    },
-    {
-      "name": "BioAssay Provided PubMed Citations",
-      "description": "PubMed citations provided by the bioassays associated with this cell line",
-      "pubchem_hnid": 5566887,
-      "url": null,
       "id": 32
     },
     {
-      "name": "Cellosaurus References",
-      "description": "PubMed citations associated with this cell line curated by Swiss Institute of Bioinformatics Cellosaurus",
-      "pubchem_hnid": 5566888,
+      "name": "Consolidated References",
+      "description": "The consolidated references include literature data from all sources including depositors of PubChem BioAssays, Cellosaurus, etc.",
+      "pubchem_hnid": 5599356,
       "url": null,
       "id": 33
     },
@@ -345,6 +345,13 @@
       "pubchem_hnid": 5566902,
       "url": null,
       "id": 47
+    },
+    {
+      "name": "Related Cell Lines",
+      "description": "Related cell lines (i.e. parent or child according to Cellosaurus) to this cell line",
+      "pubchem_hnid": 11552626,
+      "url": null,
+      "id": 48
     }
   ],
   "links": [
@@ -417,39 +424,43 @@
       "target": 19
     },
     {
-      "source": 20,
+      "source": 9,
+      "target": 20
+    },
+    {
+      "source": 9,
       "target": 21
     },
     {
-      "source": 20,
+      "source": 9,
       "target": 22
     },
     {
-      "source": 20,
+      "source": 9,
       "target": 23
     },
     {
-      "source": 24,
-      "target": 25
+      "source": 9,
+      "target": 24
     },
     {
-      "source": 26,
-      "target": 27
+      "source": 25,
+      "target": 26
     },
     {
-      "source": 26,
+      "source": 27,
       "target": 28
     },
     {
-      "source": 30,
-      "target": 31
+      "source": 27,
+      "target": 29
     },
     {
-      "source": 30,
+      "source": 31,
       "target": 32
     },
     {
-      "source": 30,
+      "source": 31,
       "target": 33
     },
     {

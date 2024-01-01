@@ -10,7 +10,7 @@
         "MeSH (Medical Subject Headings) is the NLM controlled vocabulary thesaurus used for indexing articles for PubMed."
       ],
       "Comments": [
-        "Created from PCpm DB on 02/07/2023 09:02:37"
+        "Created from PCpm DB on 12/26/2023 09:02:29"
       ],
       "URL": "http://www.nlm.nih.gov/mesh/meshhome.html",
       "HasCountsOfType": [
@@ -22,7 +22,7 @@
         "Substance",
         "Taxonomy"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "001_medical_subject_headings_mesh_desctree"
   },
@@ -40,16 +40,16 @@
         "ChEBI subsumes and replaces the Chemical Ontology first",
         "developed by Michael Ashburner & Pankaj Jaiswal.",
         "Author: ChEBI curation team ",
-        "ChEBI Release version 218",
+        "ChEBI Release version 227",
         "For any queries contact chebi-help@ebi.ac.uk ",
-        "data from 27:01:2023 20:02"
+        "data from 27:10:2023 19:34"
       ],
       "URL": "http://www.ebi.ac.uk/chebi/userManualForward.do#ChEBI%20Ontology",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/11/08"
     },
     "nxo_name": "002_chebi_obo"
   },
@@ -61,14 +61,14 @@
     "Information": {
       "Name": "Compounds with biological roles",
       "Comments": [
-        "Last updated: May 22, 2015"
+        "Last updated: September 18, 2022"
       ],
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08001.keg",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "003_kegg_br08001"
   },
@@ -80,14 +80,14 @@
     "Information": {
       "Name": "Lipids",
       "Comments": [
-        "Last updated: March 10, 2022"
+        "Last updated: July 21, 2022"
       ],
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08002.keg",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "004_kegg_br08002"
   },
@@ -106,7 +106,7 @@
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "005_kegg_br08003"
   },
@@ -125,7 +125,7 @@
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "006_kegg_br08005"
   },
@@ -144,7 +144,7 @@
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "007_kegg_br08006"
   },
@@ -163,7 +163,7 @@
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "008_kegg_br08007"
   },
@@ -175,14 +175,14 @@
     "Information": {
       "Name": "Therapeutic category of drugs in Japan",
       "Comments": [
-        "Last updated: April 20, 2022"
+        "Last updated: December 21, 2023"
       ],
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08301.keg",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "014_kegg_br08301"
   },
@@ -194,14 +194,14 @@
     "Information": {
       "Name": "USP drug classification",
       "Comments": [
-        "Last updated: April 27, 2022"
+        "Last updated: October 17, 2023"
       ],
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08302.keg",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "015_kegg_br08302"
   },
@@ -213,14 +213,14 @@
     "Information": {
       "Name": "Anatomical Therapeutic Chemical (ATC) classification",
       "Comments": [
-        "Last updated: April 28, 2022"
+        "Last updated: December 22, 2023"
       ],
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08303.keg",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "016_kegg_br08303"
   },
@@ -239,7 +239,7 @@
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "017_kegg_br08304"
   },
@@ -258,7 +258,7 @@
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "018_kegg_br08305"
   },
@@ -270,14 +270,14 @@
     "Information": {
       "Name": "Antiinfectives",
       "Comments": [
-        "Last updated: May 11, 2022"
+        "Last updated: December 18, 2023"
       ],
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08307.keg",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "020_kegg_br08307"
   },
@@ -289,14 +289,14 @@
     "Information": {
       "Name": "Target-based classification of drugs",
       "Comments": [
-        "Last updated: May 27, 2022"
+        "Last updated: December 22, 2023"
       ],
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08310.keg",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "022_kegg_br08310"
   },
@@ -308,14 +308,14 @@
     "Information": {
       "Name": "Drugs listed in the Japanese Pharmacopoeia",
       "Comments": [
-        "Last updated: June 9, 2021"
+        "Last updated: February 3, 2023"
       ],
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08311.keg",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "023_kegg_br08311"
   },
@@ -327,14 +327,14 @@
     "Information": {
       "Name": "Risk category of Japanese OTC drugs",
       "Comments": [
-        "Last updated: April 25, 2022"
+        "Last updated: December 5, 2023"
       ],
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08312.keg",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "024_kegg_br08312"
   },
@@ -353,7 +353,7 @@
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "025_kegg_br08313"
   },
@@ -372,7 +372,7 @@
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "028_kegg_br08331"
   },
@@ -393,7 +393,7 @@
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2022/12/14"
+      "LastUpdate": "2023/12/13"
     },
     "nxo_name": "054_lipid_maps_lm"
   },
@@ -415,7 +415,7 @@
         "Compound",
         "Patent"
       ],
-      "LastUpdate": "2021/02/17"
+      "LastUpdate": "2023/05/10"
     },
     "nxo_name": "058_wipo_ipc"
   },
@@ -434,7 +434,7 @@
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "059_kegg_br08009"
   },
@@ -446,14 +446,14 @@
     "Information": {
       "Name": "PubChem Compound TOC",
       "Description": [
-        "This classification was created automatically from the PubChem Compound TOC on 2023/01/31.",
+        "This classification was created automatically from the PubChem Compound TOC on 2023/12/26.",
         "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
         "The sections, along with their child subsections, that are not shown in this tree are: Computed Properties, Substances by Category, Computed Descriptors, Molecular Formula, Depositor-Supplied Synonyms, Removed Synonyms, Create Date, Modify Date, Record Title, Related Compounds, Related Compounds with Annotation, Related Substances, 2D Structure, 3D Conformer, and Chemical Vendors."
       ],
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "072_pubchem_compound_toc"
   },
@@ -499,7 +499,7 @@
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2023/01/11"
+      "LastUpdate": "2023/05/31"
     },
     "nxo_name": "079_who_anatomical_therapeutic_chemical_atc_classification_atctree"
   },
@@ -511,13 +511,13 @@
     "Information": {
       "Name": "PubChem BioAssay Classification",
       "Description": [
-        "This classification was created for the PubChem BioAssay on 2023/02/05.",
+        "This classification was created for the PubChem BioAssay on 2023/12/24.",
         "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree."
       ],
       "HasCountsOfType": [
         "BioAssay"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "080_pubchem_pcassay_tree"
   },
@@ -536,7 +536,7 @@
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/09/14"
+      "LastUpdate": "2023/10/18"
     },
     "nxo_name": "081_epa_safer_choice_tree"
   },
@@ -557,7 +557,7 @@
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/10/14"
     },
     "nxo_name": "083_un_globally_harmonized_system_of_classification_and_labelling_chemicals_ghs_tree"
   },
@@ -572,14 +572,14 @@
         "ChemIDplus is a TOXNET (TOXicology Data NETwork) databases that contain chemicals and drugs related information. It is a product of the National Library of Medicine (NLM)."
       ],
       "Comments": [
-        "Update: 20221213"
+        "Update: 20231109"
       ],
       "URL": "https://pubchem.ncbi.nlm.nih.gov/source/ChemIDplus",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/12/14"
+      "LastUpdate": "2023/11/15"
     },
     "nxo_name": "084_chemidplus_tree"
   },
@@ -600,7 +600,7 @@
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2022/10/12"
+      "LastUpdate": "2023/11/15"
     },
     "nxo_name": "086_cameo_chemicals_cameoreactivitytree"
   },
@@ -612,8 +612,8 @@
     "Information": {
       "Name": "ChEMBL Protein Target Tree",
       "Description": [
-        "The ChEMBL Protein Target Tree is a structured classification of the protein target entities contained with the ChEMBL resource release version 31.",
-        "Created on 2023-02-07"
+        "The ChEMBL Protein Target Tree is a structured classification of the protein target entities contained with the ChEMBL resource release version 32.",
+        "Created on 2023-12-10"
       ],
       "URL": "https://www.ebi.ac.uk/chembl/g/#browse/targets",
       "HasCountsOfType": [
@@ -625,7 +625,7 @@
         "Substance",
         "Taxonomy"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/12/13"
     },
     "nxo_name": "087_chembl_target_tree"
   },
@@ -638,7 +638,7 @@
       "Name": "Enzyme Classification",
       "Description": [
         "ENZYME is a repository of information relative to the nomenclature of enzymes. It is primarily based on the recommendations of the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (IUBMB) and it describes each type of characterized enzyme for which an EC (Enzyme Commission) number has been provided.",
-        "Created on 11/10/2022 09:01:02"
+        "Created on 12/10/2023 09:00:58"
       ],
       "URL": "https://enzyme.expasy.org/",
       "HasCountsOfType": [
@@ -646,7 +646,7 @@
         "Protein",
         "Taxonomy"
       ],
-      "LastUpdate": "2022/11/16"
+      "LastUpdate": "2023/12/13"
     },
     "nxo_name": "088_swiss_institute_of_bioinformatics_enzyme_classification"
   },
@@ -658,8 +658,8 @@
     "Information": {
       "Name": "Biological Process",
       "Description": [
-        "A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.",
-        "Created on 11/10/2022 09:01:04"
+        "A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.",
+        "Created on 12/10/2023 09:01:04"
       ],
       "URL": "http://www.geneontology.org/",
       "HasCountsOfType": [
@@ -668,7 +668,7 @@
         "PubMed",
         "Taxonomy"
       ],
-      "LastUpdate": "2022/11/16"
+      "LastUpdate": "2023/12/13"
     },
     "nxo_name": "089_gene_ontology_go_biological_process"
   },
@@ -680,8 +680,8 @@
     "Information": {
       "Name": "Cellular Component",
       "Description": [
-        "A location, relative to cellular compartments and structures, occupied by a macromolecular machine when it carries out a molecular function. There are two ways in which the gene ontology describes locations of gene products: (1) relative to cellular structures (e.g., cytoplasmic side of plasma membrane) or compartments (e.g., mitochondrion), and (2) the stable macromolecular complexes of which they are parts (e.g., the ribosome).",
-        "Created on 11/10/2022 09:01:27"
+        "A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of  cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex).",
+        "Created on 12/10/2023 09:01:30"
       ],
       "URL": "http://www.geneontology.org/",
       "HasCountsOfType": [
@@ -690,7 +690,7 @@
         "PubMed",
         "Taxonomy"
       ],
-      "LastUpdate": "2022/11/16"
+      "LastUpdate": "2023/12/13"
     },
     "nxo_name": "090_gene_ontology_go_cellular_component"
   },
@@ -702,8 +702,8 @@
     "Information": {
       "Name": "Molecular Function",
       "Description": [
-        "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs. These actions are described from two distinct but related perspectives: (1) biochemical activity, and (2) role as a component in a larger system/process.",
-        "Created on 11/10/2022 09:01:20"
+        "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs.",
+        "Created on 12/10/2023 09:01:21"
       ],
       "URL": "http://www.geneontology.org/",
       "HasCountsOfType": [
@@ -712,7 +712,7 @@
         "PubMed",
         "Taxonomy"
       ],
-      "LastUpdate": "2022/11/16"
+      "LastUpdate": "2023/12/13"
     },
     "nxo_name": "091_gene_ontology_go_molecular_function"
   },
@@ -725,7 +725,7 @@
       "Name": "Guide to Pharmacology Target Classification",
       "Description": [
         "An expert-driven guide to pharmacological targets and the substances that act on them",
-        "Created on 2023-02-07"
+        "Created on 2023-12-10"
       ],
       "URL": "https://www.guidetopharmacology.org/targets.jsp",
       "HasCountsOfType": [
@@ -736,7 +736,7 @@
         "Substance",
         "Taxonomy"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/12/13"
     },
     "nxo_name": "092_iuphar_bps_guide_to_pharmacology_target_classification"
   },
@@ -750,7 +750,7 @@
       "Description": [
         "The Taxonomy database is a curated classification and nomenclature for all of the organisms in the public sequence databases. This currently represents about 10% of the described species of life on the planet.",
         "Note that this is a condensed classification based on <a href=\"https://en.wikipedia.org/wiki/Taxonomic_rank\">common taxonomic ranks</a>, i.e. superkingdom (domain) > kingdom > phylum > class > order > family > genus > species. As the full NCBI Taxonomy tree is huge, nodes and/or branches without PubChem data have been left out.",
-        "Created on 11/10/2022 09:02:23"
+        "Created on 12/10/2023 09:02:30"
       ],
       "URL": "https://www.ncbi.nlm.nih.gov/taxonomy",
       "HasCountsOfType": [
@@ -760,7 +760,7 @@
         "PubMed",
         "Taxonomy"
       ],
-      "LastUpdate": "2022/11/16"
+      "LastUpdate": "2023/12/13"
     },
     "nxo_name": "093_ncbi_taxonomy"
   },
@@ -796,14 +796,14 @@
     "Information": {
       "Name": "Drug Groups",
       "Comments": [
-        "Last updated: May 25, 2022"
+        "Last updated: December 22, 2023"
       ],
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08330.keg",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "096_kegg_br08330"
   },
@@ -841,7 +841,7 @@
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "100_kegg_br08021"
   },
@@ -853,7 +853,7 @@
     "Information": {
       "Name": "NORMAN Suspect List Exchange Classification",
       "Description": [
-        "The NORMAN Suspect List Exchange (NORMAN-SLE) is a central access point for NORMAN members (and others) to find suspect lists relevant for their environmental monitoring questions.<br>Update: 2023-01-31 11:12:01"
+        "The NORMAN Suspect List Exchange (NORMAN-SLE) is a central access point for NORMAN members (and others) to find suspect lists relevant for their environmental monitoring questions.<br>Update: 2023-12-26 18:00:01"
       ],
       "Comments": [
         "This Exchange documents all individual collections that (will) form a part of NORMAN SusDat, the merged NORMAN Substance Database (DOI:10.5281/zenodo.2664077). Each list/collection has a DOI in <a href=\"https://zenodo.org/communities/norman-sle\">Zenodo</a>."
@@ -863,7 +863,7 @@
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/02/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "101_norman_suspect_list_exchange_sle_tree"
   },
@@ -918,7 +918,7 @@
     "Information": {
       "Name": "CompTox Chemicals Dashboard Chemical Lists",
       "Description": [
-        "This classification lists the chemical categories from the EPA CompTox Chemicals Dashboard.<br>Update: 2023-01-10 09:09:16"
+        "This classification lists the chemical categories from the EPA CompTox Chemicals Dashboard.<br>Update: 2023-12-10 11:20:33"
       ],
       "Comments": [
         "More information can be found at: https://comptox.epa.gov/dashboard/chemical-lists/"
@@ -928,7 +928,7 @@
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/01/11"
+      "LastUpdate": "2023/12/13"
     },
     "nxo_name": "105_epa_dsstox_dsstoxlist_tree"
   },
@@ -948,7 +948,7 @@
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "106_pubchem_ccs_tree"
   },
@@ -980,7 +980,7 @@
       "Name": "The Natural Products Atlas Classification",
       "Description": [
         "The Natural Products Atlas Classification provides the taxonomy information based on the natural products source.",
-        "Created on 02/07/2023 14:50:40"
+        "Created on 12/10/2023 09:01:57"
       ],
       "URL": "https://www.npatlas.org/",
       "HasCountsOfType": [
@@ -988,7 +988,7 @@
         "PubMed",
         "Taxonomy"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/12/13"
     },
     "nxo_name": "108_the_natural_products_atlas_npatlas_tree"
   },
@@ -1024,7 +1024,7 @@
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/06/14"
     },
     "nxo_name": "110_consumer_product_information_database_cpid_tree"
   },
@@ -1043,7 +1043,7 @@
         "Compound",
         "Patent"
       ],
-      "LastUpdate": "2022/05/25"
+      "LastUpdate": "2023/05/10"
     },
     "nxo_name": "111_cooperative_patent_classification_cpc"
   },
@@ -1056,7 +1056,7 @@
       "Name": "NCI Thesaurus Tree",
       "Description": [
         "The NCI Thesaurus (NCIt) provides reference terminology for many NCI and other systems. It covers vocabulary for clinical care, translational and basic research, and public information and administrative activities.",
-        "Created on 11/10/2022 09:01:30"
+        "Created on 06/10/2023 09:01:42"
       ],
       "URL": "https://ncit.nci.nih.gov",
       "HasCountsOfType": [
@@ -1068,7 +1068,7 @@
         "Substance",
         "Taxonomy"
       ],
-      "LastUpdate": "2022/11/16"
+      "LastUpdate": "2023/06/14"
     },
     "nxo_name": "112_nci_thesaurus_ncit"
   },
@@ -1121,14 +1121,14 @@
       "Name": "LOTUS Tree",
       "Description": [
         "Biological and chemical tree provided by the LOTUS (naturaL products occurrence database)",
-        "Created on 02/07/2023 14:48:42"
+        "Created on 12/10/2023 09:05:00"
       ],
       "URL": "https://lotus.naturalproducts.net/",
       "HasCountsOfType": [
         "Compound",
         "Taxonomy"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/12/13"
     },
     "nxo_name": "115_lotus_the_natural_products_occurrence_database_biochem"
   },
@@ -1149,7 +1149,7 @@
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "116_national_drug_code_ndc_directory_fdandc_tree"
   },
@@ -1168,7 +1168,7 @@
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "117_kegg_br08327"
   },
@@ -1180,14 +1180,14 @@
     "Information": {
       "Name": "Drug Classes",
       "Comments": [
-        "Last updated: May 23, 2022"
+        "Last updated: June 24, 2023"
       ],
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08332.keg",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/06/01"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "118_kegg_br08332"
   },
@@ -1217,7 +1217,7 @@
     "Information": {
       "Name": "PFAS and Fluorinated Compounds in PubChem",
       "Description": [
-        "A classification tree to browse per- and polyfluoroalkyl substances (PFAS) and other fluorinated compounds in PubChem. The 'OECD PFAS definition' node contains PubChem content matching the OECD PFAS definition of saturated CF2 (Report ENV/CBC/MONO(2021)25 from 9 July 2021). The 'Organofluorine compounds' node contains organofluorine compounds in PubChem as defined in the same report. The 'Other diverse fluorinated compounds' node helps explore a wide variety of other fluorinated compounds. The 'PFAS and fluorinated compound collections' node gathers several collections of PFAS and/or fluorinated compounds from various resources. The 'Regulatory PFAS collections' node includes PFAS covered by various regulations.<br>Update: 2023-01-17 12:49:16"
+        "A classification tree to browse per- and polyfluoroalkyl substances (PFAS) and other fluorinated compounds in PubChem. The 'OECD PFAS definition' node contains PubChem content matching the OECD PFAS definition of saturated CF2 (Report ENV/CBC/MONO(2021)25 from 9 July 2021). The 'Organofluorine compounds' node contains organofluorine compounds in PubChem as defined in the same report. The 'Other diverse fluorinated compounds' node helps explore a wide variety of other fluorinated compounds. The 'PFAS and fluorinated compound collections' node gathers several collections of PFAS and/or fluorinated compounds from various resources. The 'Regulatory PFAS collections' node includes PFAS covered by various regulations.<br>Update: 2023-12-12 19:00:01"
       ],
       "Comments": [
         " Read more about this tree here: https://gitlab.lcsb.uni.lu/eci/pubchem-docs/-/raw/main/pfas-tree/PFAS_Tree.pdf?inline=false"
@@ -1226,7 +1226,7 @@
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "120_pubchem_pfas5_tree"
   },
@@ -1324,14 +1324,14 @@
     "Information": {
       "Name": "PubChem Cell TOC",
       "Description": [
-        "This classification was created automatically from the PubChem Cell TOC on 2023/01/31.",
+        "This classification was created automatically from the PubChem Cell TOC on 2023/12/26.",
         "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
         "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
       ],
       "HasCountsOfType": [
         "Cell"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "125_pubchem_cell_toc"
   },
@@ -1343,14 +1343,14 @@
     "Information": {
       "Name": "PubChem Gene TOC",
       "Description": [
-        "This classification was created automatically from the PubChem Gene TOC on 2023/01/31.",
+        "This classification was created automatically from the PubChem Gene TOC on 2023/12/26.",
         "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
         "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
       ],
       "HasCountsOfType": [
         "Gene"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "126_pubchem_gene_toc"
   },
@@ -1362,14 +1362,14 @@
     "Information": {
       "Name": "PubChem Pathway TOC",
       "Description": [
-        "This classification was created automatically from the PubChem Pathway TOC on 2023/01/31.",
+        "This classification was created automatically from the PubChem Pathway TOC on 2023/12/26.",
         "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
         "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
       ],
       "HasCountsOfType": [
         "Pathway"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "127_pubchem_pathway_toc"
   },
@@ -1381,14 +1381,14 @@
     "Information": {
       "Name": "PubChem Protein TOC",
       "Description": [
-        "This classification was created automatically from the PubChem Protein TOC on 2023/01/31.",
+        "This classification was created automatically from the PubChem Protein TOC on 2023/12/26.",
         "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
         "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
       ],
       "HasCountsOfType": [
         "Protein"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "128_pubchem_protein_toc"
   },
@@ -1400,15 +1400,53 @@
     "Information": {
       "Name": "PubChem Taxonomy TOC",
       "Description": [
-        "This classification was created automatically from the PubChem Taxonomy TOC on 2023/01/31.",
+        "This classification was created automatically from the PubChem Taxonomy TOC on 2023/12/26.",
         "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
         "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
       ],
       "HasCountsOfType": [
         "Taxonomy"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2023/12/27"
     },
     "nxo_name": "129_pubchem_taxonomy_toc"
+  },
+  {
+    "SourceName": "Catalogue of Life (COL)",
+    "SourceID": "COL",
+    "RootID": "root",
+    "HID": 130,
+    "Information": {
+      "Name": "Catalog of Life (COL)",
+      "Description": [
+        "Catalogue of Life (COL) is a collaboration bringing together the effort and contributions of taxonomists and informaticians from around the world.",
+        "Created on 11/14/2023 11:02:31"
+      ],
+      "URL": "https://www.catalogueoflife.org/",
+      "HasCountsOfType": [
+        "Taxonomy"
+      ],
+      "LastUpdate": "2023/11/15"
+    },
+    "nxo_name": "130_catalogue_of_life_col"
+  },
+  {
+    "SourceName": "Integrated Taxonomic Information System (ITIS)",
+    "SourceID": "ITIS",
+    "RootID": "root",
+    "HID": 131,
+    "Information": {
+      "Name": "Integrated Taxonomic Information System (ITIS)",
+      "Description": [
+        "The Integrated Taxonomic Information System (ITIS) is an American partnership of federal agencies designed to provide consistent and reliable information on the taxonomy of biological species.",
+        "Created on 12/10/2023 09:03:45"
+      ],
+      "URL": "https://www.itis.gov/",
+      "HasCountsOfType": [
+        "Taxonomy"
+      ],
+      "LastUpdate": "2023/12/13"
+    },
+    "nxo_name": "131_integrated_taxonomic_information_system_itis"
   }
 ]
