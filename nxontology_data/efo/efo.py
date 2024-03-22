@@ -431,9 +431,9 @@ class EfoProcessor:
             nxo.graph.subgraph(otar_slim_nodes).copy()
         )
         nxo_slim.graph.graph["name"] = "efo_otar_slim"
-        nxo_slim.graph.graph[
-            "note"
-        ] = "EFO OTAR Slim was created from EFO OTAR Profile by nxontology-data."
+        nxo_slim.graph.graph["note"] = (
+            "EFO OTAR Slim was created from EFO OTAR Profile by nxontology-data."
+        )
         return nxo_slim
 
 

@@ -95,12 +95,12 @@ class HgncGeneGroupNxoLoader:
         nxo: NXOntology[int] = NXOntology()
         nxo.graph.graph["name"] = "hgnc_gene_group"
         nxo.graph.graph["description"] = "HGNC Gene Group / Family Ontology"
-        nxo.graph.graph[
-            "data_license_source"
-        ] = "https://www.genenames.org/about/license/"
-        nxo.graph.graph[
-            "data_license_url"
-        ] = "https://creativecommons.org/publicdomain/zero/1.0/"
+        nxo.graph.graph["data_license_source"] = (
+            "https://www.genenames.org/about/license/"
+        )
+        nxo.graph.graph["data_license_url"] = (
+            "https://creativecommons.org/publicdomain/zero/1.0/"
+        )
         nxo.graph.graph["data_license_spdx_id"] = "CC0-1.0"
         nxo.set_graph_attributes(
             node_identifier_attribute="id", node_name_attribute="name"
