@@ -316,9 +316,31 @@ class EfoProcessor:
             for k, v in xref_details.groupby("efo_id")
         }
 
+    @classmethod
+    def _add_unique_node_labels(cls, terms_df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Multiple EFO terms often share the same label/name,
+        which often results from terms that should be merged.
+        An actual fix requires manual curation and should occur upstream.
+        In the meantime, until labels are guaranteed to be unique,
+        add an `efo_label_unique` column to terms_df with unique names.
+        See <https://github.com/EBISPOT/efo/issues/925>.
+        """
+        dup_df = terms_df[terms_df["efo_label"].duplicated(keep=False)]
+        # Add EFO ID to the label to make it unique
+        dup_df["efo_label_unique"] = dup_df["efo_label"] + " (" + dup_df["efo_id"] + ")"
+        terms_df = terms_df.merge(
+            dup_df[["efo_id", "efo_label_unique"]], how="left", on="efo_id"
+        )
+        terms_df["efo_label_unique"] = terms_df["efo_label_unique"].fillna(
+            terms_df["efo_label"]
+        )
+        return terms_df
+
     def get_nodes(self) -> list[dict[str, Any]]:
         logger.info("Generating nodes")
         node_df = self.get_terms_df()
+        node_df = self._add_unique_node_labels(node_df)
         node_df["synonyms"] = node_df.efo_id.map(self.get_synonyms())
         node_df["replaces"] = node_df.efo_id.map(self.get_replaced_terms())
         node_df["xrefs"] = node_df.efo_id.map(
@@ -338,7 +360,7 @@ class EfoProcessor:
         nxo.graph.graph["version"] = self.owl_version
         nxo.graph.graph["source_url"] = self.owl_url
         nxo.set_graph_attributes(
-            node_name_attribute="efo_label",
+            node_name_attribute="efo_label",  # consider using efo_label_unique
             node_identifier_attribute="{node}",
             node_url_attribute="efo_uri",
         )
