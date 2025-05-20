@@ -3,288 +3,452 @@
   "multigraph": false,
   "graph": {
     "nxontology_version": "0.5.1.dev7+gb68411d",
-    "nxontology_created": "2024-01-01T00:35:20+00:00",
+    "nxontology_created": "2025-05-20T20:15:43+00:00",
     "name": "127_pubchem_pathway_toc",
     "pubchem_hierarchy_id": 127,
     "pubchem_source_id": "Pathway TOC",
     "pubchem_source_name": "PubChem",
-    "pubchem_description": [
-      "This classification was created automatically from the PubChem Pathway TOC on 2023/12/26.",
-      "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
-      "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
-    ],
+    "pubchem_description": {
+      "StringWithMarkup": [
+        {
+          "String": "This classification was created automatically from the PubChem Pathway TOC on 2025/05/13."
+        },
+        {
+          "String": "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree."
+        },
+        {
+          "String": "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
+        }
+      ]
+    },
     "pubchem_comments": null,
     "source_url": null
   },
   "nodes": [
     {
-      "name": "Identity",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Identity"
+        }
+      },
       "description": "Information describing the identity of this pathway, including the data source and external identifier.",
       "pubchem_hnid": 5567003,
       "url": null,
       "id": 1
     },
     {
-      "name": "Source",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Source"
+        }
+      },
       "description": "Data source from which this pathway record was derived.",
       "pubchem_hnid": 5567004,
       "url": null,
       "id": 2
     },
     {
-      "name": "External ID",
+      "name": {
+        "StringWithMarkup": {
+          "String": "External ID"
+        }
+      },
       "description": "The identifier used for this pathway by the external data source.",
       "pubchem_hnid": 5567005,
       "url": null,
       "id": 3
     },
     {
-      "name": "Creators",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Creators"
+        }
+      },
       "description": "Creators of this pathway record in the original data source.",
       "pubchem_hnid": 5567006,
       "url": null,
       "id": 4
     },
     {
-      "name": "Pathway Information",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Pathway Information"
+        }
+      },
       "description": "General information about this pathway.",
       "pubchem_hnid": 5567007,
       "url": null,
       "id": 5
     },
     {
-      "name": "Taxonomic Scope",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Taxonomic Scope"
+        }
+      },
       "description": "Indicates if the pathway is organism-specific or conserved.",
       "pubchem_hnid": 5567008,
       "url": null,
       "id": 6
     },
     {
-      "name": "Taxonomy",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Taxonomy"
+        }
+      },
       "description": "Source organism of this pathway.",
       "pubchem_hnid": 5567009,
       "url": null,
       "id": 7
     },
     {
-      "name": "Category",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Category"
+        }
+      },
       "description": "Descriptive category of this pathway (e.g., signaling, metabolic, disease).",
       "pubchem_hnid": 5567010,
       "url": null,
       "id": 8
     },
     {
-      "name": "Record Description",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Record Description"
+        }
+      },
       "description": "Textual summary about this pathway",
       "pubchem_hnid": 5567011,
       "url": null,
       "id": 9
     },
     {
-      "name": "Diagram",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diagram"
+        }
+      },
       "description": "Schematic overview of this pathway.  Clicking this diagram directs to the corresponding pathway record in the data source.",
       "pubchem_hnid": 5567012,
       "url": null,
       "id": 10
     },
     {
-      "name": "Interactions",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Interactions"
+        }
+      },
       "description": "Specific interactions between biochemicals involved in this pathway.",
       "pubchem_hnid": 5567013,
       "url": null,
       "id": 11
     },
     {
-      "name": "Chemicals",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Chemicals"
+        }
+      },
       "description": "Chemicals involved in this pathway.",
       "pubchem_hnid": 5567014,
       "url": null,
       "id": 12
     },
     {
-      "name": "Glycans",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycans"
+        }
+      },
       "description": "Glycans involved in this pathway.",
       "pubchem_hnid": 5567015,
       "url": null,
       "id": 13
     },
     {
-      "name": "Proteins",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Proteins"
+        }
+      },
       "description": "Proteins involved in this pathway.",
       "pubchem_hnid": 5567016,
       "url": null,
       "id": 14
     },
     {
-      "name": "GlycoProteins",
+      "name": {
+        "StringWithMarkup": {
+          "String": "GlycoProteins"
+        }
+      },
       "description": "Glycoproteins involved in this pathway.",
       "pubchem_hnid": 5567017,
       "url": null,
       "id": 15
     },
     {
-      "name": "Genes",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Genes"
+        }
+      },
       "description": "Genes involved in this pathway.",
       "pubchem_hnid": 5567018,
       "url": null,
       "id": 16
     },
     {
-      "name": "GlycoGenes",
+      "name": {
+        "StringWithMarkup": {
+          "String": "GlycoGenes"
+        }
+      },
       "description": "Glycogenes involved in this pathway. Glycogene includes genes associated with glycan synthesis such as glycosyltransferase, sugar nucleotide synthases, sugar-nucleotide transporters, sulfotransferases, etc.",
       "pubchem_hnid": 5567019,
       "url": null,
       "id": 17
     },
     {
-      "name": "Related Pathways",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Related Pathways"
+        }
+      },
       "description": "Related pathway records in PubChem (e.g. linked pathways).",
       "pubchem_hnid": 5567020,
       "url": null,
       "id": 18
     },
     {
-      "name": "Linked Pathways",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Linked Pathways"
+        }
+      },
       "description": "Linked pathways provided by original source. Available link types are conserved, linked, subset, and superset. \"Conserved\" means the linked pathway is conserved in evolution for the current one. \"Linked\" means the linked pathway and the current one are connected to each other in a larger network. \"Superset\" means the linked pathway contains the current one. \"Subset\" means linked pathway is contained within the current one.",
       "pubchem_hnid": 5567021,
       "url": null,
       "id": 19
     },
     {
-      "name": "GlycoPathways",
+      "name": {
+        "StringWithMarkup": {
+          "String": "GlycoPathways"
+        }
+      },
       "description": "Pathways that involve glycoproteins.",
       "pubchem_hnid": 5567022,
       "url": null,
       "id": 20
     },
     {
-      "name": "Literature",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Literature"
+        }
+      },
       "description": "Scientific articles associated with this pathway, provided by the data source.",
       "pubchem_hnid": 5567023,
       "url": null,
       "id": 21
     },
     {
-      "name": "Consolidated References",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Consolidated References"
+        }
+      },
       "description": "The consolidated references include literature data from all sources including Reactome, WikiPathways, PharmGKB, PathBank, LIPID MAPS, etc.",
       "pubchem_hnid": 5603662,
       "url": null,
       "id": 22
     },
     {
-      "name": "Classification",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Classification"
+        }
+      },
       "description": "Classifications and ontologies of this pathway.",
       "pubchem_hnid": 5567024,
       "url": null,
       "id": 23
     },
     {
-      "name": "NCI Thesaurus Tree",
+      "name": {
+        "StringWithMarkup": {
+          "String": "NCI Thesaurus Tree"
+        }
+      },
       "description": "NCI Thesaurus (NCIt) hierarchy",
       "pubchem_hnid": 5567025,
       "url": null,
       "id": 24
     },
     {
-      "name": "Information Sources",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Information Sources"
+        }
+      },
       "description": "Sources of annotation information attached to PubChem compounds",
       "pubchem_hnid": 5567026,
       "url": null,
       "id": 25
     },
     {
-      "name": "Reactome",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Reactome"
+        }
+      },
       "description": null,
       "pubchem_hnid": 5567027,
       "url": null,
       "id": 26
     },
     {
-      "name": "GlyCosmos Glycoscience Portal",
+      "name": {
+        "StringWithMarkup": {
+          "String": "GlyCosmos Glycoscience Portal"
+        }
+      },
       "description": null,
       "pubchem_hnid": 5567028,
       "url": null,
       "id": 27
     },
     {
-      "name": "BioCyc",
+      "name": {
+        "StringWithMarkup": {
+          "String": "BioCyc"
+        }
+      },
       "description": null,
       "pubchem_hnid": 5567029,
       "url": null,
       "id": 28
     },
     {
-      "name": "WikiPathways",
+      "name": {
+        "StringWithMarkup": {
+          "String": "WikiPathways"
+        }
+      },
       "description": null,
       "pubchem_hnid": 5567030,
       "url": null,
       "id": 29
     },
     {
-      "name": "Pathway Interaction Database",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Pathway Interaction Database"
+        }
+      },
       "description": null,
       "pubchem_hnid": 5567031,
       "url": null,
       "id": 30
     },
     {
-      "name": "NCI Thesaurus (NCIt)",
+      "name": {
+        "StringWithMarkup": {
+          "String": "NCI Thesaurus (NCIt)"
+        }
+      },
       "description": null,
       "pubchem_hnid": 5567032,
       "url": null,
       "id": 31
     },
     {
-      "name": "LIPID MAPS",
+      "name": {
+        "StringWithMarkup": {
+          "String": "LIPID MAPS"
+        }
+      },
       "description": null,
       "pubchem_hnid": 5567033,
       "url": null,
       "id": 32
     },
     {
-      "name": "Plant Reactome",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Plant Reactome"
+        }
+      },
       "description": null,
       "pubchem_hnid": 5567034,
       "url": null,
       "id": 33
     },
     {
-      "name": "PathBank",
+      "name": {
+        "StringWithMarkup": {
+          "String": "PathBank"
+        }
+      },
       "description": null,
       "pubchem_hnid": 5567035,
       "url": null,
       "id": 34
     },
     {
-      "name": "PharmGKB",
+      "name": {
+        "StringWithMarkup": {
+          "String": "PharmGKB"
+        }
+      },
       "description": null,
       "pubchem_hnid": 5567036,
       "url": null,
       "id": 35
     },
     {
-      "name": "PlantCyc",
+      "name": {
+        "StringWithMarkup": {
+          "String": "PlantCyc"
+        }
+      },
       "description": null,
       "pubchem_hnid": 5567037,
       "url": null,
       "id": 36
     },
     {
-      "name": "INOH",
+      "name": {
+        "StringWithMarkup": {
+          "String": "INOH"
+        }
+      },
       "description": null,
       "pubchem_hnid": 5567038,
       "url": null,
       "id": 37
     },
     {
-      "name": "COVID-19 Disease Map",
+      "name": {
+        "StringWithMarkup": {
+          "String": "COVID-19 Disease Map"
+        }
+      },
       "description": null,
       "pubchem_hnid": 5567039,
       "url": null,
       "id": 38
     },
     {
-      "name": "PANTHER",
+      "name": {
+        "StringWithMarkup": {
+          "String": "PANTHER"
+        }
+      },
       "description": null,
       "pubchem_hnid": 5567040,
       "url": null,

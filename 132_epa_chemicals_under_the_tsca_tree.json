@@ -1,0 +1,301 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "nxontology_version": "0.5.1.dev7+gb68411d",
+    "nxontology_created": "2025-05-20T20:17:19+00:00",
+    "name": "132_epa_chemicals_under_the_tsca_tree",
+    "pubchem_hierarchy_id": 132,
+    "pubchem_source_id": "epa_tsca_tree",
+    "pubchem_source_name": "EPA Chemicals under the TSCA",
+    "pubchem_description": {
+      "StringWithMarkup": [
+        {
+          "String": "EPA Chemicals under the Toxic Substances Control Act (TSCA) collection contains information on chemicals and their regulation under TSCA (40 eCFR I-R). The chemical classification tree is created based on the TSCA substance regulatory flag, UVCB, and commercial activity status."
+        },
+        {
+          "String": "Update: 2025-03-25 14:26:02"
+        }
+      ]
+    },
+    "pubchem_comments": null,
+    "source_url": "https://www.epa.gov/tsca-inventory"
+  },
+  "nodes": [
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Commercial Activity Status"
+        }
+      },
+      "description": "Indicates the Commercial Activity Status as active or inactive.",
+      "pubchem_hnid": 12950278,
+      "url": null,
+      "id": 1
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "ACTIVE"
+        }
+      },
+      "description": "Commercial Activity Status: ACTIVE",
+      "pubchem_hnid": 12950284,
+      "url": null,
+      "id": 2
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "INACTIVE"
+        }
+      },
+      "description": "Commercial Activity Status: INACTIVE",
+      "pubchem_hnid": 12950286,
+      "url": null,
+      "id": 3
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "UVCB"
+        }
+      },
+      "description": "Chemical substance classified as UVCB.",
+      "pubchem_hnid": 12950279,
+      "url": null,
+      "id": 4
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "TSCA Regulatory Flag"
+        }
+      },
+      "description": "There are total 16 regulatory flags that applies to many chemicals.",
+      "pubchem_hnid": 12950280,
+      "url": null,
+      "id": 5
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "12C - TSCA section 12(c)"
+        }
+      },
+      "description": "indicates a substance that is prohibited to be exported from the Unites States under TSCA section 12(c).",
+      "pubchem_hnid": 12950281,
+      "url": null,
+      "id": 6
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "5E - TSCA section 5(e) order"
+        }
+      },
+      "description": "indicates a substance that is the subject of a TSCA section 5(e) order.",
+      "pubchem_hnid": 12950282,
+      "url": null,
+      "id": 7
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "5F - TSCA section 5(f) rule"
+        }
+      },
+      "description": "indicates a substance that is the subject of a TSCA section 5(f) rule.",
+      "pubchem_hnid": 12950283,
+      "url": null,
+      "id": 8
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "FRI - No Free-radical initiator"
+        }
+      },
+      "description": "indicates a polymeric substance containing no free-radical initiator in its Inventory name but is considered to cover the designated polymer made with any free-radical initiator regardless of the amount used.",
+      "pubchem_hnid": 12950285,
+      "url": null,
+      "id": 9
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "PE1 - Polymer: MW 1000-10000"
+        }
+      },
+      "description": "indicates a polymer that has a number-average molecular weight of greater than or equal to 1,000 daltons and less than 10,000 daltons and that is exempt under the 1995 polymer exemption rule. The polymer's oligomer content must be less than 10 percent by weight below 500 daltons and less than 25 percent by weight below 1,000 daltons.",
+      "pubchem_hnid": 12950287,
+      "url": null,
+      "id": 10
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "PMN - (Pre-Manufacture Notices) substance"
+        }
+      },
+      "description": "indicates a commenced PMN (Pre-Manufacture Notices) substance.",
+      "pubchem_hnid": 12950288,
+      "url": null,
+      "id": 11
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "R - TSCA section 6 risk management rule"
+        }
+      },
+      "description": "indicates a substance that is the subject of a TSCA section 6 risk management rule.",
+      "pubchem_hnid": 12950289,
+      "url": null,
+      "id": 12
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "S - Final Significant New Use Rule"
+        }
+      },
+      "description": "indicates a substance that is identified in a final Significant New Use Rule.",
+      "pubchem_hnid": 12950290,
+      "url": null,
+      "id": 13
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "SP - Proposed Significant New Use Rule"
+        }
+      },
+      "description": "indicates a substance that is identified in a proposed Significant New Use Rule.",
+      "pubchem_hnid": 12950291,
+      "url": null,
+      "id": 14
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "T - Final TSCA section 4 test rule"
+        }
+      },
+      "description": "indicates a substance that is the subject of a final TSCA section 4 test rule.",
+      "pubchem_hnid": 12950292,
+      "url": null,
+      "id": 15
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "TP - Proposed TSCA section 4 test rule"
+        }
+      },
+      "description": "indicates a substance that is the subject of a proposed TSCA section 4 test rule.",
+      "pubchem_hnid": 12950293,
+      "url": null,
+      "id": 16
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "XU - Chemical Data Reporting Rule (40 CFR 711)"
+        }
+      },
+      "description": "indicates a substance exempt from reporting under the Chemical Data Reporting Rule, (40 CFR 711).",
+      "pubchem_hnid": 12950294,
+      "url": null,
+      "id": 17
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Y1 - Polymer: MW >=1000 with 1984 polymer exemption rule"
+        }
+      },
+      "description": "indicates a polymer that has a number-average molecular weight of 1,000 or greater and that was exempt under the 1984 polymer exemption rule.",
+      "pubchem_hnid": 12950295,
+      "url": null,
+      "id": 18
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Y2 - Polymer: polyester with 1984 polymer exemption rule"
+        }
+      },
+      "description": "indicates a polymer that is a polyester and that was exempt under the 1984 polymer exemption rule. The polyester is made only from reactants included in a specified list of low-concern reactants that comprises one of the eligibility criteria for the 1984 polymer exemption rule.",
+      "pubchem_hnid": 12950296,
+      "url": null,
+      "id": 19
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "target": 3
+    },
+    {
+      "source": 5,
+      "target": 6
+    },
+    {
+      "source": 5,
+      "target": 7
+    },
+    {
+      "source": 5,
+      "target": 8
+    },
+    {
+      "source": 5,
+      "target": 9
+    },
+    {
+      "source": 5,
+      "target": 10
+    },
+    {
+      "source": 5,
+      "target": 11
+    },
+    {
+      "source": 5,
+      "target": 12
+    },
+    {
+      "source": 5,
+      "target": 13
+    },
+    {
+      "source": 5,
+      "target": 14
+    },
+    {
+      "source": 5,
+      "target": 15
+    },
+    {
+      "source": 5,
+      "target": 16
+    },
+    {
+      "source": 5,
+      "target": 17
+    },
+    {
+      "source": 5,
+      "target": 18
+    },
+    {
+      "source": 5,
+      "target": 19
+    }
+  ]
+}

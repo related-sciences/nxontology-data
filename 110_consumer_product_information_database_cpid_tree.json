@@ -3,83 +3,127 @@
   "multigraph": false,
   "graph": {
     "nxontology_version": "0.5.1.dev7+gb68411d",
-    "nxontology_created": "2024-01-01T00:32:37+00:00",
+    "nxontology_created": "2025-05-20T20:11:31+00:00",
     "name": "110_consumer_product_information_database_cpid_tree",
     "pubchem_hierarchy_id": 110,
     "pubchem_source_id": "cpid_tree",
     "pubchem_source_name": "Consumer Product Information Database (CPID)",
-    "pubchem_description": [
-      "The Consumer product category classification is based on the Consumer Product Information Database ##2001-2021 by DeLima Associates."
-    ],
+    "pubchem_description": {
+      "StringWithMarkup": [
+        {
+          "String": "The Consumer product category classification is based on the Consumer Product Information Database ©2001-2021 by DeLima Associates."
+        }
+      ]
+    },
     "pubchem_comments": null,
     "source_url": "https://www.whatsinproducts.com/"
   },
   "nodes": [
     {
-      "name": "Auto Products",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Auto Products"
+        }
+      },
       "description": null,
       "pubchem_hnid": 4364661,
       "url": null,
       "id": 1
     },
     {
-      "name": "Commercial / Institutional",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Commercial / Institutional"
+        }
+      },
       "description": null,
       "pubchem_hnid": 4364662,
       "url": null,
       "id": 2
     },
     {
-      "name": "Hobby/Craft",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Hobby/Craft"
+        }
+      },
       "description": null,
       "pubchem_hnid": 4364663,
       "url": null,
       "id": 3
     },
     {
-      "name": "Home Maintenance",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Home Maintenance"
+        }
+      },
       "description": null,
       "pubchem_hnid": 4364664,
       "url": null,
       "id": 4
     },
     {
-      "name": "Home Office",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Home Office"
+        }
+      },
       "description": null,
       "pubchem_hnid": 4364665,
       "url": null,
       "id": 5
     },
     {
-      "name": "Inside the Home",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Inside the Home"
+        }
+      },
       "description": null,
       "pubchem_hnid": 4364666,
       "url": null,
       "id": 6
     },
     {
-      "name": "Landscaping/Yard",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Landscaping/Yard"
+        }
+      },
       "description": null,
       "pubchem_hnid": 4364667,
       "url": null,
       "id": 7
     },
     {
-      "name": "Personal Care",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Personal Care"
+        }
+      },
       "description": null,
       "pubchem_hnid": 4364668,
       "url": null,
       "id": 8
     },
     {
-      "name": "Pesticides",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Pesticides"
+        }
+      },
       "description": null,
       "pubchem_hnid": 4364669,
       "url": null,
       "id": 9
     },
     {
-      "name": "Pet Care",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Pet Care"
+        }
+      },
       "description": null,
       "pubchem_hnid": 4364670,
       "url": null,

@@ -2,18 +2,33 @@
   {
     "SourceName": "Medical Subject Headings (MeSH)",
     "SourceID": "DescTree",
+    "LicenseNote": "Works produced by the U.S. government are not subject to copyright protection in the United States. Any such works found on National Library of Medicine (NLM) Web sites may be freely used or reproduced without permission in the U.S.",
+    "LicenseURL": "https://www.nlm.nih.gov/copyright.html",
     "RootID": "root",
     "HID": 1,
     "Information": {
-      "Name": "MeSH Tree",
-      "Description": [
-        "MeSH (Medical Subject Headings) is the NLM controlled vocabulary thesaurus used for indexing articles for PubMed."
-      ],
-      "Comments": [
-        "Created from PCpm DB on 12/26/2023 09:02:29"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "MeSH Tree"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "MeSH (Medical Subject Headings) is the NLM controlled vocabulary thesaurus used for indexing articles for PubMed."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Created from PCpm DB on 12/03/2024 04:02:12"
+          }
+        ]
+      },
       "URL": "http://www.nlm.nih.gov/mesh/meshhome.html",
       "HasCountsOfType": [
+        "BioAssay",
         "Cell",
         "Compound",
         "Gene",
@@ -22,7 +37,7 @@
         "Substance",
         "Taxonomy"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/01/10"
     },
     "nxo_name": "001_medical_subject_headings_mesh_desctree"
   },
@@ -32,347 +47,554 @@
     "RootID": "root_node",
     "HID": 2,
     "Information": {
-      "Name": "ChEBI Ontology",
-      "Description": [
-        "The ChEBI Ontology is a structured classification of the entities contained within ChEBI."
-      ],
-      "Comments": [
-        "ChEBI subsumes and replaces the Chemical Ontology first",
-        "developed by Michael Ashburner & Pankaj Jaiswal.",
-        "Author: ChEBI curation team ",
-        "ChEBI Release version 227",
-        "For any queries contact chebi-help@ebi.ac.uk ",
-        "data from 27:10:2023 19:34"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "ChEBI Ontology"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The ChEBI Ontology is a structured classification of the entities contained within ChEBI."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "ChEBI subsumes and replaces the Chemical Ontology first"
+          },
+          {
+            "String": "developed by Michael Ashburner & Pankaj Jaiswal."
+          },
+          {
+            "String": "Author: ChEBI curation team "
+          },
+          {
+            "String": "ChEBI Release version 241"
+          },
+          {
+            "String": "For any queries contact chebi-help@ebi.ac.uk "
+          }
+        ]
+      },
       "URL": "http://www.ebi.ac.uk/chebi/userManualForward.do#ChEBI%20Ontology",
+      "SourceDate": "2025/04/02",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/11/08"
+      "LastUpdate": "2025/04/09"
     },
     "nxo_name": "002_chebi_obo"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08001",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08001_root",
     "HID": 3,
     "Information": {
-      "Name": "Compounds with biological roles",
-      "Comments": [
-        "Last updated: September 18, 2022"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Compounds with biological roles"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: September 18, 2022"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08001.keg",
+      "SourceDate": "2022/09/18",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "003_kegg_br08001"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08002",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08002_root",
     "HID": 4,
     "Information": {
-      "Name": "Lipids",
-      "Comments": [
-        "Last updated: July 21, 2022"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Lipids"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: July 21, 2022"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08002.keg",
+      "SourceDate": "2022/07/21",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "004_kegg_br08002"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08003",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08003_root",
     "HID": 5,
     "Information": {
-      "Name": "Phytochemical compounds",
-      "Comments": [
-        "Last updated: November 17, 2021"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Phytochemical compounds"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: November 17, 2021"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08003.keg",
+      "SourceDate": "2021/11/17",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "005_kegg_br08003"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08005",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08005_root",
     "HID": 6,
     "Information": {
-      "Name": "Bioactive peptides",
-      "Comments": [
-        "Last updated: January 21, 2019"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Bioactive peptides"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: January 21, 2019"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08005.keg",
+      "SourceDate": "2019/01/21",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "006_kegg_br08005"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08006",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08006_root",
     "HID": 7,
     "Information": {
-      "Name": "Endocrine disrupting compounds",
-      "Comments": [
-        "Last updated: November 17, 2010"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Endocrine disrupting compounds"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: November 17, 2010"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08006.keg",
+      "SourceDate": "2010/11/17",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "007_kegg_br08006"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08007",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08007_root",
     "HID": 8,
     "Information": {
-      "Name": "Pesticides",
-      "Comments": [
-        "Last updated: January 30, 2019"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Pesticides"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: January 30, 2019"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08007.keg",
+      "SourceDate": "2019/01/30",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "008_kegg_br08007"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08301",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08301_root",
     "HID": 14,
     "Information": {
-      "Name": "Therapeutic category of drugs in Japan",
-      "Comments": [
-        "Last updated: December 21, 2023"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Therapeutic category of drugs in Japan"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: May 1, 2025"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08301.keg",
+      "SourceDate": "2025/05/01",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "014_kegg_br08301"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08302",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08302_root",
     "HID": 15,
     "Information": {
-      "Name": "USP drug classification",
-      "Comments": [
-        "Last updated: October 17, 2023"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "USP drug classification"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: April 2, 2025"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08302.keg",
+      "SourceDate": "2025/04/02",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "015_kegg_br08302"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08303",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08303_root",
     "HID": 16,
     "Information": {
-      "Name": "Anatomical Therapeutic Chemical (ATC) classification",
-      "Comments": [
-        "Last updated: December 22, 2023"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Anatomical Therapeutic Chemical (ATC) classification"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: April 2, 2025"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08303.keg",
+      "SourceDate": "2025/04/02",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "016_kegg_br08303"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08304",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08304_root",
     "HID": 17,
     "Information": {
-      "Name": "Traditional Chinese Medicine in Japan",
-      "Comments": [
-        "Last updated: May 20, 2021"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Traditional Chinese Medicine in Japan"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: May 20, 2021"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08304.keg",
+      "SourceDate": "2021/05/20",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "017_kegg_br08304"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08305",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08305_root",
     "HID": 18,
     "Information": {
-      "Name": "Crude drugs",
-      "Comments": [
-        "Last updated: June 30, 2021"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Crude drugs"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: June 30, 2021"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08305.keg",
+      "SourceDate": "2021/06/30",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "018_kegg_br08305"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08307",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08307_root",
     "HID": 20,
     "Information": {
-      "Name": "Antiinfectives",
-      "Comments": [
-        "Last updated: December 18, 2023"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Antiinfectives"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: April 9, 2025"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08307.keg",
+      "SourceDate": "2025/04/09",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "020_kegg_br08307"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08310",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08310_root",
     "HID": 22,
     "Information": {
-      "Name": "Target-based classification of drugs",
-      "Comments": [
-        "Last updated: December 22, 2023"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Target-based classification of drugs"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: May 2, 2025"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08310.keg",
+      "SourceDate": "2025/05/02",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "022_kegg_br08310"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08311",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08311_root",
     "HID": 23,
     "Information": {
-      "Name": "Drugs listed in the Japanese Pharmacopoeia",
-      "Comments": [
-        "Last updated: February 3, 2023"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Drugs listed in the Japanese Pharmacopoeia"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: November 11, 2024"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08311.keg",
+      "SourceDate": "2024/11/11",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "023_kegg_br08311"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08312",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08312_root",
     "HID": 24,
     "Information": {
-      "Name": "Risk category of Japanese OTC drugs",
-      "Comments": [
-        "Last updated: December 5, 2023"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Risk category of Japanese OTC drugs"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: March 24, 2025"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08312.keg",
+      "SourceDate": "2025/03/24",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "024_kegg_br08312"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08313",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08313_root",
     "HID": 25,
     "Information": {
-      "Name": "Classification of Japanese OTC drugs",
-      "Comments": [
-        "Last updated: April 27, 2021"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Classification of Japanese OTC drugs"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: April 27, 2021"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08313.keg",
+      "SourceDate": "2021/04/27",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "025_kegg_br08313"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08331",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08331_root",
     "HID": 28,
     "Information": {
-      "Name": "Animal drugs in Japan",
-      "Comments": [
-        "Last updated: February 23, 2015"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Animal drugs in Japan"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: February 23, 2015"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08331.keg",
+      "SourceDate": "2015/02/23",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "028_kegg_br08331"
   },
@@ -382,59 +604,97 @@
     "RootID": "root",
     "HID": 54,
     "Information": {
-      "Name": "Lipid Classification",
-      "Description": [
-        "The LIPID MAPS comprehensive classification system for lipids is comprised of eight lipid categories: Fatty acyls (FA), Glycerolipids (GL), Glycerophospholipids (GP), Sphingolipids (SP), Sterol lipids (ST), Prenol lipids (PR), Saccharolipids (SL) and Polyketides (PK). Each lipid category has its own sublassification hierarchy."
-      ],
-      "Comments": [
-        "All lipids in the LIPID MAPS Structure Database (LMSD) have been classified using this system and have been assigned LIPID MAPS ID's (LM_ID) which reflects their position in the classification hierarchy. The classification system was developed by the members of LIPID MAPS consortium."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Lipid Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The LIPID MAPS comprehensive classification system for lipids is comprised of eight lipid categories: Fatty acyls (FA), Glycerolipids (GL), Glycerophospholipids (GP), Sphingolipids (SP), Sterol lipids (ST), Prenol lipids (PR), Saccharolipids (SL) and Polyketides (PK). Each lipid category has its own sublassification hierarchy."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "All lipids in the LIPID MAPS Structure Database (LMSD) have been classified using this system and have been assigned LIPID MAPS ID (LM_ID) which reflects their position in the classification hierarchy. The classification system was developed by the members of LIPID MAPS consortium."
+          }
+        ]
+      },
       "URL": "https://www.lipidmaps.org/",
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2023/12/13"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "054_lipid_maps_lm"
   },
   {
     "SourceName": "WIPO",
     "SourceID": "IPC",
+    "LicenseNote": "WIPO retains full copyright ownership of all material unless otherwise specified.",
+    "LicenseURL": "https://www.wipo.int/tools/en/disclaim.html",
     "RootID": "root_node",
     "HID": 58,
     "Information": {
-      "Name": "International Patent Classification",
-      "Description": [
-        "The World Intellectual Property Organization (WIPO) International Patent Classification (IPC), established by the Strasbourg Agreement 1971, provides for a hierarchical system of language independent symbols for the classification of patents and utility models according to the different areas of technology to which they pertain."
-      ],
-      "Comments": [
-        "The IPC divides technology into eight sections with approximately 70,000 subdivisions. Each subdivision has a symbol consisting of Arabic numerals and letters of the Latin alphabet. The appropriate IPC symbols are indicated on each patent document, of which more than 1,000,000 were issued each year in the last 10 years. The IPC symbols are allotted by the national or regional industrial property office that publishes the patent document.  For PCT documents, IPC symbols are allotted by the International Searching Authority (ISA). The Classification is indispensable for the retrieval of patent documents in the search for \"prior art.\" Such retrieval is needed by patent-issuing authorities, potential inventors, research and development units, and others concerned with the application or development of technology."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "International Patent Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The World Intellectual Property Organization (WIPO) International Patent Classification (IPC), established by the Strasbourg Agreement 1971, provides for a hierarchical system of language independent symbols for the classification of patents and utility models according to the different areas of technology to which they pertain."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "The IPC divides technology into eight sections with approximately 70,000 subdivisions. Each subdivision has a symbol consisting of Arabic numerals and letters of the Latin alphabet. The appropriate IPC symbols are indicated on each patent document, of which more than 1,000,000 were issued each year in the last 10 years. The IPC symbols are allotted by the national or regional industrial property office that publishes the patent document.  For PCT documents, IPC symbols are allotted by the International Searching Authority (ISA). The Classification is indispensable for the retrieval of patent documents in the search for \"prior art.\" Such retrieval is needed by patent-issuing authorities, potential inventors, research and development units, and others concerned with the application or development of technology."
+          }
+        ]
+      },
       "URL": "http://www.wipo.int/classifications/ipc/",
+      "SourceDate": "2025/01/01",
       "HasCountsOfType": [
         "Compound",
         "Patent"
       ],
-      "LastUpdate": "2023/05/10"
+      "LastUpdate": "2025/03/12"
     },
     "nxo_name": "058_wipo_ipc"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08009",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08009_root",
     "HID": 59,
     "Information": {
-      "Name": "Natural toxins",
-      "Comments": [
-        "Last updated: March 13, 2018"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Natural toxins"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: March 13, 2018"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08009.keg",
+      "SourceDate": "2018/03/13",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "059_kegg_br08009"
   },
@@ -444,62 +704,106 @@
     "RootID": "root",
     "HID": 72,
     "Information": {
-      "Name": "PubChem Compound TOC",
-      "Description": [
-        "This classification was created automatically from the PubChem Compound TOC on 2023/12/26.",
-        "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
-        "The sections, along with their child subsections, that are not shown in this tree are: Computed Properties, Substances by Category, Computed Descriptors, Molecular Formula, Depositor-Supplied Synonyms, Removed Synonyms, Create Date, Modify Date, Record Title, Related Compounds, Related Compounds with Annotation, Related Substances, 2D Structure, 3D Conformer, and Chemical Vendors."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "PubChem Compound TOC"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "This classification was created automatically from the PubChem Compound TOC on 2025/05/13."
+          },
+          {
+            "String": "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree."
+          },
+          {
+            "String": "The sections, along with their child subsections, that are not shown in this tree are: Computed Properties, Substances by Category, Computed Descriptors, Molecular Formula, Depositor-Supplied Synonyms, Removed Synonyms, Create Date, Modify Date, Record Title, Related Compounds, Related Compounds with Annotation, Related Substances, 2D Structure, 3D Conformer, and Chemical Vendors."
+          }
+        ]
+      },
+      "SourceDate": "2025/05/13",
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "072_pubchem_compound_toc"
   },
   {
     "SourceName": "FDA Pharm Classes",
     "SourceID": "FDA_pharm_tree",
+    "LicenseNote": "Unless otherwise noted, the contents of the FDA website (www.fda.gov), both text and graphics, are not copyrighted. They are in the public domain and may be republished, reprinted and otherwise used freely by anyone without the need to obtain permission from FDA. Credit to the U.S. Food and Drug Administration as the source is appreciated but not required.",
+    "LicenseURL": "https://www.fda.gov/about-fda/about-website/website-policies#linking",
     "RootID": "root",
     "HID": 78,
     "Information": {
-      "Name": "FDA Pharmacological Classification",
-      "Description": [
-        "FDA published a final rule that amended the requirements for the content and format of approved labeling (prescribing information) for human prescription drug and biological products in January 2006."
-      ],
-      "Comments": [
-        "The new prescribing information format is intended to make it easier for health care professionals to access, read, and use to make prescribing decisions. Source: The codes are from the National Drug File Reference Terminology (NDF-RT) maintained by the Department of Veterans Affairs.",
-        "DEFINITIONS: <br/>A. Pharmacologic Class - For purposes of this guidance, a pharmacologic class is a group of drugs that share scientifically documented properties. Specifically, for purposes of this guidance, pharmacologic class is defined on the basis of any one of the following three attributes of the drug: <br/>1. Mechanism of action (MOA) ? Pharmacologic action at the receptor, membrane, or tissue level. <br/>2. Physiologic effect (PE) ? Pharmacologic effect at the organ, system, or whole body level. <br/>3. Chemical structure (CS).  <br/>B. Established Pharmacologic Class - An established pharmacologic class is represented by a term or phrase that is scientifically valid and clinically meaningful according to the following definitions: <br/>1) A scientifically valid pharmacologic class is supported by documented and submitted empiric evidence showing that the drug?s pharmacologic class is known, not theoretical, and relevant and specific to the indication. <br/>2) A clinically meaningful pharmacologic class term or phrase enhances the ability of professionals to understand physiologic effects related to the indication or to anticipate undesirable effects that may be associated with the drug or pharmacologic class.",
-        "Related documents: <br/>1. <a href=\"https://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/UCM186607.pdf\">Guidance for Industry and Review Staff, Labeling for Human Prescription Drugs and Biological Products - Determining Established Pharmacologic Class for Use in the Highlights of Prescribing Information</a> <br/>2. <a href=\"https://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT%20Documentation.pdf\">National Drug File ? Reference Terminology (NDF-RT) Documentation </a>"
-      ],
-      "URL": "https://www.fda.gov/ForIndustry/DataStandards/StructuredProductLabeling/ucm162549.htm",
+      "Name": {
+        "StringWithMarkup": {
+          "String": "FDA Pharmacological Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "FDA pharmacologic class is a group of active moieties that share scientifically documented properties and is defined on the basis of any combination of attributes of the active moiety."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "FDA published a final rule that amended the requirements for the content and format of approved labeling (prescribing information) for human prescription drug and biological products in January 2006. The prescribing information format is intended to make it easier for health care professionals to access, read, and use to make prescribing decisions."
+          }
+        ]
+      },
+      "URL": "https://www.fda.gov/industry/structured-product-labeling-resources/pharmacologic-class",
+      "SourceDate": "2025/03/27",
       "HasCountsOfType": [
-        "Compound",
-        "Substance"
+        "Compound"
       ],
-      "LastUpdate": "2018/06/13"
+      "LastUpdate": "2025/04/02"
     },
     "nxo_name": "078_fda_pharm_classes_tree"
   },
   {
     "SourceName": "WHO Anatomical Therapeutic Chemical (ATC) Classification",
     "SourceID": "ATCTree",
+    "LicenseNote": "Use of all or parts of the material requires reference to the WHO Collaborating Centre for Drug Statistics Methodology. Copying and distribution for commercial purposes is not allowed. Changing or manipulating the material is not allowed.",
+    "LicenseURL": "https://www.whocc.no/copyright_disclaimer/",
     "RootID": "root",
     "HID": 79,
     "Information": {
-      "Name": "ATC Code",
-      "Description": [
-        "In the World Health Organization (WHO) Anatomical Therapeutic Chemical (ATC) classification system, the active substances are divided into different groups according to the organ or system on which they act and their therapeutic, pharmacological and chemical properties."
-      ],
-      "Comments": [
-        "Drugs are classified in groups at five different levels. The drugs are divided into fourteen main groups (1st level), with pharmacological/therapeutic subgroups (2nd level).  The 3rd and 4th levels are chemical/pharmacological/therapeutic subgroups and the 5th level is the chemical substance. The 2nd, 3rd and 4th levels are often used to identify pharmacological subgroups when that is considered more appropriate than therapeutic or chemical subgroups.  Substances classified in the same ATC 4th level cannot be considered pharmacotherapeutically equivalent since their mode of action, therapeutic effect, drug interactions and adverse drug reaction profile may differ.",
-        "Medicinal products are classified according to the main therapeutic use of the main active ingredient, on the basic principle of only one ATC code for each route of administration (i.e. pharmaceutical forms with similar ingredients and strength will have the same ATC code).  Immediate and slow release tablets will normally have the same ATC code.  A medicinal product can be given more than one ATC code if it is available in two or more strengths or routes of administration with clearly different therapeutic uses.  Normally, different stereoisomeric forms will have separate ATC codes.  Prodrugs are usually assigned separate ATC codes if the dosages used are different and/or the nonproprietary name of the prodrug and the active drugs are different."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "EPA CPDat Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The WHO ATC (Anatomical Therapeutic Chemical) classification system classify the active substances into different groups according to the organ or system on which they act and their therapeutic, pharmacological and chemical properties."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Drugs are classified in groups at five different levels. The drugs are divided into fourteen main groups (1st level), with pharmacological/therapeutic subgroups (2nd level).  The 3rd and 4th levels are chemical/pharmacological/therapeutic subgroups and the 5th level is the chemical substance. The 2nd, 3rd and 4th levels are often used to identify pharmacological subgroups when that is considered more appropriate than therapeutic or chemical subgroups.  Substances classified in the same ATC 4th level cannot be considered pharmacotherapeutically equivalent since their mode of action, therapeutic effect, drug interactions and adverse drug reaction profile may differ."
+          },
+          {
+            "String": "Medicinal products are classified according to the main therapeutic use of the main active ingredient, on the basic principle of only one ATC code for each route of administration (i.e. pharmaceutical forms with similar ingredients and strength will have the same ATC code).  Immediate and slow release tablets will normally have the same ATC code."
+          },
+          {
+            "String": "A medicinal product can be given more than one ATC code if it is available in two or more strengths or routes of administration with clearly different therapeutic uses.  Normally, different stereoisomeric forms will have separate ATC codes.  Prodrugs are usually assigned separate ATC codes if the dosages used are different and/or the nonproprietary name of the prodrug and the active drugs are different."
+          }
+        ]
+      },
       "URL": "https://www.whocc.no/atc_ddd_index/",
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2023/05/31"
+      "LastUpdate": "2025/03/18"
     },
     "nxo_name": "079_who_anatomical_therapeutic_chemical_atc_classification_atctree"
   },
@@ -509,112 +813,202 @@
     "RootID": "root",
     "HID": 80,
     "Information": {
-      "Name": "PubChem BioAssay Classification",
-      "Description": [
-        "This classification was created for the PubChem BioAssay on 2023/12/24.",
-        "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "PubChem BioAssay Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "This classification was created for the PubChem BioAssay on 2025/05/11."
+          },
+          {
+            "String": "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree."
+          }
+        ]
+      },
       "HasCountsOfType": [
         "BioAssay"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "080_pubchem_pcassay_tree"
   },
   {
     "SourceName": "EPA Safer Choice",
     "SourceID": "EPA_Safer_Choice_tree",
+    "LicenseURL": "https://www.epa.gov/privacy/privacy-act-laws-policies-and-resources",
     "RootID": "root",
     "HID": 81,
     "Information": {
-      "Name": "EPA Safer Chemical Ingredients Classification",
-      "Description": [
-        "Safer Choice of the U.S. Environmental Protection Agency (EPA) helps consumers, businesses, and purchasers find products that perform and are safer for human health and the environment. This classification is created based on the use classes of each chemical ingredient from the EPA Safer Choice."
-      ],
-      "URL": "https://www.epa.gov/saferchoice",
+      "Name": {
+        "StringWithMarkup": {
+          "String": "EPA Safer Chemical Ingredients Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "Safer Choice of the U.S. Environmental Protection Agency (EPA) helps consumers, businesses, and purchasers find products that perform and are safer for human health and the environment."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "This classification is created based on the use classes of each chemical ingredient from the EPA Safer Choice."
+          }
+        ]
+      },
+      "SourceDate": "2025/04/10",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/10/18"
+      "LastUpdate": "2025/04/16"
     },
     "nxo_name": "081_epa_safer_choice_tree"
   },
   {
-    "SourceName": "UN Globally Harmonized System of Classification and Labelling of Chemicals (GHS)",
+    "SourceName": "GHS Classification (UNECE)",
     "SourceID": "UN_GHS_tree",
     "RootID": "root",
     "HID": 83,
     "Information": {
-      "Name": "GHS Classification Tree",
-      "Description": [
-        "The United Nations' Globally Harmonized System of Classification and Labeling of Chemicals (GHS) provides a harmonized basis for globally uniform physical, environmental, and health and safety information on hazardous chemical substances and mixtures. It sets up criteria for the classification of chemicals for physical-chemical, health, and environmental hazards of chemical substances and mixtures and sets up standardized hazard information to facilitate global trade of chemicals.  Please note that obsolete codes are added in this classification for completeness purposes, as they are still in use. Any obsolete codes are annotated as such."
-      ],
-      "Comments": [
-        "For more information, visit <a href=\"https://pubchem.ncbi.nlm.nih.gov/ghs/\">this website</a>."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "GHS Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The United Nations' Globally Harmonized System of Classification and Labeling of Chemicals (GHS) provides a harmonized basis for globally uniform physical, environmental, health and safety information on hazardous chemical substances and mixtures."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "It sets up criteria for the classification of chemicals for physical-chemical, health, and environmental hazards of chemical substances and mixtures and sets up standardized hazard information to facilitate global trade of chemicals. Please note that obsolete codes are added in this classification for completeness purposes, as they are still in use. Any obsolete codes are annotated as such. For GHS summary, visit this website.",
+            "Markup": [
+              {
+                "Start": 417,
+                "Length": 12,
+                "URL": "https://pubchem.ncbi.nlm.nih.gov/ghs/"
+              }
+            ]
+          }
+        ]
+      },
       "URL": "http://www.unece.org/trans/danger/publi/ghs/ghs_welcome_e.html",
+      "SourceDate": "2025/05/10",
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2023/10/14"
+      "LastUpdate": "2025/05/14"
     },
-    "nxo_name": "083_un_globally_harmonized_system_of_classification_and_labelling_chemicals_ghs_tree"
+    "nxo_name": "083_ghs_classification_unece_un_tree"
   },
   {
     "SourceName": "ChemIDplus",
     "SourceID": "ChemIDplus_tree",
+    "LicenseURL": "https://www.nlm.nih.gov/copyright.html",
     "RootID": "root",
     "HID": 84,
     "Information": {
-      "Name": "ChemIDplus Chemical Information Classification",
-      "Description": [
-        "ChemIDplus is a TOXNET (TOXicology Data NETwork) databases that contain chemicals and drugs related information. It is a product of the National Library of Medicine (NLM)."
-      ],
-      "Comments": [
-        "Update: 20231109"
-      ],
-      "URL": "https://pubchem.ncbi.nlm.nih.gov/source/ChemIDplus",
+      "Name": {
+        "StringWithMarkup": {
+          "String": "ChemIDplus Chemical Information Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "ChemIDplus is a TOXNET (TOXicology data NETwork) databases that contain chemicals and drugs related information."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "ChemIDplus is a product of the National Library of Medicine (NLM). Last dataset: 2023/02/22"
+          }
+        ]
+      },
+      "URL": "https://pubchem.ncbi.nlm.nih.gov/source/chemidplus",
+      "SourceDate": "2025/05/10",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/11/15"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "084_chemidplus_tree"
   },
   {
     "SourceName": "CAMEO Chemicals",
     "SourceID": "CameoReactivityTree",
+    "LicenseNote": "CAMEO Chemicals and all other CAMEO products are available at no charge to those organizations and individuals (recipients) responsible for the safe handling of chemicals. However, some of the chemical data itself is subject to the copyright restrictions of the companies or organizations that provided the data.",
+    "LicenseURL": "https://cameochemicals.noaa.gov/help/reference/terms_and_conditions.htm?d_f=false",
     "RootID": "root",
     "HID": 86,
     "Information": {
-      "Name": "CAMEO Chemical Reactivity Classification",
-      "Description": [
-        "CAMEO Chemical Reactivity Classification was created based on the reactive groups."
-      ],
-      "Comments": [
-        "Reactive groups are categories of chemicals that typically react in similar ways because they are similar in their chemical structure. For purposes of predicting reactivity between mixed chemicals, each substance in CAMEO Chemicals has been assigned to one or more reactive groups, based on the known chemistry of that substance."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "CAMEO Chemical Reactivity Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "CAMEO Chemical Reactivity Classification was created based on the reactive groups."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Reactive groups are categories of chemicals that exhibit similar reactivity due to their structural similarities. For purposes of predicting reactivity between mixed chemicals, each substance in CAMEO Chemicals is classified into one or more reactive groups based on its known chemical properties. For further details, please visit the CAMEO Chemicals website.",
+            "Markup": [
+              {
+                "Start": 336,
+                "Length": 23,
+                "URL": "https://cameochemicals.noaa.gov/browse/react"
+              }
+            ]
+          }
+        ]
+      },
       "URL": "https://cameochemicals.noaa.gov/browse/react",
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2023/11/15"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "086_cameo_chemicals_cameoreactivitytree"
   },
   {
     "SourceName": "ChEMBL",
     "SourceID": "Target Tree",
+    "LicenseNote": "Access to the web interface of ChEMBL is made under the EBI's Terms of Use (http://www.ebi.ac.uk/Information/termsofuse.html). The ChEMBL data is made available on a Creative Commons Attribution-Share Alike 3.0 Unported License (http://creativecommons.org/licenses/by-sa/3.0/).",
+    "LicenseURL": "http://www.ebi.ac.uk/Information/termsofuse.html",
     "RootID": "root",
     "HID": 87,
     "Information": {
-      "Name": "ChEMBL Protein Target Tree",
-      "Description": [
-        "The ChEMBL Protein Target Tree is a structured classification of the protein target entities contained with the ChEMBL resource release version 32.",
-        "Created on 2023-12-10"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "ChEMBL Protein Target Tree"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The ChEMBL Protein Target Tree is a structured classification of the protein target entities contained with the ChEMBL resource release version 35\nChEMBL."
+          }
+        ]
+      },
       "URL": "https://www.ebi.ac.uk/chembl/g/#browse/targets",
       "HasCountsOfType": [
         "BioAssay",
@@ -625,42 +1019,60 @@
         "Substance",
         "Taxonomy"
       ],
-      "LastUpdate": "2023/12/13"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "087_chembl_target_tree"
   },
   {
     "SourceName": "Swiss Institute of Bioinformatics ENZYME",
     "SourceID": "Enzyme Classification",
+    "LicenseNote": "Copyrighted by the SIB Swiss Institute of Bioinformatics and\ndistributed under the Creative Commons Attribution (CC BY 4.0) License (https://creativecommons.org/licenses/by/4.0/).",
+    "LicenseURL": "https://enzyme.expasy.org/",
     "RootID": "root",
     "HID": 88,
     "Information": {
-      "Name": "Enzyme Classification",
-      "Description": [
-        "ENZYME is a repository of information relative to the nomenclature of enzymes. It is primarily based on the recommendations of the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (IUBMB) and it describes each type of characterized enzyme for which an EC (Enzyme Commission) number has been provided.",
-        "Created on 12/10/2023 09:00:58"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Enzyme Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "ENZYME is a repository of information relative to the nomenclature of enzymes. It is primarily based on the recommendations of the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (IUBMB) and it describes each type of characterized enzyme for which an EC (Enzyme Commission) number has been provided."
+          }
+        ]
+      },
       "URL": "https://enzyme.expasy.org/",
       "HasCountsOfType": [
         "Gene",
         "Protein",
         "Taxonomy"
       ],
-      "LastUpdate": "2023/12/13"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "088_swiss_institute_of_bioinformatics_enzyme_classification"
   },
   {
     "SourceName": "Gene Ontology (GO)",
     "SourceID": "Biological Process",
+    "LicenseNote": "Gene Ontology Consortium data and data products are licensed under the Creative Commons Attribution 4.0 Unported License (https://creativecommons.org/licenses/by/4.0/legalcode)",
+    "LicenseURL": "http://geneontology.org/docs/go-citation-policy/",
     "RootID": "root",
     "HID": 89,
     "Information": {
-      "Name": "Biological Process",
-      "Description": [
-        "A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.",
-        "Created on 12/10/2023 09:01:04"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Biological Process"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence."
+          }
+        ]
+      },
       "URL": "http://www.geneontology.org/",
       "HasCountsOfType": [
         "Gene",
@@ -668,21 +1080,30 @@
         "PubMed",
         "Taxonomy"
       ],
-      "LastUpdate": "2023/12/13"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "089_gene_ontology_go_biological_process"
   },
   {
     "SourceName": "Gene Ontology (GO)",
     "SourceID": "Cellular Component",
+    "LicenseNote": "Gene Ontology Consortium data and data products are licensed under the Creative Commons Attribution 4.0 Unported License (https://creativecommons.org/licenses/by/4.0/legalcode)",
+    "LicenseURL": "http://geneontology.org/docs/go-citation-policy/",
     "RootID": "root",
     "HID": 90,
     "Information": {
-      "Name": "Cellular Component",
-      "Description": [
-        "A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of  cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex).",
-        "Created on 12/10/2023 09:01:30"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Cellular Component"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "A location, relative to cellular compartments and structures, occupied by a macromolecular machine. There are three types of cellular components described in the gene ontology: (1) the cellular anatomical entity where a gene product carries out a molecular function (e.g., plasma membrane, cytoskeleton) or membrane-enclosed compartments (e.g., mitochondrion); (2) virion components, where viral proteins act, and (3) the stable macromolecular complexes of which gene product are parts (e.g., the clathrin complex)."
+          }
+        ]
+      },
       "URL": "http://www.geneontology.org/",
       "HasCountsOfType": [
         "Gene",
@@ -690,21 +1111,30 @@
         "PubMed",
         "Taxonomy"
       ],
-      "LastUpdate": "2023/12/13"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "090_gene_ontology_go_cellular_component"
   },
   {
     "SourceName": "Gene Ontology (GO)",
     "SourceID": "Molecular Function",
+    "LicenseNote": "Gene Ontology Consortium data and data products are licensed under the Creative Commons Attribution 4.0 Unported License (https://creativecommons.org/licenses/by/4.0/legalcode)",
+    "LicenseURL": "http://geneontology.org/docs/go-citation-policy/",
     "RootID": "root",
     "HID": 91,
     "Information": {
-      "Name": "Molecular Function",
-      "Description": [
-        "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs.",
-        "Created on 12/10/2023 09:01:21"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Molecular Function"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs."
+          }
+        ]
+      },
       "URL": "http://www.geneontology.org/",
       "HasCountsOfType": [
         "Gene",
@@ -712,21 +1142,30 @@
         "PubMed",
         "Taxonomy"
       ],
-      "LastUpdate": "2023/12/13"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "091_gene_ontology_go_molecular_function"
   },
   {
     "SourceName": "IUPHAR/BPS Guide to PHARMACOLOGY",
     "SourceID": "Target Classification",
+    "LicenseNote": "The Guide to PHARMACOLOGY database is licensed under the Open Data Commons Open Database License (ODbL) https://opendatacommons.org/licenses/odbl/. Its contents are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (http://creativecommons.org/licenses/by-sa/4.0/)",
+    "LicenseURL": "https://www.guidetopharmacology.org/about.jsp#license",
     "RootID": "root",
     "HID": 92,
     "Information": {
-      "Name": "Guide to Pharmacology Target Classification",
-      "Description": [
-        "An expert-driven guide to pharmacological targets and the substances that act on them",
-        "Created on 2023-12-10"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Guide to Pharmacology Target Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "An expert-driven guide to pharmacological targets and the substances that act on them"
+          }
+        ]
+      },
       "URL": "https://www.guidetopharmacology.org/targets.jsp",
       "HasCountsOfType": [
         "Compound",
@@ -736,22 +1175,30 @@
         "Substance",
         "Taxonomy"
       ],
-      "LastUpdate": "2023/12/13"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "092_iuphar_bps_guide_to_pharmacology_target_classification"
   },
   {
     "SourceName": "NCBI Taxonomy",
     "SourceID": "Taxonomy",
+    "LicenseNote": "NCBI Website and Data Usage Policies and Disclaimers",
+    "LicenseURL": "https://www.ncbi.nlm.nih.gov/home/about/policies/",
     "RootID": "root",
     "HID": 93,
     "Information": {
-      "Name": "Taxonomy",
-      "Description": [
-        "The Taxonomy database is a curated classification and nomenclature for all of the organisms in the public sequence databases. This currently represents about 10% of the described species of life on the planet.",
-        "Note that this is a condensed classification based on <a href=\"https://en.wikipedia.org/wiki/Taxonomic_rank\">common taxonomic ranks</a>, i.e. superkingdom (domain) > kingdom > phylum > class > order > family > genus > species. As the full NCBI Taxonomy tree is huge, nodes and/or branches without PubChem data have been left out.",
-        "Created on 12/10/2023 09:02:30"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Taxonomy"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The Taxonomy database is a curated classification and nomenclature for all of the organisms in the public sequence databases. This currently represents about 10% of the described species of life on the planet."
+          }
+        ]
+      },
       "URL": "https://www.ncbi.nlm.nih.gov/taxonomy",
       "HasCountsOfType": [
         "BioAssay",
@@ -760,7 +1207,7 @@
         "PubMed",
         "Taxonomy"
       ],
-      "LastUpdate": "2023/12/13"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "093_ncbi_taxonomy"
   },
@@ -770,121 +1217,275 @@
     "RootID": "root_node",
     "HID": 95,
     "Information": {
-      "Name": "CDD Classification Tree",
-      "Description": [
-        "The CDD Classification Tree has been manually curated by Collaborative Drug Discovery, Inc. for the BioassayExpress.com project. It contains assays annotated with controlled vocabularies from sources such as Bioassassy Ontology (BAO) and other relevant biological ontologies."
-      ],
-      "Comments": [
-        "Contact: support@collaborativedrug.com",
-        "Author: Collaborative Drug Discovery, Inc. (CDD)",
-        "Version: 1",
-        "Date: 2018-01-18"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "CDD Classification Tree"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The CDD Classification Tree has been manually curated by Collaborative Drug Discovery, Inc. for the BioassayExpress.com project. It contains assays annotated with controlled vocabularies from sources such as Bioassassy Ontology (BAO) and other relevant biological ontologies."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Contact: support@collaborativedrug.com"
+          },
+          {
+            "String": "Author: Collaborative Drug Discovery, Inc. (CDD)"
+          },
+          {
+            "String": "Version: 1"
+          },
+          {
+            "String": "Date: 2018-01-18"
+          }
+        ]
+      },
       "URL": "http://www.bioassayexpress.com",
       "HasCountsOfType": [
         "BioAssay"
       ],
-      "LastUpdate": "2018/08/29"
+      "LastUpdate": "2025/01/22"
     },
     "nxo_name": "095_collaborative_drug_discovery_inc_cdd"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08330",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08330_root",
     "HID": 96,
     "Information": {
-      "Name": "Drug Groups",
-      "Comments": [
-        "Last updated: December 22, 2023"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Drug Groups"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: May 2, 2025"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08330.keg",
+      "SourceDate": "2025/05/02",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "096_kegg_br08330"
   },
   {
+    "SourceName": "Consumer Product Information Database (CPID)",
+    "SourceID": "household_tree",
+    "LicenseNote": "Copyright (c) 2024 DeLima Associates. All rights reserved. \nUnless otherwise indicated, all materials from CPID are copyrighted by DeLima Associates. No part of these materials, either text or image may be used for any purpose other than for personal use. Therefore, reproduction, modification, storage in a retrieval system or retransmission, in any form or by any means, electronic, mechanical or otherwise, for reasons other than personal use, is strictly prohibited without prior written permission.",
+    "LicenseURL": "https://www.whatsinproducts.com/contents/view/1/6",
+    "RootID": "root",
+    "HID": 98,
+    "Information": {
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Household Products Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The Household Products Database of the National Library of Medicine is based on the Consumer Product Information Database ©2001-2018 by DeLima Associates."
+          }
+        ]
+      },
+      "URL": "https://hpd.nlm.nih.gov/",
+      "HasCountsOfType": [
+        "Compound",
+        "Substance"
+      ],
+      "LastUpdate": "2025/03/19"
+    },
+    "nxo_name": "098_consumer_product_information_database_cpid_household_tree"
+  },
+  {
     "SourceName": "EPA Chemical and Products Database (CPDat)",
     "SourceID": "cpdat_tree",
+    "LicenseURL": "https://www.epa.gov/privacy/privacy-act-laws-policies-and-resources",
     "RootID": "root",
     "HID": 99,
     "Information": {
-      "Name": "EPA CPDat Classification",
-      "Description": [
-        "CPDat (Chemical and Products Database) is a database containing information mapping more than 49,000 chemicals to a set of terms categorizing their usage or function in 16,000 consumer products. Ref: The Chemical and Products Database, a resource for exposure-relevant data on chemicals in consumer products, Scientific Data, volume 5, Article number: 180125 (2018), DOI:10.1038/sdata.2018.125"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "EPA CPDat Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "CPDat (Chemical and Products Database) is a resource for exposure-relevant data on chemicals in consumer products."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "The database contains information mapping more than 49,000 chemicals to a set of terms categorizing their usage or function in 16,000 consumer products. Reference: The Chemical and Products Database, a resource for exposure-relevant data on chemicals in consumer products, Scientific Data, volume 5, Article number: 180125 (2018), DOI:10.1038/sdata.2018.125.",
+            "Markup": [
+              {
+                "Start": 331,
+                "Length": 26,
+                "URL": "https://doi.org/DOI:10.1038/sdata.2018.125"
+              }
+            ]
+          }
+        ]
+      },
       "URL": "https://www.epa.gov/chemical-research/chemical-and-products-database-cpdat",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2021/09/29"
+      "LastUpdate": "2025/03/19"
     },
     "nxo_name": "099_epa_chemical_and_products_database_cpdat_tree"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08021",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08021_root",
     "HID": 100,
     "Information": {
-      "Name": "Glycosides",
-      "Comments": [
-        "Last updated: October 11, 2019"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Glycosides"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: October 11, 2019"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08021.keg",
+      "SourceDate": "2019/10/11",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "100_kegg_br08021"
   },
   {
     "SourceName": "NORMAN Suspect List Exchange",
     "SourceID": "norman_sle_tree",
+    "LicenseNote": "Data: CC-BY 4.0; Code (hosted by ECI, LCSB): Artistic-2.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by/4.0/",
     "RootID": "root",
     "HID": 101,
     "Information": {
-      "Name": "NORMAN Suspect List Exchange Classification",
-      "Description": [
-        "The NORMAN Suspect List Exchange (NORMAN-SLE) is a central access point for NORMAN members (and others) to find suspect lists relevant for their environmental monitoring questions.<br>Update: 2023-12-26 18:00:01"
-      ],
-      "Comments": [
-        "This Exchange documents all individual collections that (will) form a part of NORMAN SusDat, the merged NORMAN Substance Database (DOI:10.5281/zenodo.2664077). Each list/collection has a DOI in <a href=\"https://zenodo.org/communities/norman-sle\">Zenodo</a>."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "NORMAN Suspect List Exchange Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The NORMAN Suspect List Exchange (NORMAN-SLE) is a central access point for NORMAN members (and others) to find suspect lists relevant for their environmental monitoring questions."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "This Exchange documents all individual collections that (will) form a part of NORMAN SusDat, the merged NORMAN Substance Database (DOI:10.5281/zenodo.2664077). Each list/collection has a DOI in Zenodo.",
+            "Markup": [
+              {
+                "Start": 131,
+                "Length": 26,
+                "URL": "https://doi.org/10.5281/zenodo.2664077"
+              },
+              {
+                "Start": 194,
+                "Length": 6,
+                "URL": "https://zenodo.org/communities/norman-sle"
+              }
+            ]
+          },
+          {
+            "String": "Update: 2025-05-06 06:00:02"
+          }
+        ]
+      },
       "URL": "https://www.norman-network.com/nds/SLE/",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/07"
     },
     "nxo_name": "101_norman_suspect_list_exchange_sle_tree"
   },
   {
     "SourceName": "Drug Enforcement Administration (DEA)",
     "SourceID": "dea_tree",
+    "LicenseNote": "Unless otherwise indicated, information on Department of Justice websites is in the public domain and may be copied and distributed without permission. Citation of the Department of Justice as source of the information is appreciated, as appropriate.",
+    "LicenseURL": "https://www.justice.gov/legalpolicies",
     "RootID": "root",
     "HID": 102,
     "Information": {
-      "Name": "DEA drug and controlled substance classification",
-      "Description": [
-        "The DEA drug contains 9 classes, the controlled substances are classified into 5 categories [Controlled Substances Act (21 U.S.C. sec. 801 et seq.) schedule], and the chemical control program contains List I and List II chemicals [https://www.deadiversion.usdoj.gov/pubs/manuals/chem/chem_manual.pdf]."
-      ],
-      "Comments": [
-        "Update: 2022-12-02 15:52:53"
-      ],
-      "URL": "https://www.dea.gov/drug-scheduling",
+      "Name": {
+        "StringWithMarkup": {
+          "String": "DEA Drug and Chemical Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The DEA (Drug Enforcement Administration) drug and chemical classification tree contains chemical substances from the controlled substance schedules, substance classes, and regulated chemical lists. [21 eCFR-II]",
+            "Markup": [
+              {
+                "Start": 200,
+                "Length": 10,
+                "URL": "https://www.ecfr.gov/current/title-21/chapter-II"
+              }
+            ]
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "The controlled substances are classified into 5 categories [Controlled Substances Act (21 USC sec. 801 et seq.) and 21 eCFR 1308.11-1308.15], and the chemical control program contains List I and List II chemicals [21 eCFR Section 1310.02(a)(b)].",
+            "Markup": [
+              {
+                "Start": 116,
+                "Length": 23,
+                "URL": "https://www.ecfr.gov/current/title-21/chapter-II/part-1308"
+              },
+              {
+                "Start": 214,
+                "Length": 29,
+                "URL": "https://www.ecfr.gov/current/title-21/chapter-II/part-1310/section-1310.02"
+              }
+            ]
+          }
+        ]
+      },
+      "URL": "https://www.dea.gov/drug-information/drug-scheduling",
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2022/12/07"
+      "LastUpdate": "2025/04/02"
     },
     "nxo_name": "102_drug_enforcement_administration_dea_tree"
   },
@@ -894,41 +1495,90 @@
     "RootID": "root",
     "HID": 104,
     "Information": {
-      "Name": "CCSbase Classification",
-      "Description": [
-        "CCSbase is an integrated platform consisting of a comprehensive database of Collision Cross Section (CCS) measurements taken from a variety of sources and a high-quality and high-throughput CCS prediction model trained with this database using machine learning."
-      ],
-      "Comments": [
-        "CCSbase curates experimental collision cross section values measured on various ion mobility platforms as a resource for the research community. CCSbase also builds prediction models for comprehensive prediction of collision cross sections for a given molecule. https://ccsbase.net/ "
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "CCSbase Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "CCSbase is an integrated platform consisting of a comprehensive database of Collision Cross Section (CCS) measurements taken from a variety of sources and a high-quality and high-throughput CCS prediction model trained with this database using machine learning.",
+            "Markup": [
+              {
+                "Start": 0,
+                "Length": 7,
+                "URL": "https://ccsbase.net/"
+              }
+            ]
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "CCSbase curates experimental CCS values measured on various ion mobility platforms as a resource for the research community. CCSbase also builds prediction models for comprehensive prediction of collision cross sections for a given molecule.",
+            "Markup": [
+              {
+                "Start": 0,
+                "Length": 7,
+                "URL": "https://ccsbase.net/"
+              }
+            ]
+          }
+        ]
+      },
       "URL": "https://ccsbase.net/",
+      "SourceDate": "2025/04/01",
       "HasCountsOfType": [
-        "Compound",
-        "Substance"
+        "Compound"
       ],
-      "LastUpdate": "2020/12/09"
+      "LastUpdate": "2025/04/02"
     },
     "nxo_name": "104_ccsbase_tree"
   },
   {
     "SourceName": "EPA DSSTox",
     "SourceID": "dsstoxlist_tree",
+    "LicenseURL": "https://www.epa.gov/privacy/privacy-act-laws-policies-and-resources",
     "RootID": "root",
     "HID": 105,
     "Information": {
-      "Name": "CompTox Chemicals Dashboard Chemical Lists",
-      "Description": [
-        "This classification lists the chemical categories from the EPA CompTox Chemicals Dashboard.<br>Update: 2023-12-10 11:20:33"
-      ],
-      "Comments": [
-        "More information can be found at: https://comptox.epa.gov/dashboard/chemical-lists/"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "CompTox Chemicals Dashboard Chemical Lists"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "This classification lists the chemical categories from the EPA CompTox Chemicals Dashboard."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "More information can be found at Chemical Lists website.",
+            "Markup": [
+              {
+                "Start": 33,
+                "Length": 14,
+                "URL": "https://comptox.epa.gov/dashboard/chemical-lists/"
+              }
+            ]
+          },
+          {
+            "String": "Update: 2025-05-10 07:14:35"
+          }
+        ]
+      },
       "URL": "https://comptox.epa.gov/dashboard/chemical-lists/",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/13"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "105_epa_dsstox_dsstoxlist_tree"
   },
@@ -938,93 +1588,203 @@
     "RootID": "root",
     "HID": 106,
     "Information": {
-      "Name": "Aggregated CCS Classification",
-      "Description": [
-        "This classification aggregates experimental CCS data available in PubChem, from CCSbase (https://ccsbase.net/) and NORMAN-SLE (https://www.norman-network.com/nds/SLE/)."
-      ],
-      "Comments": [
-        "Additional information can be found at the CCSbase (https://pubchem.ncbi.nlm.nih.gov/classification/#hid=104) and NORMAN-SLE (https://pubchem.ncbi.nlm.nih.gov/classification/#hid=101) classifications."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Aggregated CCS Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "This classification aggregates experimental CCS data available in PubChem, from NORMAN-SLE, CCSbase, and Baker Lab.",
+            "Markup": [
+              {
+                "Start": 80,
+                "Length": 10,
+                "URL": "https://www.norman-network.com/nds/SLE/"
+              },
+              {
+                "Start": 92,
+                "Length": 7,
+                "URL": "https://ccsbase.net/"
+              },
+              {
+                "Start": 105,
+                "Length": 9,
+                "URL": "https://tarheels.live/bakerlab/"
+              }
+            ]
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Additional information can be found at the NORMAN-SLE (https://pubchem.ncbi.nlm.nih.gov/classification/#hid=101), CCSbase (https://pubchem.ncbi.nlm.nih.gov/classification/#hid=104), and Baker Lab (https://pubchem.ncbi.nlm.nih.gov/classification/#hid=124) classifications.",
+            "Markup": [
+              {
+                "Start": 55,
+                "Length": 56,
+                "URL": "https://pubchem.ncbi.nlm.nih.gov/classification/#hid=101"
+              },
+              {
+                "Start": 123,
+                "Length": 56,
+                "URL": "https://pubchem.ncbi.nlm.nih.gov/classification/#hid=104"
+              },
+              {
+                "Start": 197,
+                "Length": 56,
+                "URL": "https://pubchem.ncbi.nlm.nih.gov/classification/#hid=124"
+              }
+            ]
+          },
+          {
+            "String": "Update: 2025-05-06 08:24:01"
+          }
+        ]
+      },
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "106_pubchem_ccs_tree"
   },
   {
     "SourceName": "International Agency for Research on Cancer (IARC)",
     "SourceID": "iarc_tree",
+    "LicenseNote": "Materials made available by IARC/WHO enjoy copyright protection under the Berne Convention for the Protection of Literature and Artistic Works, under other international conventions, and under national laws on copyright and neighbouring rights. IARC exercises copyright over its Materials to make sure that they are used in accordance with the Agency's principles. All rights are reserved.",
+    "LicenseURL": "https://publications.iarc.fr/Terms-Of-Use",
     "RootID": "root",
     "HID": 107,
     "Information": {
-      "Name": "IARC Classification",
-      "Description": [
-        "The International Agency for Research on Cancer (IARC) is the specialized cancer agency of the World Health Organization. The objective of the IARC is to promote international collaboration in cancer research."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "IARC Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The International Agency for Research on Cancer (IARC) is the specialized cancer agency of the World Health Organization."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "The objective of the IARC is to promote international collaboration in cancer research."
+          }
+        ]
+      },
       "URL": "https://www.iarc.fr/",
+      "SourceDate": "2025/03/28",
       "HasCountsOfType": [
         "Compound",
         "PubMed"
       ],
-      "LastUpdate": "2021/08/11"
+      "LastUpdate": "2025/04/02"
     },
     "nxo_name": "107_international_agency_for_research_on_cancer_iarc_tree"
   },
   {
     "SourceName": "The Natural Products Atlas",
     "SourceID": "npatlas_tree",
+    "LicenseNote": "The Natural Products Atlas is licensed under a Creative Commons Attribution 4.0 International License.",
+    "LicenseURL": "https://www.npatlas.org/terms",
     "RootID": "root",
     "HID": 108,
     "Information": {
-      "Name": "The Natural Products Atlas Classification",
-      "Description": [
-        "The Natural Products Atlas Classification provides the taxonomy information based on the natural products source.",
-        "Created on 12/10/2023 09:01:57"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "The Natural Products Atlas Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The Natural Products Atlas Classification provides the taxonomy information based on the natural products source."
+          }
+        ]
+      },
       "URL": "https://www.npatlas.org/",
       "HasCountsOfType": [
         "Compound",
         "PubMed",
         "Taxonomy"
       ],
-      "LastUpdate": "2023/12/13"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "108_the_natural_products_atlas_npatlas_tree"
   },
   {
     "SourceName": "NIST Synthetic Polymer MALDI Recipes Database",
     "SourceID": "nist_maldi_tree",
+    "LicenseNote": "Formerly known as NIST Standard Reference Database 172",
+    "LicenseURL": "https://www.nist.gov/disclaimer",
     "RootID": "root",
     "HID": 109,
     "Information": {
-      "Name": "NIST Synthetic Polymer Classification",
-      "Description": [
-        "NIST Synthetic Polymer MALDI Recipes Database consists of methods for matrix-assisted laser desorption ionization (MALDI) mass spectrometry on a wide variety of synthetic polymers. The classification is based on polymer group, IUPAC classes, and individual polymers, and matrix compounds used for MALDI."
-      ],
-      "URL": "https://maldi.nist.gov/",
+      "Name": {
+        "StringWithMarkup": {
+          "String": "NIST Synthetic Polymer Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "NIST Synthetic Polymer MALDI Recipes Database consists of methods for matrix-assisted laser desorption ionization (MALDI) mass spectrometry on a wide variety of synthetic polymers."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "The classification is based on polymer group, IUPAC classes, and individual polymers, and matrix compounds used for MALDI. For more information, please visit Pure Appl. Chem., Vol. 81, No. 6, pp. 1131-1186, 2009. doi:10.1351/PAC-REC-08-01-30",
+            "Markup": [
+              {
+                "Start": 158,
+                "Length": 83,
+                "URL": "https://doi.org/10.1351/PAC-REC-08-01-30"
+              }
+            ]
+          }
+        ]
+      },
+      "URL": "https://maldi.nist.gov",
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2022/04/06"
+      "LastUpdate": "2025/04/02"
     },
     "nxo_name": "109_nist_synthetic_polymer_maldi_recipes_database_tree"
   },
   {
     "SourceName": "Consumer Product Information Database (CPID)",
     "SourceID": "cpid_tree",
+    "LicenseNote": "Copyright (c) 2024 DeLima Associates. All rights reserved. \nUnless otherwise indicated, all materials from CPID are copyrighted by DeLima Associates. No part of these materials, either text or image may be used for any purpose other than for personal use. Therefore, reproduction, modification, storage in a retrieval system or retransmission, in any form or by any means, electronic, mechanical or otherwise, for reasons other than personal use, is strictly prohibited without prior written permission.",
+    "LicenseURL": "https://www.whatsinproducts.com/contents/view/1/6",
     "RootID": "root",
     "HID": 110,
     "Information": {
-      "Name": "Consumer Products Category Classification",
-      "Description": [
-        "The Consumer product category classification is based on the Consumer Product Information Database ©2001-2021 by DeLima Associates."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Consumer Products Category Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The Consumer product category classification is based on the Consumer Product Information Database ©2001-2021 by DeLima Associates."
+          }
+        ]
+      },
       "URL": "https://www.whatsinproducts.com/",
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2023/06/14"
+      "LastUpdate": "2025/03/19"
     },
     "nxo_name": "110_consumer_product_information_database_cpid_tree"
   },
@@ -1034,30 +1794,48 @@
     "RootID": "root",
     "HID": 111,
     "Information": {
-      "Name": "Cooperative Patent Classification (CPC)",
-      "Description": [
-        "The Cooperative Patent Classification (CPC) effort is a joint partnership between the United States Patent and Trademark Office (USPTO) and the European Patent Office (EPO) where the Offices have agreed to harmonize their existing classification systems (European Classification (ECLA) and United States Patent Classification (USPC) respectively) and migrate towards a common classification scheme."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Cooperative Patent Classification (CPC)"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The Cooperative Patent Classification (CPC) effort is a joint partnership between the United States Patent and Trademark Office (USPTO) and the European Patent Office (EPO) where the Offices have agreed to harmonize their existing classification systems (European Classification (ECLA) and United States Patent Classification (USPC) respectively) and migrate towards a common classification scheme."
+          }
+        ]
+      },
       "URL": "https://www.cooperativepatentclassification.org",
+      "SourceDate": "2025/01/01",
       "HasCountsOfType": [
         "Compound",
         "Patent"
       ],
-      "LastUpdate": "2023/05/10"
+      "LastUpdate": "2025/03/12"
     },
     "nxo_name": "111_cooperative_patent_classification_cpc"
   },
   {
     "SourceName": "NCI Thesaurus (NCIt)",
     "SourceID": "NCIt",
+    "LicenseNote": "Unless otherwise indicated, all text within NCI products is free of copyright and may be reused without our permission. Credit the National Cancer Institute as the source.",
+    "LicenseURL": "https://www.cancer.gov/policies/copyright-reuse",
     "RootID": "root",
     "HID": 112,
     "Information": {
-      "Name": "NCI Thesaurus Tree",
-      "Description": [
-        "The NCI Thesaurus (NCIt) provides reference terminology for many NCI and other systems. It covers vocabulary for clinical care, translational and basic research, and public information and administrative activities.",
-        "Created on 06/10/2023 09:01:42"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "NCI Thesaurus"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The NCI Thesaurus (NCIt) provides reference terminology for many NCI and other systems. It covers vocabulary for clinical care, translational and basic research, and public information and administrative activities."
+          }
+        ]
+      },
       "URL": "https://ncit.nci.nih.gov",
       "HasCountsOfType": [
         "Cell",
@@ -1068,27 +1846,36 @@
         "Substance",
         "Taxonomy"
       ],
-      "LastUpdate": "2023/06/14"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "112_nci_thesaurus_ncit"
   },
   {
     "SourceName": "Cell Ontology (CL)",
     "SourceID": "CL",
+    "LicenseNote": "Creative Commons Attribution 4.0 International License",
+    "LicenseURL": "https://creativecommons.org/licenses/by/4.0/",
     "RootID": "root",
     "HID": 113,
     "Information": {
-      "Name": "Cell Ontology (CL)",
-      "Description": [
-        "Created on 11/18/2021 13:11:49",
-        "The Cell Ontology is a structured controlled vocabulary for cell types in animals."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Cell Ontology (CL)"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The Cell Ontology is a structured controlled vocabulary for cell types in animals."
+          }
+        ]
+      },
       "URL": "http://obofoundry.org/ontology/cl.html",
       "HasCountsOfType": [
         "BioAssay",
         "Cell"
       ],
-      "LastUpdate": "2021/12/22"
+      "LastUpdate": "2025/01/10"
     },
     "nxo_name": "113_cell_ontology_cl"
   },
@@ -1098,114 +1885,183 @@
     "RootID": "root",
     "HID": 114,
     "Information": {
-      "Name": "Cell Line Ontology",
-      "Description": [
-        "Created on 11/18/2021 13:14:47",
-        "The Cell Line Ontology (CLO) is a community-based ontology of cell lines."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Cell Line Ontology"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The Cell Line Ontology (CLO) is a community-based ontology of cell lines."
+          }
+        ]
+      },
       "URL": "http://www.clo-ontology.org/",
       "HasCountsOfType": [
         "BioAssay",
         "Cell"
       ],
-      "LastUpdate": "2021/12/22"
+      "LastUpdate": "2025/01/10"
     },
     "nxo_name": "114_cell_line_ontology_clo"
   },
   {
     "SourceName": "LOTUS - the natural products occurrence database",
     "SourceID": "biochem",
+    "LicenseNote": "The code for LOTUS is released under the GNU General Public License v3.0.",
+    "LicenseURL": "https://lotus.nprod.net/",
     "RootID": "root",
     "HID": 115,
     "Information": {
-      "Name": "LOTUS Tree",
-      "Description": [
-        "Biological and chemical tree provided by the LOTUS (naturaL products occurrence database)",
-        "Created on 12/10/2023 09:05:00"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "LOTUS Tree"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "Biological and chemical tree provided by the LOTUS (naturaL products occurrence database)"
+          }
+        ]
+      },
       "URL": "https://lotus.naturalproducts.net/",
       "HasCountsOfType": [
         "Compound",
         "Taxonomy"
       ],
-      "LastUpdate": "2023/12/13"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "115_lotus_the_natural_products_occurrence_database_biochem"
   },
   {
     "SourceName": "National Drug Code (NDC) Directory",
     "SourceID": "fdandc_tree",
+    "LicenseNote": "Unless otherwise noted, the contents of the FDA website (www.fda.gov), both text and graphics, are not copyrighted. They are in the public domain and may be republished, reprinted and otherwise used freely by anyone without the need to obtain permission from FDA. Credit to the U.S. Food and Drug Administration as the source is appreciated but not required.",
+    "LicenseURL": "https://www.fda.gov/about-fda/about-website/website-policies#linking",
     "RootID": "root",
     "HID": 116,
     "Information": {
-      "Name": "FDA Drug Type and Pharmacologic Classification",
-      "Description": [
-        "The FDA Drug Type and Pharmacologic Classification is created based on the FDA drug types and pharm classes data from the National Drug Code (NDC) Directory."
-      ],
-      "Comments": [
-        "More information can be found at https://www.fda.gov/drugs/development-approval-process-drugs/drug-approvals-and-databases "
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "FDA Drug Type and Pharmacologic Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The FDA Drug Type and Pharmacologic Classification is created based on the FDA drug types and pharm classes data from the National Drug Code (NDC) Directory."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "More information can be found at https://www.fda.gov/drugs/development-approval-process-drugs/drug-approvals-and-databases",
+            "Markup": [
+              {
+                "Start": 33,
+                "Length": 89,
+                "URL": "https://www.fda.gov/drugs/development-approval-process-drugs/drug-approvals-and-databases"
+              }
+            ]
+          }
+        ]
+      },
       "URL": "https://www.fda.gov/drugs/drug-approvals-and-databases/national-drug-code-directory",
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "116_national_drug_code_ndc_directory_fdandc_tree"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08327",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08327_root",
     "HID": 117,
     "Information": {
-      "Name": "Antimicrobials Abbreviations",
-      "Comments": [
-        "Last updated: June 11, 2021"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Antimicrobials Abbreviations"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: June 11, 2021"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08327.keg",
+      "SourceDate": "2021/06/11",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "117_kegg_br08327"
   },
   {
     "SourceName": "KEGG",
     "SourceID": "br08332",
+    "LicenseNote": "Academic users may freely use the KEGG website. Non-academic use of KEGG generally requires a commercial license",
+    "LicenseURL": "https://www.kegg.jp/kegg/legal.html",
     "RootID": "br08332_root",
     "HID": 118,
     "Information": {
-      "Name": "Drug Classes",
-      "Comments": [
-        "Last updated: June 24, 2023"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Drug Classes"
+        }
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Last updated: September 1, 2024"
+          }
+        ]
+      },
       "URL": "http://www.genome.jp/kegg-bin/get_htext?br08332.keg",
+      "SourceDate": "2024/09/01",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "118_kegg_br08332"
   },
   {
     "SourceName": "World Register of Marine Species (WoRMS)",
     "SourceID": "WoRMS",
+    "LicenseNote": "The text on the WoRMS pages is open-access under the terms of the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/)",
+    "LicenseURL": "https://www.marinespecies.org/about.php#terms",
     "RootID": "root",
     "HID": 119,
     "Information": {
-      "Name": "Biota",
-      "Description": [
-        "The aim of a World Register of Marine Species (WoRMS) is to provide an authoritative and comprehensive list of names of marine organisms, including information on synonymy."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Biota"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The aim of a World Register of Marine Species (WoRMS) is to provide an authoritative and comprehensive list of names of marine organisms, including information on synonymy."
+          }
+        ]
+      },
       "URL": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=1",
       "HasCountsOfType": [
         "Taxonomy"
       ],
-      "LastUpdate": "2022/03/16"
+      "LastUpdate": "2025/01/10"
     },
     "nxo_name": "119_world_register_of_marine_species_worms"
   },
@@ -1215,36 +2071,78 @@
     "RootID": "root",
     "HID": 120,
     "Information": {
-      "Name": "PFAS and Fluorinated Compounds in PubChem",
-      "Description": [
-        "A classification tree to browse per- and polyfluoroalkyl substances (PFAS) and other fluorinated compounds in PubChem. The 'OECD PFAS definition' node contains PubChem content matching the OECD PFAS definition of saturated CF2 (Report ENV/CBC/MONO(2021)25 from 9 July 2021). The 'Organofluorine compounds' node contains organofluorine compounds in PubChem as defined in the same report. The 'Other diverse fluorinated compounds' node helps explore a wide variety of other fluorinated compounds. The 'PFAS and fluorinated compound collections' node gathers several collections of PFAS and/or fluorinated compounds from various resources. The 'Regulatory PFAS collections' node includes PFAS covered by various regulations.<br>Update: 2023-12-12 19:00:01"
-      ],
-      "Comments": [
-        " Read more about this tree here: https://gitlab.lcsb.uni.lu/eci/pubchem-docs/-/raw/main/pfas-tree/PFAS_Tree.pdf?inline=false"
-      ],
-      "URL": "https://gitlab.lcsb.uni.lu/eci/pubchem-docs/-/raw/main/pfas-tree/PFAS_Tree.pdf?inline=false",
+      "Name": {
+        "StringWithMarkup": {
+          "String": "PFAS and Fluorinated Compounds in PubChem"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The collection of per- and polyfluoroalkyl substances (PFAS) and other fluorinated compounds in PubChem as described in https://doi.org/10.1021/acs.est.3c04855. The 'OECD PFAS definition' (no salts) and 'PFAS breakdowns by chemistry' (with salts/mixtures) nodes contain PubChem content matching the OECD PFAS definition of saturated CF2 (Report ENV/CBC/MONO(2021)25). Other nodes explore 'organofluorine compounds'; 'other diverse fluorinated compounds'; 'PFAS and fluorinated compound collections' (including CompTox; NORMAN-SLE; NIST; OntoChem PFAS lists) and 'regulatory PFAS collections' (including Stockholm Convention/EU regulations for PFOS; PFOA; PFHxS; LC-PFCAs). Expand each node for more detailed content. Read more about this tree here: https://gitlab.com/uniluxembourg/lcsb/eci/pubchem-docs/-/raw/main/pfas-tree/PFAS_Tree.pdf?inline=false"
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Read more about this tree here: https://gitlab.com/uniluxembourg/lcsb/eci/pubchem-docs/-/raw/main/pfas-tree/PFAS_Tree.pdf",
+            "Markup": [
+              {
+                "Start": 32,
+                "Length": 89,
+                "URL": "https://gitlab.com/uniluxembourg/lcsb/eci/pubchem-docs/-/raw/main/pfas-tree/PFAS_Tree.pdf"
+              }
+            ]
+          },
+          {
+            "String": "Update: 2025-05-13 19:00:01"
+          }
+        ]
+      },
+      "URL": "https://gitlab.com/uniluxembourg/lcsb/eci/pubchem-docs/-/raw/main/pfas-tree/PFAS_Tree.pdf",
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "120_pubchem_pfas5_tree"
   },
   {
     "SourceName": "Haz-Map, Information on Hazardous Chemicals and Occupational Diseases",
     "SourceID": "hazmap_tree",
+    "LicenseNote": "Copyright (c) 2022 Haz-Map(R). All rights reserved.\nUnless otherwise indicated, all materials from Haz-Map are copyrighted by Haz-Map(R). No part of these materials, either text or image may be used for any purpose other than for personal use. Therefore, reproduction, modification, storage in a retrieval system or retransmission, in any form or by any means, electronic, mechanical or otherwise, for reasons other than personal use, is strictly prohibited without prior written permission.",
+    "LicenseURL": "https://haz-map.com/About",
     "RootID": "root",
     "HID": 121,
     "Information": {
-      "Name": "Haz-Map Classification",
-      "Description": [
-        "Haz-Map® is an occupational health database designed for health and safety professionals and for consumers seeking information about the adverse effects of workplace exposures to chemical and biological agents. The main links in Haz-Map are between chemicals and occupational diseases. These links have been established using current scientific evidence. Haz-Map classification provides the categories or classes of the chemical agents based on the activities, processes, and diseases. <br>Update: 2023-01-18 12:26:26"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Haz-Map Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "Haz-Map® is an occupational health database designed for health and safety professionals and consumers seeking information about the adverse effects of workplace exposures to chemical and biological agents."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "The main links in Haz-Map are between chemicals and occupational diseases. These links have been established using current scientific evidence. Haz-Map classification provides the categories or classes of the chemical agents based on the activities, processes, and diseases."
+          },
+          {
+            "String": "Update: 2025-03-14 13:55:02"
+          }
+        ]
+      },
       "URL": "https://haz-map.com/",
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2023/02/08"
+      "LastUpdate": "2025/03/19"
     },
     "nxo_name": "121_haz_map_information_on_hazardous_chemicals_and_occupational_diseases_hazmap_tree"
   },
@@ -1254,65 +2152,124 @@
     "RootID": "root_node",
     "HID": 122,
     "Information": {
-      "Name": "Pistoia Classification Tree",
-      "Description": [
-        "The Pistoia Classification Tree has been manually curated by Pistoia Alliance Members, for the Data Fairy project, and using the BioHarmony Annotator (BioMetaData.com) technology which is provided by Collaborative Drug Discovery, Inc. (collaborativedrug.com). The tree contains assays annotated with controlled vocabularies from sources such as Bioassassy Ontology (BAO) and other relevant biological ontologies."
-      ],
-      "Comments": [
-        "Contact: support@collaborativedrug.com",
-        "Authors: Pistoia Alliance and Collaborative Drug Discovery, Inc. (CDD)",
-        "Contributors: (Pistoia Alliance) Nick Lynch, Vladimir Makarov, Thomas Liener",
-        "Contributors: (Pistoia Alliance Member) Isabella Feierberg (Astrazeneca), Martin Romacker (Roche), Timothy Ikeda (Astrazeneca), Rama Balakrishnan (Genetech), Anosha Siripala (Novartis), Gabriel Backiananthan (Novartis), Dana Vanderwall (Bristol-Meyers Squibbs)",
-        "Contributors: (Collaborative Drug Discovery) Barry Bunin, Samantha Jeschonek, Whitney Smith, Jason Bret Harris",
-        "Websites: https://www.pistoiaalliance.org, https://www.collaborativedrug.com, https://assay.biometadata.com, https://www.biometadata.com",
-        "Version: 1",
-        "Date: 2021-02-01"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Pistoia Classification Tree"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The Pistoia Classification Tree has been manually curated by Pistoia Alliance Members, for the Data Fairy project, and using the BioHarmony Annotator (BioMetaData.com) technology which is provided by Collaborative Drug Discovery, Inc. (collaborativedrug.com). The tree contains assays annotated with controlled vocabularies from sources such as Bioassassy Ontology (BAO) and other relevant biological ontologies."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "Contact: support@collaborativedrug.com"
+          },
+          {
+            "String": "Authors: Pistoia Alliance and Collaborative Drug Discovery, Inc. (CDD)"
+          },
+          {
+            "String": "Contributors: (Pistoia Alliance) Nick Lynch, Vladimir Makarov, Thomas Liener"
+          },
+          {
+            "String": "Contributors: (Pistoia Alliance Member) Isabella Feierberg (Astrazeneca), Martin Romacker (Roche), Timothy Ikeda (Astrazeneca), Rama Balakrishnan (Genetech), Anosha Siripala (Novartis), Gabriel Backiananthan (Novartis), Dana Vanderwall (Bristol-Meyers Squibbs)"
+          },
+          {
+            "String": "Contributors: (Collaborative Drug Discovery) Barry Bunin, Samantha Jeschonek, Whitney Smith, Jason Bret Harris"
+          },
+          {
+            "String": "Websites: https://www.pistoiaalliance.org, https://www.collaborativedrug.com, https://assay.biometadata.com, https://www.biometadata.com"
+          },
+          {
+            "String": "Version: 1"
+          },
+          {
+            "String": "Date: 2021-02-01"
+          }
+        ]
+      },
       "URL": "https://assay.biometadata.com",
       "HasCountsOfType": [
         "BioAssay"
       ],
-      "LastUpdate": "2022/07/06"
+      "LastUpdate": "2025/01/22"
     },
     "nxo_name": "122_pistoia_alliance_datafairy_bioassay_pilot"
   },
   {
     "SourceName": "EPA Substance Registry Services",
     "SourceID": "epasrs_tree",
+    "LicenseURL": "https://www.epa.gov/privacy/privacy-act-laws-policies-and-resources",
     "RootID": "root",
     "HID": 123,
     "Information": {
-      "Name": "EPA SRS List Classification",
-      "Description": [
-        "Substance Registry Services (SRS) is the Environmental Protection Agency's (EPA) central system for information about substances that are tracked or regulated by EPA or other sources. It is a resource for basic information about chemicals, biological organisms, and other substances of interest to EPA and its state and tribal partners. SRS makes it possible to identify which EPA data systems, environmental statutes, or other sources have information about a substance and which synonym is used by that system or statute."
-      ],
-      "Comments": [
-        "More information can be found at https://sor.epa.gov/sor_internet/registry/substreg/LandingPage.do"
-      ],
-      "URL": "https://sor.epa.gov/sor_internet/registry/substreg/LandingPage.do",
+      "Name": {
+        "StringWithMarkup": {
+          "String": "EPA SRS List Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "Substance Registry Services (SRS) is the Environmental Protection Agency's (EPA) central system for information about substances that are tracked or regulated by EPA or other sources."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "It is a resource for basic information about chemicals, biological organisms, and other substances of interest to EPA and its state and tribal partners. SRS makes it possible to identify which EPA data systems, environmental statutes, or other sources have information about a substance and which synonym is used by that system or statute. More information can be found at https://sor.epa.gov/sor_internet/registry/substreg/LandingPage.do",
+            "Markup": [
+              {
+                "Start": 373,
+                "Length": 65,
+                "URL": "https://sor.epa.gov/sor_internet/registry/substreg/LandingPage.do"
+              }
+            ]
+          }
+        ]
+      },
+      "URL": "https://maldi.nist.gov",
       "HasCountsOfType": [
         "Compound",
         "Substance"
       ],
-      "LastUpdate": "2022/07/13"
+      "LastUpdate": "2025/04/02"
     },
     "nxo_name": "123_epa_substance_registry_services_epasrs_tree"
   },
   {
     "SourceName": "Baker Lab, Chemistry Department, The University of North Carolina at Chapel Hill",
     "SourceID": "ccs_baker_tree",
+    "LicenseNote": "CC-BY 4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by/4.0/",
     "RootID": "root",
     "HID": 124,
     "Information": {
-      "Name": "CCS Classification - Baker Lab",
-      "Description": [
-        "Collision Cross Section (CCS) values provided by the Baker Lab, Chemistry Department, The University of North Carolina at Chapel Hill. <br>Update: 2022-11-15 16:27:15"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "CCS Classification - Baker Lab"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "Collision Cross Section (CCS) values provided by the Baker Lab, Chemistry Department, The University of North Carolina at Chapel Hill."
+          },
+          {
+            "String": "Update: 2025-04-03 07:35:02"
+          }
+        ]
+      },
       "URL": "https://tarheels.live/bakerlab/",
       "HasCountsOfType": [
         "Compound"
       ],
-      "LastUpdate": "2022/11/16"
+      "LastUpdate": "2025/04/08"
     },
     "nxo_name": "124_baker_lab_chemistry_department_the_university_of_north_carolina_at_chapel_hill_ccs_tree"
   },
@@ -1322,16 +2279,29 @@
     "RootID": "root",
     "HID": 125,
     "Information": {
-      "Name": "PubChem Cell TOC",
-      "Description": [
-        "This classification was created automatically from the PubChem Cell TOC on 2023/12/26.",
-        "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
-        "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "PubChem Cell TOC"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "This classification was created automatically from the PubChem Cell TOC on 2025/05/13."
+          },
+          {
+            "String": "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree."
+          },
+          {
+            "String": "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
+          }
+        ]
+      },
+      "SourceDate": "2025/05/13",
       "HasCountsOfType": [
         "Cell"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "125_pubchem_cell_toc"
   },
@@ -1341,16 +2311,29 @@
     "RootID": "root",
     "HID": 126,
     "Information": {
-      "Name": "PubChem Gene TOC",
-      "Description": [
-        "This classification was created automatically from the PubChem Gene TOC on 2023/12/26.",
-        "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
-        "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "PubChem Gene TOC"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "This classification was created automatically from the PubChem Gene TOC on 2025/05/13."
+          },
+          {
+            "String": "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree."
+          },
+          {
+            "String": "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
+          }
+        ]
+      },
+      "SourceDate": "2025/05/13",
       "HasCountsOfType": [
         "Gene"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "126_pubchem_gene_toc"
   },
@@ -1360,16 +2343,29 @@
     "RootID": "root",
     "HID": 127,
     "Information": {
-      "Name": "PubChem Pathway TOC",
-      "Description": [
-        "This classification was created automatically from the PubChem Pathway TOC on 2023/12/26.",
-        "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
-        "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "PubChem Pathway TOC"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "This classification was created automatically from the PubChem Pathway TOC on 2025/05/13."
+          },
+          {
+            "String": "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree."
+          },
+          {
+            "String": "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
+          }
+        ]
+      },
+      "SourceDate": "2025/05/13",
       "HasCountsOfType": [
         "Pathway"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "127_pubchem_pathway_toc"
   },
@@ -1379,16 +2375,29 @@
     "RootID": "root",
     "HID": 128,
     "Information": {
-      "Name": "PubChem Protein TOC",
-      "Description": [
-        "This classification was created automatically from the PubChem Protein TOC on 2023/12/26.",
-        "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
-        "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "PubChem Protein TOC"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "This classification was created automatically from the PubChem Protein TOC on 2025/05/13."
+          },
+          {
+            "String": "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree."
+          },
+          {
+            "String": "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
+          }
+        ]
+      },
+      "SourceDate": "2025/05/13",
       "HasCountsOfType": [
         "Protein"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "128_pubchem_protein_toc"
   },
@@ -1398,55 +2407,223 @@
     "RootID": "root",
     "HID": 129,
     "Information": {
-      "Name": "PubChem Taxonomy TOC",
-      "Description": [
-        "This classification was created automatically from the PubChem Taxonomy TOC on 2023/12/26.",
-        "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree.",
-        "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "PubChem Taxonomy TOC"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "This classification was created automatically from the PubChem Taxonomy TOC on 2025/05/13."
+          },
+          {
+            "String": "Note that in some cases a number of highly populated nodes - those for which all or nearly all IDs have information - have been left out of the tree."
+          },
+          {
+            "String": "The sections, along with their child subsections, that are not shown in this tree are: Create Date, Modify Date, and Record Title."
+          }
+        ]
+      },
+      "SourceDate": "2025/05/13",
       "HasCountsOfType": [
         "Taxonomy"
       ],
-      "LastUpdate": "2023/12/27"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "129_pubchem_taxonomy_toc"
   },
   {
     "SourceName": "Catalogue of Life (COL)",
     "SourceID": "COL",
+    "LicenseNote": "The Catalogue of Life database is copyrighted by Species 2000 on behalf of the Catalogue of Life partners. Unless otherwise indicated, all other content offered underA Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0/).",
+    "LicenseURL": "https://www.catalogueoflife.org/",
     "RootID": "root",
     "HID": 130,
     "Information": {
-      "Name": "Catalog of Life (COL)",
-      "Description": [
-        "Catalogue of Life (COL) is a collaboration bringing together the effort and contributions of taxonomists and informaticians from around the world.",
-        "Created on 11/14/2023 11:02:31"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Catalogue of Life (COL)"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "Catalogue of Life (COL) is a collaboration bringing together the effort and contributions of taxonomists and informaticians from around the world."
+          }
+        ]
+      },
       "URL": "https://www.catalogueoflife.org/",
       "HasCountsOfType": [
         "Taxonomy"
       ],
-      "LastUpdate": "2023/11/15"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "130_catalogue_of_life_col"
   },
   {
     "SourceName": "Integrated Taxonomic Information System (ITIS)",
     "SourceID": "ITIS",
+    "LicenseNote": "This work (Integrated Taxonomic Information System (ITIS), by www.itis.gov), is free of known copyright restrictions. Information presented on the ITIS website is considered public information and may be distributed or copied.",
+    "LicenseURL": "https://www.itis.gov/privacy.html",
     "RootID": "root",
     "HID": 131,
     "Information": {
-      "Name": "Integrated Taxonomic Information System (ITIS)",
-      "Description": [
-        "The Integrated Taxonomic Information System (ITIS) is an American partnership of federal agencies designed to provide consistent and reliable information on the taxonomy of biological species.",
-        "Created on 12/10/2023 09:03:45"
-      ],
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Integrated Taxonomic Information System (ITIS)"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "The Integrated Taxonomic Information System (ITIS) is an American partnership of federal agencies designed to provide consistent and reliable information on the taxonomy of biological species."
+          }
+        ]
+      },
       "URL": "https://www.itis.gov/",
       "HasCountsOfType": [
         "Taxonomy"
       ],
-      "LastUpdate": "2023/12/13"
+      "LastUpdate": "2025/05/14"
     },
     "nxo_name": "131_integrated_taxonomic_information_system_itis"
+  },
+  {
+    "SourceName": "EPA Chemicals under the TSCA",
+    "SourceID": "epa_tsca_tree",
+    "LicenseURL": "https://www.epa.gov/privacy/privacy-act-laws-policies-and-resources",
+    "RootID": "root",
+    "HID": 132,
+    "Information": {
+      "Name": {
+        "StringWithMarkup": {
+          "String": "EPA TSCA Classification"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "EPA Chemicals under the Toxic Substances Control Act (TSCA) collection contains information on chemicals and their regulation under TSCA (40 eCFR I-R). The chemical classification tree is created based on the TSCA substance regulatory flag, UVCB, and commercial activity status."
+          },
+          {
+            "String": "Update: 2025-03-25 14:26:02"
+          }
+        ]
+      },
+      "URL": "https://www.epa.gov/tsca-inventory",
+      "HasCountsOfType": [
+        "Compound"
+      ],
+      "LastUpdate": "2025/04/02"
+    },
+    "nxo_name": "132_epa_chemicals_under_the_tsca_tree"
+  },
+  {
+    "SourceName": "Glycan Naming and Subsumption Ontology (GNOme)",
+    "SourceID": "GNOme",
+    "RootID": "root",
+    "HID": 133,
+    "Information": {
+      "Name": {
+        "StringWithMarkup": {
+          "String": "GNOme"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "GlyTouCan provides stable accessions for glycans described at varyious degrees of characterization, including compositions (no linkage) and topologies (no carbon bond positions or anomeric configurations). GNOme organizes these stable accessions for interative browsing, for text-based searching, and for automated reasoning with well-defined characterization levels. License: CC BY 4.0"
+          }
+        ]
+      },
+      "HasCountsOfType": [
+        "Compound",
+        "Substance"
+      ],
+      "LastUpdate": "2025/01/10"
+    },
+    "nxo_name": "133_glycan_naming_and_subsumption_ontology_gnome"
+  },
+  {
+    "SourceName": "MolGenie",
+    "SourceID": "mol_classes",
+    "LicenseNote": "CC-BY 4.0",
+    "LicenseURL": "https://creativecommons.org/licenses/by/4.0/",
+    "RootID": "root_node",
+    "HID": 134,
+    "Information": {
+      "Name": {
+        "StringWithMarkup": {
+          "String": "MolGenie Organic Chemistry Ontology"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "An organic chemistry ontology developed by MolGenie and OntoChem to assign chemical entities to structural classes, split into three main subsections: calculated properties, compounds and substructural concepts. The ontology contains chemistry structural classes with a focus on elements and small organic compounds, but not inorganic, polymer, biopolymer, metal complexes, metal organic frameworks (MOFs) and other chemistry entities. The ontology has been mapped to several collections of chemicals, including (a) Chemicals of Biological Interest (ChEBI), (b) the ChEMBL database of bioactive molecules, (c) the LOTUS natural product collection, (d) per- and polyfluoroalkyl substances (PFAS) extracted from Barnabas et al (2022) DOI: 10.1039/D2DD00019A (e) PubChemLite and (f) the ZeroPM Global Chemical Inventory."
+          },
+          {
+            "String": "Created from mol_classes_combined_2024-12-10.obo"
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "auto-generated-by: obochecker"
+          },
+          {
+            "String": "date: 09:12:2024 19:19"
+          },
+          {
+            "String": "format-version: 1.2"
+          },
+          {
+            "String": "saved-by: Lutz Weber"
+          }
+        ]
+      },
+      "URL": "https://github.com/MolGenie/ontology/",
+      "HasCountsOfType": [
+        "Compound",
+        "Substance"
+      ],
+      "LastUpdate": "2025/01/09"
+    },
+    "nxo_name": "134_molgenie_mol_classes"
+  },
+  {
+    "SourceName": "PubChem",
+    "SourceID": "regtree",
+    "RootID": "root",
+    "HID": 135,
+    "Information": {
+      "Name": {
+        "StringWithMarkup": {
+          "String": "Chemicals in PubChem from Regulatory Sources"
+        }
+      },
+      "Description": {
+        "StringWithMarkup": [
+          {
+            "String": "PubChem chemicals with regulatory data sources provides list of chemicals with annotation specific to regulatory data sources."
+          }
+        ]
+      },
+      "Comments": {
+        "StringWithMarkup": [
+          {
+            "String": "These include classifications or groupings of chemicals specific to a given agency and may help to summarize chemical substances covered by specific regulations or specific chemical substance use cases. It is important to note that this is compiled from annotation found in PubChem and might not be exhaustive or current. Always consult the respective regulatory agency for authoritative information and guidance."
+          }
+        ]
+      },
+      "SourceDate": "2025/04/01",
+      "HasCountsOfType": [
+        "Compound"
+      ],
+      "LastUpdate": "2025/05/14"
+    },
+    "nxo_name": "135_pubchem_regtree"
   }
 ]

@@ -1,0 +1,1434 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "nxontology_version": "0.5.1.dev7+gb68411d",
+    "nxontology_created": "2025-05-20T20:20:49+00:00",
+    "name": "135_pubchem_regtree",
+    "pubchem_hierarchy_id": 135,
+    "pubchem_source_id": "regtree",
+    "pubchem_source_name": "PubChem",
+    "pubchem_description": {
+      "StringWithMarkup": [
+        {
+          "String": "PubChem chemicals with regulatory data sources provides list of chemicals with annotation specific to regulatory data sources."
+        }
+      ]
+    },
+    "pubchem_comments": {
+      "StringWithMarkup": [
+        {
+          "String": "These include classifications or groupings of chemicals specific to a given agency and may help to summarize chemical substances covered by specific regulations or specific chemical substance use cases. It is important to note that this is compiled from annotation found in PubChem and might not be exhaustive or current. Always consult the respective regulatory agency for authoritative information and guidance."
+        }
+      ]
+    },
+    "source_url": null
+  },
+  "nodes": [
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "US DEA controlled substances and listed chemicals"
+        }
+      },
+      "description": "This node contains chemical substances from DEA (Drug Enforcement Administration) controlled substance schedules and regulated chemical lists. [21 eCFR-II]",
+      "pubchem_hnid": 17060373,
+      "url": "https://www.deadiversion.usdoj.gov",
+      "id": 1
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "DEA listed chemicals"
+        }
+      },
+      "description": "The regulated chemical node contains List I and List II chemicals [21 eCFR Section 1310.02(a)(b)].",
+      "pubchem_hnid": 17060381,
+      "url": "https://www.deadiversion.usdoj.gov/chem_prog/34chems.html",
+      "id": 2
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "List I"
+        }
+      },
+      "description": "A chemical specified by regulation that, in addition to legitimate uses, is used in manufacturing a controlled substance in violation of the Act and is important to the manufacture of a controlled substance. (21 eCFR 1310.02)",
+      "pubchem_hnid": 17060438,
+      "url": "https://www.deadiversion.usdoj.gov/schedules/orangebook/f_chemlist_alpha.pdf",
+      "id": 3
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "List II"
+        }
+      },
+      "description": "A chemical, other than a List I chemical, specified by regulation that, in addition to legitimate uses, is used in manufacturing a controlled substance in violation of the Act. (21 eCFR 1310.02)",
+      "pubchem_hnid": 17060439,
+      "url": "https://www.deadiversion.usdoj.gov/schedules/orangebook/f_chemlist_alpha.pdf",
+      "id": 4
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Controlled Substance Schedules"
+        }
+      },
+      "description": "The DEA controlled substances are classified into 5 categories [Controlled Substances Act (21 USC sec. 801 et seq.) and 21 eCFR 1308.11-1308.15].",
+      "pubchem_hnid": 17060382,
+      "url": "https://www.deadiversion.usdoj.gov/schedules/schedules.html",
+      "id": 5
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Schedule I"
+        }
+      },
+      "description": "Substances in the DEA Schedule I have no currently accepted medical use in the United States, a lack of accepted safety for use under medical supervision, and a high potential for abuse.",
+      "pubchem_hnid": 17060449,
+      "url": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf",
+      "id": 6
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Schedule II"
+        }
+      },
+      "description": "Substances in the DEA Schedule II have a high potential for abuse which may lead to severe psychological or physical dependence.",
+      "pubchem_hnid": 17060450,
+      "url": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf",
+      "id": 7
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Schedule III"
+        }
+      },
+      "description": "Substances in the DEA Schedule III have a potential for abuse less than substances in Schedules I or II and abuse may lead to moderate or low physical dependence or high psychological dependence.",
+      "pubchem_hnid": 17060451,
+      "url": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf",
+      "id": 8
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Schedule IV"
+        }
+      },
+      "description": "Substances in the DEA Schedule IV have a low potential for abuse relative to substances in Schedule III.",
+      "pubchem_hnid": 17060452,
+      "url": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf",
+      "id": 9
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Schedule V"
+        }
+      },
+      "description": "Substances in the DEA Schedule V have a low potential for abuse relative to substances listed in Schedule IV and consist primarily of preparations containing limited quantities of certain narcotics.",
+      "pubchem_hnid": 17060453,
+      "url": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf",
+      "id": 10
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "EU REACH"
+        }
+      },
+      "description": "Chemical substances list in EU REACH (Registration, Evaluation, Authorisation and Restriction of Chemicals Regulation) datasets. (Regulation (EC) No 1907/2006)",
+      "pubchem_hnid": 17060374,
+      "url": "https://echa.europa.eu/regulations/reach/understanding-reach",
+      "id": 11
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "REACH List of substances subject to POPs Regulation"
+        }
+      },
+      "description": "Persistent Organic Pollutants (POPs) listed in: Annex I to the regulation are subject to prohibition (with specific exemptions) on manufacturing, placing on the market and use; Annex II to the regulation are subject to restriction on manufacturing, placing on the market and use; Annex III to the regulation are subject to release reduction provisions; and Annex IV to the regulation are subject to waste management provisions..",
+      "pubchem_hnid": 17060445,
+      "url": "https://echa.europa.eu/list-of-substances-subject-to-pops-regulation",
+      "id": 12
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "REACH registered substances"
+        }
+      },
+      "description": "Registered substancesunder REACH - there is an obligation on registrants to provide information on the substances they manufacture or import.",
+      "pubchem_hnid": 17060446,
+      "url": "https://echa.europa.eu/information-on-chemicals/registered-substances/information",
+      "id": 13
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "REACH restricted substances"
+        }
+      },
+      "description": "The substances are from the Annex XVII to REACH and include all the restrictions adopted in the framework of REACH and the previous legislation, Directive 76/769/EEC.",
+      "pubchem_hnid": 17060447,
+      "url": "https://echa.europa.eu/substances-restricted-under-reach",
+      "id": 14
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "REACH list of substances of very high concern (SVHC) for authorisation"
+        }
+      },
+      "description": "Candidate List of substances of very high concern for Authorisation, published in accordance with Article 59(10) of the REACH Regulation.",
+      "pubchem_hnid": 17060448,
+      "url": "https://echa.europa.eu/candidate-list-table",
+      "id": 15
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Australian Industrial Chemicals Introduction Scheme (AICIS)"
+        }
+      },
+      "description": "The AICIS aims to provide the public and businesses with a clear understanding of role as a regulator of the introduction of industrial chemicals in Australia.",
+      "pubchem_hnid": 17060375,
+      "url": "https://www.industrialchemicals.gov.au/chemical-information",
+      "id": 16
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Chemical Assessments"
+        }
+      },
+      "description": "This node lists chemicals from the AICIS Chemical Assessments Database.",
+      "pubchem_hnid": 17060376,
+      "url": "https://services.industrialchemicals.gov.au/search-assessments/",
+      "id": 17
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Industrial Chemicals Inventory"
+        }
+      },
+      "description": "The Australian Inventory of Industrial Chemicals (Inventory) contains information about the chemical identity and regulatory obligations relating to the importation and manufacture of industrial chemicals in Australia.",
+      "pubchem_hnid": 17060377,
+      "url": "https://services.industrialchemicals.gov.au/search-inventory/",
+      "id": 18
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "US California Safe Cosmetics Program (CSCP)"
+        }
+      },
+      "description": "CSCP ingredient list and reportable substances. Visit <ahref=\"https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=HSC&division=104.&title=&part=5.&chapter=7.&article=3.5.\"> California Safe Cosmetics Act (CSCA)</a> for more infomation.",
+      "pubchem_hnid": 17060378,
+      "url": "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/CSCP/Pages/CSCP.aspx",
+      "id": 19
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "CSCP ingredient list"
+        }
+      },
+      "description": "CSCP ingredient list",
+      "pubchem_hnid": 17060379,
+      "url": "https://cscpsearch.cdph.ca.gov/search/reportedIngredients",
+      "id": 20
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "CSCP reportable substances"
+        }
+      },
+      "description": "CSCP reportable substances",
+      "pubchem_hnid": 17060380,
+      "url": "https://www.cdph.ca.gov/Programs/CCDPHP/DEODC/OHB/CSCP/Pages/About-CSCP.aspx",
+      "id": 21
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "US DHS Chemicals of Interest (COI)"
+        }
+      },
+      "description": "As of July 28, 2023, Congress has allowed the statutory authority for the Chemical Facility Anti-Terrorism Standards (CFATS) program (Reference: 6 eCFR Part 27) to expire.",
+      "pubchem_hnid": 17060383,
+      "url": "https://www.cisa.gov/resources-tools/resources/chemical-facility-anti-terrorism-standards-cfats-appendix-chemicals-interest-coi-list",
+      "id": 22
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "EU EMA"
+        }
+      },
+      "description": "Drug related chemical list from European Medicines Agency (EMA). The EMA is a decentralised agency of the European Union (EU). It is responsible for the scientific evaluation, supervision and safety monitoring of medicines.",
+      "pubchem_hnid": 17060390,
+      "url": "https://www.ema.europa.eu/",
+      "id": 23
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "EMA Animal Drugs"
+        }
+      },
+      "description": "Animal drugs and ingredient from European Medicines Agency (EMA)",
+      "pubchem_hnid": 17060391,
+      "url": null,
+      "id": 24
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "EMA Human Drugs"
+        }
+      },
+      "description": "Human drugs and ingredient from European Medicines Agency (EMA)",
+      "pubchem_hnid": 17060392,
+      "url": null,
+      "id": 25
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Orphan drug and substance list"
+        }
+      },
+      "description": "Drug and substance information from orphan designations",
+      "pubchem_hnid": 17060393,
+      "url": null,
+      "id": 26
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Paediatric drug and substance list"
+        }
+      },
+      "description": "Drug and substance information from paediatric investigation plans",
+      "pubchem_hnid": 17060394,
+      "url": null,
+      "id": 27
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Human drug and substance list"
+        }
+      },
+      "description": "Human drug and substance information from the public assessment reports",
+      "pubchem_hnid": 17060395,
+      "url": null,
+      "id": 28
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "US EPA"
+        }
+      },
+      "description": "Chemical substances listed in EPA (Environmental Protection Agency) datasets. (40 eCFR-I)",
+      "pubchem_hnid": 17060396,
+      "url": "https://www.epa.gov/",
+      "id": 29
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "EPA Chemical Data Reporting"
+        }
+      },
+      "description": "Chemical listed in the EPA Chemical Data Reporting under the Toxic Substances Control Act (TSCA)(40 eCFR Part 711: https://www.ecfr.gov/current/title-40/chapter-I/subchapter-R/part-711)",
+      "pubchem_hnid": 17060397,
+      "url": "https://www.epa.gov/chemical-data-reporting",
+      "id": 30
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Consumer Uses"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 17060398,
+      "url": null,
+      "id": 31
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Industry Processing"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 17060399,
+      "url": null,
+      "id": 32
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Industry Uses"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 17060400,
+      "url": null,
+      "id": 33
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Provisional Substances"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 17060401,
+      "url": null,
+      "id": 34
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "EPA Integrated Risk Information System (IRIS)"
+        }
+      },
+      "description": "Chemical listed in the EPA Integrated Risk Information System (IRIS)",
+      "pubchem_hnid": 17060402,
+      "url": "https://www.epa.gov/iris",
+      "id": 35
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "EPA Provisional Peer-Reviewed Toxicity Values (PPRTVs)"
+        }
+      },
+      "description": "Chemical listed in the EPA Provisional Peer-Reviewed Toxicity Values (PPRTVs)",
+      "pubchem_hnid": 17060403,
+      "url": "https://www.epa.gov/pprtv",
+      "id": 36
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "EPA TSCA inventory"
+        }
+      },
+      "description": "The non-confidential portion of EPA's Toxic Substances Control Act Chemical Substance Inventory (40 eCFR 720.25 )",
+      "pubchem_hnid": 17060404,
+      "url": "https://www.epa.gov/tsca-inventory/how-access-tsca-inventory",
+      "id": 37
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "EPA TSCA inventory flags"
+        }
+      },
+      "description": "EPA TSCA inventory flags",
+      "pubchem_hnid": 17060405,
+      "url": null,
+      "id": 38
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "12C - TSCA section 12(c)"
+        }
+      },
+      "description": "indicates a substance that is prohibited to be exported from the Unites States under TSCA section 12(c).",
+      "pubchem_hnid": 17060406,
+      "url": null,
+      "id": 39
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "5E - TSCA section 5(e) order"
+        }
+      },
+      "description": "indicates a substance that is the subject of a TSCA section 5(e) order.",
+      "pubchem_hnid": 17060407,
+      "url": null,
+      "id": 40
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "5F - TSCA section 5(f) rule"
+        }
+      },
+      "description": "indicates a substance that is the subject of a TSCA section 5(f) rule.",
+      "pubchem_hnid": 17060408,
+      "url": null,
+      "id": 41
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "FRI - No Free-radical initiator"
+        }
+      },
+      "description": "indicates a polymeric substance containing no free-radical initiator in its Inventory name but is considered to cover the designated polymer made with any free-radical initiator regardless of the amount used.",
+      "pubchem_hnid": 17060409,
+      "url": null,
+      "id": 42
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "PE1 - Polymer: MW 1000-10000"
+        }
+      },
+      "description": "indicates a polymer that has a number-average molecular weight of greater than or equal to 1,000 daltons and less than 10,000 daltons and that is exempt under the 1995 polymer exemption rule. The polymer's oligomer content must be less than 10 percent by weight below 500 daltons and less than 25 percent by weight below 1,000 daltons.",
+      "pubchem_hnid": 17060410,
+      "url": null,
+      "id": 43
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "PMN - (Pre-Manufacture Notices) substance"
+        }
+      },
+      "description": "indicates a commenced PMN (Pre-Manufacture Notices) substance.",
+      "pubchem_hnid": 17060411,
+      "url": null,
+      "id": 44
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "R - TSCA section 6 risk management rule"
+        }
+      },
+      "description": "indicates a substance that is the subject of a TSCA section 6 risk management rule.",
+      "pubchem_hnid": 17060412,
+      "url": null,
+      "id": 45
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "S - Final Significant New Use Rule"
+        }
+      },
+      "description": "indicates a substance that is identified in a final Significant New Use Rule.",
+      "pubchem_hnid": 17060413,
+      "url": null,
+      "id": 46
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "SP - Proposed Significant New Use Rule"
+        }
+      },
+      "description": "indicates a substance that is identified in a proposed Significant New Use Rule.",
+      "pubchem_hnid": 17060414,
+      "url": null,
+      "id": 47
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "T - Final TSCA section 4 test rule"
+        }
+      },
+      "description": "indicates a substance that is the subject of a final TSCA section 4 test rule.",
+      "pubchem_hnid": 17060415,
+      "url": null,
+      "id": 48
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "TP - Proposed TSCA section 4 test rule"
+        }
+      },
+      "description": "indicates a substance that is the subject of a proposed TSCA section 4 test rule.",
+      "pubchem_hnid": 17060416,
+      "url": null,
+      "id": 49
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "XU - Chemical Data Reporting Rule (40 CFR 711)"
+        }
+      },
+      "description": "indicates a substance exempt from reporting under the Chemical Data Reporting Rule, (40 CFR 711).",
+      "pubchem_hnid": 17060417,
+      "url": null,
+      "id": 50
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Y1 - Polymer: MW >=1000 with 1984 polymer exemption rule"
+        }
+      },
+      "description": "indicates a polymer that has a number-average molecular weight of 1,000 or greater and that was exempt under the 1984 polymer exemption rule.",
+      "pubchem_hnid": 17060418,
+      "url": null,
+      "id": 51
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Y2 - Polymer: polyester with 1984 polymer exemption rule"
+        }
+      },
+      "description": "indicates a polymer that is a polyester and that was exempt under the 1984 polymer exemption rule. The polyester is made only from reactants included in a specified list of low-concern reactants that comprises one of the eligibility criteria for the 1984 polymer exemption rule.",
+      "pubchem_hnid": 17060419,
+      "url": null,
+      "id": 52
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "EPA TSCA inventory status"
+        }
+      },
+      "description": "EPA TSCA inventory status",
+      "pubchem_hnid": 17060422,
+      "url": null,
+      "id": 53
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "ACTIVE"
+        }
+      },
+      "description": "Commercial activity status: ACTIVE",
+      "pubchem_hnid": 17060420,
+      "url": null,
+      "id": 54
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "INACTIVE"
+        }
+      },
+      "description": "Commercial activity status: INACTIVE",
+      "pubchem_hnid": 17060421,
+      "url": null,
+      "id": 55
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "UVCB"
+        }
+      },
+      "description": "TSCA chemical substance classified as UVCB",
+      "pubchem_hnid": 17060423,
+      "url": null,
+      "id": 56
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "EPA Human Health Benchmarks for Pesticides"
+        }
+      },
+      "description": "Chemical list from EPA Human Health Benchmarks for Pesticides under the Safe Drinking Water Act (40 eCFR 141)",
+      "pubchem_hnid": 17060424,
+      "url": "https://www.epa.gov/sdwa/2021-human-health-benchmarks-pesticides",
+      "id": 57
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "EU Pesticides Database"
+        }
+      },
+      "description": "The EU Pesticides Database allows users to search for information on active substances used in plant protection products, Maximum Residue Levels (MRLs) in food products, and emergency authorisations of plant protection products.",
+      "pubchem_hnid": 17060425,
+      "url": "https://food.ec.europa.eu/plants/pesticides/eu-pesticides-database_en",
+      "id": 58
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Approved active substances"
+        }
+      },
+      "description": "Approved substances for pesticides",
+      "pubchem_hnid": 17060426,
+      "url": null,
+      "id": 59
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Not approved substances"
+        }
+      },
+      "description": "Not approved substances for pesticides",
+      "pubchem_hnid": 17060427,
+      "url": null,
+      "id": 60
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Pending substances"
+        }
+      },
+      "description": "Pending substances for pesticides",
+      "pubchem_hnid": 17060428,
+      "url": null,
+      "id": 61
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "US FDA"
+        }
+      },
+      "description": "Drug ingredients listed in FDA (Food and Drug Administration) data sources. (21 eCFR-I)",
+      "pubchem_hnid": 17060429,
+      "url": "https://www.fda.gov/",
+      "id": 62
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "FDA Animal Drugs"
+        }
+      },
+      "description": "Drug and active ingredient list from FDA Green Book",
+      "pubchem_hnid": 17060430,
+      "url": "https://www.fda.gov/animal-veterinary/products/approved-animal-drug-products-green-book",
+      "id": 63
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "FDA Color Additives"
+        }
+      },
+      "description": "This list contains substances from the DA Regulatory Status of Color Additives.",
+      "pubchem_hnid": 17060431,
+      "url": "https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?set=ColorAdditives",
+      "id": 64
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "FDA Human Drugs"
+        }
+      },
+      "description": "Human drugs and ingredient list from FDA",
+      "pubchem_hnid": 17060432,
+      "url": "https://www.fda.gov/drugs",
+      "id": 65
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Drugs@FDA"
+        }
+      },
+      "description": "FDA approved drug products and active ingredient list.",
+      "pubchem_hnid": 17060384,
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm",
+      "id": 66
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Discontinued drugs"
+        }
+      },
+      "description": "Drug discontinued from the FDA approved drug dataset.",
+      "pubchem_hnid": 17060385,
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/about-drugsfda",
+      "id": 67
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Active ingredients"
+        }
+      },
+      "description": "Active ingredient list for FDA approved drugs.",
+      "pubchem_hnid": 17060386,
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/about-drugsfda",
+      "id": 68
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Over-the-Counter drugs"
+        }
+      },
+      "description": "Over-the-Counter drugs in the FDA approved drug dataset.",
+      "pubchem_hnid": 17060387,
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/about-drugsfda",
+      "id": 69
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Prescription drugs"
+        }
+      },
+      "description": "Prescription drugs in the FDA approved drug dataset.",
+      "pubchem_hnid": 17060388,
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/about-drugsfda",
+      "id": 70
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Tentative Approval or none market status"
+        }
+      },
+      "description": "Drugs with tentative approval or non market status from the FDA approved drug dataset.",
+      "pubchem_hnid": 17060389,
+      "url": "https://www.fda.gov/drugs/drug-approvals-and-databases/about-drugsfda",
+      "id": 71
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "FDA Generally Recognized as Safe (GRAS)"
+        }
+      },
+      "description": "This list contains substances from the FDA Generally Recognized as Safe (GRAS) under sections 201(s) and 409 of the Federal Food, Drug, and Cosmetic Act (the Act).",
+      "pubchem_hnid": 17060433,
+      "url": "https://www.fda.gov/food/food-ingredients-packaging/generally-recognized-safe-gras",
+      "id": 72
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "FDA Medication Guide"
+        }
+      },
+      "description": "Drug and active ingredient list from FDA Medication Guide. Regulation reference: <href=\"https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-208\">21 eCFR 208</a>",
+      "pubchem_hnid": 17060434,
+      "url": "https://dps.fda.gov/medguide",
+      "id": 73
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "FDA Biological Products"
+        }
+      },
+      "description": "Biological Product list from FDA Purple Book",
+      "pubchem_hnid": 17060435,
+      "url": "https://www.fda.gov/drugs/therapeutic-biologics-applications-bla/purple-book-lists-licensed-biological-products-reference-product-exclusivity-and-biosimilarity-or",
+      "id": 74
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "FDA Packaging & Food Contact Substances (FCS)"
+        }
+      },
+      "description": "This list contains an inventory of substances authorized in Title 21 of the U.S. Code of Federal Regulations (21 CFR) for uses in contact with foods. The database contains information on the substance identity and listed FDA regulations for the specific intended uses and use conditions authorized.",
+      "pubchem_hnid": 17060436,
+      "url": "https://www.fda.gov/food/food-ingredients-packaging/packaging-food-contact-substances-fcs",
+      "id": 75
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Japan PMDA Drug Information"
+        }
+      },
+      "description": "Japan Pharmaceuticals and Medical Devices Agency (PMDA)",
+      "pubchem_hnid": 17060437,
+      "url": "https://www.pmda.go.jp/english/",
+      "id": 76
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "New Zealand Inventory of Chemicals (NZIoC)"
+        }
+      },
+      "description": "NZIoC is a collection of all hazardous single chemicals that can be used in products assigned to a group standard. Reference: Hazardous Substances and New Organisms (HSNO) Act 1996",
+      "pubchem_hnid": 17060440,
+      "url": "https://www.epa.govt.nz/database-search/new-zealand-inventory-of-chemicals-nzioc/",
+      "id": 77
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "HSNO Approved Substances"
+        }
+      },
+      "description": "This list contains substance with HSNO approval.",
+      "pubchem_hnid": 17060441,
+      "url": "https://www.epa.govt.nz/hazardous-substances/how-we-manage-hazardous-substances/about-hazardous-substances-and-hsno",
+      "id": 78
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Not Approved Substances"
+        }
+      },
+      "description": "This list contains substances does not have an individual approval but may be used under an appropriate group standard or does not have an individual approval but may be used as a component in a product covered by a group standard. It is not approved for use as a chemical in its own right.",
+      "pubchem_hnid": 17060442,
+      "url": "https://www.epa.govt.nz/hazardous-substances/substance-approvals-and-group-standards/individual-substance-approvals/how-to-assign-your-product-to-an-individual-approval",
+      "id": 79
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Non Hazardous Substances"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 17060443,
+      "url": "https://www.epa.govt.nz/hazardous-substances/",
+      "id": 80
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "US OSHA Chemical Hazards and Toxic Substances"
+        }
+      },
+      "description": "The US OSHA (Occupational Safety and Health Administration) sets enforceable permissible exposure limits (PELs) to protect workers against the health effects of exposure to hazardous substances, including limits on the airborne concentrations of hazardous chemicals in the air. Reference: eCFR 29-1910.1000(Z)",
+      "pubchem_hnid": 17060444,
+      "url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1000TABLEZ1",
+      "id": 81
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "USGS Health-Based Screening Levels for Evaluating Water-Quality"
+        }
+      },
+      "description": "USGS Health-Based Screening Levels for Evaluating Water-Quality Data",
+      "pubchem_hnid": 17060469,
+      "url": "https://water.usgs.gov/water-resources/hbsl/",
+      "id": 82
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Degradation product"
+        }
+      },
+      "description": "Chemical classes",
+      "pubchem_hnid": 17060454,
+      "url": null,
+      "id": 83
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Hormone"
+        }
+      },
+      "description": "Chemical classes",
+      "pubchem_hnid": 17060455,
+      "url": null,
+      "id": 84
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Major ion"
+        }
+      },
+      "description": "Chemical classes",
+      "pubchem_hnid": 17060456,
+      "url": null,
+      "id": 85
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Nutrient"
+        }
+      },
+      "description": "Chemical classes",
+      "pubchem_hnid": 17060457,
+      "url": null,
+      "id": 86
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Other emerging contaminant"
+        }
+      },
+      "description": "Chemical classes",
+      "pubchem_hnid": 17060458,
+      "url": null,
+      "id": 87
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "PFAS"
+        }
+      },
+      "description": "Chemical classes",
+      "pubchem_hnid": 17060459,
+      "url": null,
+      "id": 88
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Pesticide"
+        }
+      },
+      "description": "Chemical classes",
+      "pubchem_hnid": 17060460,
+      "url": null,
+      "id": 89
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Pesticide degradation product"
+        }
+      },
+      "description": "Chemical classes",
+      "pubchem_hnid": 17060461,
+      "url": null,
+      "id": 90
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Pharmaceutical"
+        }
+      },
+      "description": "Chemical classes",
+      "pubchem_hnid": 17060462,
+      "url": null,
+      "id": 91
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Polychlorinated biphenyl"
+        }
+      },
+      "description": "Chemical classes",
+      "pubchem_hnid": 17060463,
+      "url": null,
+      "id": 92
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Radionuclide"
+        }
+      },
+      "description": "Chemical classes",
+      "pubchem_hnid": 17060464,
+      "url": null,
+      "id": 93
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Semi-Volatile Organic Compound"
+        }
+      },
+      "description": "Chemical classes",
+      "pubchem_hnid": 17060465,
+      "url": null,
+      "id": 94
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Trace element"
+        }
+      },
+      "description": "Chemical classes",
+      "pubchem_hnid": 17060466,
+      "url": null,
+      "id": 95
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Volatile Organic Compound"
+        }
+      },
+      "description": "Chemical classes",
+      "pubchem_hnid": 17060467,
+      "url": null,
+      "id": 96
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Waste-water effluent contaminant"
+        }
+      },
+      "description": "Chemical classes",
+      "pubchem_hnid": 17060468,
+      "url": null,
+      "id": 97
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "target": 5
+    },
+    {
+      "source": 2,
+      "target": 3
+    },
+    {
+      "source": 2,
+      "target": 4
+    },
+    {
+      "source": 5,
+      "target": 6
+    },
+    {
+      "source": 5,
+      "target": 7
+    },
+    {
+      "source": 5,
+      "target": 8
+    },
+    {
+      "source": 5,
+      "target": 9
+    },
+    {
+      "source": 5,
+      "target": 10
+    },
+    {
+      "source": 11,
+      "target": 12
+    },
+    {
+      "source": 11,
+      "target": 13
+    },
+    {
+      "source": 11,
+      "target": 14
+    },
+    {
+      "source": 11,
+      "target": 15
+    },
+    {
+      "source": 16,
+      "target": 17
+    },
+    {
+      "source": 16,
+      "target": 18
+    },
+    {
+      "source": 19,
+      "target": 20
+    },
+    {
+      "source": 19,
+      "target": 21
+    },
+    {
+      "source": 23,
+      "target": 24
+    },
+    {
+      "source": 23,
+      "target": 25
+    },
+    {
+      "source": 25,
+      "target": 26
+    },
+    {
+      "source": 25,
+      "target": 27
+    },
+    {
+      "source": 25,
+      "target": 28
+    },
+    {
+      "source": 29,
+      "target": 30
+    },
+    {
+      "source": 29,
+      "target": 35
+    },
+    {
+      "source": 29,
+      "target": 36
+    },
+    {
+      "source": 29,
+      "target": 37
+    },
+    {
+      "source": 29,
+      "target": 57
+    },
+    {
+      "source": 30,
+      "target": 31
+    },
+    {
+      "source": 30,
+      "target": 32
+    },
+    {
+      "source": 30,
+      "target": 33
+    },
+    {
+      "source": 30,
+      "target": 34
+    },
+    {
+      "source": 37,
+      "target": 38
+    },
+    {
+      "source": 37,
+      "target": 53
+    },
+    {
+      "source": 37,
+      "target": 56
+    },
+    {
+      "source": 38,
+      "target": 39
+    },
+    {
+      "source": 38,
+      "target": 40
+    },
+    {
+      "source": 38,
+      "target": 41
+    },
+    {
+      "source": 38,
+      "target": 42
+    },
+    {
+      "source": 38,
+      "target": 43
+    },
+    {
+      "source": 38,
+      "target": 44
+    },
+    {
+      "source": 38,
+      "target": 45
+    },
+    {
+      "source": 38,
+      "target": 46
+    },
+    {
+      "source": 38,
+      "target": 47
+    },
+    {
+      "source": 38,
+      "target": 48
+    },
+    {
+      "source": 38,
+      "target": 49
+    },
+    {
+      "source": 38,
+      "target": 50
+    },
+    {
+      "source": 38,
+      "target": 51
+    },
+    {
+      "source": 38,
+      "target": 52
+    },
+    {
+      "source": 53,
+      "target": 54
+    },
+    {
+      "source": 53,
+      "target": 55
+    },
+    {
+      "source": 58,
+      "target": 59
+    },
+    {
+      "source": 58,
+      "target": 60
+    },
+    {
+      "source": 58,
+      "target": 61
+    },
+    {
+      "source": 62,
+      "target": 63
+    },
+    {
+      "source": 62,
+      "target": 64
+    },
+    {
+      "source": 62,
+      "target": 65
+    },
+    {
+      "source": 62,
+      "target": 72
+    },
+    {
+      "source": 62,
+      "target": 73
+    },
+    {
+      "source": 62,
+      "target": 74
+    },
+    {
+      "source": 62,
+      "target": 75
+    },
+    {
+      "source": 65,
+      "target": 66
+    },
+    {
+      "source": 66,
+      "target": 67
+    },
+    {
+      "source": 66,
+      "target": 68
+    },
+    {
+      "source": 66,
+      "target": 69
+    },
+    {
+      "source": 66,
+      "target": 70
+    },
+    {
+      "source": 66,
+      "target": 71
+    },
+    {
+      "source": 77,
+      "target": 78
+    },
+    {
+      "source": 77,
+      "target": 79
+    },
+    {
+      "source": 77,
+      "target": 80
+    },
+    {
+      "source": 82,
+      "target": 83
+    },
+    {
+      "source": 82,
+      "target": 84
+    },
+    {
+      "source": 82,
+      "target": 85
+    },
+    {
+      "source": 82,
+      "target": 86
+    },
+    {
+      "source": 82,
+      "target": 87
+    },
+    {
+      "source": 82,
+      "target": 88
+    },
+    {
+      "source": 82,
+      "target": 89
+    },
+    {
+      "source": 82,
+      "target": 90
+    },
+    {
+      "source": 82,
+      "target": 91
+    },
+    {
+      "source": 82,
+      "target": 92
+    },
+    {
+      "source": 82,
+      "target": 93
+    },
+    {
+      "source": 82,
+      "target": 94
+    },
+    {
+      "source": 82,
+      "target": 95
+    },
+    {
+      "source": 82,
+      "target": 96
+    },
+    {
+      "source": 82,
+      "target": 97
+    }
+  ]
+}

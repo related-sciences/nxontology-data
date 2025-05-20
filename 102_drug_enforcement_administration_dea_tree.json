@@ -3,131 +3,266 @@
   "multigraph": false,
   "graph": {
     "nxontology_version": "0.5.1.dev7+gb68411d",
-    "nxontology_created": "2024-01-01T00:32:35+00:00",
+    "nxontology_created": "2025-05-20T20:11:29+00:00",
     "name": "102_drug_enforcement_administration_dea_tree",
     "pubchem_hierarchy_id": 102,
     "pubchem_source_id": "dea_tree",
     "pubchem_source_name": "Drug Enforcement Administration (DEA)",
-    "pubchem_description": [
-      "The DEA drug contains 9 classes, the controlled substances are classified into 5 categories [Controlled Substances Act (21 U.S.C. sec. 801 et seq.) schedule], and the chemical control program contains List I and List II chemicals [https://www.deadiversion.usdoj.gov/pubs/manuals/chem/chem_manual.pdf]."
-    ],
-    "pubchem_comments": [
-      "Update: 2022-12-02 15:52:53"
-    ],
-    "source_url": "https://www.dea.gov/drug-scheduling"
+    "pubchem_description": {
+      "StringWithMarkup": [
+        {
+          "String": "The DEA (Drug Enforcement Administration) drug and chemical classification tree contains chemical substances from the controlled substance schedules, substance classes, and regulated chemical lists. [21 eCFR-II]",
+          "Markup": [
+            {
+              "Start": 200,
+              "Length": 10,
+              "URL": "https://www.ecfr.gov/current/title-21/chapter-II"
+            }
+          ]
+        }
+      ]
+    },
+    "pubchem_comments": {
+      "StringWithMarkup": [
+        {
+          "String": "The controlled substances are classified into 5 categories [Controlled Substances Act (21 USC sec. 801 et seq.) and 21 eCFR 1308.11-1308.15], and the chemical control program contains List I and List II chemicals [21 eCFR Section 1310.02(a)(b)].",
+          "Markup": [
+            {
+              "Start": 116,
+              "Length": 23,
+              "URL": "https://www.ecfr.gov/current/title-21/chapter-II/part-1308"
+            },
+            {
+              "Start": 214,
+              "Length": 29,
+              "URL": "https://www.ecfr.gov/current/title-21/chapter-II/part-1310/section-1310.02"
+            }
+          ]
+        }
+      ]
+    },
+    "source_url": "https://www.dea.gov/drug-information/drug-scheduling"
   },
   "nodes": [
     {
-      "name": "DEA Drugs",
-      "description": null,
-      "pubchem_hnid": 4025045,
-      "url": null,
+      "name": {
+        "StringWithMarkup": {
+          "String": "DEA Controlled Substances"
+        }
+      },
+      "description": "The DEA controlled substances are classified into 5 schedules.",
+      "pubchem_hnid": 4025046,
+      "url": "https://www.ecfr.gov/current/title-21/chapter-II/part-1308",
       "id": 1
     },
     {
-      "name": "Cannabis",
-      "description": null,
-      "pubchem_hnid": 4025048,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Schedule I"
+        }
+      },
+      "description": "Substances in the DEA Schedule I have no currently accepted medical use in the United States, a lack of accepted safety for use under medical supervision, and a high potential for abuse.",
+      "pubchem_hnid": 4025055,
       "url": null,
       "id": 2
     },
     {
-      "name": "Depressants",
-      "description": null,
-      "pubchem_hnid": 4025049,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Schedule II"
+        }
+      },
+      "description": "Substances in the DEA Schedule II have a high potential for abuse which may lead to severe psychological or physical dependence.",
+      "pubchem_hnid": 4025056,
       "url": null,
       "id": 3
     },
     {
-      "name": "Designer Drugs",
-      "description": null,
-      "pubchem_hnid": 4025050,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Schedule III"
+        }
+      },
+      "description": "Substances in the DEA Schedule III have a potential for abuse less than substances in Schedules I or II and abuse may lead to moderate or low physical dependence or high psychological dependence.",
+      "pubchem_hnid": 4025057,
       "url": null,
       "id": 4
     },
     {
-      "name": "Hallucinogen",
-      "description": null,
-      "pubchem_hnid": 4025051,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Schedule IV"
+        }
+      },
+      "description": "Substances in the DEA Schedule IV have a low potential for abuse relative to substances in Schedule III.",
+      "pubchem_hnid": 4025058,
       "url": null,
       "id": 5
     },
     {
-      "name": "Narcotics (Opioids)",
-      "description": null,
-      "pubchem_hnid": 4025053,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Schedule V"
+        }
+      },
+      "description": "Substances in the DEA Schedule V have a low potential for abuse relative to substances listed in Schedule IV and consist primarily of preparations containing limited quantities of certain narcotics.",
+      "pubchem_hnid": 4025059,
       "url": null,
       "id": 6
     },
     {
-      "name": "Stimulants",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Substance Class: Cannabimimetic agents"
+        }
+      },
       "description": null,
-      "pubchem_hnid": 4025054,
+      "pubchem_hnid": 12871078,
       "url": null,
       "id": 7
     },
     {
-      "name": "Drugs of Concern",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Substance Class: Depressants"
+        }
+      },
       "description": null,
-      "pubchem_hnid": 5564134,
+      "pubchem_hnid": 12871079,
       "url": null,
       "id": 8
     },
     {
-      "name": "Inhalant",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Substance Class: Hallucinogenic substances"
+        }
+      },
       "description": null,
-      "pubchem_hnid": 5564135,
+      "pubchem_hnid": 12871080,
       "url": null,
       "id": 9
     },
     {
-      "name": "Steroids",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Substance Class: Immediate precursors"
+        }
+      },
       "description": null,
-      "pubchem_hnid": 5564136,
+      "pubchem_hnid": 12871081,
       "url": null,
       "id": 10
     },
     {
-      "name": "DEA Controlled Substances",
-      "description": "The DEA controlled substances are classified into 5 schedules.",
-      "pubchem_hnid": 4025046,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Substance Class: Lorcaserin"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 12871082,
       "url": null,
       "id": 11
     },
     {
-      "name": "Schedule I",
-      "description": "Substances in the DEA Schedule I have no currently accepted medical use in the United States, a lack of accepted safety for use under medical supervision, and a high potential for abuse.",
-      "pubchem_hnid": 4025055,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Substance Class: Narcotic drugs"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 12871083,
       "url": null,
       "id": 12
     },
     {
-      "name": "Schedule II",
-      "description": "Substances in the DEA Schedule II have a high potential for abuse which may lead to severe psychological or physical dependence.",
-      "pubchem_hnid": 4025056,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Substance Class: Opiates"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 12871084,
       "url": null,
       "id": 13
     },
     {
-      "name": "Schedule III",
-      "description": "Substances in the DEA Schedule III have a potential for abuse less than substances in Schedules I or II and abuse may lead to moderate or low physical dependence or high psychological dependence.",
-      "pubchem_hnid": 4025057,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Substance Class: Opium derivatives"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 12871085,
       "url": null,
       "id": 14
     },
     {
-      "name": "Schedule IV",
-      "description": "Substances in the DEA Schedule IV have a low potential for abuse relative to substances in Schedule III.",
-      "pubchem_hnid": 4025058,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Substance Class: Other substances"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 12871086,
       "url": null,
       "id": 15
     },
     {
-      "name": "Schedule V",
-      "description": "Substances in the DEA Schedule V have a low potential for abuse relative to substances listed in Schedule IV and consist primarily of preparations containing limited quantities of certain narcotics.",
-      "pubchem_hnid": 4025059,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Substance Class: Stimulants"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 12871087,
       "url": null,
       "id": 16
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Substance Class: Temporary listing of substances subject to emergency scheduling"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 12871088,
+      "url": null,
+      "id": 17
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "DEA Listed Chemicals"
+        }
+      },
+      "description": "The DEA listed chemicals are classified into 2 lists.",
+      "pubchem_hnid": 4025047,
+      "url": "https://www.ecfr.gov/current/title-21/chapter-II/part-1310/section-1310.02",
+      "id": 18
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "List I"
+        }
+      },
+      "description": "A chemical specified by regulation that, in addition to legitimate uses, is used in manufacturing a controlled substance in violation of the Act and is important to the manufacture of a controlled substance. (21 eCFR 1310.02)",
+      "pubchem_hnid": 4025060,
+      "url": null,
+      "id": 19
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "List II"
+        }
+      },
+      "description": "A chemical, other than a List I chemical, specified by regulation that, in addition to legitimate uses, is used in manufacturing a controlled substance in violation of the Act. (21 eCFR 1310.02)",
+      "pubchem_hnid": 4025061,
+      "url": null,
+      "id": 20
     }
   ],
   "links": [
@@ -168,24 +303,40 @@
       "target": 10
     },
     {
-      "source": 11,
+      "source": 1,
+      "target": 11
+    },
+    {
+      "source": 1,
       "target": 12
     },
     {
-      "source": 11,
+      "source": 1,
       "target": 13
     },
     {
-      "source": 11,
+      "source": 1,
       "target": 14
     },
     {
-      "source": 11,
+      "source": 1,
       "target": 15
     },
     {
-      "source": 11,
+      "source": 1,
       "target": 16
+    },
+    {
+      "source": 1,
+      "target": 17
+    },
+    {
+      "source": 18,
+      "target": 19
+    },
+    {
+      "source": 18,
+      "target": 20
     }
   ]
 }

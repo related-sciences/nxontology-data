@@ -3,15 +3,19 @@
   "multigraph": false,
   "graph": {
     "nxontology_version": "0.5.1.dev7+gb68411d",
-    "nxontology_created": "2024-01-01T00:31:17+00:00",
+    "nxontology_created": "2025-05-20T20:06:13+00:00",
     "name": "028_kegg_br08331",
     "pubchem_hierarchy_id": 28,
     "pubchem_source_id": "br08331",
     "pubchem_source_name": "KEGG",
     "pubchem_description": null,
-    "pubchem_comments": [
-      "Last updated: February 23, 2015"
-    ],
+    "pubchem_comments": {
+      "StringWithMarkup": [
+        {
+          "String": "Last updated: February 23, 2015"
+        }
+      ]
+    },
     "source_url": "http://www.genome.jp/kegg-bin/get_htext?br08331.keg"
   },
   "nodes": [
@@ -3377,7 +3381,7 @@
     },
     {
       "name": null,
-      "description": "Johne's disease#??paratuberculosis (Mycobacterium avium) antigen",
+      "description": "Johne's disease−paratuberculosis (Mycobacterium avium) antigen",
       "pubchem_hnid": 2374264,
       "url": null,
       "id": 481

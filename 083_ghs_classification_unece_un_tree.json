@@ -1,0 +1,4025 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {
+    "nxontology_version": "0.5.1.dev7+gb68411d",
+    "nxontology_created": "2025-05-20T20:06:25+00:00",
+    "name": "083_ghs_classification_unece_un_tree",
+    "pubchem_hierarchy_id": 83,
+    "pubchem_source_id": "UN_GHS_tree",
+    "pubchem_source_name": "GHS Classification (UNECE)",
+    "pubchem_description": {
+      "StringWithMarkup": [
+        {
+          "String": "The United Nations' Globally Harmonized System of Classification and Labeling of Chemicals (GHS) provides a harmonized basis for globally uniform physical, environmental, health and safety information on hazardous chemical substances and mixtures."
+        }
+      ]
+    },
+    "pubchem_comments": {
+      "StringWithMarkup": [
+        {
+          "String": "It sets up criteria for the classification of chemicals for physical-chemical, health, and environmental hazards of chemical substances and mixtures and sets up standardized hazard information to facilitate global trade of chemicals. Please note that obsolete codes are added in this classification for completeness purposes, as they are still in use. Any obsolete codes are annotated as such. For GHS summary, visit this website.",
+          "Markup": [
+            {
+              "Start": 417,
+              "Length": 12,
+              "URL": "https://pubchem.ncbi.nlm.nih.gov/ghs/"
+            }
+          ]
+        }
+      ]
+    },
+    "source_url": "http://www.unece.org/trans/danger/publi/ghs/ghs_welcome_e.html"
+  },
+  "nodes": [
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Hazard Statement Codes"
+        }
+      },
+      "description": "The GHS Hazard Statement Code is intended to be used for reference purpose for a hazard statement. It is not a ppart of the hazard statement.",
+      "pubchem_hnid": 3069708,
+      "url": null,
+      "id": 1
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H200: Physical Hazards"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069715,
+      "url": null,
+      "id": 2
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H200: (Deleted) Unstable Explosive [Danger Explosives]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069721,
+      "url": null,
+      "id": 3
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H201: (Deleted) Explosive; mass explosion hazard [Danger Explosives]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069722,
+      "url": null,
+      "id": 4
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H202: (Deleted) Explosive; severe projection hazard [Danger Explosives]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069723,
+      "url": null,
+      "id": 5
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H203: (Deleted) Explosive; fire, blast or projection hazard [Danger Explosives]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069724,
+      "url": null,
+      "id": 6
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H204: Fire or projection hazard [Warning Explosives]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069725,
+      "url": null,
+      "id": 7
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H205: (Deleted) May mass explode in fire [Danger Explosives]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069726,
+      "url": null,
+      "id": 8
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H220: Extremely flammable gas [Danger Flammable gases]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069727,
+      "url": null,
+      "id": 9
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H221: Flammable gas [Danger Flammable gases]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069728,
+      "url": null,
+      "id": 10
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H223: Flammable aerosol [Warning Aerosols]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069729,
+      "url": null,
+      "id": 11
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H224: Extremely flammable liquid and vapor [Danger Flammable liquids]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069730,
+      "url": null,
+      "id": 12
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H225: Highly Flammable liquid and vapor [Danger Flammable liquids]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069731,
+      "url": null,
+      "id": 13
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H226: Flammable liquid and vapor [Warning Flammable liquids]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069732,
+      "url": null,
+      "id": 14
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H227: Combustible liquid [Warning Flammable liquids]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069733,
+      "url": null,
+      "id": 15
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H228: Flammable solid [Danger Flammable solids]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069734,
+      "url": null,
+      "id": 16
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H229: Pressurized container: may burst if heated [Danger Aerosols]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069735,
+      "url": null,
+      "id": 17
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H230: May react explosively even in the absence of air [Danger Flammable gases]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069736,
+      "url": null,
+      "id": 18
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H231: May react explosively even in the absence of air at elevated pressure and/or temperature [Danger Flammable gases]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069737,
+      "url": null,
+      "id": 19
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H240: Heating may cause an explosion [Danger Self-reactive substances and mixtures; Organic peroxides]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069738,
+      "url": null,
+      "id": 20
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H241: Heating may cause a fire or explosion [Danger Self-reactive substances and mixtures; Organic peroxides]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069739,
+      "url": null,
+      "id": 21
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H242: Heating may cause a fire [Danger Self-reactive substances and mixtures; Organic peroxides]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069740,
+      "url": null,
+      "id": 22
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H250: Catches fire spontaneously if exposed to air [Danger Pyrophoric liquids]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069741,
+      "url": null,
+      "id": 23
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H251: Self-heating; may catch fire [Danger Self-heating substances and mixtures]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069742,
+      "url": null,
+      "id": 24
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H252: Self-heating in large quantities; may catch fire [Warning Self-heating substances and mixtures]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069743,
+      "url": null,
+      "id": 25
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H260: In contact with water releases flammable gases which may ignite spontaneously [Danger Substances and mixtures which in contact with water, emit flammable gases]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069744,
+      "url": null,
+      "id": 26
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H261: In contact with water releases flammable gas [Danger Substances and mixtures which in contact with water, emit flammable gases]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069745,
+      "url": null,
+      "id": 27
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H270: May cause or intensify fire; oxidizer [Danger Oxidizing gases]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069746,
+      "url": null,
+      "id": 28
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H271: May cause fire or explosion; strong Oxidizer [Danger Oxidizing liquids; Oxidizing solids]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069747,
+      "url": null,
+      "id": 29
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H272: May intensify fire; oxidizer [Danger Oxidizing liquids; Oxidizing solids]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069748,
+      "url": null,
+      "id": 30
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H280: Contains gas under pressure; may explode if heated [Warning Gases under pressure]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069749,
+      "url": null,
+      "id": 31
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H281: Contains refrigerated gas; may cause cryogenic burns or injury [Warning Gases under pressure]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069750,
+      "url": null,
+      "id": 32
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H290: May be corrosive to metals [Warning Corrosive to Metals]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069751,
+      "url": null,
+      "id": 33
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H222: Extremely flammable aerosol [Danger Aerosols]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4924015,
+      "url": null,
+      "id": 34
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H232: May ignite spontaneously if exposed to air [Danger Flammable gases]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 17060470,
+      "url": null,
+      "id": 35
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H300: Health Hazards"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069716,
+      "url": null,
+      "id": 36
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H300: Fatal if swallowed [Danger Acute toxicity, oral]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069752,
+      "url": null,
+      "id": 37
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H300+H310: Fatal if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069753,
+      "url": null,
+      "id": 38
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H300+H310+H330: Fatal if swallowed, in contact with skin or if inhaled [Danger Acute toxicity, oral; acute toxicity, dermal; acute toxicity, inhalation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069754,
+      "url": null,
+      "id": 39
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H300+H330: Fatal if swallowed or if inhaled [Danger Acute toxicity, oral; acute toxicity, inhalation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069755,
+      "url": null,
+      "id": 40
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H301: Toxic if swallowed [Danger Acute toxicity, oral]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069756,
+      "url": null,
+      "id": 41
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H301+H311: Toxic if swallowed or in contact with skin [Danger Acute toxicity, oral; acute toxicity, dermal]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069757,
+      "url": null,
+      "id": 42
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H301+H311+H331: Toxic if swallowed, in contact with skin or if inhaled [Danger Acute toxicity, oral; acute toxicity, dermal; acute toxicity, inhalation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069758,
+      "url": null,
+      "id": 43
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H301+H331: Toxic if swallowed or if inhaled [Danger Acute toxicity, oral; acute toxicity, inhalation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069759,
+      "url": null,
+      "id": 44
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H302: Harmful if swallowed [Warning Acute toxicity, oral]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069760,
+      "url": null,
+      "id": 45
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H302+H312: Harmful if swallowed or in contact with skin [Warning Acute toxicity, oral; acute toxicity, dermal]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069761,
+      "url": null,
+      "id": 46
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H302+H312+H332: Harmful if swallowed, in contact with skin or if inhaled [Warning Acute toxicity, oral; acute toxicity, dermal; acute toxicity, inhalation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069762,
+      "url": null,
+      "id": 47
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H302+H332: Harmful if swallowed or if inhaled [Warning Acute toxicity, oral; acute toxicity, inhalation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069763,
+      "url": null,
+      "id": 48
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H303: May be harmful if swallowed [Warning Acute toxicity, oral]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069764,
+      "url": null,
+      "id": 49
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H303+H313+H333: May be harmful if swallowed, in contact with skin or if inhaled [Warning Acute toxicity, oral; acute toxicity, dermal; acute toxicity, inhalation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069765,
+      "url": null,
+      "id": 50
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H303+H333: May be harmful if swallowed or if inhaled [Warning Acute toxicity, oral; acute toxicity, inhalation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069766,
+      "url": null,
+      "id": 51
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H304: May be fatal if swallowed and enters airways [Danger Aspiration hazard]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069767,
+      "url": null,
+      "id": 52
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H305: May be harmful if swallowed and enters airways [Warning Aspiration hazard]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069768,
+      "url": null,
+      "id": 53
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H310: Fatal in contact with skin [Danger Acute toxicity, dermal]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069769,
+      "url": null,
+      "id": 54
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H310+H330: Fatal in contact with skin or if inhaled [Danger Acute toxicity, dermal; acute toxicity, inhalation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069770,
+      "url": null,
+      "id": 55
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H311: Toxic in contact with skin [Danger Acute toxicity, dermal]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069771,
+      "url": null,
+      "id": 56
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H311+H331: Toxic in contact with skin or if inhaled. [Danger Acute toxicity, dermal; acute toxicity, inhalation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069772,
+      "url": null,
+      "id": 57
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H312: Harmful in contact with skin [Warning Acute toxicity, dermal]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069773,
+      "url": null,
+      "id": 58
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H312+H332: Harmful in contact with skin or if inhaled [Warning Acute toxicity, dermal; acute toxicity, inhalation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069774,
+      "url": null,
+      "id": 59
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H313: May be harmful in contact with skin [Warning Acute toxicity, dermal]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069775,
+      "url": null,
+      "id": 60
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H314: Causes severe skin burns and eye damage [Danger Skin corrosion/irritation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069776,
+      "url": null,
+      "id": 61
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H315: Causes skin irritation [Warning Skin corrosion/irritation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069777,
+      "url": null,
+      "id": 62
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H315+H320: Cause skin and eye irritation [Warning Skin corrosion/irritation and serious eye damage/eye irritation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069778,
+      "url": null,
+      "id": 63
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H316: Causes mild skin irritation [Warning Skin corrosion/irritation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069779,
+      "url": null,
+      "id": 64
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H317: May cause an allergic skin reaction [Warning Sensitization, Skin]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069780,
+      "url": null,
+      "id": 65
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H318: Causes serious eye damage [Danger Serious eye damage/eye irritation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069781,
+      "url": null,
+      "id": 66
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H319: Causes serious eye irritation [Warning Serious eye damage/eye irritation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069782,
+      "url": null,
+      "id": 67
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H320: Causes eye irritation [Warning Serious eye damage/eye irritation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069783,
+      "url": null,
+      "id": 68
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H330: Fatal if inhaled [Danger Acute toxicity, inhalation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069784,
+      "url": null,
+      "id": 69
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H331: Toxic if inhaled [Danger Acute toxicity, inhalation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069785,
+      "url": null,
+      "id": 70
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H332: Harmful if inhaled [Warning Acute toxicity, inhalation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069786,
+      "url": null,
+      "id": 71
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H333: May be harmful if inhaled [Warning Acute toxicity, inhalation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069787,
+      "url": null,
+      "id": 72
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H334: May cause allergy or asthma symptoms or breathing difficulties if inhaled [Danger Sensitization, respiratory]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069788,
+      "url": null,
+      "id": 73
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H335: May cause respiratory irritation [Warning Specific target organ toxicity, single exposure; Respiratory tract irritation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069789,
+      "url": null,
+      "id": 74
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H336: May cause drowsiness or dizziness [Warning Specific target organ toxicity, single exposure; Narcotic effects]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069790,
+      "url": null,
+      "id": 75
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H340: May cause genetic defects [Danger Germ cell mutagenicity]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069791,
+      "url": null,
+      "id": 76
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H341: Suspected of causing genetic defects [Warning Germ cell mutagenicity]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069792,
+      "url": null,
+      "id": 77
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H350: May cause cancer [Danger Carcinogenicity]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069793,
+      "url": null,
+      "id": 78
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H350i: May cause cancer by inhalation [Danger Carcinogenicity]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069794,
+      "url": null,
+      "id": 79
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H351: Suspected of causing cancer [Warning Carcinogenicity]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069795,
+      "url": null,
+      "id": 80
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H360: May damage fertility or the unborn child [Danger Reproductive toxicity]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069796,
+      "url": null,
+      "id": 81
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H360D: May damage the unborn child [Danger Reproductive toxicity]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069797,
+      "url": null,
+      "id": 82
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H360Df: May damage the unborn child; Suspected of damaging fertility [Danger Reproductive toxicity]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069798,
+      "url": null,
+      "id": 83
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H360F: May damage fertility [Danger Reproductive toxicity]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069799,
+      "url": null,
+      "id": 84
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H360FD: May damage fertility; May damage the unborn child [Danger Reproductive toxicity]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069800,
+      "url": null,
+      "id": 85
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H360Fd: May damage fertility; Suspected of damaging the unborn child [Danger Reproductive toxicity]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069801,
+      "url": null,
+      "id": 86
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H361: Suspected of damaging fertility or the unborn child [Warning Reproductive toxicity]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069802,
+      "url": null,
+      "id": 87
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H361d: Suspected of damaging the unborn child [Warning Reproductive toxicity]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069803,
+      "url": null,
+      "id": 88
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H361f: Suspected of damaging fertility [Warning Reproductive toxicity]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069804,
+      "url": null,
+      "id": 89
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H361fd: Suspected of damaging fertility; Suspected of damaging the unborn child [Warning Reproductive toxicity]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069805,
+      "url": null,
+      "id": 90
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H362: May cause harm to breast-fed children [Reproductive toxicity, effects on or via lactation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069806,
+      "url": null,
+      "id": 91
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H370: Causes damage to organs [Danger Specific target organ toxicity, single exposure]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069807,
+      "url": null,
+      "id": 92
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H371: May cause damage to organs [Warning Specific target organ toxicity, single exposure]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069808,
+      "url": null,
+      "id": 93
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H372: Causes damage to organs through prolonged or repeated exposure [Danger Specific target organ toxicity, repeated exposure]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069809,
+      "url": null,
+      "id": 94
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H373: May causes damage to organs through prolonged or repeated exposure [Warning Specific target organ toxicity, repeated exposure]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069810,
+      "url": null,
+      "id": 95
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H313+H333: May be harmful in contact with skin or if inhaled [Warning Acute toxicity, dermal; acute toxicity, inhalation]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3966264,
+      "url": null,
+      "id": 96
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H400: Environmental Hazards"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069717,
+      "url": null,
+      "id": 97
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H400: Very toxic to aquatic life [Warning Hazardous to the aquatic environment, acute hazard]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069811,
+      "url": null,
+      "id": 98
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H401: Toxic to aquatic life [Hazardous to the aquatic environment, acute hazard]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069812,
+      "url": null,
+      "id": 99
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H402: Harmful to aquatic life [Hazardous to the aquatic environment, acute hazard]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069813,
+      "url": null,
+      "id": 100
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H410: Very toxic to aquatic life with long lasting effects [Warning Hazardous to the aquatic environment, long-term hazard]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069814,
+      "url": null,
+      "id": 101
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H411: Toxic to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069815,
+      "url": null,
+      "id": 102
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H412: Harmful to aquatic life with long lasting effects [Hazardous to the aquatic environment, long-term hazard]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069816,
+      "url": null,
+      "id": 103
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H413: May cause long lasting harmful effects to aquatic life [Hazardous to the aquatic environment, long-term hazard]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069817,
+      "url": null,
+      "id": 104
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "H420: Harms public health and the environment by destroying ozone in the upper atmosphere [Warning Hazardous to the ozone layer]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069818,
+      "url": null,
+      "id": 105
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Hazard Classes"
+        }
+      },
+      "description": "The GHS hazard class represents the nature of a chemical hazard, i.e., flammable liquids, carcinogen, etc.",
+      "pubchem_hnid": 3069709,
+      "url": null,
+      "id": 106
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Physical Hazards"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069712,
+      "url": null,
+      "id": 107
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Aerosols"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069826,
+      "url": null,
+      "id": 108
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Corrosive to Metals"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069829,
+      "url": null,
+      "id": 109
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Explosives"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069830,
+      "url": null,
+      "id": 110
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Flammable gases"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069832,
+      "url": null,
+      "id": 111
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Flammable liquids"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069833,
+      "url": null,
+      "id": 112
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Flammable solids"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069834,
+      "url": null,
+      "id": 113
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Gases under pressure"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069835,
+      "url": null,
+      "id": 114
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Oxidizing gases"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069840,
+      "url": null,
+      "id": 115
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Oxidizing liquids; Oxidizing solids"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069841,
+      "url": null,
+      "id": 116
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Self-heating substances and mixtures"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069845,
+      "url": null,
+      "id": 117
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Substances and mixtures which in contact with water, emit flammable gases"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3091654,
+      "url": null,
+      "id": 118
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Self-reactive substances and mixtures; Organic peroxides"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3091655,
+      "url": null,
+      "id": 119
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Pyrophoric solids"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 11378262,
+      "url": null,
+      "id": 120
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Health Hazards"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069713,
+      "url": null,
+      "id": 121
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Acute toxicity, dermal"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069819,
+      "url": null,
+      "id": 122
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Acute toxicity, dermal; acute toxicity, inhalation"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069820,
+      "url": null,
+      "id": 123
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Acute toxicity, inhalation"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069821,
+      "url": null,
+      "id": 124
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Acute toxicity, oral"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069822,
+      "url": null,
+      "id": 125
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Acute toxicity, oral; acute toxicity, dermal"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069823,
+      "url": null,
+      "id": 126
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Acute toxicity, oral; acute toxicity, dermal; acute toxicity, inhalation"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069824,
+      "url": null,
+      "id": 127
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Acute toxicity, oral; acute toxicity, inhalation"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069825,
+      "url": null,
+      "id": 128
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Aspiration hazard"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069827,
+      "url": null,
+      "id": 129
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Carcinogenicity"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069828,
+      "url": null,
+      "id": 130
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Germ cell mutagenicity"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069836,
+      "url": null,
+      "id": 131
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Reproductive toxicity"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069843,
+      "url": null,
+      "id": 132
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Reproductive toxicity, effects on or via lactation"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069844,
+      "url": null,
+      "id": 133
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Sensitization, Skin"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069847,
+      "url": null,
+      "id": 134
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Sensitization, respiratory"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069848,
+      "url": null,
+      "id": 135
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Serious eye damage/eye irritation"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069849,
+      "url": null,
+      "id": 136
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Skin corrosion/irritation"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069850,
+      "url": null,
+      "id": 137
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Skin corrosion/irritation and serious eye damage/eye irritation"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069851,
+      "url": null,
+      "id": 138
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Specific target organ toxicity, repeated exposure"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069852,
+      "url": null,
+      "id": 139
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Specific target organ toxicity, single exposure"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069853,
+      "url": null,
+      "id": 140
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Specific target organ toxicity, single exposure; Narcotic effects"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069854,
+      "url": null,
+      "id": 141
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Specific target organ toxicity, single exposure; Respiratory tract irritation"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069855,
+      "url": null,
+      "id": 142
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Environmental Hazards"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069714,
+      "url": null,
+      "id": 143
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Hazardous to the aquatic environment, acute hazard"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069837,
+      "url": null,
+      "id": 144
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Hazardous to the aquatic environment, long-term hazard"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069838,
+      "url": null,
+      "id": 145
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Hazardous to the ozone layer"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069839,
+      "url": null,
+      "id": 146
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Hazard Pictograms"
+        }
+      },
+      "description": "The Hazard pictograms are part of the GHS classification. There are total 9 pictograms.",
+      "pubchem_hnid": 3069710,
+      "url": null,
+      "id": 147
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "  GHS01",
+          "Markup": [
+            {
+              "Start": 0,
+              "Length": 1,
+              "URL": "https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS01.svg",
+              "Type": "Icon",
+              "Extra": "GHS01: Explosives"
+            }
+          ]
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069857,
+      "url": null,
+      "id": 148
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "  GHS02",
+          "Markup": [
+            {
+              "Start": 0,
+              "Length": 1,
+              "URL": "https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS02.svg",
+              "Type": "Icon",
+              "Extra": "GHS02: Flammables"
+            }
+          ]
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069858,
+      "url": null,
+      "id": 149
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "  GHS03",
+          "Markup": [
+            {
+              "Start": 0,
+              "Length": 1,
+              "URL": "https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS03.svg",
+              "Type": "Icon",
+              "Extra": "GHS03: Oxidizers"
+            }
+          ]
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069859,
+      "url": null,
+      "id": 150
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "  GHS04",
+          "Markup": [
+            {
+              "Start": 0,
+              "Length": 1,
+              "URL": "https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS04.svg",
+              "Type": "Icon",
+              "Extra": "GHS04: Compressed Gases"
+            }
+          ]
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069860,
+      "url": null,
+      "id": 151
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "  GHS05",
+          "Markup": [
+            {
+              "Start": 0,
+              "Length": 1,
+              "URL": "https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS05.svg",
+              "Type": "Icon",
+              "Extra": "GHS05: Corrosives"
+            }
+          ]
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069861,
+      "url": null,
+      "id": 152
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "  GHS06",
+          "Markup": [
+            {
+              "Start": 0,
+              "Length": 1,
+              "URL": "https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS06.svg",
+              "Type": "Icon",
+              "Extra": "GHS06: Acute Toxicity"
+            }
+          ]
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069862,
+      "url": null,
+      "id": 153
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "  GHS07",
+          "Markup": [
+            {
+              "Start": 0,
+              "Length": 1,
+              "URL": "https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS07.svg",
+              "Type": "Icon",
+              "Extra": "GHS07: Irritant"
+            }
+          ]
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069863,
+      "url": null,
+      "id": 154
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "  GHS08",
+          "Markup": [
+            {
+              "Start": 0,
+              "Length": 1,
+              "URL": "https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS08.svg",
+              "Type": "Icon",
+              "Extra": "GHS08: Health Hazard, carcinogen, mutagenicity, reproductive toxicity, target organ toxicity, aspiration hazard"
+            }
+          ]
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069864,
+      "url": null,
+      "id": 155
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "  GHS09",
+          "Markup": [
+            {
+              "Start": 0,
+              "Length": 1,
+              "URL": "https://pubchem.ncbi.nlm.nih.gov/images/ghs/GHS09.svg",
+              "Type": "Icon",
+              "Extra": "GHS09: Environment, aquatic toxicity"
+            }
+          ]
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069865,
+      "url": null,
+      "id": 156
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Precautionary Statement Codes"
+        }
+      },
+      "description": "The GHS precautionary statements are part of the GHS. P-statements provide brief phrases to explain specific measures and safety precautions that should be taken in order to minimize or avoid adverse outcomes that may result from exposure, or improper storage or handling of a hazardous substance.",
+      "pubchem_hnid": 3069711,
+      "url": null,
+      "id": 157
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P200: Prevention Precautionary Statements"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069718,
+      "url": null,
+      "id": 158
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P201: (Deleted) Obtain special instructions before use."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069866,
+      "url": null,
+      "id": 159
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P202: (Deleted) Do not handle until all safety precautions have been read and understood."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069867,
+      "url": null,
+      "id": 160
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P210: Keep away from heat, hot surface, sparks, open flames and other ignition sources. No smoking."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069868,
+      "url": null,
+      "id": 161
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P211: Do not spray on an open flame or other ignition source."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069869,
+      "url": null,
+      "id": 162
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P220: Keep away from clothing and other combustible materials."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069870,
+      "url": null,
+      "id": 163
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P222: Do not allow contact with air."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069872,
+      "url": null,
+      "id": 164
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P223: Do not allow contact with water."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069873,
+      "url": null,
+      "id": 165
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P230: Keep wetted with ..."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069874,
+      "url": null,
+      "id": 166
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P231+P232: Handle and store contents under inert gas/... Protect from moisture."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069875,
+      "url": null,
+      "id": 167
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P233: Keep container tightly closed."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069876,
+      "url": null,
+      "id": 168
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P234: Keep only in original container."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069877,
+      "url": null,
+      "id": 169
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P240: Ground/bond container and receiving equipment."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069879,
+      "url": null,
+      "id": 170
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P241: Use explosion-proof [electrical/ventilating/lighting/.../] equipment."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069880,
+      "url": null,
+      "id": 171
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P242: Use only non-sparking tools."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069881,
+      "url": null,
+      "id": 172
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P243: Take precautionary measures against static discharge."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069882,
+      "url": null,
+      "id": 173
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P244: Keep valves and fittings free from oil and grease."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069883,
+      "url": null,
+      "id": 174
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P250: Do not subject to grinding/shock/friction/..."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069884,
+      "url": null,
+      "id": 175
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P251: Do not pierce or burn, even after use."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069885,
+      "url": null,
+      "id": 176
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P260: Do not breathe dust/fume/gas/mist/vapors/spray."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069886,
+      "url": null,
+      "id": 177
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P261: Avoid breathing dust/fume/gas/mist/vapors/spray."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069887,
+      "url": null,
+      "id": 178
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P262: Do not get in eyes, on skin, or on clothing."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069888,
+      "url": null,
+      "id": 179
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P263: Avoid contact during pregnancy/while nursing."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069889,
+      "url": null,
+      "id": 180
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P264: Wash hands [and ...] thoroughly after handling."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069890,
+      "url": null,
+      "id": 181
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P270: Do not eat, drink or smoke when using this product."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069891,
+      "url": null,
+      "id": 182
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P271: Use only outdoors or in a well-ventilated area."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069892,
+      "url": null,
+      "id": 183
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P272: Contaminated work clothing should not be allowed out of the workplace."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069893,
+      "url": null,
+      "id": 184
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P273: Avoid release to the environment."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069894,
+      "url": null,
+      "id": 185
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P280: Wear protective gloves/protective clothing/eye protection/face protection/hearing protection/..."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069895,
+      "url": null,
+      "id": 186
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P281: (Deleted)Use personal protective equipment as required."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069896,
+      "url": null,
+      "id": 187
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P282: Wear cold insulating glovesand either face shield or eye protection."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069897,
+      "url": null,
+      "id": 188
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P283: Wear fire resistant or flame retardant clothing."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069898,
+      "url": null,
+      "id": 189
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P284: [In case of inadequate ventilation] Wear respiratory protection."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069899,
+      "url": null,
+      "id": 190
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P203: Obtain, read and follow all safety instructions before use."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923871,
+      "url": null,
+      "id": 191
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P231: Handle and store contents under inert gas/..."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923872,
+      "url": null,
+      "id": 192
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P235: Keep cool."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923873,
+      "url": null,
+      "id": 193
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P236: Keep only in original packaging; Division .. in the transport configuraion."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923874,
+      "url": null,
+      "id": 194
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P264+P265: Wash hands [and ...] thoroughly after handling. Do not touch eyes."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923875,
+      "url": null,
+      "id": 195
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P300: Response Precautionary Statements"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069719,
+      "url": null,
+      "id": 196
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P301+P330+P331: IF SWALLOWED: Rinse mouth. Do NOT induce vomiting."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069903,
+      "url": null,
+      "id": 197
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P302+P352: IF ON SKIN: wash with plenty of water/..."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069906,
+      "url": null,
+      "id": 198
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P303+P361+P353: IF ON SKIN (or hair): Take off Immediately all contaminated clothing. Rinse SKIN with water [or shower]."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069907,
+      "url": null,
+      "id": 199
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P304+P340: IF INHALED: Remove person to fresh air and keep comfortable for breathing."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069909,
+      "url": null,
+      "id": 200
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P305+P351+P338: IF IN EYES: Rinse cautiously with water for several minutes. Remove contact lenses if present and easy to do - continue rinsing."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069911,
+      "url": null,
+      "id": 201
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P306+P360: IF ON CLOTHING: Rinse Immediately contaminated CLOTHING and SKIN with plenty of water before removing clothes."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069912,
+      "url": null,
+      "id": 202
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P320: Specific treatment is urgent (see ... on this label)."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069921,
+      "url": null,
+      "id": 203
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P321: Specific treatment (see ... on this label)."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069922,
+      "url": null,
+      "id": 204
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P330: Rinse mouth."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069924,
+      "url": null,
+      "id": 205
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P331: Do NOT induce vomiting."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069925,
+      "url": null,
+      "id": 206
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P363: Wash contaminated clothing before reuse."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069934,
+      "url": null,
+      "id": 207
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P370+P376: in case of fire: Stop leak if safe to do so."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069935,
+      "url": null,
+      "id": 208
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P370+P378: In case of fire: Use ... to extinguish."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069936,
+      "url": null,
+      "id": 209
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P370+P380: (Deleted) In case of fire: Evacuate area."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069937,
+      "url": null,
+      "id": 210
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P370+P380+P375: In case of fire: Evacuate area. Fight fire remotely due to the risk of explosion."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069938,
+      "url": null,
+      "id": 211
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P371+P380+P375: In case of major fire and large quantities: Evacuate area. Fight fire remotely due to the risk of explosion."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069939,
+      "url": null,
+      "id": 212
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P372: Explosion risk."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069940,
+      "url": null,
+      "id": 213
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P373: DO NOT fight fire when fire reaches explosives."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069941,
+      "url": null,
+      "id": 214
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P377: Leaking gas fire: Do not extinguish, unless leak can be stopped safely."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069943,
+      "url": null,
+      "id": 215
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P380: Evacuate area."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069944,
+      "url": null,
+      "id": 216
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P381: In case of leakage, eliminate all ignition sources."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069945,
+      "url": null,
+      "id": 217
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P390: Absorb spillage to prevent material damage."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069946,
+      "url": null,
+      "id": 218
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P391: Collect spillage."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069947,
+      "url": null,
+      "id": 219
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P301+P316: IF SWALLOWED: Get emergency medical help immediately."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923876,
+      "url": null,
+      "id": 220
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P301+P317: IF SWALLOWED: Get medical help."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923877,
+      "url": null,
+      "id": 221
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P302+P317: IF ON SKIN: Get medical help."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923878,
+      "url": null,
+      "id": 222
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P302+P335+P334: Brush off loose particles from skin. Immerse in cool water [or wrap in wet bandages]."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923879,
+      "url": null,
+      "id": 223
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P302+P361+P354: IF ON SKIN: Take off Immediately all contaminated clothing. Immediately rinse with water for several minutes."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923880,
+      "url": null,
+      "id": 224
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P304+P317: IF INHALED: Get medical help."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923881,
+      "url": null,
+      "id": 225
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P308+P316: IF exposed or concerned: Get emergency medical help immediately."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923882,
+      "url": null,
+      "id": 226
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P316: Get emergency medical help immediately."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923883,
+      "url": null,
+      "id": 227
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P317: Get emergency medical help."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923884,
+      "url": null,
+      "id": 228
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P318: if exposed or concerned, get medical advice."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923885,
+      "url": null,
+      "id": 229
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P319: Get medical help if you feel unwell."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923886,
+      "url": null,
+      "id": 230
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P370+P380+P375[+P378]: In case of fire: Evacuate area. Fight fire remotely due to the risk of explosion. [Use...to extinguish].]"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923888,
+      "url": null,
+      "id": 231
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P305+P354+P338: IF IN EYES: Immediately rinse with water for several minutes. Remove contact lenses if present and easy to do. Continue rinsing."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923889,
+      "url": null,
+      "id": 232
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P332+P317: If skin irritation occurs: Get medical help."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923890,
+      "url": null,
+      "id": 233
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P336+P317: Immediately thaw frosted parts with lukewarm water. Do not rub affected area. Get medical help."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923891,
+      "url": null,
+      "id": 234
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P337: If eye irritation persists:"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923892,
+      "url": null,
+      "id": 235
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P337+P317: If eye irritation persists: Get medical help."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923893,
+      "url": null,
+      "id": 236
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P342+P316: If experiencing respiratory symptoms: Get emergence medical help immediately."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923894,
+      "url": null,
+      "id": 237
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P361+P364: Take off immediately all contaminated clothing and wash it before reuse."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923895,
+      "url": null,
+      "id": 238
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P362+P364: Take off contaminated clothing and wash it before reuse."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923896,
+      "url": null,
+      "id": 239
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P370+P372+P380+P373: In case of fire: Explosion risk. Evacuate area. DO NOT fight fire when fire reaches explosives."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923897,
+      "url": null,
+      "id": 240
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P333+P317: If skin irritation or rash occurs: Get medical help."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 11378263,
+      "url": null,
+      "id": 241
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P400: Storage Precautionary Statements"
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069720,
+      "url": null,
+      "id": 242
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P401: Store in accordance with ..."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069948,
+      "url": null,
+      "id": 243
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P402+P404: Store in a dry place. Store in a closed container."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069949,
+      "url": null,
+      "id": 244
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P403: Store in a well-ventilated place."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069950,
+      "url": null,
+      "id": 245
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P403+P233: Store in a well-ventilated place. Keep container tightly closed."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069951,
+      "url": null,
+      "id": 246
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P403+P235: Store in a well-ventilated place. Keep cool."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069952,
+      "url": null,
+      "id": 247
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P405: Store locked up."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069954,
+      "url": null,
+      "id": 248
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P407: Maintain air gap between stacks or pallets."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069955,
+      "url": null,
+      "id": 249
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P410+P403: Protect from sunlight. Store in a well-ventilated place."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069956,
+      "url": null,
+      "id": 250
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P410+P412: Protect from sunlight. Do not expose to temperatures exceeding 50 �C/122�F."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069957,
+      "url": null,
+      "id": 251
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P411: Store at temperatures not exceeding ... �C/...�F."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069958,
+      "url": null,
+      "id": 252
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P413: Store bulk masses greater than ... kg/...lbs at temperatures not exceeding ... �C/...�F."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069959,
+      "url": null,
+      "id": 253
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P420: Store separately."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 3069960,
+      "url": null,
+      "id": 254
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P410: Protect from sunlight."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923898,
+      "url": null,
+      "id": 255
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "P406: Store in corrosive resistant/... container with a resistant inner liner."
+        }
+      },
+      "description": null,
+      "pubchem_hnid": 4923899,
+      "url": null,
+      "id": 256
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Not Classified"
+        }
+      },
+      "description": "No hazards have been classified (by majority companies[ECHA] or information source",
+      "pubchem_hnid": 3662369,
+      "url": null,
+      "id": 257
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Sources"
+        }
+      },
+      "description": "GHS information sources",
+      "pubchem_hnid": 12903564,
+      "url": null,
+      "id": 258
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "ECHA C&P Inventory"
+        }
+      },
+      "description": "GHS information from the ECHA C&L Inventory",
+      "pubchem_hnid": 12903565,
+      "url": "https://echa.europa.eu/information-on-chemicals/cl-inventory-database",
+      "id": 259
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "EU Regulation (EC) No 1272/2008"
+        }
+      },
+      "description": "GHS information from EU Regulation (EC) No 1272/2008",
+      "pubchem_hnid": 12903566,
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32008R1272",
+      "id": 260
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Japan NITE-CMC"
+        }
+      },
+      "description": "GHS information from the Japan National Institute of Technology and Evaluation, Chemical Management Center",
+      "pubchem_hnid": 12903567,
+      "url": "https://www.nite.go.jp/chem/english/ghs/ghs_index.html",
+      "id": 261
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "HCIS, Safe Work Australia (SWA)"
+        }
+      },
+      "description": "GHS information from the Hazardous Chemical Information System (HCIS), Safe Work Australia (SWA)",
+      "pubchem_hnid": 12903568,
+      "url": "https://hcis.safeworkaustralia.gov.au/",
+      "id": 262
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 1,
+      "target": 36
+    },
+    {
+      "source": 1,
+      "target": 97
+    },
+    {
+      "source": 2,
+      "target": 3
+    },
+    {
+      "source": 2,
+      "target": 4
+    },
+    {
+      "source": 2,
+      "target": 5
+    },
+    {
+      "source": 2,
+      "target": 6
+    },
+    {
+      "source": 2,
+      "target": 7
+    },
+    {
+      "source": 2,
+      "target": 8
+    },
+    {
+      "source": 2,
+      "target": 9
+    },
+    {
+      "source": 2,
+      "target": 10
+    },
+    {
+      "source": 2,
+      "target": 11
+    },
+    {
+      "source": 2,
+      "target": 12
+    },
+    {
+      "source": 2,
+      "target": 13
+    },
+    {
+      "source": 2,
+      "target": 14
+    },
+    {
+      "source": 2,
+      "target": 15
+    },
+    {
+      "source": 2,
+      "target": 16
+    },
+    {
+      "source": 2,
+      "target": 17
+    },
+    {
+      "source": 2,
+      "target": 18
+    },
+    {
+      "source": 2,
+      "target": 19
+    },
+    {
+      "source": 2,
+      "target": 20
+    },
+    {
+      "source": 2,
+      "target": 21
+    },
+    {
+      "source": 2,
+      "target": 22
+    },
+    {
+      "source": 2,
+      "target": 23
+    },
+    {
+      "source": 2,
+      "target": 24
+    },
+    {
+      "source": 2,
+      "target": 25
+    },
+    {
+      "source": 2,
+      "target": 26
+    },
+    {
+      "source": 2,
+      "target": 27
+    },
+    {
+      "source": 2,
+      "target": 28
+    },
+    {
+      "source": 2,
+      "target": 29
+    },
+    {
+      "source": 2,
+      "target": 30
+    },
+    {
+      "source": 2,
+      "target": 31
+    },
+    {
+      "source": 2,
+      "target": 32
+    },
+    {
+      "source": 2,
+      "target": 33
+    },
+    {
+      "source": 2,
+      "target": 34
+    },
+    {
+      "source": 2,
+      "target": 35
+    },
+    {
+      "source": 36,
+      "target": 37
+    },
+    {
+      "source": 36,
+      "target": 38
+    },
+    {
+      "source": 36,
+      "target": 39
+    },
+    {
+      "source": 36,
+      "target": 40
+    },
+    {
+      "source": 36,
+      "target": 41
+    },
+    {
+      "source": 36,
+      "target": 42
+    },
+    {
+      "source": 36,
+      "target": 43
+    },
+    {
+      "source": 36,
+      "target": 44
+    },
+    {
+      "source": 36,
+      "target": 45
+    },
+    {
+      "source": 36,
+      "target": 46
+    },
+    {
+      "source": 36,
+      "target": 47
+    },
+    {
+      "source": 36,
+      "target": 48
+    },
+    {
+      "source": 36,
+      "target": 49
+    },
+    {
+      "source": 36,
+      "target": 50
+    },
+    {
+      "source": 36,
+      "target": 51
+    },
+    {
+      "source": 36,
+      "target": 52
+    },
+    {
+      "source": 36,
+      "target": 53
+    },
+    {
+      "source": 36,
+      "target": 54
+    },
+    {
+      "source": 36,
+      "target": 55
+    },
+    {
+      "source": 36,
+      "target": 56
+    },
+    {
+      "source": 36,
+      "target": 57
+    },
+    {
+      "source": 36,
+      "target": 58
+    },
+    {
+      "source": 36,
+      "target": 59
+    },
+    {
+      "source": 36,
+      "target": 60
+    },
+    {
+      "source": 36,
+      "target": 61
+    },
+    {
+      "source": 36,
+      "target": 62
+    },
+    {
+      "source": 36,
+      "target": 63
+    },
+    {
+      "source": 36,
+      "target": 64
+    },
+    {
+      "source": 36,
+      "target": 65
+    },
+    {
+      "source": 36,
+      "target": 66
+    },
+    {
+      "source": 36,
+      "target": 67
+    },
+    {
+      "source": 36,
+      "target": 68
+    },
+    {
+      "source": 36,
+      "target": 69
+    },
+    {
+      "source": 36,
+      "target": 70
+    },
+    {
+      "source": 36,
+      "target": 71
+    },
+    {
+      "source": 36,
+      "target": 72
+    },
+    {
+      "source": 36,
+      "target": 73
+    },
+    {
+      "source": 36,
+      "target": 74
+    },
+    {
+      "source": 36,
+      "target": 75
+    },
+    {
+      "source": 36,
+      "target": 76
+    },
+    {
+      "source": 36,
+      "target": 77
+    },
+    {
+      "source": 36,
+      "target": 78
+    },
+    {
+      "source": 36,
+      "target": 79
+    },
+    {
+      "source": 36,
+      "target": 80
+    },
+    {
+      "source": 36,
+      "target": 81
+    },
+    {
+      "source": 36,
+      "target": 82
+    },
+    {
+      "source": 36,
+      "target": 83
+    },
+    {
+      "source": 36,
+      "target": 84
+    },
+    {
+      "source": 36,
+      "target": 85
+    },
+    {
+      "source": 36,
+      "target": 86
+    },
+    {
+      "source": 36,
+      "target": 87
+    },
+    {
+      "source": 36,
+      "target": 88
+    },
+    {
+      "source": 36,
+      "target": 89
+    },
+    {
+      "source": 36,
+      "target": 90
+    },
+    {
+      "source": 36,
+      "target": 91
+    },
+    {
+      "source": 36,
+      "target": 92
+    },
+    {
+      "source": 36,
+      "target": 93
+    },
+    {
+      "source": 36,
+      "target": 94
+    },
+    {
+      "source": 36,
+      "target": 95
+    },
+    {
+      "source": 36,
+      "target": 96
+    },
+    {
+      "source": 97,
+      "target": 98
+    },
+    {
+      "source": 97,
+      "target": 99
+    },
+    {
+      "source": 97,
+      "target": 100
+    },
+    {
+      "source": 97,
+      "target": 101
+    },
+    {
+      "source": 97,
+      "target": 102
+    },
+    {
+      "source": 97,
+      "target": 103
+    },
+    {
+      "source": 97,
+      "target": 104
+    },
+    {
+      "source": 97,
+      "target": 105
+    },
+    {
+      "source": 106,
+      "target": 107
+    },
+    {
+      "source": 106,
+      "target": 121
+    },
+    {
+      "source": 106,
+      "target": 143
+    },
+    {
+      "source": 107,
+      "target": 108
+    },
+    {
+      "source": 107,
+      "target": 109
+    },
+    {
+      "source": 107,
+      "target": 110
+    },
+    {
+      "source": 107,
+      "target": 111
+    },
+    {
+      "source": 107,
+      "target": 112
+    },
+    {
+      "source": 107,
+      "target": 113
+    },
+    {
+      "source": 107,
+      "target": 114
+    },
+    {
+      "source": 107,
+      "target": 115
+    },
+    {
+      "source": 107,
+      "target": 116
+    },
+    {
+      "source": 107,
+      "target": 117
+    },
+    {
+      "source": 107,
+      "target": 118
+    },
+    {
+      "source": 107,
+      "target": 119
+    },
+    {
+      "source": 107,
+      "target": 120
+    },
+    {
+      "source": 121,
+      "target": 122
+    },
+    {
+      "source": 121,
+      "target": 123
+    },
+    {
+      "source": 121,
+      "target": 124
+    },
+    {
+      "source": 121,
+      "target": 125
+    },
+    {
+      "source": 121,
+      "target": 126
+    },
+    {
+      "source": 121,
+      "target": 127
+    },
+    {
+      "source": 121,
+      "target": 128
+    },
+    {
+      "source": 121,
+      "target": 129
+    },
+    {
+      "source": 121,
+      "target": 130
+    },
+    {
+      "source": 121,
+      "target": 131
+    },
+    {
+      "source": 121,
+      "target": 132
+    },
+    {
+      "source": 121,
+      "target": 133
+    },
+    {
+      "source": 121,
+      "target": 134
+    },
+    {
+      "source": 121,
+      "target": 135
+    },
+    {
+      "source": 121,
+      "target": 136
+    },
+    {
+      "source": 121,
+      "target": 137
+    },
+    {
+      "source": 121,
+      "target": 138
+    },
+    {
+      "source": 121,
+      "target": 139
+    },
+    {
+      "source": 121,
+      "target": 140
+    },
+    {
+      "source": 121,
+      "target": 141
+    },
+    {
+      "source": 121,
+      "target": 142
+    },
+    {
+      "source": 143,
+      "target": 144
+    },
+    {
+      "source": 143,
+      "target": 145
+    },
+    {
+      "source": 143,
+      "target": 146
+    },
+    {
+      "source": 147,
+      "target": 148
+    },
+    {
+      "source": 147,
+      "target": 149
+    },
+    {
+      "source": 147,
+      "target": 150
+    },
+    {
+      "source": 147,
+      "target": 151
+    },
+    {
+      "source": 147,
+      "target": 152
+    },
+    {
+      "source": 147,
+      "target": 153
+    },
+    {
+      "source": 147,
+      "target": 154
+    },
+    {
+      "source": 147,
+      "target": 155
+    },
+    {
+      "source": 147,
+      "target": 156
+    },
+    {
+      "source": 157,
+      "target": 158
+    },
+    {
+      "source": 157,
+      "target": 196
+    },
+    {
+      "source": 157,
+      "target": 242
+    },
+    {
+      "source": 158,
+      "target": 159
+    },
+    {
+      "source": 158,
+      "target": 160
+    },
+    {
+      "source": 158,
+      "target": 161
+    },
+    {
+      "source": 158,
+      "target": 162
+    },
+    {
+      "source": 158,
+      "target": 163
+    },
+    {
+      "source": 158,
+      "target": 164
+    },
+    {
+      "source": 158,
+      "target": 165
+    },
+    {
+      "source": 158,
+      "target": 166
+    },
+    {
+      "source": 158,
+      "target": 167
+    },
+    {
+      "source": 158,
+      "target": 168
+    },
+    {
+      "source": 158,
+      "target": 169
+    },
+    {
+      "source": 158,
+      "target": 170
+    },
+    {
+      "source": 158,
+      "target": 171
+    },
+    {
+      "source": 158,
+      "target": 172
+    },
+    {
+      "source": 158,
+      "target": 173
+    },
+    {
+      "source": 158,
+      "target": 174
+    },
+    {
+      "source": 158,
+      "target": 175
+    },
+    {
+      "source": 158,
+      "target": 176
+    },
+    {
+      "source": 158,
+      "target": 177
+    },
+    {
+      "source": 158,
+      "target": 178
+    },
+    {
+      "source": 158,
+      "target": 179
+    },
+    {
+      "source": 158,
+      "target": 180
+    },
+    {
+      "source": 158,
+      "target": 181
+    },
+    {
+      "source": 158,
+      "target": 182
+    },
+    {
+      "source": 158,
+      "target": 183
+    },
+    {
+      "source": 158,
+      "target": 184
+    },
+    {
+      "source": 158,
+      "target": 185
+    },
+    {
+      "source": 158,
+      "target": 186
+    },
+    {
+      "source": 158,
+      "target": 187
+    },
+    {
+      "source": 158,
+      "target": 188
+    },
+    {
+      "source": 158,
+      "target": 189
+    },
+    {
+      "source": 158,
+      "target": 190
+    },
+    {
+      "source": 158,
+      "target": 191
+    },
+    {
+      "source": 158,
+      "target": 192
+    },
+    {
+      "source": 158,
+      "target": 193
+    },
+    {
+      "source": 158,
+      "target": 194
+    },
+    {
+      "source": 158,
+      "target": 195
+    },
+    {
+      "source": 196,
+      "target": 197
+    },
+    {
+      "source": 196,
+      "target": 198
+    },
+    {
+      "source": 196,
+      "target": 199
+    },
+    {
+      "source": 196,
+      "target": 200
+    },
+    {
+      "source": 196,
+      "target": 201
+    },
+    {
+      "source": 196,
+      "target": 202
+    },
+    {
+      "source": 196,
+      "target": 203
+    },
+    {
+      "source": 196,
+      "target": 204
+    },
+    {
+      "source": 196,
+      "target": 205
+    },
+    {
+      "source": 196,
+      "target": 206
+    },
+    {
+      "source": 196,
+      "target": 207
+    },
+    {
+      "source": 196,
+      "target": 208
+    },
+    {
+      "source": 196,
+      "target": 209
+    },
+    {
+      "source": 196,
+      "target": 210
+    },
+    {
+      "source": 196,
+      "target": 211
+    },
+    {
+      "source": 196,
+      "target": 212
+    },
+    {
+      "source": 196,
+      "target": 213
+    },
+    {
+      "source": 196,
+      "target": 214
+    },
+    {
+      "source": 196,
+      "target": 215
+    },
+    {
+      "source": 196,
+      "target": 216
+    },
+    {
+      "source": 196,
+      "target": 217
+    },
+    {
+      "source": 196,
+      "target": 218
+    },
+    {
+      "source": 196,
+      "target": 219
+    },
+    {
+      "source": 196,
+      "target": 220
+    },
+    {
+      "source": 196,
+      "target": 221
+    },
+    {
+      "source": 196,
+      "target": 222
+    },
+    {
+      "source": 196,
+      "target": 223
+    },
+    {
+      "source": 196,
+      "target": 224
+    },
+    {
+      "source": 196,
+      "target": 225
+    },
+    {
+      "source": 196,
+      "target": 226
+    },
+    {
+      "source": 196,
+      "target": 227
+    },
+    {
+      "source": 196,
+      "target": 228
+    },
+    {
+      "source": 196,
+      "target": 229
+    },
+    {
+      "source": 196,
+      "target": 230
+    },
+    {
+      "source": 196,
+      "target": 231
+    },
+    {
+      "source": 196,
+      "target": 232
+    },
+    {
+      "source": 196,
+      "target": 233
+    },
+    {
+      "source": 196,
+      "target": 234
+    },
+    {
+      "source": 196,
+      "target": 235
+    },
+    {
+      "source": 196,
+      "target": 236
+    },
+    {
+      "source": 196,
+      "target": 237
+    },
+    {
+      "source": 196,
+      "target": 238
+    },
+    {
+      "source": 196,
+      "target": 239
+    },
+    {
+      "source": 196,
+      "target": 240
+    },
+    {
+      "source": 196,
+      "target": 241
+    },
+    {
+      "source": 242,
+      "target": 243
+    },
+    {
+      "source": 242,
+      "target": 244
+    },
+    {
+      "source": 242,
+      "target": 245
+    },
+    {
+      "source": 242,
+      "target": 246
+    },
+    {
+      "source": 242,
+      "target": 247
+    },
+    {
+      "source": 242,
+      "target": 248
+    },
+    {
+      "source": 242,
+      "target": 249
+    },
+    {
+      "source": 242,
+      "target": 250
+    },
+    {
+      "source": 242,
+      "target": 251
+    },
+    {
+      "source": 242,
+      "target": 252
+    },
+    {
+      "source": 242,
+      "target": 253
+    },
+    {
+      "source": 242,
+      "target": 254
+    },
+    {
+      "source": 242,
+      "target": 255
+    },
+    {
+      "source": 242,
+      "target": 256
+    },
+    {
+      "source": 258,
+      "target": 259
+    },
+    {
+      "source": 258,
+      "target": 260
+    },
+    {
+      "source": 258,
+      "target": 261
+    },
+    {
+      "source": 258,
+      "target": 262
+    }
+  ]
+}

@@ -3,15 +3,19 @@
   "multigraph": false,
   "graph": {
     "nxontology_version": "0.5.1.dev7+gb68411d",
-    "nxontology_created": "2024-01-01T00:34:36+00:00",
+    "nxontology_created": "2025-05-20T20:14:48+00:00",
     "name": "117_kegg_br08327",
     "pubchem_hierarchy_id": 117,
     "pubchem_source_id": "br08327",
     "pubchem_source_name": "KEGG",
     "pubchem_description": null,
-    "pubchem_comments": [
-      "Last updated: June 11, 2021"
-    ],
+    "pubchem_comments": {
+      "StringWithMarkup": [
+        {
+          "String": "Last updated: June 11, 2021"
+        }
+      ]
+    },
     "source_url": "http://www.genome.jp/kegg-bin/get_htext?br08327.keg"
   },
   "nodes": [
@@ -66,7 +70,7 @@
     },
     {
       "name": null,
-      "description": "DG01750 Interferon alpha IFN##",
+      "description": "DG01750 Interferon alpha IFNα",
       "pubchem_hnid": 4966074,
       "url": null,
       "id": 8

@@ -3,2735 +3,4328 @@
   "multigraph": false,
   "graph": {
     "nxontology_version": "0.5.1.dev7+gb68411d",
-    "nxontology_created": "2024-01-01T00:31:17+00:00",
+    "nxontology_created": "2025-05-20T20:06:13+00:00",
     "name": "054_lipid_maps_lm",
     "pubchem_hierarchy_id": 54,
     "pubchem_source_id": "LM",
     "pubchem_source_name": "LIPID MAPS",
-    "pubchem_description": [
-      "The LIPID MAPS comprehensive classification system for lipids is comprised of eight lipid categories: Fatty acyls (FA), Glycerolipids (GL), Glycerophospholipids (GP), Sphingolipids (SP), Sterol lipids (ST), Prenol lipids (PR), Saccharolipids (SL) and Polyketides (PK). Each lipid category has its own sublassification hierarchy."
-    ],
-    "pubchem_comments": [
-      "All lipids in the LIPID MAPS Structure Database (LMSD) have been classified using this system and have been assigned LIPID MAPS ID's (LM_ID) which reflects their position in the classification hierarchy. The classification system was developed by the members of LIPID MAPS consortium."
-    ],
+    "pubchem_description": {
+      "StringWithMarkup": [
+        {
+          "String": "The LIPID MAPS comprehensive classification system for lipids is comprised of eight lipid categories: Fatty acyls (FA), Glycerolipids (GL), Glycerophospholipids (GP), Sphingolipids (SP), Sterol lipids (ST), Prenol lipids (PR), Saccharolipids (SL) and Polyketides (PK). Each lipid category has its own sublassification hierarchy."
+        }
+      ]
+    },
+    "pubchem_comments": {
+      "StringWithMarkup": [
+        {
+          "String": "All lipids in the LIPID MAPS Structure Database (LMSD) have been classified using this system and have been assigned LIPID MAPS ID (LM_ID) which reflects their position in the classification hierarchy. The classification system was developed by the members of LIPID MAPS consortium."
+        }
+      ]
+    },
     "source_url": "https://www.lipidmaps.org/"
   },
   "nodes": [
     {
-      "name": "Fatty Acyls [FA]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Fatty Acyls [FA]"
+        }
+      },
       "description": "Fatty Acyls [FA]",
       "pubchem_hnid": 278448,
       "url": "https://www.lipidmaps.org/databases/lmsd/browse?category=1",
       "id": 1
     },
     {
-      "name": "Fatty Acids and Conjugates [FA01]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Fatty Acids and Conjugates [FA01]"
+        }
+      },
       "description": "Fatty Acids and Conjugates [FA01]",
       "pubchem_hnid": 278449,
       "url": null,
       "id": 2
     },
     {
-      "name": "Straight chain fatty acids [FA0101]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Straight chain fatty acids [FA0101]"
+        }
+      },
       "description": "Straight chain fatty acids [FA0101]",
       "pubchem_hnid": 278450,
       "url": null,
       "id": 3
     },
     {
-      "name": "Branched fatty acids [FA0102]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Branched fatty acids [FA0102]"
+        }
+      },
       "description": "Branched fatty acids [FA0102]",
       "pubchem_hnid": 278502,
       "url": null,
       "id": 4
     },
     {
-      "name": "Unsaturated fatty acids [FA0103]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Unsaturated fatty acids [FA0103]"
+        }
+      },
       "description": "Unsaturated fatty acids [FA0103]",
       "pubchem_hnid": 278867,
       "url": null,
       "id": 5
     },
     {
-      "name": "Hydroperoxy fatty acids [FA0104]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Hydroperoxy fatty acids [FA0104]"
+        }
+      },
       "description": "Hydroperoxy fatty acids [FA0104]",
       "pubchem_hnid": 279684,
       "url": null,
       "id": 6
     },
     {
-      "name": "Hydroxy fatty acids [FA0105]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Hydroxy fatty acids [FA0105]"
+        }
+      },
       "description": "Hydroxy fatty acids [FA0105]",
       "pubchem_hnid": 279711,
       "url": null,
       "id": 7
     },
     {
-      "name": "Oxo fatty acids [FA0106]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Oxo fatty acids [FA0106]"
+        }
+      },
       "description": "Oxo fatty acids [FA0106]",
       "pubchem_hnid": 279957,
       "url": null,
       "id": 8
     },
     {
-      "name": "Epoxy fatty acids [FA0107]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Epoxy fatty acids [FA0107]"
+        }
+      },
       "description": "Epoxy fatty acids [FA0107]",
       "pubchem_hnid": 280108,
       "url": null,
       "id": 9
     },
     {
-      "name": "Methoxy fatty acids [FA0108]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Methoxy fatty acids [FA0108]"
+        }
+      },
       "description": "Methoxy fatty acids [FA0108]",
       "pubchem_hnid": 280115,
       "url": null,
       "id": 10
     },
     {
-      "name": "Halogenated fatty acids [FA0109]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Halogenated fatty acids [FA0109]"
+        }
+      },
       "description": "Halogenated fatty acids [FA0109]",
       "pubchem_hnid": 280127,
       "url": null,
       "id": 11
     },
     {
-      "name": "Amino fatty acids [FA0110]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Amino fatty acids [FA0110]"
+        }
+      },
       "description": "Amino fatty acids [FA0110]",
       "pubchem_hnid": 280265,
       "url": null,
       "id": 12
     },
     {
-      "name": "Cyano fatty acids [FA0111]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Cyano fatty acids [FA0111]"
+        }
+      },
       "description": "Cyano fatty acids [FA0111]",
       "pubchem_hnid": 280314,
       "url": null,
       "id": 13
     },
     {
-      "name": "Nitro fatty acids [FA0112]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Nitro fatty acids [FA0112]"
+        }
+      },
       "description": "Nitro fatty acids [FA0112]",
       "pubchem_hnid": 280316,
       "url": null,
       "id": 14
     },
     {
-      "name": "Thia fatty acids [FA0113]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Thia fatty acids [FA0113]"
+        }
+      },
       "description": "Thia fatty acids [FA0113]",
       "pubchem_hnid": 280321,
       "url": null,
       "id": 15
     },
     {
-      "name": "Carbocyclic fatty acids [FA0114]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Carbocyclic fatty acids [FA0114]"
+        }
+      },
       "description": "Carbocyclic fatty acids [FA0114]",
       "pubchem_hnid": 280326,
       "url": null,
       "id": 16
     },
     {
-      "name": "Heterocyclic fatty acids [FA0115]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Heterocyclic fatty acids [FA0115]"
+        }
+      },
       "description": "Heterocyclic fatty acids [FA0115]",
       "pubchem_hnid": 280354,
       "url": null,
       "id": 17
     },
     {
-      "name": "Mycolic acids [FA0116]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Mycolic acids [FA0116]"
+        }
+      },
       "description": "Mycolic acids [FA0116]",
       "pubchem_hnid": 280359,
       "url": null,
       "id": 18
     },
     {
-      "name": "Dicarboxylic acids [FA0117]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Dicarboxylic acids [FA0117]"
+        }
+      },
       "description": "Dicarboxylic acids [FA0117]",
       "pubchem_hnid": 280363,
       "url": null,
       "id": 19
     },
     {
-      "name": "Octadecanoids [FA02]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Octadecanoids [FA02]"
+        }
+      },
       "description": "Octadecanoids [FA02]",
       "pubchem_hnid": 280482,
       "url": null,
       "id": 20
     },
     {
-      "name": "12-oxophytodienoic acid metabolites [FA0201]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "12-oxophytodienoic acid metabolites [FA0201]"
+        }
+      },
       "description": "12-oxophytodienoic acid metabolites [FA0201]",
       "pubchem_hnid": 280483,
       "url": null,
       "id": 21
     },
     {
-      "name": "Jasmonic acids [FA0202]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Jasmonic acids [FA0202]"
+        }
+      },
       "description": "Jasmonic acids [FA0202]",
       "pubchem_hnid": 280501,
       "url": null,
       "id": 22
     },
     {
-      "name": "Other Octadecanoids [FA0200]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Other Octadecanoids [FA0200]"
+        }
+      },
       "description": "Other Octadecanoids [FA0200]",
       "pubchem_hnid": 280518,
       "url": null,
       "id": 23
     },
     {
-      "name": "Octadeca-1,2-dioxolanes [FA0205]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Octadeca-1,2-dioxolanes [FA0205]"
+        }
+      },
       "description": "Octadeca-1,2-dioxolanes [FA0205]",
       "pubchem_hnid": 3494085,
       "url": null,
       "id": 24
     },
     {
-      "name": "Phytofurans [FA0204]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Phytofurans [FA0204]"
+        }
+      },
       "description": "Phytofurans [FA0204]",
       "pubchem_hnid": 3494088,
       "url": null,
       "id": 25
     },
     {
-      "name": "Phytoprostanes [FA0203]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Phytoprostanes [FA0203]"
+        }
+      },
       "description": "Phytoprostanes [FA0203]",
       "pubchem_hnid": 3494089,
       "url": null,
       "id": 26
     },
     {
-      "name": "Eicosanoids [FA03]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Eicosanoids [FA03]"
+        }
+      },
       "description": "Eicosanoids [FA03]",
       "pubchem_hnid": 280800,
       "url": null,
       "id": 27
     },
     {
-      "name": "Prostaglandins [FA0301]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Prostaglandins [FA0301]"
+        }
+      },
       "description": "Prostaglandins [FA0301]",
       "pubchem_hnid": 280801,
       "url": null,
       "id": 28
     },
     {
-      "name": "Leukotrienes [FA0302]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Leukotrienes [FA0302]"
+        }
+      },
       "description": "Leukotrienes [FA0302]",
       "pubchem_hnid": 280992,
       "url": null,
       "id": 29
     },
     {
-      "name": "Thromboxanes [FA0303]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Thromboxanes [FA0303]"
+        }
+      },
       "description": "Thromboxanes [FA0303]",
       "pubchem_hnid": 281022,
       "url": null,
       "id": 30
     },
     {
-      "name": "Lipoxins [FA0304]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Lipoxins [FA0304]"
+        }
+      },
       "description": "Lipoxins [FA0304]",
       "pubchem_hnid": 281035,
       "url": null,
       "id": 31
     },
     {
-      "name": "Hydroxy/hydroperoxyeicosatrienoic acids [FA0305]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Hydroxy/hydroperoxyeicosatrienoic acids [FA0305]"
+        }
+      },
       "description": "Hydroxy/hydroperoxyeicosatrienoic acids [FA0305]",
       "pubchem_hnid": 281045,
       "url": null,
       "id": 32
     },
     {
-      "name": "Hydroxy/hydroperoxyeicosatetraenoic acids [FA0306]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Hydroxy/hydroperoxyeicosatetraenoic acids [FA0306]"
+        }
+      },
       "description": "Hydroxy/hydroperoxyeicosatetraenoic acids [FA0306]",
       "pubchem_hnid": 281063,
       "url": null,
       "id": 33
     },
     {
-      "name": "Hydroxy/hydroperoxyeicosapentaenoic acids [FA0307]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Hydroxy/hydroperoxyeicosapentaenoic acids [FA0307]"
+        }
+      },
       "description": "Hydroxy/hydroperoxyeicosapentaenoic acids [FA0307]",
       "pubchem_hnid": 281146,
       "url": null,
       "id": 34
     },
     {
-      "name": "Epoxyeicosatrienoic acids [FA0308]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Epoxyeicosatrienoic acids [FA0308]"
+        }
+      },
       "description": "Epoxyeicosatrienoic acids [FA0308]",
       "pubchem_hnid": 281188,
       "url": null,
       "id": 35
     },
     {
-      "name": "Hepoxilins [FA0309]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Hepoxilins [FA0309]"
+        }
+      },
       "description": "Hepoxilins [FA0309]",
       "pubchem_hnid": 281205,
       "url": null,
       "id": 36
     },
     {
-      "name": "Levuglandins [FA0310]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Levuglandins [FA0310]"
+        }
+      },
       "description": "Levuglandins [FA0310]",
       "pubchem_hnid": 281214,
       "url": null,
       "id": 37
     },
     {
-      "name": "Isoprostanes [FA0311]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Isoprostanes [FA0311]"
+        }
+      },
       "description": "Isoprostanes [FA0311]",
       "pubchem_hnid": 281252,
       "url": null,
       "id": 38
     },
     {
-      "name": "Clavulones [FA0312]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Clavulones [FA0312]"
+        }
+      },
       "description": "Clavulones [FA0312]",
       "pubchem_hnid": 281415,
       "url": null,
       "id": 39
     },
     {
-      "name": "Other Eicosanoids [FA0300]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Other Eicosanoids [FA0300]"
+        }
+      },
       "description": "Other Eicosanoids [FA0300]",
       "pubchem_hnid": 281469,
       "url": null,
       "id": 40
     },
     {
-      "name": "Eicosa-1,2-dioxolanes [FA0315]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Eicosa-1,2-dioxolanes [FA0315]"
+        }
+      },
       "description": "Eicosa-1,2-dioxolanes [FA0315]",
       "pubchem_hnid": 3494080,
       "url": null,
       "id": 41
     },
     {
-      "name": "Isofurans [FA0313]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Isofurans [FA0313]"
+        }
+      },
       "description": "Isofurans [FA0313]",
       "pubchem_hnid": 3494081,
       "url": null,
       "id": 42
     },
     {
-      "name": "Resolvin Es [FA0314]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Resolvin Es [FA0314]"
+        }
+      },
       "description": "Resolvin Es [FA0314]",
       "pubchem_hnid": 3494092,
       "url": null,
       "id": 43
     },
     {
-      "name": "Docosanoids [FA04]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Docosanoids [FA04]"
+        }
+      },
       "description": "Docosanoids [FA04]",
       "pubchem_hnid": 281484,
       "url": null,
       "id": 44
     },
     {
-      "name": "Docosa-1,2-dioxolanes [FA0406]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Docosa-1,2-dioxolanes [FA0406]"
+        }
+      },
       "description": "Docosa-1,2-dioxolanes [FA0406]",
       "pubchem_hnid": 3494079,
       "url": null,
       "id": 45
     },
     {
-      "name": "Maresins [FA0405]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Maresins [FA0405]"
+        }
+      },
       "description": "Maresins [FA0405]",
       "pubchem_hnid": 3494082,
       "url": null,
       "id": 46
     },
     {
-      "name": "Neurofurans [FA0402]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Neurofurans [FA0402]"
+        }
+      },
       "description": "Neurofurans [FA0402]",
       "pubchem_hnid": 3494083,
       "url": null,
       "id": 47
     },
     {
-      "name": "Neuroprostanes [FA0401]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Neuroprostanes [FA0401]"
+        }
+      },
       "description": "Neuroprostanes [FA0401]",
       "pubchem_hnid": 3494084,
       "url": null,
       "id": 48
     },
     {
-      "name": "Other Docosanoids [FA0400]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Other Docosanoids [FA0400]"
+        }
+      },
       "description": "Other Docosanoids [FA0400]",
       "pubchem_hnid": 3494086,
       "url": null,
       "id": 49
     },
     {
-      "name": "Protectins [FA0404]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Protectins [FA0404]"
+        }
+      },
       "description": "Protectins [FA0404]",
       "pubchem_hnid": 3494090,
       "url": null,
       "id": 50
     },
     {
-      "name": "Resolvin Ds [FA0403]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Resolvin Ds [FA0403]"
+        }
+      },
       "description": "Resolvin Ds [FA0403]",
       "pubchem_hnid": 3494091,
       "url": null,
       "id": 51
     },
     {
-      "name": "Fatty alcohols [FA05]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Fatty alcohols [FA05]"
+        }
+      },
       "description": "Fatty alcohols [FA05]",
       "pubchem_hnid": 281552,
       "url": null,
       "id": 52
     },
     {
-      "name": "Fatty aldehydes [FA06]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Fatty aldehydes [FA06]"
+        }
+      },
       "description": "Fatty aldehydes [FA06]",
       "pubchem_hnid": 281854,
       "url": null,
       "id": 53
     },
     {
-      "name": "Fatty esters [FA07]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Fatty esters [FA07]"
+        }
+      },
       "description": "Fatty esters [FA07]",
       "pubchem_hnid": 282101,
       "url": null,
       "id": 54
     },
     {
-      "name": "Wax monoesters [FA0701]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Wax monoesters [FA0701]"
+        }
+      },
       "description": "Wax monoesters [FA0701]",
       "pubchem_hnid": 282102,
       "url": null,
       "id": 55
     },
     {
-      "name": "Wax diesters [FA0702]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Wax diesters [FA0702]"
+        }
+      },
       "description": "Wax diesters [FA0702]",
       "pubchem_hnid": 282783,
       "url": null,
       "id": 56
     },
     {
-      "name": "Cyano esters [FA0703]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Cyano esters [FA0703]"
+        }
+      },
       "description": "Cyano esters [FA0703]",
       "pubchem_hnid": 282785,
       "url": null,
       "id": 57
     },
     {
-      "name": "Lactones [FA0704]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Lactones [FA0704]"
+        }
+      },
       "description": "Lactones [FA0704]",
       "pubchem_hnid": 282787,
       "url": null,
       "id": 58
     },
     {
-      "name": "Fatty acyl CoAs [FA0705]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Fatty acyl CoAs [FA0705]"
+        }
+      },
       "description": "Fatty acyl CoAs [FA0705]",
       "pubchem_hnid": 282853,
       "url": null,
       "id": 59
     },
     {
-      "name": "Fatty acyl carnitines [FA0707]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Fatty acyl carnitines [FA0707]"
+        }
+      },
       "description": "Fatty acyl carnitines [FA0707]",
       "pubchem_hnid": 282963,
       "url": null,
       "id": 60
     },
     {
-      "name": "Fatty acyl adenylates [FA0708]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Fatty acyl adenylates [FA0708]"
+        }
+      },
       "description": "Fatty acyl adenylates [FA0708]",
       "pubchem_hnid": 282972,
       "url": null,
       "id": 61
     },
     {
-      "name": "Fatty acid estolides [FA0709]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Fatty acid estolides [FA0709]"
+        }
+      },
       "description": "Fatty acid estolides [FA0709]",
       "pubchem_hnid": 4364779,
       "url": null,
       "id": 62
     },
     {
-      "name": "Short fatty esters [FA0710]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Short fatty esters [FA0710]"
+        }
+      },
       "description": "Short fatty esters [FA0710]",
       "pubchem_hnid": 5557177,
       "url": null,
       "id": 63
     },
     {
-      "name": "Fatty amides [FA08]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Fatty amides [FA08]"
+        }
+      },
       "description": "Fatty amides [FA08]",
       "pubchem_hnid": 282974,
       "url": null,
       "id": 64
     },
     {
-      "name": "Primary amides [FA0801]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Primary amides [FA0801]"
+        }
+      },
       "description": "Primary amides [FA0801]",
       "pubchem_hnid": 282975,
       "url": null,
       "id": 65
     },
     {
-      "name": "N-acyl amines [FA0802]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "N-acyl amines [FA0802]"
+        }
+      },
       "description": "N-acyl amines [FA0802]",
       "pubchem_hnid": 282988,
       "url": null,
       "id": 66
     },
     {
-      "name": "Fatty acyl homoserine lactones [FA0803]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Fatty acyl homoserine lactones [FA0803]"
+        }
+      },
       "description": "Fatty acyl homoserine lactones [FA0803]",
       "pubchem_hnid": 283127,
       "url": null,
       "id": 67
     },
     {
-      "name": "N-acyl ethanolamines (endocannabinoids) [FA0804]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "N-acyl ethanolamines (endocannabinoids) [FA0804]"
+        }
+      },
       "description": "N-acyl ethanolamines (endocannabinoids) [FA0804]",
       "pubchem_hnid": 283135,
       "url": null,
       "id": 68
     },
     {
-      "name": "Fatty nitriles [FA09]",
-      "description": "Fatty nitriles [FA09]",
-      "pubchem_hnid": 283190,
+      "name": {
+        "StringWithMarkup": {
+          "String": "N-acyl amino acids [FA0805]"
+        }
+      },
+      "description": "N-acyl amino acids [FA0805]",
+      "pubchem_hnid": 12946332,
       "url": null,
       "id": 69
     },
     {
-      "name": "Fatty ethers [FA10]",
-      "description": "Fatty ethers [FA10]",
-      "pubchem_hnid": 283193,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Fatty nitriles [FA09]"
+        }
+      },
+      "description": "Fatty nitriles [FA09]",
+      "pubchem_hnid": 283190,
       "url": null,
       "id": 70
     },
     {
-      "name": "Hydrocarbons [FA11]",
-      "description": "Hydrocarbons [FA11]",
-      "pubchem_hnid": 283196,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Fatty ethers [FA10]"
+        }
+      },
+      "description": "Fatty ethers [FA10]",
+      "pubchem_hnid": 283193,
       "url": null,
       "id": 71
     },
     {
-      "name": "Oxygenated hydrocarbons [FA12]",
-      "description": "Oxygenated hydrocarbons [FA12]",
-      "pubchem_hnid": 283897,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Hydrocarbons [FA11]"
+        }
+      },
+      "description": "Hydrocarbons [FA11]",
+      "pubchem_hnid": 283196,
       "url": null,
       "id": 72
     },
     {
-      "name": "Fatty acyl glycosides [FA13]",
-      "description": "Fatty acyl glycosides [FA13]",
-      "pubchem_hnid": 284186,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Oxygenated hydrocarbons [FA12]"
+        }
+      },
+      "description": "Oxygenated hydrocarbons [FA12]",
+      "pubchem_hnid": 283897,
       "url": null,
       "id": 73
     },
     {
-      "name": "Fatty acyl glycosides of mono- and disaccharides [FA1301]",
-      "description": "Fatty acyl glycosides of mono- and disaccharides [FA1301]",
-      "pubchem_hnid": 284187,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Fatty acyl glycosides [FA13]"
+        }
+      },
+      "description": "Fatty acyl glycosides [FA13]",
+      "pubchem_hnid": 284186,
       "url": null,
       "id": 74
     },
     {
-      "name": "Sophorolipids [FA1302]",
-      "description": "Sophorolipids [FA1302]",
-      "pubchem_hnid": 284236,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Fatty acyl glycosides of mono- and disaccharides [FA1301]"
+        }
+      },
+      "description": "Fatty acyl glycosides of mono- and disaccharides [FA1301]",
+      "pubchem_hnid": 284187,
       "url": null,
       "id": 75
     },
     {
-      "name": "Rhamnolipids [FA1303]",
-      "description": "Rhamnolipids [FA1303]",
-      "pubchem_hnid": 284241,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Sophorolipids [FA1302]"
+        }
+      },
+      "description": "Sophorolipids [FA1302]",
+      "pubchem_hnid": 284236,
       "url": null,
       "id": 76
     },
     {
-      "name": "Ascarosides [FA1304]",
-      "description": "Ascarosides [FA1304]",
-      "pubchem_hnid": 4364778,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Rhamnolipids [FA1303]"
+        }
+      },
+      "description": "Rhamnolipids [FA1303]",
+      "pubchem_hnid": 284241,
       "url": null,
       "id": 77
     },
     {
-      "name": "Other Fatty Acyls [FA00]",
-      "description": "Other Fatty Acyls [FA00]",
-      "pubchem_hnid": 284250,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Other Fatty acyl glycosides [FA1300]"
+        }
+      },
+      "description": "Other Fatty acyl glycosides [FA1300]",
+      "pubchem_hnid": 284249,
       "url": null,
       "id": 78
     },
     {
-      "name": "Glycerolipids [GL]",
-      "description": "Glycerolipids [GL]",
-      "pubchem_hnid": 284273,
-      "url": "https://www.lipidmaps.org/databases/lmsd/browse?category=2",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Ascarosides [FA1304]"
+        }
+      },
+      "description": "Ascarosides [FA1304]",
+      "pubchem_hnid": 4364778,
+      "url": null,
       "id": 79
     },
     {
-      "name": "Monoradylglycerols [GL01]",
-      "description": "Monoradylglycerols [GL01]",
-      "pubchem_hnid": 284274,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Other Fatty Acyls [FA00]"
+        }
+      },
+      "description": "Other Fatty Acyls [FA00]",
+      "pubchem_hnid": 284250,
       "url": null,
       "id": 80
     },
     {
-      "name": "Monoacylglycerols [GL0101]",
-      "description": "Monoacylglycerols [GL0101]",
-      "pubchem_hnid": 284275,
-      "url": null,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerolipids [GL]"
+        }
+      },
+      "description": "Glycerolipids [GL]",
+      "pubchem_hnid": 284273,
+      "url": "https://www.lipidmaps.org/databases/lmsd/browse?category=2",
       "id": 81
     },
     {
-      "name": "Monoalkylglycerols [GL0102]",
-      "description": "Monoalkylglycerols [GL0102]",
-      "pubchem_hnid": 284295,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoradylglycerols [GL01]"
+        }
+      },
+      "description": "Monoradylglycerols [GL01]",
+      "pubchem_hnid": 284274,
       "url": null,
       "id": 82
     },
     {
-      "name": "Mono-(1Z-alkenyl)-glycerols [GL0103]",
-      "description": "Mono-(1Z-alkenyl)-glycerols [GL0103]",
-      "pubchem_hnid": 284301,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoacylglycerols [GL0101]"
+        }
+      },
+      "description": "Monoacylglycerols [GL0101]",
+      "pubchem_hnid": 284275,
       "url": null,
       "id": 83
     },
     {
-      "name": "Diradylglycerols [GL02]",
-      "description": "Diradylglycerols [GL02]",
-      "pubchem_hnid": 284302,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoalkylglycerols [GL0102]"
+        }
+      },
+      "description": "Monoalkylglycerols [GL0102]",
+      "pubchem_hnid": 284295,
       "url": null,
       "id": 84
     },
     {
-      "name": "Diacylglycerols [GL0201]",
-      "description": "Diacylglycerols [GL0201]",
-      "pubchem_hnid": 284303,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Mono-(1Z-alkenyl)-glycerols [GL0103]"
+        }
+      },
+      "description": "Mono-(1Z-alkenyl)-glycerols [GL0103]",
+      "pubchem_hnid": 284301,
       "url": null,
       "id": 85
     },
     {
-      "name": "1-alkyl,2-acylglycerols [GL0202]",
-      "description": "1-alkyl,2-acylglycerols [GL0202]",
-      "pubchem_hnid": 284850,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diradylglycerols [GL02]"
+        }
+      },
+      "description": "Diradylglycerols [GL02]",
+      "pubchem_hnid": 284302,
       "url": null,
       "id": 86
     },
     {
-      "name": "1-acyl,2-alkylglycerols [GL0207]",
-      "description": "1-acyl,2-alkylglycerols [GL0207]",
-      "pubchem_hnid": 284852,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerols [GL0201]"
+        }
+      },
+      "description": "Diacylglycerols [GL0201]",
+      "pubchem_hnid": 284303,
       "url": null,
       "id": 87
     },
     {
-      "name": "Dialkylglycerols [GL0203]",
-      "description": "Dialkylglycerols [GL0203]",
-      "pubchem_hnid": 284859,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-alkyl,2-acylglycerols [GL0202]"
+        }
+      },
+      "description": "1-alkyl,2-acylglycerols [GL0202]",
+      "pubchem_hnid": 284850,
       "url": null,
       "id": 88
     },
     {
-      "name": "1Z-alkenylacylglycerols [GL0204]",
-      "description": "1Z-alkenylacylglycerols [GL0204]",
-      "pubchem_hnid": 284871,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-acyl,2-alkylglycerols [GL0207]"
+        }
+      },
+      "description": "1-acyl,2-alkylglycerols [GL0207]",
+      "pubchem_hnid": 284852,
       "url": null,
       "id": 89
     },
     {
-      "name": "Di-glycerol tetraethers [GL0205]",
-      "description": "Di-glycerol tetraethers [GL0205]",
-      "pubchem_hnid": 284873,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Dialkylglycerols [GL0203]"
+        }
+      },
+      "description": "Dialkylglycerols [GL0203]",
+      "pubchem_hnid": 284859,
       "url": null,
       "id": 90
     },
     {
-      "name": "Di-glycerol tetraether glycans [GL0206]",
-      "description": "Di-glycerol tetraether glycans [GL0206]",
-      "pubchem_hnid": 284877,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1Z-alkenylacylglycerols [GL0204]"
+        }
+      },
+      "description": "1Z-alkenylacylglycerols [GL0204]",
+      "pubchem_hnid": 284871,
       "url": null,
       "id": 91
     },
     {
-      "name": "Triradylglycerols [GL03]",
-      "description": "Triradylglycerols [GL03]",
-      "pubchem_hnid": 284880,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Di-glycerol tetraethers [GL0205]"
+        }
+      },
+      "description": "Di-glycerol tetraethers [GL0205]",
+      "pubchem_hnid": 284873,
       "url": null,
       "id": 92
     },
     {
-      "name": "Triacylglycerols [GL0301]",
-      "description": "Triacylglycerols [GL0301]",
-      "pubchem_hnid": 284881,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Di-glycerol tetraether glycans [GL0206]"
+        }
+      },
+      "description": "Di-glycerol tetraether glycans [GL0206]",
+      "pubchem_hnid": 284877,
       "url": null,
       "id": 93
     },
     {
-      "name": "Alkyldiacylglycerols [GL0302]",
-      "description": "Alkyldiacylglycerols [GL0302]",
-      "pubchem_hnid": 291764,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Triradylglycerols [GL03]"
+        }
+      },
+      "description": "Triradylglycerols [GL03]",
+      "pubchem_hnid": 284880,
       "url": null,
       "id": 94
     },
     {
-      "name": "Estolides [GL0305]",
-      "description": "Estolides [GL0305]",
-      "pubchem_hnid": 291767,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Triacylglycerols [GL0301]"
+        }
+      },
+      "description": "Triacylglycerols [GL0301]",
+      "pubchem_hnid": 284881,
       "url": null,
       "id": 95
     },
     {
-      "name": "Glycosylmonoradylglycerols [GL04]",
-      "description": "Glycosylmonoradylglycerols [GL04]",
-      "pubchem_hnid": 291769,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Alkyldiacylglycerols [GL0302]"
+        }
+      },
+      "description": "Alkyldiacylglycerols [GL0302]",
+      "pubchem_hnid": 291764,
       "url": null,
       "id": 96
     },
     {
-      "name": "Glycosylmonoacylglycerols [GL0401]",
-      "description": "Glycosylmonoacylglycerols [GL0401]",
-      "pubchem_hnid": 291770,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Estolides [GL0305]"
+        }
+      },
+      "description": "Estolides [GL0305]",
+      "pubchem_hnid": 291767,
       "url": null,
       "id": 97
     },
     {
-      "name": "Glycosylmonoalkylglycerols [GL0402]",
-      "description": "Glycosylmonoalkylglycerols [GL0402]",
-      "pubchem_hnid": 291779,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycosylmonoradylglycerols [GL04]"
+        }
+      },
+      "description": "Glycosylmonoradylglycerols [GL04]",
+      "pubchem_hnid": 291769,
       "url": null,
       "id": 98
     },
     {
-      "name": "Glycosyldiradylglycerols [GL05]",
-      "description": "Glycosyldiradylglycerols [GL05]",
-      "pubchem_hnid": 291780,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycosylmonoacylglycerols [GL0401]"
+        }
+      },
+      "description": "Glycosylmonoacylglycerols [GL0401]",
+      "pubchem_hnid": 291770,
       "url": null,
       "id": 99
     },
     {
-      "name": "Glycosyldiacylglycerols [GL0501]",
-      "description": "Glycosyldiacylglycerols [GL0501]",
-      "pubchem_hnid": 291781,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycosylmonoalkylglycerols [GL0402]"
+        }
+      },
+      "description": "Glycosylmonoalkylglycerols [GL0402]",
+      "pubchem_hnid": 291779,
       "url": null,
       "id": 100
     },
     {
-      "name": "Glycosylalkylacylglycerols [GL0502]",
-      "description": "Glycosylalkylacylglycerols [GL0502]",
-      "pubchem_hnid": 291820,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycosyldiradylglycerols [GL05]"
+        }
+      },
+      "description": "Glycosyldiradylglycerols [GL05]",
+      "pubchem_hnid": 291780,
       "url": null,
       "id": 101
     },
     {
-      "name": "Glycosyldialkylglycerols [GL0503]",
-      "description": "Glycosyldialkylglycerols [GL0503]",
-      "pubchem_hnid": 291821,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycosyldiacylglycerols [GL0501]"
+        }
+      },
+      "description": "Glycosyldiacylglycerols [GL0501]",
+      "pubchem_hnid": 291781,
       "url": null,
       "id": 102
     },
     {
-      "name": "Other Glycerolipids [GL00]",
-      "description": "Other Glycerolipids [GL00]",
-      "pubchem_hnid": 291828,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycosylalkylacylglycerols [GL0502]"
+        }
+      },
+      "description": "Glycosylalkylacylglycerols [GL0502]",
+      "pubchem_hnid": 291820,
       "url": null,
       "id": 103
     },
     {
-      "name": "Betaine diradylglycerols [GL07]",
-      "description": "Betaine diradylglycerols [GL07]",
-      "pubchem_hnid": 5557171,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycosyldialkylglycerols [GL0503]"
+        }
+      },
+      "description": "Glycosyldialkylglycerols [GL0503]",
+      "pubchem_hnid": 291821,
       "url": null,
       "id": 104
     },
     {
-      "name": "Betaine diacylglycerols [GL0701]",
-      "description": "Betaine diacylglycerols [GL0701]",
-      "pubchem_hnid": 5557170,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Other Glycerolipids [GL00]"
+        }
+      },
+      "description": "Other Glycerolipids [GL00]",
+      "pubchem_hnid": 291828,
       "url": null,
       "id": 105
     },
     {
-      "name": "Betaine monoradylglycerols [GL06]",
-      "description": "Betaine monoradylglycerols [GL06]",
-      "pubchem_hnid": 5557173,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Betaine diradylglycerols [GL07]"
+        }
+      },
+      "description": "Betaine diradylglycerols [GL07]",
+      "pubchem_hnid": 5557171,
       "url": null,
       "id": 106
     },
     {
-      "name": "Betaine monoacylglycerols [GL0601]",
-      "description": "Betaine monoacylglycerols [GL0601]",
-      "pubchem_hnid": 5557172,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Betaine diacylglycerols [GL0701]"
+        }
+      },
+      "description": "Betaine diacylglycerols [GL0701]",
+      "pubchem_hnid": 5557170,
       "url": null,
       "id": 107
     },
     {
-      "name": "Glycerophospholipids [GP]",
-      "description": "Glycerophospholipids [GP]",
-      "pubchem_hnid": 291838,
-      "url": "https://www.lipidmaps.org/databases/lmsd/browse?category=3",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Betaine monoradylglycerols [GL06]"
+        }
+      },
+      "description": "Betaine monoradylglycerols [GL06]",
+      "pubchem_hnid": 5557173,
+      "url": null,
       "id": 108
     },
     {
-      "name": "Glycerophosphocholines [GP01]",
-      "description": "Glycerophosphocholines [GP01]",
-      "pubchem_hnid": 291839,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Betaine monoacylglycerols [GL0601]"
+        }
+      },
+      "description": "Betaine monoacylglycerols [GL0601]",
+      "pubchem_hnid": 5557172,
       "url": null,
       "id": 109
     },
     {
-      "name": "Diacylglycerophosphocholines [GP0101]",
-      "description": "Diacylglycerophosphocholines [GP0101]",
-      "pubchem_hnid": 291840,
-      "url": null,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophospholipids [GP]"
+        }
+      },
+      "description": "Glycerophospholipids [GP]",
+      "pubchem_hnid": 291838,
+      "url": "https://www.lipidmaps.org/databases/lmsd/browse?category=3",
       "id": 110
     },
     {
-      "name": "1-alkyl,2-acylglycerophosphocholines [GP0102]",
-      "description": "1-alkyl,2-acylglycerophosphocholines [GP0102]",
-      "pubchem_hnid": 293076,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophosphocholines [GP01]"
+        }
+      },
+      "description": "Glycerophosphocholines [GP01]",
+      "pubchem_hnid": 291839,
       "url": null,
       "id": 111
     },
     {
-      "name": "1-acyl,2-alkylglycerophosphocholines [GP0108]",
-      "description": "1-acyl,2-alkylglycerophosphocholines [GP0108]",
-      "pubchem_hnid": 293224,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphocholines [GP0101]"
+        }
+      },
+      "description": "Diacylglycerophosphocholines [GP0101]",
+      "pubchem_hnid": 291840,
       "url": null,
       "id": 112
     },
     {
-      "name": "1-(1Z-alkenyl),2-acylglycerophosphocholines [GP0103]",
-      "description": "1-(1Z-alkenyl),2-acylglycerophosphocholines [GP0103]",
-      "pubchem_hnid": 293237,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-alkyl,2-acylglycerophosphocholines [GP0102]"
+        }
+      },
+      "description": "1-alkyl,2-acylglycerophosphocholines [GP0102]",
+      "pubchem_hnid": 293076,
       "url": null,
       "id": 113
     },
     {
-      "name": "Dialkylglycerophosphocholines [GP0104]",
-      "description": "Dialkylglycerophosphocholines [GP0104]",
-      "pubchem_hnid": 293338,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-acyl,2-alkylglycerophosphocholines [GP0108]"
+        }
+      },
+      "description": "1-acyl,2-alkylglycerophosphocholines [GP0108]",
+      "pubchem_hnid": 293224,
       "url": null,
       "id": 114
     },
     {
-      "name": "Monoacylglycerophosphocholines [GP0105]",
-      "description": "Monoacylglycerophosphocholines [GP0105]",
-      "pubchem_hnid": 293375,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-(1Z-alkenyl),2-acylglycerophosphocholines [GP0103]"
+        }
+      },
+      "description": "1-(1Z-alkenyl),2-acylglycerophosphocholines [GP0103]",
+      "pubchem_hnid": 293237,
       "url": null,
       "id": 115
     },
     {
-      "name": "Monoalkylglycerophosphocholines [GP0106]",
-      "description": "Monoalkylglycerophosphocholines [GP0106]",
-      "pubchem_hnid": 293444,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Dialkylglycerophosphocholines [GP0104]"
+        }
+      },
+      "description": "Dialkylglycerophosphocholines [GP0104]",
+      "pubchem_hnid": 293338,
       "url": null,
       "id": 116
     },
     {
-      "name": "1Z-alkenylglycerophosphocholines [GP0107]",
-      "description": "1Z-alkenylglycerophosphocholines [GP0107]",
-      "pubchem_hnid": 293460,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoacylglycerophosphocholines [GP0105]"
+        }
+      },
+      "description": "Monoacylglycerophosphocholines [GP0105]",
+      "pubchem_hnid": 293375,
       "url": null,
       "id": 117
     },
     {
-      "name": "Glycerophosphoethanolamines [GP02]",
-      "description": "Glycerophosphoethanolamines [GP02]",
-      "pubchem_hnid": 293472,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoalkylglycerophosphocholines [GP0106]"
+        }
+      },
+      "description": "Monoalkylglycerophosphocholines [GP0106]",
+      "pubchem_hnid": 293444,
       "url": null,
       "id": 118
     },
     {
-      "name": "Diacylglycerophosphoethanolamines [GP0201]",
-      "description": "Diacylglycerophosphoethanolamines [GP0201]",
-      "pubchem_hnid": 293473,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1Z-alkenylglycerophosphocholines [GP0107]"
+        }
+      },
+      "description": "1Z-alkenylglycerophosphocholines [GP0107]",
+      "pubchem_hnid": 293460,
       "url": null,
       "id": 119
     },
     {
-      "name": "1-alkyl,2-acylglycerophosphoethanolamines [GP0202]",
-      "description": "1-alkyl,2-acylglycerophosphoethanolamines [GP0202]",
-      "pubchem_hnid": 294499,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophosphoethanolamines [GP02]"
+        }
+      },
+      "description": "Glycerophosphoethanolamines [GP02]",
+      "pubchem_hnid": 293472,
       "url": null,
       "id": 120
     },
     {
-      "name": "1-acyl,2-alkylglycerophosphoethanolamines [GP0208]",
-      "description": "1-acyl,2-alkylglycerophosphoethanolamines [GP0208]",
-      "pubchem_hnid": 294594,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphoethanolamines [GP0201]"
+        }
+      },
+      "description": "Diacylglycerophosphoethanolamines [GP0201]",
+      "pubchem_hnid": 293473,
       "url": null,
       "id": 121
     },
     {
-      "name": "1-(1Z-alkenyl),2-acylglycerophosphoethanolamines [GP0203]",
-      "description": "1-(1Z-alkenyl),2-acylglycerophosphoethanolamines [GP0203]",
-      "pubchem_hnid": 294601,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-alkyl,2-acylglycerophosphoethanolamines [GP0202]"
+        }
+      },
+      "description": "1-alkyl,2-acylglycerophosphoethanolamines [GP0202]",
+      "pubchem_hnid": 294499,
       "url": null,
       "id": 122
     },
     {
-      "name": "Dialkylglycerophosphoethanolamines [GP0204]",
-      "description": "Dialkylglycerophosphoethanolamines [GP0204]",
-      "pubchem_hnid": 294696,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-acyl,2-alkylglycerophosphoethanolamines [GP0208]"
+        }
+      },
+      "description": "1-acyl,2-alkylglycerophosphoethanolamines [GP0208]",
+      "pubchem_hnid": 294594,
       "url": null,
       "id": 123
     },
     {
-      "name": "Monoacylglycerophosphoethanolamines [GP0205]",
-      "description": "Monoacylglycerophosphoethanolamines [GP0205]",
-      "pubchem_hnid": 294710,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-(1Z-alkenyl),2-acylglycerophosphoethanolamines [GP0203]"
+        }
+      },
+      "description": "1-(1Z-alkenyl),2-acylglycerophosphoethanolamines [GP0203]",
+      "pubchem_hnid": 294601,
       "url": null,
       "id": 124
     },
     {
-      "name": "Monoalkylglycerophosphoethanolamines [GP0206]",
-      "description": "Monoalkylglycerophosphoethanolamines [GP0206]",
-      "pubchem_hnid": 294744,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Dialkylglycerophosphoethanolamines [GP0204]"
+        }
+      },
+      "description": "Dialkylglycerophosphoethanolamines [GP0204]",
+      "pubchem_hnid": 294696,
       "url": null,
       "id": 125
     },
     {
-      "name": "1Z-alkenylglycerophosphoethanolamines [GP0207]",
-      "description": "1Z-alkenylglycerophosphoethanolamines [GP0207]",
-      "pubchem_hnid": 294750,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoacylglycerophosphoethanolamines [GP0205]"
+        }
+      },
+      "description": "Monoacylglycerophosphoethanolamines [GP0205]",
+      "pubchem_hnid": 294710,
       "url": null,
       "id": 126
     },
     {
-      "name": "Glycerophosphoserines [GP03]",
-      "description": "Glycerophosphoserines [GP03]",
-      "pubchem_hnid": 294755,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoalkylglycerophosphoethanolamines [GP0206]"
+        }
+      },
+      "description": "Monoalkylglycerophosphoethanolamines [GP0206]",
+      "pubchem_hnid": 294744,
       "url": null,
       "id": 127
     },
     {
-      "name": "Diacylglycerophosphoserines [GP0301]",
-      "description": "Diacylglycerophosphoserines [GP0301]",
-      "pubchem_hnid": 294756,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1Z-alkenylglycerophosphoethanolamines [GP0207]"
+        }
+      },
+      "description": "1Z-alkenylglycerophosphoethanolamines [GP0207]",
+      "pubchem_hnid": 294750,
       "url": null,
       "id": 128
     },
     {
-      "name": "1-alkyl,2-acylglycerophosphoserines [GP0302]",
-      "description": "1-alkyl,2-acylglycerophosphoserines [GP0302]",
-      "pubchem_hnid": 295723,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophosphoserines [GP03]"
+        }
+      },
+      "description": "Glycerophosphoserines [GP03]",
+      "pubchem_hnid": 294755,
       "url": null,
       "id": 129
     },
     {
-      "name": "1-(1Z-alkenyl),2-acylglycerophosphoserines [GP0303]",
-      "description": "1-(1Z-alkenyl),2-acylglycerophosphoserines [GP0303]",
-      "pubchem_hnid": 295817,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphoserines [GP0301]"
+        }
+      },
+      "description": "Diacylglycerophosphoserines [GP0301]",
+      "pubchem_hnid": 294756,
       "url": null,
       "id": 130
     },
     {
-      "name": "Dialkylglycerophosphoserines [GP0304]",
-      "description": "Dialkylglycerophosphoserines [GP0304]",
-      "pubchem_hnid": 295911,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-alkyl,2-acylglycerophosphoserines [GP0302]"
+        }
+      },
+      "description": "1-alkyl,2-acylglycerophosphoserines [GP0302]",
+      "pubchem_hnid": 295723,
       "url": null,
       "id": 131
     },
     {
-      "name": "Monoacylglycerophosphoserines [GP0305]",
-      "description": "Monoacylglycerophosphoserines [GP0305]",
-      "pubchem_hnid": 295912,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-(1Z-alkenyl),2-acylglycerophosphoserines [GP0303]"
+        }
+      },
+      "description": "1-(1Z-alkenyl),2-acylglycerophosphoserines [GP0303]",
+      "pubchem_hnid": 295817,
       "url": null,
       "id": 132
     },
     {
-      "name": "Monoalkylglycerophosphoserines [GP0306]",
-      "description": "Monoalkylglycerophosphoserines [GP0306]",
-      "pubchem_hnid": 295945,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Dialkylglycerophosphoserines [GP0304]"
+        }
+      },
+      "description": "Dialkylglycerophosphoserines [GP0304]",
+      "pubchem_hnid": 295911,
       "url": null,
       "id": 133
     },
     {
-      "name": "1Z-alkenylglycerophosphoserines [GP0307]",
-      "description": "1Z-alkenylglycerophosphoserines [GP0307]",
-      "pubchem_hnid": 295949,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoacylglycerophosphoserines [GP0305]"
+        }
+      },
+      "description": "Monoacylglycerophosphoserines [GP0305]",
+      "pubchem_hnid": 295912,
       "url": null,
       "id": 134
     },
     {
-      "name": "Glycerophosphoglycerols [GP04]",
-      "description": "Glycerophosphoglycerols [GP04]",
-      "pubchem_hnid": 295953,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoalkylglycerophosphoserines [GP0306]"
+        }
+      },
+      "description": "Monoalkylglycerophosphoserines [GP0306]",
+      "pubchem_hnid": 295945,
       "url": null,
       "id": 135
     },
     {
-      "name": "Diacylglycerophosphoglycerols [GP0401]",
-      "description": "Diacylglycerophosphoglycerols [GP0401]",
-      "pubchem_hnid": 295954,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1Z-alkenylglycerophosphoserines [GP0307]"
+        }
+      },
+      "description": "1Z-alkenylglycerophosphoserines [GP0307]",
+      "pubchem_hnid": 295949,
       "url": null,
       "id": 136
     },
     {
-      "name": "1-alkyl,2-acylglycerophosphoglycerols [GP0402]",
-      "description": "1-alkyl,2-acylglycerophosphoglycerols [GP0402]",
-      "pubchem_hnid": 296922,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophosphoglycerols [GP04]"
+        }
+      },
+      "description": "Glycerophosphoglycerols [GP04]",
+      "pubchem_hnid": 295953,
       "url": null,
       "id": 137
     },
     {
-      "name": "1-acyl,2-alkylglycerophosphoglycerols [GP0411]",
-      "description": "1-acyl,2-alkylglycerophosphoglycerols [GP0411]",
-      "pubchem_hnid": 297016,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphoglycerols [GP0401]"
+        }
+      },
+      "description": "Diacylglycerophosphoglycerols [GP0401]",
+      "pubchem_hnid": 295954,
       "url": null,
       "id": 138
     },
     {
-      "name": "1-(1Z-alkenyl),2-acylglycerophosphoglycerols [GP0403]",
-      "description": "1-(1Z-alkenyl),2-acylglycerophosphoglycerols [GP0403]",
-      "pubchem_hnid": 297021,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-alkyl,2-acylglycerophosphoglycerols [GP0402]"
+        }
+      },
+      "description": "1-alkyl,2-acylglycerophosphoglycerols [GP0402]",
+      "pubchem_hnid": 296922,
       "url": null,
       "id": 139
     },
     {
-      "name": "Dialkylglycerophosphoglycerols [GP0404]",
-      "description": "Dialkylglycerophosphoglycerols [GP0404]",
-      "pubchem_hnid": 297115,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-acyl,2-alkylglycerophosphoglycerols [GP0411]"
+        }
+      },
+      "description": "1-acyl,2-alkylglycerophosphoglycerols [GP0411]",
+      "pubchem_hnid": 297016,
       "url": null,
       "id": 140
     },
     {
-      "name": "Monoacylglycerophosphoglycerols [GP0405]",
-      "description": "Monoacylglycerophosphoglycerols [GP0405]",
-      "pubchem_hnid": 297123,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-(1Z-alkenyl),2-acylglycerophosphoglycerols [GP0403]"
+        }
+      },
+      "description": "1-(1Z-alkenyl),2-acylglycerophosphoglycerols [GP0403]",
+      "pubchem_hnid": 297021,
       "url": null,
       "id": 141
     },
     {
-      "name": "Monoalkylglycerophosphoglycerols [GP0406]",
-      "description": "Monoalkylglycerophosphoglycerols [GP0406]",
-      "pubchem_hnid": 297155,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Dialkylglycerophosphoglycerols [GP0404]"
+        }
+      },
+      "description": "Dialkylglycerophosphoglycerols [GP0404]",
+      "pubchem_hnid": 297115,
       "url": null,
       "id": 142
     },
     {
-      "name": "1Z-alkenylglycerophosphoglycerols [GP0407]",
-      "description": "1Z-alkenylglycerophosphoglycerols [GP0407]",
-      "pubchem_hnid": 297159,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoacylglycerophosphoglycerols [GP0405]"
+        }
+      },
+      "description": "Monoacylglycerophosphoglycerols [GP0405]",
+      "pubchem_hnid": 297123,
       "url": null,
       "id": 143
     },
     {
-      "name": "Diacylglycerophosphomonoradylglycerols [GP0409]",
-      "description": "Diacylglycerophosphomonoradylglycerols [GP0409]",
-      "pubchem_hnid": 297164,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoalkylglycerophosphoglycerols [GP0406]"
+        }
+      },
+      "description": "Monoalkylglycerophosphoglycerols [GP0406]",
+      "pubchem_hnid": 297155,
       "url": null,
       "id": 144
     },
     {
-      "name": "Monoacylglycerophosphomonoradylglycerols [GP0410]",
-      "description": "Monoacylglycerophosphomonoradylglycerols [GP0410]",
-      "pubchem_hnid": 297167,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1Z-alkenylglycerophosphoglycerols [GP0407]"
+        }
+      },
+      "description": "1Z-alkenylglycerophosphoglycerols [GP0407]",
+      "pubchem_hnid": 297159,
       "url": null,
       "id": 145
     },
     {
-      "name": "Glycerophosphoglycerophosphates [GP05]",
-      "description": "Glycerophosphoglycerophosphates [GP05]",
-      "pubchem_hnid": 297172,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphomonoradylglycerols [GP0409]"
+        }
+      },
+      "description": "Diacylglycerophosphomonoradylglycerols [GP0409]",
+      "pubchem_hnid": 297164,
       "url": null,
       "id": 146
     },
     {
-      "name": "Diacylglycerophosphoglycerophosphates [GP0501]",
-      "description": "Diacylglycerophosphoglycerophosphates [GP0501]",
-      "pubchem_hnid": 297173,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoacylglycerophosphomonoradylglycerols [GP0410]"
+        }
+      },
+      "description": "Monoacylglycerophosphomonoradylglycerols [GP0410]",
+      "pubchem_hnid": 297167,
       "url": null,
       "id": 147
     },
     {
-      "name": "Dialkylglycerophosphoglycerophosphates [GP0504]",
-      "description": "Dialkylglycerophosphoglycerophosphates [GP0504]",
-      "pubchem_hnid": 297179,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophosphoglycerophosphates [GP05]"
+        }
+      },
+      "description": "Glycerophosphoglycerophosphates [GP05]",
+      "pubchem_hnid": 297172,
       "url": null,
       "id": 148
     },
     {
-      "name": "Glycerophosphoinositols [GP06]",
-      "description": "Glycerophosphoinositols [GP06]",
-      "pubchem_hnid": 297184,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphoglycerophosphates [GP0501]"
+        }
+      },
+      "description": "Diacylglycerophosphoglycerophosphates [GP0501]",
+      "pubchem_hnid": 297173,
       "url": null,
       "id": 149
     },
     {
-      "name": "Diacylglycerophosphoinositols [GP0601]",
-      "description": "Diacylglycerophosphoinositols [GP0601]",
-      "pubchem_hnid": 297185,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Dialkylglycerophosphoglycerophosphates [GP0504]"
+        }
+      },
+      "description": "Dialkylglycerophosphoglycerophosphates [GP0504]",
+      "pubchem_hnid": 297179,
       "url": null,
       "id": 150
     },
     {
-      "name": "1-alkyl,2-acylglycerophosphoinositols [GP0602]",
-      "description": "1-alkyl,2-acylglycerophosphoinositols [GP0602]",
-      "pubchem_hnid": 298147,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophosphoinositols [GP06]"
+        }
+      },
+      "description": "Glycerophosphoinositols [GP06]",
+      "pubchem_hnid": 297184,
       "url": null,
       "id": 151
     },
     {
-      "name": "1-(1Z-alkenyl),2-acylglycerophosphoinositols [GP0603]",
-      "description": "1-(1Z-alkenyl),2-acylglycerophosphoinositols [GP0603]",
-      "pubchem_hnid": 298241,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphoinositols [GP0601]"
+        }
+      },
+      "description": "Diacylglycerophosphoinositols [GP0601]",
+      "pubchem_hnid": 297185,
       "url": null,
       "id": 152
     },
     {
-      "name": "Dialkylglycerophosphoinositols [GP0604]",
-      "description": "Dialkylglycerophosphoinositols [GP0604]",
-      "pubchem_hnid": 298335,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-alkyl,2-acylglycerophosphoinositols [GP0602]"
+        }
+      },
+      "description": "1-alkyl,2-acylglycerophosphoinositols [GP0602]",
+      "pubchem_hnid": 298147,
       "url": null,
       "id": 153
     },
     {
-      "name": "Monoacylglycerophosphoinositols [GP0605]",
-      "description": "Monoacylglycerophosphoinositols [GP0605]",
-      "pubchem_hnid": 298337,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-(1Z-alkenyl),2-acylglycerophosphoinositols [GP0603]"
+        }
+      },
+      "description": "1-(1Z-alkenyl),2-acylglycerophosphoinositols [GP0603]",
+      "pubchem_hnid": 298241,
       "url": null,
       "id": 154
     },
     {
-      "name": "Monoalkylglycerophosphoinositols [GP0606]",
-      "description": "Monoalkylglycerophosphoinositols [GP0606]",
-      "pubchem_hnid": 298370,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Dialkylglycerophosphoinositols [GP0604]"
+        }
+      },
+      "description": "Dialkylglycerophosphoinositols [GP0604]",
+      "pubchem_hnid": 298335,
       "url": null,
       "id": 155
     },
     {
-      "name": "1Z-alkenylglycerophosphoinositols [GP0607]",
-      "description": "1Z-alkenylglycerophosphoinositols [GP0607]",
-      "pubchem_hnid": 298374,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoacylglycerophosphoinositols [GP0605]"
+        }
+      },
+      "description": "Monoacylglycerophosphoinositols [GP0605]",
+      "pubchem_hnid": 298337,
       "url": null,
       "id": 156
     },
     {
-      "name": "Glycerophosphoinositol monophosphates [GP07]",
-      "description": "Glycerophosphoinositol monophosphates [GP07]",
-      "pubchem_hnid": 298378,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoalkylglycerophosphoinositols [GP0606]"
+        }
+      },
+      "description": "Monoalkylglycerophosphoinositols [GP0606]",
+      "pubchem_hnid": 298370,
       "url": null,
       "id": 157
     },
     {
-      "name": "Diacylglycerophosphoinositol monophosphates [GP0701]",
-      "description": "Diacylglycerophosphoinositol monophosphates [GP0701]",
-      "pubchem_hnid": 298379,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1Z-alkenylglycerophosphoinositols [GP0607]"
+        }
+      },
+      "description": "1Z-alkenylglycerophosphoinositols [GP0607]",
+      "pubchem_hnid": 298374,
       "url": null,
       "id": 158
     },
     {
-      "name": "Glycerophosphoinositol bisphosphates [GP08]",
-      "description": "Glycerophosphoinositol bisphosphates [GP08]",
-      "pubchem_hnid": 298390,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophosphoinositol monophosphates [GP07]"
+        }
+      },
+      "description": "Glycerophosphoinositol monophosphates [GP07]",
+      "pubchem_hnid": 298378,
       "url": null,
       "id": 159
     },
     {
-      "name": "Diacylglycerophosphoinositol bisphosphates [GP0801]",
-      "description": "Diacylglycerophosphoinositol bisphosphates [GP0801]",
-      "pubchem_hnid": 298391,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphoinositol monophosphates [GP0701]"
+        }
+      },
+      "description": "Diacylglycerophosphoinositol monophosphates [GP0701]",
+      "pubchem_hnid": 298379,
       "url": null,
       "id": 160
     },
     {
-      "name": "Glycerophosphoinositol trisphosphates [GP09]",
-      "description": "Glycerophosphoinositol trisphosphates [GP09]",
-      "pubchem_hnid": 298400,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophosphoinositol bisphosphates [GP08]"
+        }
+      },
+      "description": "Glycerophosphoinositol bisphosphates [GP08]",
+      "pubchem_hnid": 298390,
       "url": null,
       "id": 161
     },
     {
-      "name": "Diacylglycerophosphoinositol trisphosphates [GP0901]",
-      "description": "Diacylglycerophosphoinositol trisphosphates [GP0901]",
-      "pubchem_hnid": 298401,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphoinositol bisphosphates [GP0801]"
+        }
+      },
+      "description": "Diacylglycerophosphoinositol bisphosphates [GP0801]",
+      "pubchem_hnid": 298391,
       "url": null,
       "id": 162
     },
     {
-      "name": "Glycerophosphates [GP10]",
-      "description": "Glycerophosphates [GP10]",
-      "pubchem_hnid": 298408,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophosphoinositol trisphosphates [GP09]"
+        }
+      },
+      "description": "Glycerophosphoinositol trisphosphates [GP09]",
+      "pubchem_hnid": 298400,
       "url": null,
       "id": 163
     },
     {
-      "name": "Diacylglycerophosphates [GP1001]",
-      "description": "Diacylglycerophosphates [GP1001]",
-      "pubchem_hnid": 298409,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphoinositol trisphosphates [GP0901]"
+        }
+      },
+      "description": "Diacylglycerophosphoinositol trisphosphates [GP0901]",
+      "pubchem_hnid": 298401,
       "url": null,
       "id": 164
     },
     {
-      "name": "1-alkyl,2-acylglycerophosphates [GP1002]",
-      "description": "1-alkyl,2-acylglycerophosphates [GP1002]",
-      "pubchem_hnid": 299377,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophosphates [GP10]"
+        }
+      },
+      "description": "Glycerophosphates [GP10]",
+      "pubchem_hnid": 298408,
       "url": null,
       "id": 165
     },
     {
-      "name": "1-(1Z-alkenyl),2-acylglycerophosphates [GP1003]",
-      "description": "1-(1Z-alkenyl),2-acylglycerophosphates [GP1003]",
-      "pubchem_hnid": 299471,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphates [GP1001]"
+        }
+      },
+      "description": "Diacylglycerophosphates [GP1001]",
+      "pubchem_hnid": 298409,
       "url": null,
       "id": 166
     },
     {
-      "name": "Dialkylglycerophosphates [GP1004]",
-      "description": "Dialkylglycerophosphates [GP1004]",
-      "pubchem_hnid": 299565,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-alkyl,2-acylglycerophosphates [GP1002]"
+        }
+      },
+      "description": "1-alkyl,2-acylglycerophosphates [GP1002]",
+      "pubchem_hnid": 299377,
       "url": null,
       "id": 167
     },
     {
-      "name": "Monoacylglycerophosphates [GP1005]",
-      "description": "Monoacylglycerophosphates [GP1005]",
-      "pubchem_hnid": 299567,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-(1Z-alkenyl),2-acylglycerophosphates [GP1003]"
+        }
+      },
+      "description": "1-(1Z-alkenyl),2-acylglycerophosphates [GP1003]",
+      "pubchem_hnid": 299471,
       "url": null,
       "id": 168
     },
     {
-      "name": "Monoalkylglycerophosphates [GP1006]",
-      "description": "Monoalkylglycerophosphates [GP1006]",
-      "pubchem_hnid": 299604,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Dialkylglycerophosphates [GP1004]"
+        }
+      },
+      "description": "Dialkylglycerophosphates [GP1004]",
+      "pubchem_hnid": 299565,
       "url": null,
       "id": 169
     },
     {
-      "name": "1Z-alkenylglycerophosphates [GP1007]",
-      "description": "1Z-alkenylglycerophosphates [GP1007]",
-      "pubchem_hnid": 299609,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoacylglycerophosphates [GP1005]"
+        }
+      },
+      "description": "Monoacylglycerophosphates [GP1005]",
+      "pubchem_hnid": 299567,
       "url": null,
       "id": 170
     },
     {
-      "name": "Glyceropyrophosphates [GP11]",
-      "description": "Glyceropyrophosphates [GP11]",
-      "pubchem_hnid": 299613,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoalkylglycerophosphates [GP1006]"
+        }
+      },
+      "description": "Monoalkylglycerophosphates [GP1006]",
+      "pubchem_hnid": 299604,
       "url": null,
       "id": 171
     },
     {
-      "name": "Diacylglyceropyrophosphates [GP1101]",
-      "description": "Diacylglyceropyrophosphates [GP1101]",
-      "pubchem_hnid": 299614,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1Z-alkenylglycerophosphates [GP1007]"
+        }
+      },
+      "description": "1Z-alkenylglycerophosphates [GP1007]",
+      "pubchem_hnid": 299609,
       "url": null,
       "id": 172
     },
     {
-      "name": "Glycerophosphoglycerophosphoglycerols [GP12]",
-      "description": "Glycerophosphoglycerophosphoglycerols [GP12]",
-      "pubchem_hnid": 299618,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glyceropyrophosphates [GP11]"
+        }
+      },
+      "description": "Glyceropyrophosphates [GP11]",
+      "pubchem_hnid": 299613,
       "url": null,
       "id": 173
     },
     {
-      "name": "Diacylglycerophosphoglycerophosphodiradylglycerols [GP1201]",
-      "description": "Diacylglycerophosphoglycerophosphodiradylglycerols [GP1201]",
-      "pubchem_hnid": 299619,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglyceropyrophosphates [GP1101]"
+        }
+      },
+      "description": "Diacylglyceropyrophosphates [GP1101]",
+      "pubchem_hnid": 299614,
       "url": null,
       "id": 174
     },
     {
-      "name": "Diacylglycerophosphoglycerophosphomonoradylglycerols [GP1202]",
-      "description": "Diacylglycerophosphoglycerophosphomonoradylglycerols [GP1202]",
-      "pubchem_hnid": 299627,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophosphoglycerophosphoglycerols [GP12]"
+        }
+      },
+      "description": "Glycerophosphoglycerophosphoglycerols [GP12]",
+      "pubchem_hnid": 299618,
       "url": null,
       "id": 175
     },
     {
-      "name": "Dialkylglycerophosphoglycerophosphodiradylglycerols [GP1212]",
-      "description": "Dialkylglycerophosphoglycerophosphodiradylglycerols [GP1212]",
-      "pubchem_hnid": 299633,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphoglycerophosphodiradylglycerols [GP1201]"
+        }
+      },
+      "description": "Diacylglycerophosphoglycerophosphodiradylglycerols [GP1201]",
+      "pubchem_hnid": 299619,
       "url": null,
       "id": 176
     },
     {
-      "name": "Monoacylglycerophosphoglycerophosphomonoradylglycerols [GP1207]",
-      "description": "Monoacylglycerophosphoglycerophosphomonoradylglycerols [GP1207]",
-      "pubchem_hnid": 299638,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphoglycerophosphomonoradylglycerols [GP1202]"
+        }
+      },
+      "description": "Diacylglycerophosphoglycerophosphomonoradylglycerols [GP1202]",
+      "pubchem_hnid": 299627,
       "url": null,
       "id": 177
     },
     {
-      "name": "CDP-Glycerols [GP13]",
-      "description": "CDP-Glycerols [GP13]",
-      "pubchem_hnid": 299644,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Dialkylglycerophosphoglycerophosphodiradylglycerols [GP1212]"
+        }
+      },
+      "description": "Dialkylglycerophosphoglycerophosphodiradylglycerols [GP1212]",
+      "pubchem_hnid": 299633,
       "url": null,
       "id": 178
     },
     {
-      "name": "CDP-diacylglycerols [GP1301]",
-      "description": "CDP-diacylglycerols [GP1301]",
-      "pubchem_hnid": 299645,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoacylglycerophosphoglycerophosphomonoradylglycerols [GP1207]"
+        }
+      },
+      "description": "Monoacylglycerophosphoglycerophosphomonoradylglycerols [GP1207]",
+      "pubchem_hnid": 299638,
       "url": null,
       "id": 179
     },
     {
-      "name": "CDP-Dialkylglycerols [GP1304]",
-      "description": "CDP-Dialkylglycerols [GP1304]",
-      "pubchem_hnid": 299653,
+      "name": {
+        "StringWithMarkup": {
+          "String": "CDP-Glycerols [GP13]"
+        }
+      },
+      "description": "CDP-Glycerols [GP13]",
+      "pubchem_hnid": 299644,
       "url": null,
       "id": 180
     },
     {
-      "name": "Glycosylglycerophospholipids [GP14]",
-      "description": "Glycosylglycerophospholipids [GP14]",
-      "pubchem_hnid": 299658,
+      "name": {
+        "StringWithMarkup": {
+          "String": "CDP-diacylglycerols [GP1301]"
+        }
+      },
+      "description": "CDP-diacylglycerols [GP1301]",
+      "pubchem_hnid": 299645,
       "url": null,
       "id": 181
     },
     {
-      "name": "Diacylglycosylglycerophospholipids [GP1401]",
-      "description": "Diacylglycosylglycerophospholipids [GP1401]",
-      "pubchem_hnid": 299659,
+      "name": {
+        "StringWithMarkup": {
+          "String": "CDP-Dialkylglycerols [GP1304]"
+        }
+      },
+      "description": "CDP-Dialkylglycerols [GP1304]",
+      "pubchem_hnid": 299653,
       "url": null,
       "id": 182
     },
     {
-      "name": "Monoacylglycosylglycerophospholipids [GP1404]",
-      "description": "Monoacylglycosylglycerophospholipids [GP1404]",
-      "pubchem_hnid": 299666,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycosylglycerophospholipids [GP14]"
+        }
+      },
+      "description": "Glycosylglycerophospholipids [GP14]",
+      "pubchem_hnid": 299658,
       "url": null,
       "id": 183
     },
     {
-      "name": "Glycerophosphoinositolglycans [GP15]",
-      "description": "Glycerophosphoinositolglycans [GP15]",
-      "pubchem_hnid": 299669,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycosylglycerophospholipids [GP1401]"
+        }
+      },
+      "description": "Diacylglycosylglycerophospholipids [GP1401]",
+      "pubchem_hnid": 299659,
       "url": null,
       "id": 184
     },
     {
-      "name": "Diacylglycerophosphoinositolglycans [GP1501]",
-      "description": "Diacylglycerophosphoinositolglycans [GP1501]",
-      "pubchem_hnid": 299670,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoacylglycosylglycerophospholipids [GP1404]"
+        }
+      },
+      "description": "Monoacylglycosylglycerophospholipids [GP1404]",
+      "pubchem_hnid": 299666,
       "url": null,
       "id": 185
     },
     {
-      "name": "Dialkylglycerophosphoinositolglycans [GP1507]",
-      "description": "Dialkylglycerophosphoinositolglycans [GP1507]",
-      "pubchem_hnid": 299674,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophosphoinositolglycans [GP15]"
+        }
+      },
+      "description": "Glycerophosphoinositolglycans [GP15]",
+      "pubchem_hnid": 299669,
       "url": null,
       "id": 186
     },
     {
-      "name": "Monoacylglycerophosphoinositolglycans [GP1504]",
-      "description": "Monoacylglycerophosphoinositolglycans [GP1504]",
-      "pubchem_hnid": 299676,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphoinositolglycans [GP1501]"
+        }
+      },
+      "description": "Diacylglycerophosphoinositolglycans [GP1501]",
+      "pubchem_hnid": 299670,
       "url": null,
       "id": 187
     },
     {
-      "name": "Glycerophosphonocholines [GP16]",
-      "description": "Glycerophosphonocholines [GP16]",
-      "pubchem_hnid": 299679,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Dialkylglycerophosphoinositolglycans [GP1507]"
+        }
+      },
+      "description": "Dialkylglycerophosphoinositolglycans [GP1507]",
+      "pubchem_hnid": 299674,
       "url": null,
       "id": 188
     },
     {
-      "name": "Diacylglycerophosphonocholines [GP1601]",
-      "description": "Diacylglycerophosphonocholines [GP1601]",
-      "pubchem_hnid": 299680,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoacylglycerophosphoinositolglycans [GP1504]"
+        }
+      },
+      "description": "Monoacylglycerophosphoinositolglycans [GP1504]",
+      "pubchem_hnid": 299676,
       "url": null,
       "id": 189
     },
     {
-      "name": "Glycerophosphonoethanolamines [GP17]",
-      "description": "Glycerophosphonoethanolamines [GP17]",
-      "pubchem_hnid": 299688,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophosphonocholines [GP16]"
+        }
+      },
+      "description": "Glycerophosphonocholines [GP16]",
+      "pubchem_hnid": 299679,
       "url": null,
       "id": 190
     },
     {
-      "name": "Diacylglycerophosphonoethanolamines [GP1701]",
-      "description": "Diacylglycerophosphonoethanolamines [GP1701]",
-      "pubchem_hnid": 299689,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphonocholines [GP1601]"
+        }
+      },
+      "description": "Diacylglycerophosphonocholines [GP1601]",
+      "pubchem_hnid": 299680,
       "url": null,
       "id": 191
     },
     {
-      "name": "Di-glycerol tetraether phospholipids (caldarchaeols) [GP18]",
-      "description": "Di-glycerol tetraether phospholipids (caldarchaeols) [GP18]",
-      "pubchem_hnid": 299697,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophosphonoethanolamines [GP17]"
+        }
+      },
+      "description": "Glycerophosphonoethanolamines [GP17]",
+      "pubchem_hnid": 299688,
       "url": null,
       "id": 192
     },
     {
-      "name": "Glycerol-nonitol tetraether phospholipids [GP19]",
-      "description": "Glycerol-nonitol tetraether phospholipids [GP19]",
-      "pubchem_hnid": 299699,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphonoethanolamines [GP1701]"
+        }
+      },
+      "description": "Diacylglycerophosphonoethanolamines [GP1701]",
+      "pubchem_hnid": 299689,
       "url": null,
       "id": 193
     },
     {
-      "name": "Oxidized glycerophospholipids [GP20]",
-      "description": "Oxidized glycerophospholipids [GP20]",
-      "pubchem_hnid": 299701,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Di-glycerol tetraether phospholipids (caldarchaeols) [GP18]"
+        }
+      },
+      "description": "Di-glycerol tetraether phospholipids (caldarchaeols) [GP18]",
+      "pubchem_hnid": 299697,
       "url": null,
       "id": 194
     },
     {
-      "name": "Oxidized glycerophosphocholines [GP2001]",
-      "description": "Oxidized glycerophosphocholines [GP2001]",
-      "pubchem_hnid": 299702,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerol-nonitol tetraether phospholipids [GP19]"
+        }
+      },
+      "description": "Glycerol-nonitol tetraether phospholipids [GP19]",
+      "pubchem_hnid": 299699,
       "url": null,
       "id": 195
     },
     {
-      "name": "Oxidized glycerophosphoethanolamines [GP2002]",
-      "description": "Oxidized glycerophosphoethanolamines [GP2002]",
-      "pubchem_hnid": 299711,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Oxidized glycerophospholipids [GP20]"
+        }
+      },
+      "description": "Oxidized glycerophospholipids [GP20]",
+      "pubchem_hnid": 299701,
       "url": null,
       "id": 196
     },
     {
-      "name": "Oxidized Cardiolipins [GP2003]",
-      "description": "Oxidized Cardiolipins [GP2003]",
-      "pubchem_hnid": 299727,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Oxidized glycerophosphocholines [GP2001]"
+        }
+      },
+      "description": "Oxidized glycerophosphocholines [GP2001]",
+      "pubchem_hnid": 299702,
       "url": null,
       "id": 197
     },
     {
-      "name": "Oxidized glycerophosphoglycerols [GP2006]",
-      "description": "Oxidized glycerophosphoglycerols [GP2006]",
-      "pubchem_hnid": 3624800,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Oxidized glycerophosphoethanolamines [GP2002]"
+        }
+      },
+      "description": "Oxidized glycerophosphoethanolamines [GP2002]",
+      "pubchem_hnid": 299711,
       "url": null,
       "id": 198
     },
     {
-      "name": "Oxidized glycerophosphoserines [GP2004]",
-      "description": "Oxidized glycerophosphoserines [GP2004]",
-      "pubchem_hnid": 3624801,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Oxidized Cardiolipins [GP2003]"
+        }
+      },
+      "description": "Oxidized Cardiolipins [GP2003]",
+      "pubchem_hnid": 299727,
       "url": null,
       "id": 199
     },
     {
-      "name": "Oxidized glycerophosphates [GP2007]",
-      "description": "Oxidized glycerophosphates [GP2007]",
-      "pubchem_hnid": 3624802,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Oxidized glycerophosphoglycerols [GP2006]"
+        }
+      },
+      "description": "Oxidized glycerophosphoglycerols [GP2006]",
+      "pubchem_hnid": 3624800,
       "url": null,
       "id": 200
     },
     {
-      "name": "Oxidized glycerophosphoinositols [GP2005]",
-      "description": "Oxidized glycerophosphoinositols [GP2005]",
-      "pubchem_hnid": 3624803,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Oxidized glycerophosphoserines [GP2004]"
+        }
+      },
+      "description": "Oxidized glycerophosphoserines [GP2004]",
+      "pubchem_hnid": 3624801,
       "url": null,
       "id": 201
     },
     {
-      "name": "Other Glycerophospholipids [GP00]",
-      "description": "Other Glycerophospholipids [GP00]",
-      "pubchem_hnid": 299731,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Oxidized glycerophosphates [GP2007]"
+        }
+      },
+      "description": "Oxidized glycerophosphates [GP2007]",
+      "pubchem_hnid": 3624802,
       "url": null,
       "id": 202
     },
     {
-      "name": "Glycerophosphoethanolamine glycans [GP21]",
-      "description": "Glycerophosphoethanolamine glycans [GP21]",
-      "pubchem_hnid": 5557175,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Oxidized glycerophosphoinositols [GP2005]"
+        }
+      },
+      "description": "Oxidized glycerophosphoinositols [GP2005]",
+      "pubchem_hnid": 3624803,
       "url": null,
       "id": 203
     },
     {
-      "name": "1-(1Z-alkenyl),2-acylglycerophosphoethanolamine glycans [GP2103]",
-      "description": "1-(1Z-alkenyl),2-acylglycerophosphoethanolamine glycans [GP2103]",
-      "pubchem_hnid": 5557166,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Other Glycerophospholipids [GP00]"
+        }
+      },
+      "description": "Other Glycerophospholipids [GP00]",
+      "pubchem_hnid": 299731,
       "url": null,
       "id": 204
     },
     {
-      "name": "1-alkyl,2-acylglycerophosphoethanolamine glycans [GP2102]",
-      "description": "1-alkyl,2-acylglycerophosphoethanolamine glycans [GP2102]",
-      "pubchem_hnid": 5557167,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophosphoethanolamine glycans [GP21]"
+        }
+      },
+      "description": "Glycerophosphoethanolamine glycans [GP21]",
+      "pubchem_hnid": 5557175,
       "url": null,
       "id": 205
     },
     {
-      "name": "Diacylglycerophosphoethanolamine glycans [GP2101]",
-      "description": "Diacylglycerophosphoethanolamine glycans [GP2101]",
-      "pubchem_hnid": 5557174,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-(1Z-alkenyl),2-acylglycerophosphoethanolamine glycans [GP2103]"
+        }
+      },
+      "description": "1-(1Z-alkenyl),2-acylglycerophosphoethanolamine glycans [GP2103]",
+      "pubchem_hnid": 5557166,
       "url": null,
       "id": 206
     },
     {
-      "name": "Monoacylglycerophosphoethanolamine glycans [GP2105]",
-      "description": "Monoacylglycerophosphoethanolamine glycans [GP2105]",
-      "pubchem_hnid": 5557176,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-alkyl,2-acylglycerophosphoethanolamine glycans [GP2102]"
+        }
+      },
+      "description": "1-alkyl,2-acylglycerophosphoethanolamine glycans [GP2102]",
+      "pubchem_hnid": 5557167,
       "url": null,
       "id": 207
     },
     {
-      "name": "Dihydroxyacetonephosphates [GP22]",
-      "description": "Dihydroxyacetonephosphates [GP22]",
-      "pubchem_hnid": 5557180,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphoethanolamine glycans [GP2101]"
+        }
+      },
+      "description": "Diacylglycerophosphoethanolamine glycans [GP2101]",
+      "pubchem_hnid": 5557174,
       "url": null,
       "id": 208
     },
     {
-      "name": "Acyl-dihydroxyacetonephosphates [GP2201]",
-      "description": "Acyl-dihydroxyacetonephosphates [GP2201]",
-      "pubchem_hnid": 5557178,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoacylglycerophosphoethanolamine glycans [GP2105]"
+        }
+      },
+      "description": "Monoacylglycerophosphoethanolamine glycans [GP2105]",
+      "pubchem_hnid": 5557176,
       "url": null,
       "id": 209
     },
     {
-      "name": "Alkyl-dihydroxyacetonephosphates [GP2202]",
-      "description": "Alkyl-dihydroxyacetonephosphates [GP2202]",
-      "pubchem_hnid": 5557179,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Dihydroxyacetonephosphates [GP22]"
+        }
+      },
+      "description": "Dihydroxyacetonephosphates [GP22]",
+      "pubchem_hnid": 5557180,
       "url": null,
       "id": 210
     },
     {
-      "name": "Glycerophosphoethanols [GP23]",
-      "description": "Glycerophosphoethanols [GP23]",
-      "pubchem_hnid": 5613333,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Acyl-dihydroxyacetonephosphates [GP2201]"
+        }
+      },
+      "description": "Acyl-dihydroxyacetonephosphates [GP2201]",
+      "pubchem_hnid": 5557178,
       "url": null,
       "id": 211
     },
     {
-      "name": "Diacylglycerophosphoethanols [GP2301]",
-      "description": "Diacylglycerophosphoethanols [GP2301]",
-      "pubchem_hnid": 5613332,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Alkyl-dihydroxyacetonephosphates [GP2202]"
+        }
+      },
+      "description": "Alkyl-dihydroxyacetonephosphates [GP2202]",
+      "pubchem_hnid": 5557179,
       "url": null,
       "id": 212
     },
     {
-      "name": "Cyclic glycerophosphatidic acids [GP25]",
-      "description": "Cyclic glycerophosphatidic acids [GP25]",
-      "pubchem_hnid": 5614849,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophosphoethanols [GP23]"
+        }
+      },
+      "description": "Glycerophosphoethanols [GP23]",
+      "pubchem_hnid": 5613333,
       "url": null,
       "id": 213
     },
     {
-      "name": "Monoacyl cyclic glycerophosphatidic acids [GP2501]",
-      "description": "Monoacyl cyclic glycerophosphatidic acids [GP2501]",
-      "pubchem_hnid": 5614852,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphoethanols [GP2301]"
+        }
+      },
+      "description": "Diacylglycerophosphoethanols [GP2301]",
+      "pubchem_hnid": 5613332,
       "url": null,
       "id": 214
     },
     {
-      "name": "Glycerophosphothreonines [GP24]",
-      "description": "Glycerophosphothreonines [GP24]",
-      "pubchem_hnid": 5614851,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Cyclic glycerophosphatidic acids [GP25]"
+        }
+      },
+      "description": "Cyclic glycerophosphatidic acids [GP25]",
+      "pubchem_hnid": 5614849,
       "url": null,
       "id": 215
     },
     {
-      "name": "Diacylglycerophosphothreonines [GP2401]",
-      "description": "Diacylglycerophosphothreonines [GP2401]",
-      "pubchem_hnid": 5614850,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoacyl cyclic glycerophosphatidic acids [GP2501]"
+        }
+      },
+      "description": "Monoacyl cyclic glycerophosphatidic acids [GP2501]",
+      "pubchem_hnid": 5614852,
       "url": null,
       "id": 216
     },
     {
-      "name": "Sphingolipids [SP]",
-      "description": "Sphingolipids [SP]",
-      "pubchem_hnid": 299747,
-      "url": "https://www.lipidmaps.org/databases/lmsd/browse?category=4",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycerophosphothreonines [GP24]"
+        }
+      },
+      "description": "Glycerophosphothreonines [GP24]",
+      "pubchem_hnid": 5614851,
+      "url": null,
       "id": 217
     },
     {
-      "name": "Sphingoid bases [SP01]",
-      "description": "Sphingoid bases [SP01]",
-      "pubchem_hnid": 299748,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylglycerophosphothreonines [GP2401]"
+        }
+      },
+      "description": "Diacylglycerophosphothreonines [GP2401]",
+      "pubchem_hnid": 5614850,
       "url": null,
       "id": 218
     },
     {
-      "name": "Sphing-4-enines (Sphingosines) [SP0101]",
-      "description": "Sphing-4-enines (Sphingosines) [SP0101]",
-      "pubchem_hnid": 299749,
-      "url": null,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Sphingolipids [SP]"
+        }
+      },
+      "description": "Sphingolipids [SP]",
+      "pubchem_hnid": 299747,
+      "url": "https://www.lipidmaps.org/databases/lmsd/browse?category=4",
       "id": 219
     },
     {
-      "name": "Sphinganines [SP0102]",
-      "description": "Sphinganines [SP0102]",
-      "pubchem_hnid": 299752,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Sphingoid bases [SP01]"
+        }
+      },
+      "description": "Sphingoid bases [SP01]",
+      "pubchem_hnid": 299748,
       "url": null,
       "id": 220
     },
     {
-      "name": "4-Hydroxysphinganines (Phytosphingosines) [SP0103]",
-      "description": "4-Hydroxysphinganines (Phytosphingosines) [SP0103]",
-      "pubchem_hnid": 299755,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Sphing-4-enines (Sphingosines) [SP0101]"
+        }
+      },
+      "description": "Sphing-4-enines (Sphingosines) [SP0101]",
+      "pubchem_hnid": 299749,
       "url": null,
       "id": 221
     },
     {
-      "name": "Sphingoid base homologs and variants [SP0104]",
-      "description": "Sphingoid base homologs and variants [SP0104]",
-      "pubchem_hnid": 299758,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Sphinganines [SP0102]"
+        }
+      },
+      "description": "Sphinganines [SP0102]",
+      "pubchem_hnid": 299752,
       "url": null,
       "id": 222
     },
     {
-      "name": "Sphingoid base 1-phosphates [SP0105]",
-      "description": "Sphingoid base 1-phosphates [SP0105]",
-      "pubchem_hnid": 299767,
+      "name": {
+        "StringWithMarkup": {
+          "String": "4-Hydroxysphinganines (Phytosphingosines) [SP0103]"
+        }
+      },
+      "description": "4-Hydroxysphinganines (Phytosphingosines) [SP0103]",
+      "pubchem_hnid": 299755,
       "url": null,
       "id": 223
     },
     {
-      "name": "Lysosphingomyelins and lysoglycosphingolipids [SP0106]",
-      "description": "Lysosphingomyelins and lysoglycosphingolipids [SP0106]",
-      "pubchem_hnid": 299774,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Sphingoid base homologs and variants [SP0104]"
+        }
+      },
+      "description": "Sphingoid base homologs and variants [SP0104]",
+      "pubchem_hnid": 299758,
       "url": null,
       "id": 224
     },
     {
-      "name": "N-methylated sphingoid bases [SP0107]",
-      "description": "N-methylated sphingoid bases [SP0107]",
-      "pubchem_hnid": 299777,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Sphingoid base 1-phosphates [SP0105]"
+        }
+      },
+      "description": "Sphingoid base 1-phosphates [SP0105]",
+      "pubchem_hnid": 299767,
       "url": null,
       "id": 225
     },
     {
-      "name": "Sphingoid base analogs [SP0108]",
-      "description": "Sphingoid base analogs [SP0108]",
-      "pubchem_hnid": 299779,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Lysosphingomyelins and lysoglycosphingolipids [SP0106]"
+        }
+      },
+      "description": "Lysosphingomyelins and lysoglycosphingolipids [SP0106]",
+      "pubchem_hnid": 299774,
       "url": null,
       "id": 226
     },
     {
-      "name": "Ceramides [SP02]",
-      "description": "Ceramides [SP02]",
-      "pubchem_hnid": 299845,
+      "name": {
+        "StringWithMarkup": {
+          "String": "N-methylated sphingoid bases [SP0107]"
+        }
+      },
+      "description": "N-methylated sphingoid bases [SP0107]",
+      "pubchem_hnid": 299777,
       "url": null,
       "id": 227
     },
     {
-      "name": "N-acylsphingosines (ceramides) [SP0201]",
-      "description": "N-acylsphingosines (ceramides) [SP0201]",
-      "pubchem_hnid": 299846,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Sphingoid base analogs [SP0108]"
+        }
+      },
+      "description": "Sphingoid base analogs [SP0108]",
+      "pubchem_hnid": 299779,
       "url": null,
       "id": 228
     },
     {
-      "name": "N-acylsphinganines (dihydroceramides) [SP0202]",
-      "description": "N-acylsphinganines (dihydroceramides) [SP0202]",
-      "pubchem_hnid": 299879,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Ceramides [SP02]"
+        }
+      },
+      "description": "Ceramides [SP02]",
+      "pubchem_hnid": 299845,
       "url": null,
       "id": 229
     },
     {
-      "name": "N-acyl-4-hydroxysphinganines (phytoceramides) [SP0203]",
-      "description": "N-acyl-4-hydroxysphinganines (phytoceramides) [SP0203]",
-      "pubchem_hnid": 299894,
+      "name": {
+        "StringWithMarkup": {
+          "String": "N-acylsphingosines (ceramides) [SP0201]"
+        }
+      },
+      "description": "N-acylsphingosines (ceramides) [SP0201]",
+      "pubchem_hnid": 299846,
       "url": null,
       "id": 230
     },
     {
-      "name": "Acylceramides [SP0204]",
-      "description": "Acylceramides [SP0204]",
-      "pubchem_hnid": 299900,
+      "name": {
+        "StringWithMarkup": {
+          "String": "N-acylsphinganines (dihydroceramides) [SP0202]"
+        }
+      },
+      "description": "N-acylsphinganines (dihydroceramides) [SP0202]",
+      "pubchem_hnid": 299879,
       "url": null,
       "id": 231
     },
     {
-      "name": "Ceramide 1-phosphates [SP0205]",
-      "description": "Ceramide 1-phosphates [SP0205]",
-      "pubchem_hnid": 299902,
+      "name": {
+        "StringWithMarkup": {
+          "String": "N-acyl-4-hydroxysphinganines (phytoceramides) [SP0203]"
+        }
+      },
+      "description": "N-acyl-4-hydroxysphinganines (phytoceramides) [SP0203]",
+      "pubchem_hnid": 299894,
       "url": null,
       "id": 232
     },
     {
-      "name": "1-deoxyceramides [SP0206]",
-      "description": "1-deoxyceramides [SP0206]",
-      "pubchem_hnid": 5557168,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Acylceramides [SP0204]"
+        }
+      },
+      "description": "Acylceramides [SP0204]",
+      "pubchem_hnid": 299900,
       "url": null,
       "id": 233
     },
     {
-      "name": "3-keto Ceramides [SP0208]",
-      "description": "3-keto Ceramides [SP0208]",
-      "pubchem_hnid": 5557169,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Ceramide 1-phosphates [SP0205]"
+        }
+      },
+      "description": "Ceramide 1-phosphates [SP0205]",
+      "pubchem_hnid": 299902,
       "url": null,
       "id": 234
     },
     {
-      "name": "Phosphosphingolipids [SP03]",
-      "description": "Phosphosphingolipids [SP03]",
-      "pubchem_hnid": 299915,
+      "name": {
+        "StringWithMarkup": {
+          "String": "1-deoxyceramides [SP0206]"
+        }
+      },
+      "description": "1-deoxyceramides [SP0206]",
+      "pubchem_hnid": 5557168,
       "url": null,
       "id": 235
     },
     {
-      "name": "Ceramide phosphocholines (sphingomyelins) [SP0301]",
-      "description": "Ceramide phosphocholines (sphingomyelins) [SP0301]",
-      "pubchem_hnid": 299916,
+      "name": {
+        "StringWithMarkup": {
+          "String": "3-keto Ceramides [SP0208]"
+        }
+      },
+      "description": "3-keto Ceramides [SP0208]",
+      "pubchem_hnid": 5557169,
       "url": null,
       "id": 236
     },
     {
-      "name": "Ceramide phosphoethanolamines [SP0302]",
-      "description": "Ceramide phosphoethanolamines [SP0302]",
-      "pubchem_hnid": 299999,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Phosphosphingolipids [SP03]"
+        }
+      },
+      "description": "Phosphosphingolipids [SP03]",
+      "pubchem_hnid": 299915,
       "url": null,
       "id": 237
     },
     {
-      "name": "Ceramide phosphoinositols [SP0303]",
-      "description": "Ceramide phosphoinositols [SP0303]",
-      "pubchem_hnid": 300002,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Ceramide phosphocholines (sphingomyelins) [SP0301]"
+        }
+      },
+      "description": "Ceramide phosphocholines (sphingomyelins) [SP0301]",
+      "pubchem_hnid": 299916,
       "url": null,
       "id": 238
     },
     {
-      "name": "Phosphonosphingolipids [SP04]",
-      "description": "Phosphonosphingolipids [SP04]",
-      "pubchem_hnid": 300007,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Ceramide phosphoethanolamines [SP0302]"
+        }
+      },
+      "description": "Ceramide phosphoethanolamines [SP0302]",
+      "pubchem_hnid": 299999,
       "url": null,
       "id": 239
     },
     {
-      "name": "Neutral glycosphingolipids [SP05]",
-      "description": "Neutral glycosphingolipids [SP05]",
-      "pubchem_hnid": 300011,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Ceramide phosphoinositols [SP0303]"
+        }
+      },
+      "description": "Ceramide phosphoinositols [SP0303]",
+      "pubchem_hnid": 300002,
       "url": null,
       "id": 240
     },
     {
-      "name": "Simple Glc series [SP0501]",
-      "description": "Simple Glc series [SP0501]",
-      "pubchem_hnid": 300012,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Phosphonosphingolipids [SP04]"
+        }
+      },
+      "description": "Phosphonosphingolipids [SP04]",
+      "pubchem_hnid": 300007,
       "url": null,
       "id": 241
     },
     {
-      "name": "Galalpha1-4Galbeta1-4Glc- (Globo series) [SP0502]",
-      "description": "Galalpha1-4Galbeta1-4Glc- (Globo series) [SP0502]",
-      "pubchem_hnid": 300108,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Neutral glycosphingolipids [SP05]"
+        }
+      },
+      "description": "Neutral glycosphingolipids [SP05]",
+      "pubchem_hnid": 300011,
       "url": null,
       "id": 242
     },
     {
-      "name": "GalNAcbeta1-4Galbeta1-4Glc- (Ganglio series) [SP0503]",
-      "description": "GalNAcbeta1-4Galbeta1-4Glc- (Ganglio series) [SP0503]",
-      "pubchem_hnid": 300469,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Simple Glc series [SP0501]"
+        }
+      },
+      "description": "Simple Glc series [SP0501]",
+      "pubchem_hnid": 300012,
       "url": null,
       "id": 243
     },
     {
-      "name": "Galbeta1-3GlcNAcbeta1-3Galbeta1-4Glc- (Lacto series) [SP0504]",
-      "description": "Galbeta1-3GlcNAcbeta1-3Galbeta1-4Glc- (Lacto series) [SP0504]",
-      "pubchem_hnid": 300614,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Galalpha1-4Galbeta1-4Glc- (Globo series) [SP0502]"
+        }
+      },
+      "description": "Galalpha1-4Galbeta1-4Glc- (Globo series) [SP0502]",
+      "pubchem_hnid": 300108,
       "url": null,
       "id": 244
     },
     {
-      "name": "Galbeta1-4GlcNAcbeta1-3Galbeta1-4Glc- (Neolacto series) [SP0505]",
-      "description": "Galbeta1-4GlcNAcbeta1-3Galbeta1-4Glc- (Neolacto series) [SP0505]",
-      "pubchem_hnid": 301020,
+      "name": {
+        "StringWithMarkup": {
+          "String": "GalNAcbeta1-4Galbeta1-4Glc- (Ganglio series) [SP0503]"
+        }
+      },
+      "description": "GalNAcbeta1-4Galbeta1-4Glc- (Ganglio series) [SP0503]",
+      "pubchem_hnid": 300469,
       "url": null,
       "id": 245
     },
     {
-      "name": "Galalpha1-3Galbeta1-4Glc- (Isoglobo series) [SP0506]",
-      "description": "Galalpha1-3Galbeta1-4Glc- (Isoglobo series) [SP0506]",
-      "pubchem_hnid": 302016,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Galbeta1-3GlcNAcbeta1-3Galbeta1-4Glc- (Lacto series) [SP0504]"
+        }
+      },
+      "description": "Galbeta1-3GlcNAcbeta1-3Galbeta1-4Glc- (Lacto series) [SP0504]",
+      "pubchem_hnid": 300614,
       "url": null,
       "id": 246
     },
     {
-      "name": "Manalpha1-3Manbeta1-4Glc- (Mollu series) [SP0507]",
-      "description": "Manalpha1-3Manbeta1-4Glc- (Mollu series) [SP0507]",
-      "pubchem_hnid": 302116,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Galbeta1-4GlcNAcbeta1-3Galbeta1-4Glc- (Neolacto series) [SP0505]"
+        }
+      },
+      "description": "Galbeta1-4GlcNAcbeta1-3Galbeta1-4Glc- (Neolacto series) [SP0505]",
+      "pubchem_hnid": 301020,
       "url": null,
       "id": 247
     },
     {
-      "name": "GlcNAcbeta1-3Manbeta1-4Glc- (Arthro series) [SP0508]",
-      "description": "GlcNAcbeta1-3Manbeta1-4Glc- (Arthro series) [SP0508]",
-      "pubchem_hnid": 302126,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Galalpha1-3Galbeta1-4Glc- (Isoglobo series) [SP0506]"
+        }
+      },
+      "description": "Galalpha1-3Galbeta1-4Glc- (Isoglobo series) [SP0506]",
+      "pubchem_hnid": 302016,
       "url": null,
       "id": 248
     },
     {
-      "name": "Gal- (Gala series) [SP0509]",
-      "description": "Gal- (Gala series) [SP0509]",
-      "pubchem_hnid": 302138,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Manalpha1-3Manbeta1-4Glc- (Mollu series) [SP0507]"
+        }
+      },
+      "description": "Manalpha1-3Manbeta1-4Glc- (Mollu series) [SP0507]",
+      "pubchem_hnid": 302116,
       "url": null,
       "id": 249
     },
     {
-      "name": "Other Neutral glycosphingolipids [SP0500]",
-      "description": "Other Neutral glycosphingolipids [SP0500]",
-      "pubchem_hnid": 302148,
+      "name": {
+        "StringWithMarkup": {
+          "String": "GlcNAcbeta1-3Manbeta1-4Glc- (Arthro series) [SP0508]"
+        }
+      },
+      "description": "GlcNAcbeta1-3Manbeta1-4Glc- (Arthro series) [SP0508]",
+      "pubchem_hnid": 302126,
       "url": null,
       "id": 250
     },
     {
-      "name": "Acidic glycosphingolipids [SP06]",
-      "description": "Acidic glycosphingolipids [SP06]",
-      "pubchem_hnid": 302150,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Gal- (Gala series) [SP0509]"
+        }
+      },
+      "description": "Gal- (Gala series) [SP0509]",
+      "pubchem_hnid": 302138,
       "url": null,
       "id": 251
     },
     {
-      "name": "Gangliosides [SP0601]",
-      "description": "Gangliosides [SP0601]",
-      "pubchem_hnid": 302151,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Other Neutral glycosphingolipids [SP0500]"
+        }
+      },
+      "description": "Other Neutral glycosphingolipids [SP0500]",
+      "pubchem_hnid": 302148,
       "url": null,
       "id": 252
     },
     {
-      "name": "Sulfoglycosphingolipids (sulfatides) [SP0602]",
-      "description": "Sulfoglycosphingolipids (sulfatides) [SP0602]",
-      "pubchem_hnid": 303677,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Acidic glycosphingolipids [SP06]"
+        }
+      },
+      "description": "Acidic glycosphingolipids [SP06]",
+      "pubchem_hnid": 302150,
       "url": null,
       "id": 253
     },
     {
-      "name": "Glucuronosphingolipids [SP0603]",
-      "description": "Glucuronosphingolipids [SP0603]",
-      "pubchem_hnid": 303707,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Gangliosides [SP0601]"
+        }
+      },
+      "description": "Gangliosides [SP0601]",
+      "pubchem_hnid": 302151,
       "url": null,
       "id": 254
     },
     {
-      "name": "Phosphoglycosphingolipids [SP0604]",
-      "description": "Phosphoglycosphingolipids [SP0604]",
-      "pubchem_hnid": 303709,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Sulfoglycosphingolipids (sulfatides) [SP0602]"
+        }
+      },
+      "description": "Sulfoglycosphingolipids (sulfatides) [SP0602]",
+      "pubchem_hnid": 303677,
       "url": null,
       "id": 255
     },
     {
-      "name": "Basic glycosphingolipids [SP07]",
-      "description": "Basic glycosphingolipids [SP07]",
-      "pubchem_hnid": 303712,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glucuronosphingolipids [SP0603]"
+        }
+      },
+      "description": "Glucuronosphingolipids [SP0603]",
+      "pubchem_hnid": 303707,
       "url": null,
       "id": 256
     },
     {
-      "name": "Amphoteric glycosphingolipids [SP08]",
-      "description": "Amphoteric glycosphingolipids [SP08]",
-      "pubchem_hnid": 303714,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Phosphoglycosphingolipids [SP0604]"
+        }
+      },
+      "description": "Phosphoglycosphingolipids [SP0604]",
+      "pubchem_hnid": 303709,
       "url": null,
       "id": 257
     },
     {
-      "name": "Other Sphingolipids [SP00]",
-      "description": "Other Sphingolipids [SP00]",
-      "pubchem_hnid": 303718,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Basic glycosphingolipids [SP07]"
+        }
+      },
+      "description": "Basic glycosphingolipids [SP07]",
+      "pubchem_hnid": 303712,
       "url": null,
       "id": 258
     },
     {
-      "name": "Sterol Lipids [ST]",
-      "description": "Sterol Lipids [ST]",
-      "pubchem_hnid": 303722,
-      "url": "https://www.lipidmaps.org/databases/lmsd/browse?category=5",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Amphoteric glycosphingolipids [SP08]"
+        }
+      },
+      "description": "Amphoteric glycosphingolipids [SP08]",
+      "pubchem_hnid": 303714,
+      "url": null,
       "id": 259
     },
     {
-      "name": "Sterols [ST01]",
-      "description": "Sterols [ST01]",
-      "pubchem_hnid": 303723,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Other Sphingolipids [SP00]"
+        }
+      },
+      "description": "Other Sphingolipids [SP00]",
+      "pubchem_hnid": 303718,
       "url": null,
       "id": 260
     },
     {
-      "name": "Cholesterol and derivatives [ST0101]",
-      "description": "Cholesterol and derivatives [ST0101]",
-      "pubchem_hnid": 303724,
-      "url": null,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Sterol Lipids [ST]"
+        }
+      },
+      "description": "Sterol Lipids [ST]",
+      "pubchem_hnid": 303722,
+      "url": "https://www.lipidmaps.org/databases/lmsd/browse?category=5",
       "id": 261
     },
     {
-      "name": "Steryl esters [ST0102]",
-      "description": "Steryl esters [ST0102]",
-      "pubchem_hnid": 304008,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Sterols [ST01]"
+        }
+      },
+      "description": "Sterols [ST01]",
+      "pubchem_hnid": 303723,
       "url": null,
       "id": 262
     },
     {
-      "name": "Ergosterols and C24-methyl derivatives [ST0103]",
-      "description": "Ergosterols and C24-methyl derivatives [ST0103]",
-      "pubchem_hnid": 304046,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Cholesterol and derivatives [ST0101]"
+        }
+      },
+      "description": "Cholesterol and derivatives [ST0101]",
+      "pubchem_hnid": 303724,
       "url": null,
       "id": 263
     },
     {
-      "name": "Stigmasterols and C24-ethyl derivatives [ST0104]",
-      "description": "Stigmasterols and C24-ethyl derivatives [ST0104]",
-      "pubchem_hnid": 304212,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Steryl esters [ST0102]"
+        }
+      },
+      "description": "Steryl esters [ST0102]",
+      "pubchem_hnid": 304008,
       "url": null,
       "id": 264
     },
     {
-      "name": "C24-propyl sterols and derivatives [ST0105]",
-      "description": "C24-propyl sterols and derivatives [ST0105]",
-      "pubchem_hnid": 304296,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Ergosterols and C24-methyl derivatives [ST0103]"
+        }
+      },
+      "description": "Ergosterols and C24-methyl derivatives [ST0103]",
+      "pubchem_hnid": 304046,
       "url": null,
       "id": 265
     },
     {
-      "name": "Gorgosterols and derivatives [ST0106]",
-      "description": "Gorgosterols and derivatives [ST0106]",
-      "pubchem_hnid": 304309,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Stigmasterols and C24-ethyl derivatives [ST0104]"
+        }
+      },
+      "description": "Stigmasterols and C24-ethyl derivatives [ST0104]",
+      "pubchem_hnid": 304212,
       "url": null,
       "id": 266
     },
     {
-      "name": "Furostanols and derivatives [ST0107]",
-      "description": "Furostanols and derivatives [ST0107]",
-      "pubchem_hnid": 304326,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C24-propyl sterols and derivatives [ST0105]"
+        }
+      },
+      "description": "C24-propyl sterols and derivatives [ST0105]",
+      "pubchem_hnid": 304296,
       "url": null,
       "id": 267
     },
     {
-      "name": "Spirostanols and derivatives [ST0108]",
-      "description": "Spirostanols and derivatives [ST0108]",
-      "pubchem_hnid": 304340,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Gorgosterols and derivatives [ST0106]"
+        }
+      },
+      "description": "Gorgosterols and derivatives [ST0106]",
+      "pubchem_hnid": 304309,
       "url": null,
       "id": 268
     },
     {
-      "name": "Furospirostanols and derivatives [ST0109]",
-      "description": "Furospirostanols and derivatives [ST0109]",
-      "pubchem_hnid": 304429,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Furostanols and derivatives [ST0107]"
+        }
+      },
+      "description": "Furostanols and derivatives [ST0107]",
+      "pubchem_hnid": 304326,
       "url": null,
       "id": 269
     },
     {
-      "name": "Cycloartanols and derivatives [ST0110]",
-      "description": "Cycloartanols and derivatives [ST0110]",
-      "pubchem_hnid": 304436,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Spirostanols and derivatives [ST0108]"
+        }
+      },
+      "description": "Spirostanols and derivatives [ST0108]",
+      "pubchem_hnid": 304340,
       "url": null,
       "id": 270
     },
     {
-      "name": "Calysterols and cyclopropyl sidechain derivatives [ST0111]",
-      "description": "Calysterols and cyclopropyl sidechain derivatives [ST0111]",
-      "pubchem_hnid": 304448,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Furospirostanols and derivatives [ST0109]"
+        }
+      },
+      "description": "Furospirostanols and derivatives [ST0109]",
+      "pubchem_hnid": 304429,
       "url": null,
       "id": 271
     },
     {
-      "name": "Cardanolides and derivatives [ST0112]",
-      "description": "Cardanolides and derivatives [ST0112]",
-      "pubchem_hnid": 304464,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Cycloartanols and derivatives [ST0110]"
+        }
+      },
+      "description": "Cycloartanols and derivatives [ST0110]",
+      "pubchem_hnid": 304436,
       "url": null,
       "id": 272
     },
     {
-      "name": "Bufanolides and derivatives [ST0113]",
-      "description": "Bufanolides and derivatives [ST0113]",
-      "pubchem_hnid": 304489,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Calysterols and cyclopropyl sidechain derivatives [ST0111]"
+        }
+      },
+      "description": "Calysterols and cyclopropyl sidechain derivatives [ST0111]",
+      "pubchem_hnid": 304448,
       "url": null,
       "id": 273
     },
     {
-      "name": "Brassinolides and derivatives [ST0114]",
-      "description": "Brassinolides and derivatives [ST0114]",
-      "pubchem_hnid": 304499,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Cardanolides and derivatives [ST0112]"
+        }
+      },
+      "description": "Cardanolides and derivatives [ST0112]",
+      "pubchem_hnid": 304464,
       "url": null,
       "id": 274
     },
     {
-      "name": "Solanidines and alkaloid derivatives [ST0115]",
-      "description": "Solanidines and alkaloid derivatives [ST0115]",
-      "pubchem_hnid": 304503,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Bufanolides and derivatives [ST0113]"
+        }
+      },
+      "description": "Bufanolides and derivatives [ST0113]",
+      "pubchem_hnid": 304489,
       "url": null,
       "id": 275
     },
     {
-      "name": "Withanolides and derivatives [ST0116]",
-      "description": "Withanolides and derivatives [ST0116]",
-      "pubchem_hnid": 304517,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Brassinolides and derivatives [ST0114]"
+        }
+      },
+      "description": "Brassinolides and derivatives [ST0114]",
+      "pubchem_hnid": 304499,
       "url": null,
       "id": 276
     },
     {
-      "name": "Homo-aro-cholesterols and derivatives [ST0117]",
-      "description": "Homo-aro-cholesterols and derivatives [ST0117]",
-      "pubchem_hnid": 4364780,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Solanidines and alkaloid derivatives [ST0115]"
+        }
+      },
+      "description": "Solanidines and alkaloid derivatives [ST0115]",
+      "pubchem_hnid": 304503,
       "url": null,
       "id": 277
     },
     {
-      "name": "Steroids [ST02]",
-      "description": "Steroids [ST02]",
-      "pubchem_hnid": 304527,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Withanolides and derivatives [ST0116]"
+        }
+      },
+      "description": "Withanolides and derivatives [ST0116]",
+      "pubchem_hnid": 304517,
       "url": null,
       "id": 278
     },
     {
-      "name": "C18 steroids (estrogens) and derivatives [ST0201]",
-      "description": "C18 steroids (estrogens) and derivatives [ST0201]",
-      "pubchem_hnid": 304528,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Homo-aro-cholesterols and derivatives [ST0117]"
+        }
+      },
+      "description": "Homo-aro-cholesterols and derivatives [ST0117]",
+      "pubchem_hnid": 4364780,
       "url": null,
       "id": 279
     },
     {
-      "name": "C19 steroids (androgens) and derivatives [ST0202]",
-      "description": "C19 steroids (androgens) and derivatives [ST0202]",
-      "pubchem_hnid": 304568,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Steroids [ST02]"
+        }
+      },
+      "description": "Steroids [ST02]",
+      "pubchem_hnid": 304527,
       "url": null,
       "id": 280
     },
     {
-      "name": "C21 steroids (gluco/mineralocorticoids, progestogins) and derivatives [ST0203]",
-      "description": "C21 steroids (gluco/mineralocorticoids, progestogins) and derivatives [ST0203]",
-      "pubchem_hnid": 304645,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C18 steroids (estrogens) and derivatives [ST0201]"
+        }
+      },
+      "description": "C18 steroids (estrogens) and derivatives [ST0201]",
+      "pubchem_hnid": 304528,
       "url": null,
       "id": 281
     },
     {
-      "name": "Secosteroids [ST03]",
-      "description": "Secosteroids [ST03]",
-      "pubchem_hnid": 304757,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C19 steroids (androgens) and derivatives [ST0202]"
+        }
+      },
+      "description": "C19 steroids (androgens) and derivatives [ST0202]",
+      "pubchem_hnid": 304568,
       "url": null,
       "id": 282
     },
     {
-      "name": "Vitamin D2 and derivatives [ST0301]",
-      "description": "Vitamin D2 and derivatives [ST0301]",
-      "pubchem_hnid": 304758,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C21 steroids (gluco/mineralocorticoids, progestogins) and derivatives [ST0203]"
+        }
+      },
+      "description": "C21 steroids (gluco/mineralocorticoids, progestogins) and derivatives [ST0203]",
+      "pubchem_hnid": 304645,
       "url": null,
       "id": 283
     },
     {
-      "name": "Vitamin D3 and derivatives [ST0302]",
-      "description": "Vitamin D3 and derivatives [ST0302]",
-      "pubchem_hnid": 304812,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Secosteroids [ST03]"
+        }
+      },
+      "description": "Secosteroids [ST03]",
+      "pubchem_hnid": 304757,
       "url": null,
       "id": 284
     },
     {
-      "name": "Vitamin D4 and derivatives [ST0303]",
-      "description": "Vitamin D4 and derivatives [ST0303]",
-      "pubchem_hnid": 305491,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Vitamin D2 and derivatives [ST0301]"
+        }
+      },
+      "description": "Vitamin D2 and derivatives [ST0301]",
+      "pubchem_hnid": 304758,
       "url": null,
       "id": 285
     },
     {
-      "name": "Vitamin D5 and derivatives [ST0304]",
-      "description": "Vitamin D5 and derivatives [ST0304]",
-      "pubchem_hnid": 305496,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Vitamin D3 and derivatives [ST0302]"
+        }
+      },
+      "description": "Vitamin D3 and derivatives [ST0302]",
+      "pubchem_hnid": 304812,
       "url": null,
       "id": 286
     },
     {
-      "name": "Vitamin D6 and derivatives [ST0305]",
-      "description": "Vitamin D6 and derivatives [ST0305]",
-      "pubchem_hnid": 305500,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Vitamin D4 and derivatives [ST0303]"
+        }
+      },
+      "description": "Vitamin D4 and derivatives [ST0303]",
+      "pubchem_hnid": 305491,
       "url": null,
       "id": 287
     },
     {
-      "name": "Vitamin D7 and derivatives [ST0306]",
-      "description": "Vitamin D7 and derivatives [ST0306]",
-      "pubchem_hnid": 305503,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Vitamin D5 and derivatives [ST0304]"
+        }
+      },
+      "description": "Vitamin D5 and derivatives [ST0304]",
+      "pubchem_hnid": 305496,
       "url": null,
       "id": 288
     },
     {
-      "name": "Bile acids and derivatives [ST04]",
-      "description": "Bile acids and derivatives [ST04]",
-      "pubchem_hnid": 305508,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Vitamin D6 and derivatives [ST0305]"
+        }
+      },
+      "description": "Vitamin D6 and derivatives [ST0305]",
+      "pubchem_hnid": 305500,
       "url": null,
       "id": 289
     },
     {
-      "name": "C24 bile acids, alcohols, and derivatives [ST0401]",
-      "description": "C24 bile acids, alcohols, and derivatives [ST0401]",
-      "pubchem_hnid": 305509,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Vitamin D7 and derivatives [ST0306]"
+        }
+      },
+      "description": "Vitamin D7 and derivatives [ST0306]",
+      "pubchem_hnid": 305503,
       "url": null,
       "id": 290
     },
     {
-      "name": "C26 bile acids, alcohols, and derivatives [ST0402]",
-      "description": "C26 bile acids, alcohols, and derivatives [ST0402]",
-      "pubchem_hnid": 305948,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Bile acids and derivatives [ST04]"
+        }
+      },
+      "description": "Bile acids and derivatives [ST04]",
+      "pubchem_hnid": 305508,
       "url": null,
       "id": 291
     },
     {
-      "name": "C27 bile acids, alcohols, and derivatives [ST0403]",
-      "description": "C27 bile acids, alcohols, and derivatives [ST0403]",
-      "pubchem_hnid": 305951,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C24 bile acids, alcohols, and derivatives [ST0401]"
+        }
+      },
+      "description": "C24 bile acids, alcohols, and derivatives [ST0401]",
+      "pubchem_hnid": 305509,
       "url": null,
       "id": 292
     },
     {
-      "name": "C28 bile acids, alcohols, and derivatives [ST0404]",
-      "description": "C28 bile acids, alcohols, and derivatives [ST0404]",
-      "pubchem_hnid": 306147,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C26 bile acids, alcohols, and derivatives [ST0402]"
+        }
+      },
+      "description": "C26 bile acids, alcohols, and derivatives [ST0402]",
+      "pubchem_hnid": 305948,
       "url": null,
       "id": 293
     },
     {
-      "name": "C22 bile acids, alcohols, and derivatives [ST0405]",
-      "description": "C22 bile acids, alcohols, and derivatives [ST0405]",
-      "pubchem_hnid": 306151,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C27 bile acids, alcohols, and derivatives [ST0403]"
+        }
+      },
+      "description": "C27 bile acids, alcohols, and derivatives [ST0403]",
+      "pubchem_hnid": 305951,
       "url": null,
       "id": 294
     },
     {
-      "name": "C23 bile acids, alcohols, and derivatives [ST0406]",
-      "description": "C23 bile acids, alcohols, and derivatives [ST0406]",
-      "pubchem_hnid": 306153,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C28 bile acids, alcohols, and derivatives [ST0404]"
+        }
+      },
+      "description": "C28 bile acids, alcohols, and derivatives [ST0404]",
+      "pubchem_hnid": 306147,
       "url": null,
       "id": 295
     },
     {
-      "name": "C25 bile acids, alcohols, and derivatives [ST0407]",
-      "description": "C25 bile acids, alcohols, and derivatives [ST0407]",
-      "pubchem_hnid": 306171,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C22 bile acids, alcohols, and derivatives [ST0405]"
+        }
+      },
+      "description": "C22 bile acids, alcohols, and derivatives [ST0405]",
+      "pubchem_hnid": 306151,
       "url": null,
       "id": 296
     },
     {
-      "name": "C29 bile acids, alcohols, and derivatives [ST0408]",
-      "description": "C29 bile acids, alcohols, and derivatives [ST0408]",
-      "pubchem_hnid": 306174,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C23 bile acids, alcohols, and derivatives [ST0406]"
+        }
+      },
+      "description": "C23 bile acids, alcohols, and derivatives [ST0406]",
+      "pubchem_hnid": 306153,
       "url": null,
       "id": 297
     },
     {
-      "name": "Steroid conjugates [ST05]",
-      "description": "Steroid conjugates [ST05]",
-      "pubchem_hnid": 306176,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C25 bile acids, alcohols, and derivatives [ST0407]"
+        }
+      },
+      "description": "C25 bile acids, alcohols, and derivatives [ST0407]",
+      "pubchem_hnid": 306171,
       "url": null,
       "id": 298
     },
     {
-      "name": "Glucuronides [ST0501]",
-      "description": "Glucuronides [ST0501]",
-      "pubchem_hnid": 306177,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C29 bile acids, alcohols, and derivatives [ST0408]"
+        }
+      },
+      "description": "C29 bile acids, alcohols, and derivatives [ST0408]",
+      "pubchem_hnid": 306174,
       "url": null,
       "id": 299
     },
     {
-      "name": "Sulfates [ST0502]",
-      "description": "Sulfates [ST0502]",
-      "pubchem_hnid": 306223,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Steroid conjugates [ST05]"
+        }
+      },
+      "description": "Steroid conjugates [ST05]",
+      "pubchem_hnid": 306176,
       "url": null,
       "id": 300
     },
     {
-      "name": "Glycine conjugates [ST0503]",
-      "description": "Glycine conjugates [ST0503]",
-      "pubchem_hnid": 306251,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glucuronides [ST0501]"
+        }
+      },
+      "description": "Glucuronides [ST0501]",
+      "pubchem_hnid": 306177,
       "url": null,
       "id": 301
     },
     {
-      "name": "Taurine conjugates [ST0504]",
-      "description": "Taurine conjugates [ST0504]",
-      "pubchem_hnid": 306266,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Sulfates [ST0502]"
+        }
+      },
+      "description": "Sulfates [ST0502]",
+      "pubchem_hnid": 306223,
       "url": null,
       "id": 302
     },
     {
-      "name": "Other Steroid conjugates [ST0505]",
-      "description": "Other Steroid conjugates [ST0505]",
-      "pubchem_hnid": 306279,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Glycine conjugates [ST0503]"
+        }
+      },
+      "description": "Glycine conjugates [ST0503]",
+      "pubchem_hnid": 306251,
       "url": null,
       "id": 303
     },
     {
-      "name": "Prenol Lipids [PR]",
-      "description": "Prenol Lipids [PR]",
-      "pubchem_hnid": 306304,
-      "url": "https://www.lipidmaps.org/databases/lmsd/browse?category=6",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Taurine conjugates [ST0504]"
+        }
+      },
+      "description": "Taurine conjugates [ST0504]",
+      "pubchem_hnid": 306266,
+      "url": null,
       "id": 304
     },
     {
-      "name": "Isoprenoids [PR01]",
-      "description": "Isoprenoids [PR01]",
-      "pubchem_hnid": 306305,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Other Steroid conjugates [ST0505]"
+        }
+      },
+      "description": "Other Steroid conjugates [ST0505]",
+      "pubchem_hnid": 306279,
       "url": null,
       "id": 305
     },
     {
-      "name": "C5 isoprenoids (hemiterpenes) [PR0101]",
-      "description": "C5 isoprenoids (hemiterpenes) [PR0101]",
-      "pubchem_hnid": 306306,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Amino acid conjugates [ST0506]"
+        }
+      },
+      "description": "Amino acid conjugates [ST0506]",
+      "pubchem_hnid": 12946331,
       "url": null,
       "id": 306
     },
     {
-      "name": "C10 isoprenoids (monoterpenes) [PR0102]",
-      "description": "C10 isoprenoids (monoterpenes) [PR0102]",
-      "pubchem_hnid": 306310,
-      "url": null,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Prenol Lipids [PR]"
+        }
+      },
+      "description": "Prenol Lipids [PR]",
+      "pubchem_hnid": 306304,
+      "url": "https://www.lipidmaps.org/databases/lmsd/browse?category=6",
       "id": 307
     },
     {
-      "name": "C15 isoprenoids (sesquiterpenes) [PR0103]",
-      "description": "C15 isoprenoids (sesquiterpenes) [PR0103]",
-      "pubchem_hnid": 306519,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Isoprenoids [PR01]"
+        }
+      },
+      "description": "Isoprenoids [PR01]",
+      "pubchem_hnid": 306305,
       "url": null,
       "id": 308
     },
     {
-      "name": "C20 isoprenoids (diterpenes) [PR0104]",
-      "description": "C20 isoprenoids (diterpenes) [PR0104]",
-      "pubchem_hnid": 306872,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C5 isoprenoids (hemiterpenes) [PR0101]"
+        }
+      },
+      "description": "C5 isoprenoids (hemiterpenes) [PR0101]",
+      "pubchem_hnid": 306306,
       "url": null,
       "id": 309
     },
     {
-      "name": "C25 isoprenoids (sesterterpenes) [PR0105]",
-      "description": "C25 isoprenoids (sesterterpenes) [PR0105]",
-      "pubchem_hnid": 307148,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C10 isoprenoids (monoterpenes) [PR0102]"
+        }
+      },
+      "description": "C10 isoprenoids (monoterpenes) [PR0102]",
+      "pubchem_hnid": 306310,
       "url": null,
       "id": 310
     },
     {
-      "name": "C30 isoprenoids (triterpenes) [PR0106]",
-      "description": "C30 isoprenoids (triterpenes) [PR0106]",
-      "pubchem_hnid": 307181,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C15 isoprenoids (sesquiterpenes) [PR0103]"
+        }
+      },
+      "description": "C15 isoprenoids (sesquiterpenes) [PR0103]",
+      "pubchem_hnid": 306519,
       "url": null,
       "id": 311
     },
     {
-      "name": "C40 isoprenoids (tetraterpenes) [PR0107]",
-      "description": "C40 isoprenoids (tetraterpenes) [PR0107]",
-      "pubchem_hnid": 307278,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C20 isoprenoids (diterpenes) [PR0104]"
+        }
+      },
+      "description": "C20 isoprenoids (diterpenes) [PR0104]",
+      "pubchem_hnid": 306872,
       "url": null,
       "id": 312
     },
     {
-      "name": "Polyterpenes [PR0108]",
-      "description": "Polyterpenes [PR0108]",
-      "pubchem_hnid": 307519,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C25 isoprenoids (sesterterpenes) [PR0105]"
+        }
+      },
+      "description": "C25 isoprenoids (sesterterpenes) [PR0105]",
+      "pubchem_hnid": 307148,
       "url": null,
       "id": 313
     },
     {
-      "name": "Retinoids [PR0109]",
-      "description": "Retinoids [PR0109]",
-      "pubchem_hnid": 307521,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C30 isoprenoids (triterpenes) [PR0106]"
+        }
+      },
+      "description": "C30 isoprenoids (triterpenes) [PR0106]",
+      "pubchem_hnid": 307181,
       "url": null,
       "id": 314
     },
     {
-      "name": "Quinones and hydroquinones [PR02]",
-      "description": "Quinones and hydroquinones [PR02]",
-      "pubchem_hnid": 307573,
+      "name": {
+        "StringWithMarkup": {
+          "String": "C40 isoprenoids (tetraterpenes) [PR0107]"
+        }
+      },
+      "description": "C40 isoprenoids (tetraterpenes) [PR0107]",
+      "pubchem_hnid": 307278,
       "url": null,
       "id": 315
     },
     {
-      "name": "Ubiquinones [PR0201]",
-      "description": "Ubiquinones [PR0201]",
-      "pubchem_hnid": 307574,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Polyterpenes [PR0108]"
+        }
+      },
+      "description": "Polyterpenes [PR0108]",
+      "pubchem_hnid": 307519,
       "url": null,
       "id": 316
     },
     {
-      "name": "Vitamin E [PR0202]",
-      "description": "Vitamin E [PR0202]",
-      "pubchem_hnid": 307591,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Retinoids [PR0109]"
+        }
+      },
+      "description": "Retinoids [PR0109]",
+      "pubchem_hnid": 307521,
       "url": null,
       "id": 317
     },
     {
-      "name": "Vitamin K [PR0203]",
-      "description": "Vitamin K [PR0203]",
-      "pubchem_hnid": 307604,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Quinones and hydroquinones [PR02]"
+        }
+      },
+      "description": "Quinones and hydroquinones [PR02]",
+      "pubchem_hnid": 307573,
       "url": null,
       "id": 318
     },
     {
-      "name": "Polyprenols [PR03]",
-      "description": "Polyprenols [PR03]",
-      "pubchem_hnid": 307611,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Ubiquinones [PR0201]"
+        }
+      },
+      "description": "Ubiquinones [PR0201]",
+      "pubchem_hnid": 307574,
       "url": null,
       "id": 319
     },
     {
-      "name": "Bactoprenols [PR0301]",
-      "description": "Bactoprenols [PR0301]",
-      "pubchem_hnid": 307612,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Vitamin E [PR0202]"
+        }
+      },
+      "description": "Vitamin E [PR0202]",
+      "pubchem_hnid": 307591,
       "url": null,
       "id": 320
     },
     {
-      "name": "Bactoprenol monophosphates [PR0302]",
-      "description": "Bactoprenol monophosphates [PR0302]",
-      "pubchem_hnid": 307615,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Vitamin K [PR0203]"
+        }
+      },
+      "description": "Vitamin K [PR0203]",
+      "pubchem_hnid": 307604,
       "url": null,
       "id": 321
     },
     {
-      "name": "Bactoprenol diphosphates [PR0303]",
-      "description": "Bactoprenol diphosphates [PR0303]",
-      "pubchem_hnid": 307623,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Polyprenols [PR03]"
+        }
+      },
+      "description": "Polyprenols [PR03]",
+      "pubchem_hnid": 307611,
       "url": null,
       "id": 322
     },
     {
-      "name": "Phytoprenols [PR0304]",
-      "description": "Phytoprenols [PR0304]",
-      "pubchem_hnid": 307634,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Bactoprenols [PR0301]"
+        }
+      },
+      "description": "Bactoprenols [PR0301]",
+      "pubchem_hnid": 307612,
       "url": null,
       "id": 323
     },
     {
-      "name": "Dolichols [PR0307]",
-      "description": "Dolichols [PR0307]",
-      "pubchem_hnid": 307638,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Bactoprenol monophosphates [PR0302]"
+        }
+      },
+      "description": "Bactoprenol monophosphates [PR0302]",
+      "pubchem_hnid": 307615,
       "url": null,
       "id": 324
     },
     {
-      "name": "Dolichol monophosphates [PR0308]",
-      "description": "Dolichol monophosphates [PR0308]",
-      "pubchem_hnid": 307647,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Bactoprenol diphosphates [PR0303]"
+        }
+      },
+      "description": "Bactoprenol diphosphates [PR0303]",
+      "pubchem_hnid": 307623,
       "url": null,
       "id": 325
     },
     {
-      "name": "Dolichol diphosphates [PR0309]",
-      "description": "Dolichol diphosphates [PR0309]",
-      "pubchem_hnid": 307652,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Phytoprenols [PR0304]"
+        }
+      },
+      "description": "Phytoprenols [PR0304]",
+      "pubchem_hnid": 307634,
       "url": null,
       "id": 326
     },
     {
-      "name": "Hopanoids [PR04]",
-      "description": "Hopanoids [PR04]",
-      "pubchem_hnid": 307654,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Dolichols [PR0307]"
+        }
+      },
+      "description": "Dolichols [PR0307]",
+      "pubchem_hnid": 307638,
       "url": null,
       "id": 327
     },
     {
-      "name": "Saccharolipids [SL]",
-      "description": "Saccharolipids [SL]",
-      "pubchem_hnid": 307686,
-      "url": "https://www.lipidmaps.org/databases/lmsd/browse?category=7",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Dolichol monophosphates [PR0308]"
+        }
+      },
+      "description": "Dolichol monophosphates [PR0308]",
+      "pubchem_hnid": 307647,
+      "url": null,
       "id": 328
     },
     {
-      "name": "Acylaminosugars [SL01]",
-      "description": "Acylaminosugars [SL01]",
-      "pubchem_hnid": 307687,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Dolichol diphosphates [PR0309]"
+        }
+      },
+      "description": "Dolichol diphosphates [PR0309]",
+      "pubchem_hnid": 307652,
       "url": null,
       "id": 329
     },
     {
-      "name": "Monoacylaminosugars [SL0101]",
-      "description": "Monoacylaminosugars [SL0101]",
-      "pubchem_hnid": 307688,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Hopanoids [PR04]"
+        }
+      },
+      "description": "Hopanoids [PR04]",
+      "pubchem_hnid": 307654,
       "url": null,
       "id": 330
     },
     {
-      "name": "Diacylaminosugars [SL0102]",
-      "description": "Diacylaminosugars [SL0102]",
-      "pubchem_hnid": 307691,
-      "url": null,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Saccharolipids [SL]"
+        }
+      },
+      "description": "Saccharolipids [SL]",
+      "pubchem_hnid": 307686,
+      "url": "https://www.lipidmaps.org/databases/lmsd/browse?category=7",
       "id": 331
     },
     {
-      "name": "Tetraacylaminosugars [SL0104]",
-      "description": "Tetraacylaminosugars [SL0104]",
-      "pubchem_hnid": 307696,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Acylaminosugars [SL01]"
+        }
+      },
+      "description": "Acylaminosugars [SL01]",
+      "pubchem_hnid": 307687,
       "url": null,
       "id": 332
     },
     {
-      "name": "Pentaacylaminosugars [SL0105]",
-      "description": "Pentaacylaminosugars [SL0105]",
-      "pubchem_hnid": 307699,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monoacylaminosugars [SL0101]"
+        }
+      },
+      "description": "Monoacylaminosugars [SL0101]",
+      "pubchem_hnid": 307688,
       "url": null,
       "id": 333
     },
     {
-      "name": "Hexaacylaminosugars [SL0106]",
-      "description": "Hexaacylaminosugars [SL0106]",
-      "pubchem_hnid": 307701,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diacylaminosugars [SL0102]"
+        }
+      },
+      "description": "Diacylaminosugars [SL0102]",
+      "pubchem_hnid": 307691,
       "url": null,
       "id": 334
     },
     {
-      "name": "Heptaacylaminosugars [SL0107]",
-      "description": "Heptaacylaminosugars [SL0107]",
-      "pubchem_hnid": 307703,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Tetraacylaminosugars [SL0104]"
+        }
+      },
+      "description": "Tetraacylaminosugars [SL0104]",
+      "pubchem_hnid": 307696,
       "url": null,
       "id": 335
     },
     {
-      "name": "Acylaminosugar glycans [SL02]",
-      "description": "Acylaminosugar glycans [SL02]",
-      "pubchem_hnid": 307704,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Pentaacylaminosugars [SL0105]"
+        }
+      },
+      "description": "Pentaacylaminosugars [SL0105]",
+      "pubchem_hnid": 307699,
       "url": null,
       "id": 336
     },
     {
-      "name": "Acyltrehaloses [SL03]",
-      "description": "Acyltrehaloses [SL03]",
-      "pubchem_hnid": 307708,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Hexaacylaminosugars [SL0106]"
+        }
+      },
+      "description": "Hexaacylaminosugars [SL0106]",
+      "pubchem_hnid": 307701,
       "url": null,
       "id": 337
     },
     {
-      "name": "Other acyl sugars [SL05]",
-      "description": "Other acyl sugars [SL05]",
-      "pubchem_hnid": 308983,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Heptaacylaminosugars [SL0107]"
+        }
+      },
+      "description": "Heptaacylaminosugars [SL0107]",
+      "pubchem_hnid": 307703,
       "url": null,
       "id": 338
     },
     {
-      "name": "Polyketides [PK]",
-      "description": "Polyketides [PK]",
-      "pubchem_hnid": 308993,
-      "url": "https://www.lipidmaps.org/databases/lmsd/browse?category=8",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Acylaminosugar glycans [SL02]"
+        }
+      },
+      "description": "Acylaminosugar glycans [SL02]",
+      "pubchem_hnid": 307704,
+      "url": null,
       "id": 339
     },
     {
-      "name": "Linear polyketides [PK01]",
-      "description": "Linear polyketides [PK01]",
-      "pubchem_hnid": 308994,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Acyltrehaloses [SL03]"
+        }
+      },
+      "description": "Acyltrehaloses [SL03]",
+      "pubchem_hnid": 307708,
       "url": null,
       "id": 340
     },
     {
-      "name": "Halogenated acetogenins [PK02]",
-      "description": "Halogenated acetogenins [PK02]",
-      "pubchem_hnid": 309002,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Other acyl sugars [SL05]"
+        }
+      },
+      "description": "Other acyl sugars [SL05]",
+      "pubchem_hnid": 308983,
       "url": null,
       "id": 341
     },
     {
-      "name": "Annonaceae acetogenins [PK03]",
-      "description": "Annonaceae acetogenins [PK03]",
-      "pubchem_hnid": 309005,
-      "url": null,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Polyketides [PK]"
+        }
+      },
+      "description": "Polyketides [PK]",
+      "pubchem_hnid": 308993,
+      "url": "https://www.lipidmaps.org/databases/lmsd/browse?category=8",
       "id": 342
     },
     {
-      "name": "Macrolides and lactone polyketides [PK04]",
-      "description": "Macrolides and lactone polyketides [PK04]",
-      "pubchem_hnid": 309009,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Linear polyketides [PK01]"
+        }
+      },
+      "description": "Linear polyketides [PK01]",
+      "pubchem_hnid": 308994,
       "url": null,
       "id": 343
     },
     {
-      "name": "Ansamycins and related polyketides [PK05]",
-      "description": "Ansamycins and related polyketides [PK05]",
-      "pubchem_hnid": 309051,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Halogenated acetogenins [PK02]"
+        }
+      },
+      "description": "Halogenated acetogenins [PK02]",
+      "pubchem_hnid": 309002,
       "url": null,
       "id": 344
     },
     {
-      "name": "Polyenes [PK06]",
-      "description": "Polyenes [PK06]",
-      "pubchem_hnid": 309060,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Annonaceae acetogenins [PK03]"
+        }
+      },
+      "description": "Annonaceae acetogenins [PK03]",
+      "pubchem_hnid": 309005,
       "url": null,
       "id": 345
     },
     {
-      "name": "Linear tetracyclines [PK07]",
-      "description": "Linear tetracyclines [PK07]",
-      "pubchem_hnid": 309066,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Macrolides and lactone polyketides [PK04]"
+        }
+      },
+      "description": "Macrolides and lactone polyketides [PK04]",
+      "pubchem_hnid": 309009,
       "url": null,
       "id": 346
     },
     {
-      "name": "Angucyclines [PK08]",
-      "description": "Angucyclines [PK08]",
-      "pubchem_hnid": 309075,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Ansamycins and related polyketides [PK05]"
+        }
+      },
+      "description": "Ansamycins and related polyketides [PK05]",
+      "pubchem_hnid": 309051,
       "url": null,
       "id": 347
     },
     {
-      "name": "Polyether antibiotics [PK09]",
-      "description": "Polyether antibiotics [PK09]",
-      "pubchem_hnid": 309077,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Polyenes [PK06]"
+        }
+      },
+      "description": "Polyenes [PK06]",
+      "pubchem_hnid": 309060,
       "url": null,
       "id": 348
     },
     {
-      "name": "Aflatoxins and related substances [PK10]",
-      "description": "Aflatoxins and related substances [PK10]",
-      "pubchem_hnid": 309113,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Linear tetracyclines [PK07]"
+        }
+      },
+      "description": "Linear tetracyclines [PK07]",
+      "pubchem_hnid": 309066,
       "url": null,
       "id": 349
     },
     {
-      "name": "Cytochalasins [PK11]",
-      "description": "Cytochalasins [PK11]",
-      "pubchem_hnid": 309120,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Angucyclines [PK08]"
+        }
+      },
+      "description": "Angucyclines [PK08]",
+      "pubchem_hnid": 309075,
       "url": null,
       "id": 350
     },
     {
-      "name": "Flavonoids [PK12]",
-      "description": "Flavonoids [PK12]",
-      "pubchem_hnid": 309124,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Polyether antibiotics [PK09]"
+        }
+      },
+      "description": "Polyether antibiotics [PK09]",
+      "pubchem_hnid": 309077,
       "url": null,
       "id": 351
     },
     {
-      "name": "Anthocyanidins [PK1201]",
-      "description": "Anthocyanidins [PK1201]",
-      "pubchem_hnid": 309125,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Aflatoxins and related substances [PK10]"
+        }
+      },
+      "description": "Aflatoxins and related substances [PK10]",
+      "pubchem_hnid": 309113,
       "url": null,
       "id": 352
     },
     {
-      "name": "Flavans, Flavanols and Leucoanthocyanidins [PK1202]",
-      "description": "Flavans, Flavanols and Leucoanthocyanidins [PK1202]",
-      "pubchem_hnid": 309576,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Cytochalasins [PK11]"
+        }
+      },
+      "description": "Cytochalasins [PK11]",
+      "pubchem_hnid": 309120,
       "url": null,
       "id": 353
     },
     {
-      "name": "Proanthocyanidins [PK1203]",
-      "description": "Proanthocyanidins [PK1203]",
-      "pubchem_hnid": 309860,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Flavonoids [PK12]"
+        }
+      },
+      "description": "Flavonoids [PK12]",
+      "pubchem_hnid": 309124,
       "url": null,
       "id": 354
     },
     {
-      "name": "Biflavonoids and polyflavonoids [PK1204]",
-      "description": "Biflavonoids and polyflavonoids [PK1204]",
-      "pubchem_hnid": 309876,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Anthocyanidins [PK1201]"
+        }
+      },
+      "description": "Anthocyanidins [PK1201]",
+      "pubchem_hnid": 309125,
       "url": null,
       "id": 355
     },
     {
-      "name": "Isoflavonoids [PK1205]",
-      "description": "Isoflavonoids [PK1205]",
-      "pubchem_hnid": 309887,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Flavans, Flavanols and Leucoanthocyanidins [PK1202]"
+        }
+      },
+      "description": "Flavans, Flavanols and Leucoanthocyanidins [PK1202]",
+      "pubchem_hnid": 309576,
       "url": null,
       "id": 356
     },
     {
-      "name": "Rotenoid flavonoids [PK1206]",
-      "description": "Rotenoid flavonoids [PK1206]",
-      "pubchem_hnid": 310397,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Proanthocyanidins [PK1203]"
+        }
+      },
+      "description": "Proanthocyanidins [PK1203]",
+      "pubchem_hnid": 309860,
       "url": null,
       "id": 357
     },
     {
-      "name": "Pterocarpans [PK1207]",
-      "description": "Pterocarpans [PK1207]",
-      "pubchem_hnid": 310477,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Biflavonoids and polyflavonoids [PK1204]"
+        }
+      },
+      "description": "Biflavonoids and polyflavonoids [PK1204]",
+      "pubchem_hnid": 309876,
       "url": null,
       "id": 358
     },
     {
-      "name": "Isoflavans [PK1208]",
-      "description": "Isoflavans [PK1208]",
-      "pubchem_hnid": 310637,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Isoflavonoids [PK1205]"
+        }
+      },
+      "description": "Isoflavonoids [PK1205]",
+      "pubchem_hnid": 309887,
       "url": null,
       "id": 359
     },
     {
-      "name": "Coumestan flavonoids [PK1209]",
-      "description": "Coumestan flavonoids [PK1209]",
-      "pubchem_hnid": 310708,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Rotenoid flavonoids [PK1206]"
+        }
+      },
+      "description": "Rotenoid flavonoids [PK1206]",
+      "pubchem_hnid": 310397,
       "url": null,
       "id": 360
     },
     {
-      "name": "Neoflavonoids [PK1210]",
-      "description": "Neoflavonoids [PK1210]",
-      "pubchem_hnid": 310757,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Pterocarpans [PK1207]"
+        }
+      },
+      "description": "Pterocarpans [PK1207]",
+      "pubchem_hnid": 310477,
       "url": null,
       "id": 361
     },
     {
-      "name": "Flavones and Flavonols [PK1211]",
-      "description": "Flavones and Flavonols [PK1211]",
-      "pubchem_hnid": 310840,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Isoflavans [PK1208]"
+        }
+      },
+      "description": "Isoflavans [PK1208]",
+      "pubchem_hnid": 310637,
       "url": null,
       "id": 362
     },
     {
-      "name": "Chalcones and dihydrochalcones [PK1212]",
-      "description": "Chalcones and dihydrochalcones [PK1212]",
-      "pubchem_hnid": 314234,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Coumestan flavonoids [PK1209]"
+        }
+      },
+      "description": "Coumestan flavonoids [PK1209]",
+      "pubchem_hnid": 310708,
       "url": null,
       "id": 363
     },
     {
-      "name": "Aurone flavonoids [PK1213]",
-      "description": "Aurone flavonoids [PK1213]",
-      "pubchem_hnid": 314846,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Neoflavonoids [PK1210]"
+        }
+      },
+      "description": "Neoflavonoids [PK1210]",
+      "pubchem_hnid": 310757,
       "url": null,
       "id": 364
     },
     {
-      "name": "Flavanones [PK1214]",
-      "description": "Flavanones [PK1214]",
-      "pubchem_hnid": 314924,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Flavones and Flavonols [PK1211]"
+        }
+      },
+      "description": "Flavones and Flavonols [PK1211]",
+      "pubchem_hnid": 310840,
       "url": null,
       "id": 365
     },
     {
-      "name": "Dihydroflavonols [PK1215]",
-      "description": "Dihydroflavonols [PK1215]",
-      "pubchem_hnid": 315612,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Chalcones and dihydrochalcones [PK1212]"
+        }
+      },
+      "description": "Chalcones and dihydrochalcones [PK1212]",
+      "pubchem_hnid": 314234,
       "url": null,
       "id": 366
     },
     {
-      "name": "Other Flavonoids [PK1216]",
-      "description": "Other Flavonoids [PK1216]",
-      "pubchem_hnid": 315616,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Aurone flavonoids [PK1213]"
+        }
+      },
+      "description": "Aurone flavonoids [PK1213]",
+      "pubchem_hnid": 314846,
       "url": null,
       "id": 367
     },
     {
-      "name": "Aromatic polyketides [PK13]",
-      "description": "Aromatic polyketides [PK13]",
-      "pubchem_hnid": 315674,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Flavanones [PK1214]"
+        }
+      },
+      "description": "Flavanones [PK1214]",
+      "pubchem_hnid": 314924,
       "url": null,
       "id": 368
     },
     {
-      "name": "Monocyclic aromatic polyketides [PK1301]",
-      "description": "Monocyclic aromatic polyketides [PK1301]",
-      "pubchem_hnid": 315675,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Dihydroflavonols [PK1215]"
+        }
+      },
+      "description": "Dihydroflavonols [PK1215]",
+      "pubchem_hnid": 315612,
       "url": null,
       "id": 369
     },
     {
-      "name": "Naphthalenes and naphthoquinones [PK1302]",
-      "description": "Naphthalenes and naphthoquinones [PK1302]",
-      "pubchem_hnid": 315678,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Other Flavonoids [PK1216]"
+        }
+      },
+      "description": "Other Flavonoids [PK1216]",
+      "pubchem_hnid": 315616,
       "url": null,
       "id": 370
     },
     {
-      "name": "Benzoisochromanquinones [PK1303]",
-      "description": "Benzoisochromanquinones [PK1303]",
-      "pubchem_hnid": 315680,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Aromatic polyketides [PK13]"
+        }
+      },
+      "description": "Aromatic polyketides [PK13]",
+      "pubchem_hnid": 315674,
       "url": null,
       "id": 371
     },
     {
-      "name": "Anthracenes and phenanthrenes [PK1304]",
-      "description": "Anthracenes and phenanthrenes [PK1304]",
-      "pubchem_hnid": 315682,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Monocyclic aromatic polyketides [PK1301]"
+        }
+      },
+      "description": "Monocyclic aromatic polyketides [PK1301]",
+      "pubchem_hnid": 315675,
       "url": null,
       "id": 372
     },
     {
-      "name": "Anthracyclinones [PK1305]",
-      "description": "Anthracyclinones [PK1305]",
-      "pubchem_hnid": 315700,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Naphthalenes and naphthoquinones [PK1302]"
+        }
+      },
+      "description": "Naphthalenes and naphthoquinones [PK1302]",
+      "pubchem_hnid": 315678,
       "url": null,
       "id": 373
     },
     {
-      "name": "Dibenzofurans, griseofulvins, dibenzopyrans and xanthones [PK1306]",
-      "description": "Dibenzofurans, griseofulvins, dibenzopyrans and xanthones [PK1306]",
-      "pubchem_hnid": 315706,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Benzoisochromanquinones [PK1303]"
+        }
+      },
+      "description": "Benzoisochromanquinones [PK1303]",
+      "pubchem_hnid": 315680,
       "url": null,
       "id": 374
     },
     {
-      "name": "Diphenylmethanes, acylphloroglucinols and benzophenones [PK1307]",
-      "description": "Diphenylmethanes, acylphloroglucinols and benzophenones [PK1307]",
-      "pubchem_hnid": 315709,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Anthracenes and phenanthrenes [PK1304]"
+        }
+      },
+      "description": "Anthracenes and phenanthrenes [PK1304]",
+      "pubchem_hnid": 315682,
       "url": null,
       "id": 375
     },
     {
-      "name": "Depsides and depsidones [PK1308]",
-      "description": "Depsides and depsidones [PK1308]",
-      "pubchem_hnid": 315712,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Anthracyclinones [PK1305]"
+        }
+      },
+      "description": "Anthracyclinones [PK1305]",
+      "pubchem_hnid": 315700,
       "url": null,
       "id": 376
     },
     {
-      "name": "Diphenyl ethers, biphenyls, dibenzyls and stilbenes [PK1309]",
-      "description": "Diphenyl ethers, biphenyls, dibenzyls and stilbenes [PK1309]",
-      "pubchem_hnid": 315714,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Dibenzofurans, griseofulvins, dibenzopyrans and xanthones [PK1306]"
+        }
+      },
+      "description": "Dibenzofurans, griseofulvins, dibenzopyrans and xanthones [PK1306]",
+      "pubchem_hnid": 315706,
       "url": null,
       "id": 377
     },
     {
-      "name": "Benzofuranoids [PK1310]",
-      "description": "Benzofuranoids [PK1310]",
-      "pubchem_hnid": 315758,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diphenylmethanes, acylphloroglucinols and benzophenones [PK1307]"
+        }
+      },
+      "description": "Diphenylmethanes, acylphloroglucinols and benzophenones [PK1307]",
+      "pubchem_hnid": 315709,
       "url": null,
       "id": 378
     },
     {
-      "name": "Benzopyranoids [PK1311]",
-      "description": "Benzopyranoids [PK1311]",
-      "pubchem_hnid": 315760,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Depsides and depsidones [PK1308]"
+        }
+      },
+      "description": "Depsides and depsidones [PK1308]",
+      "pubchem_hnid": 315712,
       "url": null,
       "id": 379
     },
     {
-      "name": "Other aromatic polyketides [PK1312]",
-      "description": "Other aromatic polyketides [PK1312]",
-      "pubchem_hnid": 315764,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Diphenyl ethers, biphenyls, dibenzyls and stilbenes [PK1309]"
+        }
+      },
+      "description": "Diphenyl ethers, biphenyls, dibenzyls and stilbenes [PK1309]",
+      "pubchem_hnid": 315714,
       "url": null,
       "id": 380
     },
     {
-      "name": "Non-ribosomal peptide/polyketide hybrids [PK14]",
-      "description": "Non-ribosomal peptide/polyketide hybrids [PK14]",
-      "pubchem_hnid": 315768,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Benzofuranoids [PK1310]"
+        }
+      },
+      "description": "Benzofuranoids [PK1310]",
+      "pubchem_hnid": 315758,
       "url": null,
       "id": 381
     },
     {
-      "name": "Other Polyketides [PK00]",
-      "description": "Other Polyketides [PK00]",
-      "pubchem_hnid": 315777,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Benzopyranoids [PK1311]"
+        }
+      },
+      "description": "Benzopyranoids [PK1311]",
+      "pubchem_hnid": 315760,
       "url": null,
       "id": 382
     },
     {
-      "name": "Phenolic lipids [PK15]",
-      "description": "Phenolic lipids [PK15]",
-      "pubchem_hnid": 3494087,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Other aromatic polyketides [PK1312]"
+        }
+      },
+      "description": "Other aromatic polyketides [PK1312]",
+      "pubchem_hnid": 315764,
       "url": null,
       "id": 383
     },
     {
-      "name": "Alkyl catechols and derivatives [PK1502]",
-      "description": "Alkyl catechols and derivatives [PK1502]",
-      "pubchem_hnid": 3494074,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Non-ribosomal peptide/polyketide hybrids [PK14]"
+        }
+      },
+      "description": "Non-ribosomal peptide/polyketide hybrids [PK14]",
+      "pubchem_hnid": 315768,
       "url": null,
       "id": 384
     },
     {
-      "name": "Alkyl hydroquinones and derivatives [PK1505]",
-      "description": "Alkyl hydroquinones and derivatives [PK1505]",
-      "pubchem_hnid": 3494075,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Other Polyketides [PK00]"
+        }
+      },
+      "description": "Other Polyketides [PK00]",
+      "pubchem_hnid": 315777,
       "url": null,
       "id": 385
     },
     {
-      "name": "Alkyl phenols and derivatives [PK1501]",
-      "description": "Alkyl phenols and derivatives [PK1501]",
-      "pubchem_hnid": 3494076,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Phenolic lipids [PK15]"
+        }
+      },
+      "description": "Phenolic lipids [PK15]",
+      "pubchem_hnid": 3494087,
       "url": null,
       "id": 386
     },
     {
-      "name": "Alkyl resorcinols and derivatives [PK1503]",
-      "description": "Alkyl resorcinols and derivatives [PK1503]",
-      "pubchem_hnid": 3494077,
+      "name": {
+        "StringWithMarkup": {
+          "String": "Alkyl catechols and derivatives [PK1502]"
+        }
+      },
+      "description": "Alkyl catechols and derivatives [PK1502]",
+      "pubchem_hnid": 3494074,
       "url": null,
       "id": 387
     },
     {
-      "name": "Anacardic acids and derivatives [PK1504]",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Alkyl hydroquinones and derivatives [PK1505]"
+        }
+      },
+      "description": "Alkyl hydroquinones and derivatives [PK1505]",
+      "pubchem_hnid": 3494075,
+      "url": null,
+      "id": 388
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Alkyl phenols and derivatives [PK1501]"
+        }
+      },
+      "description": "Alkyl phenols and derivatives [PK1501]",
+      "pubchem_hnid": 3494076,
+      "url": null,
+      "id": 389
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Alkyl resorcinols and derivatives [PK1503]"
+        }
+      },
+      "description": "Alkyl resorcinols and derivatives [PK1503]",
+      "pubchem_hnid": 3494077,
+      "url": null,
+      "id": 390
+    },
+    {
+      "name": {
+        "StringWithMarkup": {
+          "String": "Anacardic acids and derivatives [PK1504]"
+        }
+      },
       "description": "Anacardic acids and derivatives [PK1504]",
       "pubchem_hnid": 3494078,
       "url": null,
-      "id": 388
+      "id": 391
     }
   ],
   "links": [
@@ -2769,10 +4362,6 @@
     },
     {
       "source": 1,
-      "target": 69
-    },
-    {
-      "source": 1,
       "target": 70
     },
     {
@@ -2789,7 +4378,11 @@
     },
     {
       "source": 1,
-      "target": 78
+      "target": 74
+    },
+    {
+      "source": 1,
+      "target": 80
     },
     {
       "source": 2,
@@ -3028,128 +4621,132 @@
       "target": 68
     },
     {
-      "source": 73,
-      "target": 74
+      "source": 64,
+      "target": 69
     },
     {
-      "source": 73,
+      "source": 74,
       "target": 75
     },
     {
-      "source": 73,
+      "source": 74,
       "target": 76
     },
     {
-      "source": 73,
+      "source": 74,
       "target": 77
     },
     {
-      "source": 79,
-      "target": 80
+      "source": 74,
+      "target": 78
     },
     {
-      "source": 79,
-      "target": 84
+      "source": 74,
+      "target": 79
     },
     {
-      "source": 79,
-      "target": 92
-    },
-    {
-      "source": 79,
-      "target": 96
-    },
-    {
-      "source": 79,
-      "target": 99
-    },
-    {
-      "source": 79,
-      "target": 103
-    },
-    {
-      "source": 79,
-      "target": 104
-    },
-    {
-      "source": 79,
-      "target": 106
-    },
-    {
-      "source": 80,
-      "target": 81
-    },
-    {
-      "source": 80,
+      "source": 81,
       "target": 82
     },
     {
-      "source": 80,
-      "target": 83
-    },
-    {
-      "source": 84,
-      "target": 85
-    },
-    {
-      "source": 84,
+      "source": 81,
       "target": 86
     },
     {
-      "source": 84,
-      "target": 87
-    },
-    {
-      "source": 84,
-      "target": 88
-    },
-    {
-      "source": 84,
-      "target": 89
-    },
-    {
-      "source": 84,
-      "target": 90
-    },
-    {
-      "source": 84,
-      "target": 91
-    },
-    {
-      "source": 92,
-      "target": 93
-    },
-    {
-      "source": 92,
+      "source": 81,
       "target": 94
     },
     {
-      "source": 92,
-      "target": 95
-    },
-    {
-      "source": 96,
-      "target": 97
-    },
-    {
-      "source": 96,
+      "source": 81,
       "target": 98
     },
     {
-      "source": 99,
-      "target": 100
-    },
-    {
-      "source": 99,
+      "source": 81,
       "target": 101
     },
     {
-      "source": 99,
+      "source": 81,
+      "target": 105
+    },
+    {
+      "source": 81,
+      "target": 106
+    },
+    {
+      "source": 81,
+      "target": 108
+    },
+    {
+      "source": 82,
+      "target": 83
+    },
+    {
+      "source": 82,
+      "target": 84
+    },
+    {
+      "source": 82,
+      "target": 85
+    },
+    {
+      "source": 86,
+      "target": 87
+    },
+    {
+      "source": 86,
+      "target": 88
+    },
+    {
+      "source": 86,
+      "target": 89
+    },
+    {
+      "source": 86,
+      "target": 90
+    },
+    {
+      "source": 86,
+      "target": 91
+    },
+    {
+      "source": 86,
+      "target": 92
+    },
+    {
+      "source": 86,
+      "target": 93
+    },
+    {
+      "source": 94,
+      "target": 95
+    },
+    {
+      "source": 94,
+      "target": 96
+    },
+    {
+      "source": 94,
+      "target": 97
+    },
+    {
+      "source": 98,
+      "target": 99
+    },
+    {
+      "source": 98,
+      "target": 100
+    },
+    {
+      "source": 101,
       "target": 102
     },
     {
-      "source": 104,
-      "target": 105
+      "source": 101,
+      "target": 103
+    },
+    {
+      "source": 101,
+      "target": 104
     },
     {
       "source": 106,
@@ -3160,275 +4757,275 @@
       "target": 109
     },
     {
-      "source": 108,
-      "target": 118
-    },
-    {
-      "source": 108,
-      "target": 127
-    },
-    {
-      "source": 108,
-      "target": 135
-    },
-    {
-      "source": 108,
-      "target": 146
-    },
-    {
-      "source": 108,
-      "target": 149
-    },
-    {
-      "source": 108,
-      "target": 157
-    },
-    {
-      "source": 108,
-      "target": 159
-    },
-    {
-      "source": 108,
-      "target": 161
-    },
-    {
-      "source": 108,
-      "target": 163
-    },
-    {
-      "source": 108,
-      "target": 171
-    },
-    {
-      "source": 108,
-      "target": 173
-    },
-    {
-      "source": 108,
-      "target": 178
-    },
-    {
-      "source": 108,
-      "target": 181
-    },
-    {
-      "source": 108,
-      "target": 184
-    },
-    {
-      "source": 108,
-      "target": 188
-    },
-    {
-      "source": 108,
-      "target": 190
-    },
-    {
-      "source": 108,
-      "target": 192
-    },
-    {
-      "source": 108,
-      "target": 193
-    },
-    {
-      "source": 108,
-      "target": 194
-    },
-    {
-      "source": 108,
-      "target": 202
-    },
-    {
-      "source": 108,
-      "target": 203
-    },
-    {
-      "source": 108,
-      "target": 208
-    },
-    {
-      "source": 108,
-      "target": 211
-    },
-    {
-      "source": 108,
-      "target": 213
-    },
-    {
-      "source": 108,
-      "target": 215
-    },
-    {
-      "source": 109,
-      "target": 110
-    },
-    {
-      "source": 109,
+      "source": 110,
       "target": 111
     },
     {
-      "source": 109,
-      "target": 112
-    },
-    {
-      "source": 109,
-      "target": 113
-    },
-    {
-      "source": 109,
-      "target": 114
-    },
-    {
-      "source": 109,
-      "target": 115
-    },
-    {
-      "source": 109,
-      "target": 116
-    },
-    {
-      "source": 109,
-      "target": 117
-    },
-    {
-      "source": 118,
-      "target": 119
-    },
-    {
-      "source": 118,
+      "source": 110,
       "target": 120
     },
     {
-      "source": 118,
-      "target": 121
-    },
-    {
-      "source": 118,
-      "target": 122
-    },
-    {
-      "source": 118,
-      "target": 123
-    },
-    {
-      "source": 118,
-      "target": 124
-    },
-    {
-      "source": 118,
-      "target": 125
-    },
-    {
-      "source": 118,
-      "target": 126
-    },
-    {
-      "source": 127,
-      "target": 128
-    },
-    {
-      "source": 127,
+      "source": 110,
       "target": 129
     },
     {
-      "source": 127,
-      "target": 130
-    },
-    {
-      "source": 127,
-      "target": 131
-    },
-    {
-      "source": 127,
-      "target": 132
-    },
-    {
-      "source": 127,
-      "target": 133
-    },
-    {
-      "source": 127,
-      "target": 134
-    },
-    {
-      "source": 135,
-      "target": 136
-    },
-    {
-      "source": 135,
+      "source": 110,
       "target": 137
     },
     {
-      "source": 135,
-      "target": 138
-    },
-    {
-      "source": 135,
-      "target": 139
-    },
-    {
-      "source": 135,
-      "target": 140
-    },
-    {
-      "source": 135,
-      "target": 141
-    },
-    {
-      "source": 135,
-      "target": 142
-    },
-    {
-      "source": 135,
-      "target": 143
-    },
-    {
-      "source": 135,
-      "target": 144
-    },
-    {
-      "source": 135,
-      "target": 145
-    },
-    {
-      "source": 146,
-      "target": 147
-    },
-    {
-      "source": 146,
+      "source": 110,
       "target": 148
     },
     {
-      "source": 149,
-      "target": 150
-    },
-    {
-      "source": 149,
+      "source": 110,
       "target": 151
     },
     {
-      "source": 149,
+      "source": 110,
+      "target": 159
+    },
+    {
+      "source": 110,
+      "target": 161
+    },
+    {
+      "source": 110,
+      "target": 163
+    },
+    {
+      "source": 110,
+      "target": 165
+    },
+    {
+      "source": 110,
+      "target": 173
+    },
+    {
+      "source": 110,
+      "target": 175
+    },
+    {
+      "source": 110,
+      "target": 180
+    },
+    {
+      "source": 110,
+      "target": 183
+    },
+    {
+      "source": 110,
+      "target": 186
+    },
+    {
+      "source": 110,
+      "target": 190
+    },
+    {
+      "source": 110,
+      "target": 192
+    },
+    {
+      "source": 110,
+      "target": 194
+    },
+    {
+      "source": 110,
+      "target": 195
+    },
+    {
+      "source": 110,
+      "target": 196
+    },
+    {
+      "source": 110,
+      "target": 204
+    },
+    {
+      "source": 110,
+      "target": 205
+    },
+    {
+      "source": 110,
+      "target": 210
+    },
+    {
+      "source": 110,
+      "target": 213
+    },
+    {
+      "source": 110,
+      "target": 215
+    },
+    {
+      "source": 110,
+      "target": 217
+    },
+    {
+      "source": 111,
+      "target": 112
+    },
+    {
+      "source": 111,
+      "target": 113
+    },
+    {
+      "source": 111,
+      "target": 114
+    },
+    {
+      "source": 111,
+      "target": 115
+    },
+    {
+      "source": 111,
+      "target": 116
+    },
+    {
+      "source": 111,
+      "target": 117
+    },
+    {
+      "source": 111,
+      "target": 118
+    },
+    {
+      "source": 111,
+      "target": 119
+    },
+    {
+      "source": 120,
+      "target": 121
+    },
+    {
+      "source": 120,
+      "target": 122
+    },
+    {
+      "source": 120,
+      "target": 123
+    },
+    {
+      "source": 120,
+      "target": 124
+    },
+    {
+      "source": 120,
+      "target": 125
+    },
+    {
+      "source": 120,
+      "target": 126
+    },
+    {
+      "source": 120,
+      "target": 127
+    },
+    {
+      "source": 120,
+      "target": 128
+    },
+    {
+      "source": 129,
+      "target": 130
+    },
+    {
+      "source": 129,
+      "target": 131
+    },
+    {
+      "source": 129,
+      "target": 132
+    },
+    {
+      "source": 129,
+      "target": 133
+    },
+    {
+      "source": 129,
+      "target": 134
+    },
+    {
+      "source": 129,
+      "target": 135
+    },
+    {
+      "source": 129,
+      "target": 136
+    },
+    {
+      "source": 137,
+      "target": 138
+    },
+    {
+      "source": 137,
+      "target": 139
+    },
+    {
+      "source": 137,
+      "target": 140
+    },
+    {
+      "source": 137,
+      "target": 141
+    },
+    {
+      "source": 137,
+      "target": 142
+    },
+    {
+      "source": 137,
+      "target": 143
+    },
+    {
+      "source": 137,
+      "target": 144
+    },
+    {
+      "source": 137,
+      "target": 145
+    },
+    {
+      "source": 137,
+      "target": 146
+    },
+    {
+      "source": 137,
+      "target": 147
+    },
+    {
+      "source": 148,
+      "target": 149
+    },
+    {
+      "source": 148,
+      "target": 150
+    },
+    {
+      "source": 151,
       "target": 152
     },
     {
-      "source": 149,
+      "source": 151,
       "target": 153
     },
     {
-      "source": 149,
+      "source": 151,
       "target": 154
     },
     {
-      "source": 149,
+      "source": 151,
       "target": 155
     },
     {
-      "source": 149,
+      "source": 151,
       "target": 156
     },
     {
-      "source": 157,
+      "source": 151,
+      "target": 157
+    },
+    {
+      "source": 151,
       "target": 158
     },
     {
@@ -3444,31 +5041,31 @@
       "target": 164
     },
     {
-      "source": 163,
-      "target": 165
-    },
-    {
-      "source": 163,
+      "source": 165,
       "target": 166
     },
     {
-      "source": 163,
+      "source": 165,
       "target": 167
     },
     {
-      "source": 163,
+      "source": 165,
       "target": 168
     },
     {
-      "source": 163,
+      "source": 165,
       "target": 169
     },
     {
-      "source": 163,
+      "source": 165,
       "target": 170
     },
     {
-      "source": 171,
+      "source": 165,
+      "target": 171
+    },
+    {
+      "source": 165,
       "target": 172
     },
     {
@@ -3476,47 +5073,47 @@
       "target": 174
     },
     {
-      "source": 173,
-      "target": 175
-    },
-    {
-      "source": 173,
+      "source": 175,
       "target": 176
     },
     {
-      "source": 173,
+      "source": 175,
       "target": 177
     },
     {
-      "source": 178,
+      "source": 175,
+      "target": 178
+    },
+    {
+      "source": 175,
       "target": 179
     },
     {
-      "source": 178,
-      "target": 180
+      "source": 180,
+      "target": 181
     },
     {
-      "source": 181,
+      "source": 180,
       "target": 182
     },
     {
-      "source": 181,
-      "target": 183
+      "source": 183,
+      "target": 184
     },
     {
-      "source": 184,
+      "source": 183,
       "target": 185
     },
     {
-      "source": 184,
-      "target": 186
-    },
-    {
-      "source": 184,
+      "source": 186,
       "target": 187
     },
     {
-      "source": 188,
+      "source": 186,
+      "target": 188
+    },
+    {
+      "source": 186,
       "target": 189
     },
     {
@@ -3524,59 +5121,59 @@
       "target": 191
     },
     {
-      "source": 194,
-      "target": 195
+      "source": 192,
+      "target": 193
     },
     {
-      "source": 194,
-      "target": 196
-    },
-    {
-      "source": 194,
+      "source": 196,
       "target": 197
     },
     {
-      "source": 194,
+      "source": 196,
       "target": 198
     },
     {
-      "source": 194,
+      "source": 196,
       "target": 199
     },
     {
-      "source": 194,
+      "source": 196,
       "target": 200
     },
     {
-      "source": 194,
+      "source": 196,
       "target": 201
     },
     {
-      "source": 203,
-      "target": 204
+      "source": 196,
+      "target": 202
     },
     {
-      "source": 203,
-      "target": 205
+      "source": 196,
+      "target": 203
     },
     {
-      "source": 203,
+      "source": 205,
       "target": 206
     },
     {
-      "source": 203,
+      "source": 205,
       "target": 207
     },
     {
-      "source": 208,
+      "source": 205,
+      "target": 208
+    },
+    {
+      "source": 205,
       "target": 209
     },
     {
-      "source": 208,
-      "target": 210
+      "source": 210,
+      "target": 211
     },
     {
-      "source": 211,
+      "source": 210,
       "target": 212
     },
     {
@@ -3592,668 +5189,676 @@
       "target": 218
     },
     {
-      "source": 217,
-      "target": 227
-    },
-    {
-      "source": 217,
-      "target": 235
-    },
-    {
-      "source": 217,
-      "target": 239
-    },
-    {
-      "source": 217,
-      "target": 240
-    },
-    {
-      "source": 217,
-      "target": 251
-    },
-    {
-      "source": 217,
-      "target": 256
-    },
-    {
-      "source": 217,
-      "target": 257
-    },
-    {
-      "source": 217,
-      "target": 258
-    },
-    {
-      "source": 218,
-      "target": 219
-    },
-    {
-      "source": 218,
+      "source": 219,
       "target": 220
     },
     {
-      "source": 218,
-      "target": 221
-    },
-    {
-      "source": 218,
-      "target": 222
-    },
-    {
-      "source": 218,
-      "target": 223
-    },
-    {
-      "source": 218,
-      "target": 224
-    },
-    {
-      "source": 218,
-      "target": 225
-    },
-    {
-      "source": 218,
-      "target": 226
-    },
-    {
-      "source": 227,
-      "target": 228
-    },
-    {
-      "source": 227,
+      "source": 219,
       "target": 229
     },
     {
-      "source": 227,
-      "target": 230
-    },
-    {
-      "source": 227,
-      "target": 231
-    },
-    {
-      "source": 227,
-      "target": 232
-    },
-    {
-      "source": 227,
-      "target": 233
-    },
-    {
-      "source": 227,
-      "target": 234
-    },
-    {
-      "source": 235,
-      "target": 236
-    },
-    {
-      "source": 235,
+      "source": 219,
       "target": 237
     },
     {
-      "source": 235,
-      "target": 238
-    },
-    {
-      "source": 240,
+      "source": 219,
       "target": 241
     },
     {
-      "source": 240,
+      "source": 219,
       "target": 242
     },
     {
-      "source": 240,
-      "target": 243
-    },
-    {
-      "source": 240,
-      "target": 244
-    },
-    {
-      "source": 240,
-      "target": 245
-    },
-    {
-      "source": 240,
-      "target": 246
-    },
-    {
-      "source": 240,
-      "target": 247
-    },
-    {
-      "source": 240,
-      "target": 248
-    },
-    {
-      "source": 240,
-      "target": 249
-    },
-    {
-      "source": 240,
-      "target": 250
-    },
-    {
-      "source": 251,
-      "target": 252
-    },
-    {
-      "source": 251,
+      "source": 219,
       "target": 253
     },
     {
-      "source": 251,
-      "target": 254
+      "source": 219,
+      "target": 258
     },
     {
-      "source": 251,
-      "target": 255
+      "source": 219,
+      "target": 259
     },
     {
-      "source": 259,
+      "source": 219,
       "target": 260
     },
     {
-      "source": 259,
-      "target": 278
+      "source": 220,
+      "target": 221
     },
     {
-      "source": 259,
-      "target": 282
+      "source": 220,
+      "target": 222
     },
     {
-      "source": 259,
-      "target": 289
+      "source": 220,
+      "target": 223
     },
     {
-      "source": 259,
-      "target": 298
+      "source": 220,
+      "target": 224
     },
     {
-      "source": 260,
-      "target": 261
+      "source": 220,
+      "target": 225
     },
     {
-      "source": 260,
+      "source": 220,
+      "target": 226
+    },
+    {
+      "source": 220,
+      "target": 227
+    },
+    {
+      "source": 220,
+      "target": 228
+    },
+    {
+      "source": 229,
+      "target": 230
+    },
+    {
+      "source": 229,
+      "target": 231
+    },
+    {
+      "source": 229,
+      "target": 232
+    },
+    {
+      "source": 229,
+      "target": 233
+    },
+    {
+      "source": 229,
+      "target": 234
+    },
+    {
+      "source": 229,
+      "target": 235
+    },
+    {
+      "source": 229,
+      "target": 236
+    },
+    {
+      "source": 237,
+      "target": 238
+    },
+    {
+      "source": 237,
+      "target": 239
+    },
+    {
+      "source": 237,
+      "target": 240
+    },
+    {
+      "source": 242,
+      "target": 243
+    },
+    {
+      "source": 242,
+      "target": 244
+    },
+    {
+      "source": 242,
+      "target": 245
+    },
+    {
+      "source": 242,
+      "target": 246
+    },
+    {
+      "source": 242,
+      "target": 247
+    },
+    {
+      "source": 242,
+      "target": 248
+    },
+    {
+      "source": 242,
+      "target": 249
+    },
+    {
+      "source": 242,
+      "target": 250
+    },
+    {
+      "source": 242,
+      "target": 251
+    },
+    {
+      "source": 242,
+      "target": 252
+    },
+    {
+      "source": 253,
+      "target": 254
+    },
+    {
+      "source": 253,
+      "target": 255
+    },
+    {
+      "source": 253,
+      "target": 256
+    },
+    {
+      "source": 253,
+      "target": 257
+    },
+    {
+      "source": 261,
       "target": 262
     },
     {
-      "source": 260,
-      "target": 263
-    },
-    {
-      "source": 260,
-      "target": 264
-    },
-    {
-      "source": 260,
-      "target": 265
-    },
-    {
-      "source": 260,
-      "target": 266
-    },
-    {
-      "source": 260,
-      "target": 267
-    },
-    {
-      "source": 260,
-      "target": 268
-    },
-    {
-      "source": 260,
-      "target": 269
-    },
-    {
-      "source": 260,
-      "target": 270
-    },
-    {
-      "source": 260,
-      "target": 271
-    },
-    {
-      "source": 260,
-      "target": 272
-    },
-    {
-      "source": 260,
-      "target": 273
-    },
-    {
-      "source": 260,
-      "target": 274
-    },
-    {
-      "source": 260,
-      "target": 275
-    },
-    {
-      "source": 260,
-      "target": 276
-    },
-    {
-      "source": 260,
-      "target": 277
-    },
-    {
-      "source": 278,
-      "target": 279
-    },
-    {
-      "source": 278,
+      "source": 261,
       "target": 280
     },
     {
-      "source": 278,
-      "target": 281
-    },
-    {
-      "source": 282,
-      "target": 283
-    },
-    {
-      "source": 282,
+      "source": 261,
       "target": 284
     },
     {
-      "source": 282,
-      "target": 285
-    },
-    {
-      "source": 282,
-      "target": 286
-    },
-    {
-      "source": 282,
-      "target": 287
-    },
-    {
-      "source": 282,
-      "target": 288
-    },
-    {
-      "source": 289,
-      "target": 290
-    },
-    {
-      "source": 289,
+      "source": 261,
       "target": 291
     },
     {
-      "source": 289,
-      "target": 292
-    },
-    {
-      "source": 289,
-      "target": 293
-    },
-    {
-      "source": 289,
-      "target": 294
-    },
-    {
-      "source": 289,
-      "target": 295
-    },
-    {
-      "source": 289,
-      "target": 296
-    },
-    {
-      "source": 289,
-      "target": 297
-    },
-    {
-      "source": 298,
-      "target": 299
-    },
-    {
-      "source": 298,
+      "source": 261,
       "target": 300
     },
     {
-      "source": 298,
+      "source": 262,
+      "target": 263
+    },
+    {
+      "source": 262,
+      "target": 264
+    },
+    {
+      "source": 262,
+      "target": 265
+    },
+    {
+      "source": 262,
+      "target": 266
+    },
+    {
+      "source": 262,
+      "target": 267
+    },
+    {
+      "source": 262,
+      "target": 268
+    },
+    {
+      "source": 262,
+      "target": 269
+    },
+    {
+      "source": 262,
+      "target": 270
+    },
+    {
+      "source": 262,
+      "target": 271
+    },
+    {
+      "source": 262,
+      "target": 272
+    },
+    {
+      "source": 262,
+      "target": 273
+    },
+    {
+      "source": 262,
+      "target": 274
+    },
+    {
+      "source": 262,
+      "target": 275
+    },
+    {
+      "source": 262,
+      "target": 276
+    },
+    {
+      "source": 262,
+      "target": 277
+    },
+    {
+      "source": 262,
+      "target": 278
+    },
+    {
+      "source": 262,
+      "target": 279
+    },
+    {
+      "source": 280,
+      "target": 281
+    },
+    {
+      "source": 280,
+      "target": 282
+    },
+    {
+      "source": 280,
+      "target": 283
+    },
+    {
+      "source": 284,
+      "target": 285
+    },
+    {
+      "source": 284,
+      "target": 286
+    },
+    {
+      "source": 284,
+      "target": 287
+    },
+    {
+      "source": 284,
+      "target": 288
+    },
+    {
+      "source": 284,
+      "target": 289
+    },
+    {
+      "source": 284,
+      "target": 290
+    },
+    {
+      "source": 291,
+      "target": 292
+    },
+    {
+      "source": 291,
+      "target": 293
+    },
+    {
+      "source": 291,
+      "target": 294
+    },
+    {
+      "source": 291,
+      "target": 295
+    },
+    {
+      "source": 291,
+      "target": 296
+    },
+    {
+      "source": 291,
+      "target": 297
+    },
+    {
+      "source": 291,
+      "target": 298
+    },
+    {
+      "source": 291,
+      "target": 299
+    },
+    {
+      "source": 300,
       "target": 301
     },
     {
-      "source": 298,
+      "source": 300,
       "target": 302
     },
     {
-      "source": 298,
+      "source": 300,
       "target": 303
     },
     {
-      "source": 304,
+      "source": 300,
+      "target": 304
+    },
+    {
+      "source": 300,
       "target": 305
     },
     {
-      "source": 304,
-      "target": 315
-    },
-    {
-      "source": 304,
-      "target": 319
-    },
-    {
-      "source": 304,
-      "target": 327
-    },
-    {
-      "source": 305,
+      "source": 300,
       "target": 306
     },
     {
-      "source": 305,
-      "target": 307
-    },
-    {
-      "source": 305,
+      "source": 307,
       "target": 308
     },
     {
-      "source": 305,
-      "target": 309
-    },
-    {
-      "source": 305,
-      "target": 310
-    },
-    {
-      "source": 305,
-      "target": 311
-    },
-    {
-      "source": 305,
-      "target": 312
-    },
-    {
-      "source": 305,
-      "target": 313
-    },
-    {
-      "source": 305,
-      "target": 314
-    },
-    {
-      "source": 315,
-      "target": 316
-    },
-    {
-      "source": 315,
-      "target": 317
-    },
-    {
-      "source": 315,
+      "source": 307,
       "target": 318
     },
     {
-      "source": 319,
-      "target": 320
-    },
-    {
-      "source": 319,
-      "target": 321
-    },
-    {
-      "source": 319,
+      "source": 307,
       "target": 322
     },
     {
-      "source": 319,
-      "target": 323
-    },
-    {
-      "source": 319,
-      "target": 324
-    },
-    {
-      "source": 319,
-      "target": 325
-    },
-    {
-      "source": 319,
-      "target": 326
-    },
-    {
-      "source": 328,
-      "target": 329
-    },
-    {
-      "source": 328,
-      "target": 336
-    },
-    {
-      "source": 328,
-      "target": 337
-    },
-    {
-      "source": 328,
-      "target": 338
-    },
-    {
-      "source": 329,
+      "source": 307,
       "target": 330
     },
     {
-      "source": 329,
-      "target": 331
+      "source": 308,
+      "target": 309
     },
     {
-      "source": 329,
+      "source": 308,
+      "target": 310
+    },
+    {
+      "source": 308,
+      "target": 311
+    },
+    {
+      "source": 308,
+      "target": 312
+    },
+    {
+      "source": 308,
+      "target": 313
+    },
+    {
+      "source": 308,
+      "target": 314
+    },
+    {
+      "source": 308,
+      "target": 315
+    },
+    {
+      "source": 308,
+      "target": 316
+    },
+    {
+      "source": 308,
+      "target": 317
+    },
+    {
+      "source": 318,
+      "target": 319
+    },
+    {
+      "source": 318,
+      "target": 320
+    },
+    {
+      "source": 318,
+      "target": 321
+    },
+    {
+      "source": 322,
+      "target": 323
+    },
+    {
+      "source": 322,
+      "target": 324
+    },
+    {
+      "source": 322,
+      "target": 325
+    },
+    {
+      "source": 322,
+      "target": 326
+    },
+    {
+      "source": 322,
+      "target": 327
+    },
+    {
+      "source": 322,
+      "target": 328
+    },
+    {
+      "source": 322,
+      "target": 329
+    },
+    {
+      "source": 331,
       "target": 332
     },
     {
-      "source": 329,
-      "target": 333
+      "source": 331,
+      "target": 339
     },
     {
-      "source": 329,
-      "target": 334
-    },
-    {
-      "source": 329,
-      "target": 335
-    },
-    {
-      "source": 339,
+      "source": 331,
       "target": 340
     },
     {
-      "source": 339,
+      "source": 331,
       "target": 341
     },
     {
-      "source": 339,
-      "target": 342
+      "source": 332,
+      "target": 333
     },
     {
-      "source": 339,
+      "source": 332,
+      "target": 334
+    },
+    {
+      "source": 332,
+      "target": 335
+    },
+    {
+      "source": 332,
+      "target": 336
+    },
+    {
+      "source": 332,
+      "target": 337
+    },
+    {
+      "source": 332,
+      "target": 338
+    },
+    {
+      "source": 342,
       "target": 343
     },
     {
-      "source": 339,
+      "source": 342,
       "target": 344
     },
     {
-      "source": 339,
+      "source": 342,
       "target": 345
     },
     {
-      "source": 339,
+      "source": 342,
       "target": 346
     },
     {
-      "source": 339,
+      "source": 342,
       "target": 347
     },
     {
-      "source": 339,
+      "source": 342,
       "target": 348
     },
     {
-      "source": 339,
+      "source": 342,
       "target": 349
     },
     {
-      "source": 339,
+      "source": 342,
       "target": 350
     },
     {
-      "source": 339,
+      "source": 342,
       "target": 351
     },
     {
-      "source": 339,
-      "target": 368
-    },
-    {
-      "source": 339,
-      "target": 381
-    },
-    {
-      "source": 339,
-      "target": 382
-    },
-    {
-      "source": 339,
-      "target": 383
-    },
-    {
-      "source": 351,
+      "source": 342,
       "target": 352
     },
     {
-      "source": 351,
+      "source": 342,
       "target": 353
     },
     {
-      "source": 351,
+      "source": 342,
       "target": 354
     },
     {
-      "source": 351,
-      "target": 355
-    },
-    {
-      "source": 351,
-      "target": 356
-    },
-    {
-      "source": 351,
-      "target": 357
-    },
-    {
-      "source": 351,
-      "target": 358
-    },
-    {
-      "source": 351,
-      "target": 359
-    },
-    {
-      "source": 351,
-      "target": 360
-    },
-    {
-      "source": 351,
-      "target": 361
-    },
-    {
-      "source": 351,
-      "target": 362
-    },
-    {
-      "source": 351,
-      "target": 363
-    },
-    {
-      "source": 351,
-      "target": 364
-    },
-    {
-      "source": 351,
-      "target": 365
-    },
-    {
-      "source": 351,
-      "target": 366
-    },
-    {
-      "source": 351,
-      "target": 367
-    },
-    {
-      "source": 368,
-      "target": 369
-    },
-    {
-      "source": 368,
-      "target": 370
-    },
-    {
-      "source": 368,
+      "source": 342,
       "target": 371
     },
     {
-      "source": 368,
-      "target": 372
-    },
-    {
-      "source": 368,
-      "target": 373
-    },
-    {
-      "source": 368,
-      "target": 374
-    },
-    {
-      "source": 368,
-      "target": 375
-    },
-    {
-      "source": 368,
-      "target": 376
-    },
-    {
-      "source": 368,
-      "target": 377
-    },
-    {
-      "source": 368,
-      "target": 378
-    },
-    {
-      "source": 368,
-      "target": 379
-    },
-    {
-      "source": 368,
-      "target": 380
-    },
-    {
-      "source": 383,
+      "source": 342,
       "target": 384
     },
     {
-      "source": 383,
+      "source": 342,
       "target": 385
     },
     {
-      "source": 383,
+      "source": 342,
       "target": 386
     },
     {
-      "source": 383,
+      "source": 354,
+      "target": 355
+    },
+    {
+      "source": 354,
+      "target": 356
+    },
+    {
+      "source": 354,
+      "target": 357
+    },
+    {
+      "source": 354,
+      "target": 358
+    },
+    {
+      "source": 354,
+      "target": 359
+    },
+    {
+      "source": 354,
+      "target": 360
+    },
+    {
+      "source": 354,
+      "target": 361
+    },
+    {
+      "source": 354,
+      "target": 362
+    },
+    {
+      "source": 354,
+      "target": 363
+    },
+    {
+      "source": 354,
+      "target": 364
+    },
+    {
+      "source": 354,
+      "target": 365
+    },
+    {
+      "source": 354,
+      "target": 366
+    },
+    {
+      "source": 354,
+      "target": 367
+    },
+    {
+      "source": 354,
+      "target": 368
+    },
+    {
+      "source": 354,
+      "target": 369
+    },
+    {
+      "source": 354,
+      "target": 370
+    },
+    {
+      "source": 371,
+      "target": 372
+    },
+    {
+      "source": 371,
+      "target": 373
+    },
+    {
+      "source": 371,
+      "target": 374
+    },
+    {
+      "source": 371,
+      "target": 375
+    },
+    {
+      "source": 371,
+      "target": 376
+    },
+    {
+      "source": 371,
+      "target": 377
+    },
+    {
+      "source": 371,
+      "target": 378
+    },
+    {
+      "source": 371,
+      "target": 379
+    },
+    {
+      "source": 371,
+      "target": 380
+    },
+    {
+      "source": 371,
+      "target": 381
+    },
+    {
+      "source": 371,
+      "target": 382
+    },
+    {
+      "source": 371,
+      "target": 383
+    },
+    {
+      "source": 386,
       "target": 387
     },
     {
-      "source": 383,
+      "source": 386,
       "target": 388
+    },
+    {
+      "source": 386,
+      "target": 389
+    },
+    {
+      "source": 386,
+      "target": 390
+    },
+    {
+      "source": 386,
+      "target": 391
     }
   ]
 }

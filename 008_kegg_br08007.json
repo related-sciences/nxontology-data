@@ -3,15 +3,19 @@
   "multigraph": false,
   "graph": {
     "nxontology_version": "0.5.1.dev7+gb68411d",
-    "nxontology_created": "2024-01-01T00:31:14+00:00",
+    "nxontology_created": "2025-05-20T20:06:03+00:00",
     "name": "008_kegg_br08007",
     "pubchem_hierarchy_id": 8,
     "pubchem_source_id": "br08007",
     "pubchem_source_name": "KEGG",
     "pubchem_description": null,
-    "pubchem_comments": [
-      "Last updated: January 30, 2019"
-    ],
+    "pubchem_comments": {
+      "StringWithMarkup": [
+        {
+          "String": "Last updated: January 30, 2019"
+        }
+      ]
+    },
     "source_url": "http://www.genome.jp/kegg-bin/get_htext?br08007.keg"
   },
   "nodes": [

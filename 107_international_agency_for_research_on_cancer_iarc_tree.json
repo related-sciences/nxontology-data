@@ -3,41 +3,67 @@
   "multigraph": false,
   "graph": {
     "nxontology_version": "0.5.1.dev7+gb68411d",
-    "nxontology_created": "2024-01-01T00:32:36+00:00",
+    "nxontology_created": "2025-05-20T20:11:30+00:00",
     "name": "107_international_agency_for_research_on_cancer_iarc_tree",
     "pubchem_hierarchy_id": 107,
     "pubchem_source_id": "iarc_tree",
     "pubchem_source_name": "International Agency for Research on Cancer (IARC)",
-    "pubchem_description": [
-      "The International Agency for Research on Cancer (IARC) is the specialized cancer agency of the World Health Organization. The objective of the IARC is to promote international collaboration in cancer research."
-    ],
-    "pubchem_comments": null,
+    "pubchem_description": {
+      "StringWithMarkup": [
+        {
+          "String": "The International Agency for Research on Cancer (IARC) is the specialized cancer agency of the World Health Organization."
+        }
+      ]
+    },
+    "pubchem_comments": {
+      "StringWithMarkup": [
+        {
+          "String": "The objective of the IARC is to promote international collaboration in cancer research."
+        }
+      ]
+    },
     "source_url": "https://www.iarc.fr/"
   },
   "nodes": [
     {
-      "name": "Group 1: Carcinogenic to humans",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Group 1: Carcinogenic to humans"
+        }
+      },
       "description": "This category is used when there is sufficient evidence of carcinogenicity in humans. In other words, there is convincing evidence that the agent causes cancer in humans. The evaluation is usually based on the results of epidemiological studies showing development of cancer in exposed humans. Agents can also be classified in Group 1 on the basis of sufficient evidence of carcinogenicity in experimental animals supported by strong evidence in exposed humans that the agent exhibits one or more of the recognized key characteristics of human carcinogens.",
       "pubchem_hnid": 4308249,
       "url": null,
       "id": 1
     },
     {
-      "name": "Group 2A: Probably carcinogenic to humans",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Group 2A: Probably carcinogenic to humans"
+        }
+      },
       "description": "This category is used when there is limited evidence of carcinogenicity in humans and either sufficient evidence of carcinogenicity in experimental animals or strong mechanistic evidence, showing that the agent exhibits key characteristics of human carcinogens. Limited evidence of carcinogenicity means that a positive association has been observed between exposure to the agent and cancer but that other explanations for the observations (technically termed \"chance\", \"bias\", or \"confounding\") could not be ruled out with reasonable confidence. This category may also be used when there is inadequate evidence regarding carcinogenicity in humans but both sufficient evidence of carcinogenicity in experimental animals and strong mechanistic evidence in human cells or tissues.",
       "pubchem_hnid": 4308250,
       "url": null,
       "id": 2
     },
     {
-      "name": "Group 2B: Possibly carcinogenic to humans",
-      "description": "This category is generally used when only one of the following evaluations has been made by the Working Group: <br> limited evidence of carcinogenicity in humans <br> sufficient evidence of carcinogenicity in experimental animals <br> strong mechanistic evidence, showing that the agent exhibits key characteristics of human carcinogens.",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Group 2B: Possibly carcinogenic to humans"
+        }
+      },
+      "description": "This category is generally used when only one of the following evaluations has been made by the Working Group:",
       "pubchem_hnid": 4308251,
       "url": null,
       "id": 3
     },
     {
-      "name": "Group 3: Not classifiable as to its carcinogenicity to humans",
+      "name": {
+        "StringWithMarkup": {
+          "String": "Group 3: Not classifiable as to its carcinogenicity to humans"
+        }
+      },
       "description": "This category is used most commonly when the evidence of carcinogenicity in humans is inadequate, the evidence of carcinogenicity in experimental animals is limited (or inadequate), and the mechanistic evidence is limited (or inadequate). Limited evidence of carcinogenicity in experimental animals means that the available information suggests a carcinogenic effect but is not conclusive.",
       "pubchem_hnid": 4308252,
       "url": null,
