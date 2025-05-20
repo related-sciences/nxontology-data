@@ -18,9 +18,7 @@ def get_hgnc_output_dir() -> Path:
 
 
 class HgncGeneGroupDownloader:
-    BASE_URL = (
-        "https://ftp.ebi.ac.uk/pub/databases/genenames/new/csv/genefamily_db_tables/"
-    )
+    BASE_URL = "https://storage.googleapis.com/public-download-files/hgnc/csv/csv/genefamily_db_tables/"
     FILENAMES = [
         "README.txt",
         "external_resource.csv",

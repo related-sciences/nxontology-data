@@ -19,11 +19,11 @@ DOI: [10.1186/s40246-022-00432-w](https://doi.org/10.1186/s40246-022-00432-w) ·
 
 ## Quotes
 
-From Gray et al 2016:
+From [Gray et al 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4739092/):
 
 > Family hierarchies can form complex structures, e.g. ‘Serine/threonine phosphatases’ which belong to the ‘Protein phosphatases’ family are themselves split into subset families; in this case, the hierarchy model looks like a tree (Fig. 2a). However, a family could be part of more than one hierarchy, for instance the family ‘Cholinergic receptors, muscarinic’ is a subset family of both ‘Amine receptors’ and ‘Cholinergic receptors’ (Fig. 2b). In other cases, a family can be divided into multiple subset families and a particular family could have more than one preceding and succeeding family, e.g. ‘HAD ASP-based protein phosphatases’ family in Fig. 2c. Due to these complexities, it is better to visualise the hierarchies as directed acyclic graphs (DAGs). ...
 >
-> ![Figure 2](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4739092/bin/40246_2016_62_Fig2_HTML.jpg)
+> ![Figure 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3362/4739092/673607855e1a/40246_2016_62_Fig2_HTML.jpg)
 > **Fig 2: Complex gene family hierarchies.** Three hierarchical directed acyclic graphs (DAGs) which show the complex hierarchy levels centred around a highlighted family typical of many gene families within our resource. The gene family hierarchy map for ‘Serine/threonine phosphatases’ (**a**) follows a simple tree-like structure. However, the maps for the ‘Cholinergic receptors, muscarinic’ (**b**) and ‘HAD Asp-based protein phosphatases’ (**c**) families show that our maps are DAGs and do not always follow a tree-like structure
 
 
