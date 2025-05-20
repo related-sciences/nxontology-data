@@ -76,7 +76,7 @@ Output data is on the [`output/mesh`](https://github.com/related-sciences/nxonto
 
 We import ontologies from the PubChem Classifications service
 (see [browser](https://pubchem.ncbi.nlm.nih.gov/classification/) & [docs](https://pubchem.ncbi.nlm.nih.gov/classification/docs/classification_help.html)).
-Most ontologies indexed by service do not originate with PubChem,
+Most ontologies indexed by this service do not originate with PubChem,
 but PubChem provides convenient and standardized bulk access.
 Output data is on the [`output/pubchem`](https://github.com/related-sciences/nxontology-data/tree/output/pubchem) branch.
 

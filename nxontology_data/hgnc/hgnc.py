@@ -184,7 +184,7 @@ class HgncGeneGroupNxoLoader:
 
     @staticmethod
     def _get_external_resources(
-        tables: dict[str, pd.DataFrame]
+        tables: dict[str, pd.DataFrame],
     ) -> dict[int, list[dict[str, Any]]]:
         return (  # type: ignore [no-any-return]
             tables["family_has_external_resource"]
