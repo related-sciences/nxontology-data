@@ -96,7 +96,7 @@ class PubchemClassificationApi:
         return int(node.removeprefix("node_"))
 
     @classmethod
-    def create_nxo(cls, hierarchy_id: int) -> NXOntology[int]:
+    def create_nxo(cls, hierarchy_id: int) -> NXOntology[int]:  # noqa: C901
         hierarchy = cls.get_hierarchy(hierarchy_id=hierarchy_id)
         nxo: NXOntology[int] = NXOntology()
         nxo.graph.graph.update(cls.get_metadata(hierarchy))
@@ -110,7 +110,18 @@ class PubchemClassificationApi:
             if description := info.get("Description"):
                 if isinstance(description, list):
                     description = description[0]
-                assert isinstance(description, str)
+                if isinstance(description, dict):
+                    try:
+                        # 083_ghs_classification_unece_un_tree has strange descriptions:
+                        # {'StringWithMarkup': [{'String': 'The GHS Hazard Statement Code is intended to be used for reference purpose for a hazard statement. It is not a ppart of the hazard statement.'}]}
+                        description = description["StringWithMarkup"][0]["String"]
+                    except (KeyError, IndexError):
+                        pass
+                if not isinstance(description, str):
+                    description = str(description)
+                    logger.warning(
+                        f"Stringified unsupported description syntax for {node}"
+                    )
             nxo.add_node(
                 node_id,
                 name=info.get("Name"),
