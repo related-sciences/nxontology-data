@@ -98,6 +98,9 @@ pre-commit install
 
 # Run all pre-commit checks (CI will also run this).
 pre-commit run --all
+
+# Build the specific source
+poetry run nxontology_data hgnc
 ```
 
 ## License
