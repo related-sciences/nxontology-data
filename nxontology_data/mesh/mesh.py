@@ -202,18 +202,19 @@ class MeshLoader:
             .query("concept_is_preferred")[["mesh_id", "concept_id"]]
             .drop_duplicates()
         )
-        return (
-            pref_concepts.rename(columns={"concept_id": "concept_1_id"})
-            .merge(cls.run_query(rdf, "concept-relations"), on="concept_1_id")
-            .drop(columns=["concept_1_id"])
-            .rename(
-                columns={
-                    "concept_2_id": "concept_id",
-                    "concept_relation": "concept_relation_to_preferred",
-                }
-            )
-            # DataFrame.append is deprecated, but concat is unwieldy in the pipe
-            .append(pref_concepts.assign(concept_relation_to_preferred="exact"))
+        return pd.concat(
+            [
+                pref_concepts.rename(columns={"concept_id": "concept_1_id"})
+                .merge(cls.run_query(rdf, "concept-relations"), on="concept_1_id")
+                .drop(columns=["concept_1_id"])
+                .rename(
+                    columns={
+                        "concept_2_id": "concept_id",
+                        "concept_relation": "concept_relation_to_preferred",
+                    }
+                ),
+                pref_concepts.assign(concept_relation_to_preferred="exact"),
+            ]
         )
 
     @classmethod
