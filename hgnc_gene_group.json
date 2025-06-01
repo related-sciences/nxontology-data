@@ -3,7 +3,7 @@
   "multigraph": false,
   "graph": {
     "nxontology_version": "0.5.1.dev7+gb68411d",
-    "nxontology_created": "2025-05-20T19:40:35+00:00",
+    "nxontology_created": "2025-06-01T00:23:38+00:00",
     "name": "hgnc_gene_group",
     "description": "HGNC Gene Group / Family Ontology",
     "data_license_source": "https://www.genenames.org/about/license/",
@@ -79394,6 +79394,10 @@
           "symbol": "AKAP17BP"
         },
         {
+          "hgnc_id": "HGNC:28191",
+          "symbol": "AKAP19"
+        },
+        {
           "hgnc_id": "HGNC:372",
           "symbol": "AKAP2"
         },
@@ -79428,10 +79432,6 @@
         {
           "hgnc_id": "HGNC:15853",
           "symbol": "ARFGEF2"
-        },
-        {
-          "hgnc_id": "HGNC:28191",
-          "symbol": "C2orf88"
         },
         {
           "hgnc_id": "HGNC:1537",
@@ -79524,6 +79524,10 @@
           "symbol": "AKAP17BP"
         },
         {
+          "hgnc_id": "HGNC:28191",
+          "symbol": "AKAP19"
+        },
+        {
           "hgnc_id": "HGNC:372",
           "symbol": "AKAP2"
         },
@@ -79558,10 +79562,6 @@
         {
           "hgnc_id": "HGNC:15853",
           "symbol": "ARFGEF2"
-        },
-        {
-          "hgnc_id": "HGNC:28191",
-          "symbol": "C2orf88"
         },
         {
           "hgnc_id": "HGNC:1537",
@@ -86795,14 +86795,6 @@
           "symbol": "FUT1"
         },
         {
-          "hgnc_id": "HGNC:19234",
-          "symbol": "FUT10"
-        },
-        {
-          "hgnc_id": "HGNC:19233",
-          "symbol": "FUT11"
-        },
-        {
           "hgnc_id": "HGNC:4013",
           "symbol": "FUT2"
         },
@@ -87085,6 +87077,14 @@
         {
           "hgnc_id": "HGNC:14683",
           "symbol": "POFUT2"
+        },
+        {
+          "hgnc_id": "HGNC:19234",
+          "symbol": "POFUT3"
+        },
+        {
+          "hgnc_id": "HGNC:19233",
+          "symbol": "POFUT4"
         },
         {
           "hgnc_id": "HGNC:22954",
@@ -88355,14 +88355,6 @@
           "symbol": "FUT1"
         },
         {
-          "hgnc_id": "HGNC:19234",
-          "symbol": "FUT10"
-        },
-        {
-          "hgnc_id": "HGNC:19233",
-          "symbol": "FUT11"
-        },
-        {
           "hgnc_id": "HGNC:4013",
           "symbol": "FUT2"
         },
@@ -88401,6 +88393,14 @@
         {
           "hgnc_id": "HGNC:14683",
           "symbol": "POFUT2"
+        },
+        {
+          "hgnc_id": "HGNC:19234",
+          "symbol": "POFUT3"
+        },
+        {
+          "hgnc_id": "HGNC:19233",
+          "symbol": "POFUT4"
         }
       ],
       "genes_closure": [
@@ -88409,14 +88409,6 @@
           "symbol": "FUT1"
         },
         {
-          "hgnc_id": "HGNC:19234",
-          "symbol": "FUT10"
-        },
-        {
-          "hgnc_id": "HGNC:19233",
-          "symbol": "FUT11"
-        },
-        {
           "hgnc_id": "HGNC:4013",
           "symbol": "FUT2"
         },
@@ -88455,6 +88447,14 @@
         {
           "hgnc_id": "HGNC:14683",
           "symbol": "POFUT2"
+        },
+        {
+          "hgnc_id": "HGNC:19234",
+          "symbol": "POFUT3"
+        },
+        {
+          "hgnc_id": "HGNC:19233",
+          "symbol": "POFUT4"
         }
       ],
       "genes_direct_count": 13,
@@ -91985,11 +91985,13 @@
     },
     {
       "id": 469,
-      "name": "Cas scaffold proteins",
+      "name": "Cas scaffold protein family",
       "name_aliases": [
         "p130(Cas) family",
         "Crk-associated substrate family",
-        "Cas scaffolding proteins"
+        "Cas scaffolding proteins",
+        "Cas scaffold proteins",
+        "Cas family"
       ],
       "root_symbol": "CASS",
       "typical_gene": "EFS",
@@ -98093,6 +98095,10 @@
         {
           "hgnc_id": "HGNC:40143",
           "symbol": "CEP250-AS1"
+        },
+        {
+          "hgnc_id": "HGNC:58371",
+          "symbol": "CEP63-AS1"
         },
         {
           "hgnc_id": "HGNC:55563",
@@ -111139,10 +111145,6 @@
           "symbol": "LINC02860"
         },
         {
-          "hgnc_id": "HGNC:54406",
-          "symbol": "LINC02861"
-        },
-        {
           "hgnc_id": "HGNC:54419",
           "symbol": "LINC02862"
         },
@@ -112193,6 +112195,10 @@
         {
           "hgnc_id": "HGNC:58369",
           "symbol": "LINC03149"
+        },
+        {
+          "hgnc_id": "HGNC:58374",
+          "symbol": "LINC03150"
         },
         {
           "hgnc_id": "HGNC:53956",
@@ -129135,6 +129141,10 @@
           "symbol": "SYNM-AS2"
         },
         {
+          "hgnc_id": "HGNC:58370",
+          "symbol": "SYNPO2-AS1"
+        },
+        {
           "hgnc_id": "HGNC:55242",
           "symbol": "SYNPO2L-AS1"
         },
@@ -129397,6 +129407,10 @@
         {
           "hgnc_id": "HGNC:41274",
           "symbol": "TFAP2E-AS1"
+        },
+        {
+          "hgnc_id": "HGNC:40580",
+          "symbol": "TFEB-AS1"
         },
         {
           "hgnc_id": "HGNC:55374",
@@ -130785,6 +130799,10 @@
         {
           "hgnc_id": "HGNC:56762",
           "symbol": "TRIB1AL"
+        },
+        {
+          "hgnc_id": "HGNC:54406",
+          "symbol": "TRIDDENT"
         },
         {
           "hgnc_id": "HGNC:58336",
@@ -133604,7 +133622,7 @@
         }
       ],
       "genes_direct_count": 0,
-      "genes_closure_count": 9483
+      "genes_closure_count": 9487
     },
     {
       "id": 476,
@@ -204111,7 +204129,7 @@
       "desc_source_url": null,
       "desc_go": null,
       "pubmed_ids": null,
-      "external_note": "Please also see <a href='/data/genegroup/#!/group/739'>Serine (or cysteine) peptidase inhibitors</a>.",
+      "external_note": "Please also see <a href='/data/genegroup/#!/group/739'>Serpin peptidase inhibitors</a>.",
       "external_resources": null,
       "genes_direct": [
         {
@@ -216429,6 +216447,10 @@
         {
           "hgnc_id": "HGNC:40143",
           "symbol": "CEP250-AS1"
+        },
+        {
+          "hgnc_id": "HGNC:58371",
+          "symbol": "CEP63-AS1"
         },
         {
           "hgnc_id": "HGNC:55563",
@@ -229475,10 +229497,6 @@
           "symbol": "LINC02860"
         },
         {
-          "hgnc_id": "HGNC:54406",
-          "symbol": "LINC02861"
-        },
-        {
           "hgnc_id": "HGNC:54419",
           "symbol": "LINC02862"
         },
@@ -230529,6 +230547,10 @@
         {
           "hgnc_id": "HGNC:58369",
           "symbol": "LINC03149"
+        },
+        {
+          "hgnc_id": "HGNC:58374",
+          "symbol": "LINC03150"
         },
         {
           "hgnc_id": "HGNC:53956",
@@ -236331,6 +236353,10 @@
           "symbol": "SYNM-AS2"
         },
         {
+          "hgnc_id": "HGNC:58370",
+          "symbol": "SYNPO2-AS1"
+        },
+        {
           "hgnc_id": "HGNC:55242",
           "symbol": "SYNPO2L-AS1"
         },
@@ -236593,6 +236619,10 @@
         {
           "hgnc_id": "HGNC:41274",
           "symbol": "TFAP2E-AS1"
+        },
+        {
+          "hgnc_id": "HGNC:40580",
+          "symbol": "TFEB-AS1"
         },
         {
           "hgnc_id": "HGNC:55374",
@@ -237121,6 +237151,10 @@
         {
           "hgnc_id": "HGNC:56762",
           "symbol": "TRIB1AL"
+        },
+        {
+          "hgnc_id": "HGNC:54406",
+          "symbol": "TRIDDENT"
         },
         {
           "hgnc_id": "HGNC:58336",
@@ -238528,7 +238562,7 @@
         }
       ],
       "genes_direct_count": 0,
-      "genes_closure_count": 6129
+      "genes_closure_count": 6133
     },
     {
       "id": 790,
@@ -309332,7 +309366,7 @@
       "root_symbol": null,
       "typical_gene": null,
       "desc_label": null,
-      "desc_comment": null,
+      "desc_comment": "Please note, there are overlaps between the methyltransferase 'sorted by structure' and 'sorted by function' groupings. All methyltransferase group members are represented in the structural hierarchy.",
       "desc_source": null,
       "desc_source_url": null,
       "desc_go": null,
@@ -333423,12 +333457,16 @@
         "31817850",
         "35006274"
       ],
-      "external_note": "The symbol DNAAF17 has been reserved for <a href='https://www.genenames.org/data/gene-symbol-report/#!/hgnc_id/HGNC:32700'><i>CCDC103</i></a> as evidence from <a href=''>(PMID:25572396)</a> suggest that its encoded protein acts as a dynein axonemal assembly factor and we are currently monitoring the literature to confirm this.",
+      "external_note": null,
       "external_resources": null,
       "genes_direct": [
         {
           "hgnc_id": "HGNC:1301",
           "symbol": "CFAP298"
+        },
+        {
+          "hgnc_id": "HGNC:28188",
+          "symbol": "CFAP300"
         },
         {
           "hgnc_id": "HGNC:26383",
@@ -333505,6 +333543,10 @@
           "symbol": "CFAP298"
         },
         {
+          "hgnc_id": "HGNC:28188",
+          "symbol": "CFAP300"
+        },
+        {
           "hgnc_id": "HGNC:26383",
           "symbol": "DAW1"
         },
@@ -333573,8 +333615,8 @@
           "symbol": "ZMYND10"
         }
       ],
-      "genes_direct_count": 18,
-      "genes_closure_count": 18
+      "genes_direct_count": 19,
+      "genes_closure_count": 19
     },
     {
       "id": 1629,
@@ -383441,10 +383483,6 @@
           "symbol": "LINC02860"
         },
         {
-          "hgnc_id": "HGNC:54406",
-          "symbol": "LINC02861"
-        },
-        {
           "hgnc_id": "HGNC:54419",
           "symbol": "LINC02862"
         },
@@ -384495,6 +384533,10 @@
         {
           "hgnc_id": "HGNC:58369",
           "symbol": "LINC03149"
+        },
+        {
+          "hgnc_id": "HGNC:58374",
+          "symbol": "LINC03150"
         }
       ],
       "genes_closure": [
@@ -392911,10 +392953,6 @@
           "symbol": "LINC02860"
         },
         {
-          "hgnc_id": "HGNC:54406",
-          "symbol": "LINC02861"
-        },
-        {
           "hgnc_id": "HGNC:54419",
           "symbol": "LINC02862"
         },
@@ -393965,6 +394003,10 @@
         {
           "hgnc_id": "HGNC:58369",
           "symbol": "LINC03149"
+        },
+        {
+          "hgnc_id": "HGNC:58374",
+          "symbol": "LINC03150"
         }
       ],
       "genes_direct_count": 2367,
@@ -395300,6 +395342,10 @@
         {
           "hgnc_id": "HGNC:40143",
           "symbol": "CEP250-AS1"
+        },
+        {
+          "hgnc_id": "HGNC:58371",
+          "symbol": "CEP63-AS1"
         },
         {
           "hgnc_id": "HGNC:58295",
@@ -401574,6 +401620,10 @@
           "symbol": "SYNM-AS2"
         },
         {
+          "hgnc_id": "HGNC:58370",
+          "symbol": "SYNPO2-AS1"
+        },
+        {
           "hgnc_id": "HGNC:55242",
           "symbol": "SYNPO2L-AS1"
         },
@@ -401772,6 +401822,10 @@
         {
           "hgnc_id": "HGNC:41274",
           "symbol": "TFAP2E-AS1"
+        },
+        {
+          "hgnc_id": "HGNC:40580",
+          "symbol": "TFEB-AS1"
         },
         {
           "hgnc_id": "HGNC:50628",
@@ -404224,6 +404278,10 @@
           "symbol": "CEP250-AS1"
         },
         {
+          "hgnc_id": "HGNC:58371",
+          "symbol": "CEP63-AS1"
+        },
+        {
           "hgnc_id": "HGNC:58295",
           "symbol": "CERS2-AS1"
         },
@@ -410496,6 +410554,10 @@
           "symbol": "SYNM-AS2"
         },
         {
+          "hgnc_id": "HGNC:58370",
+          "symbol": "SYNPO2-AS1"
+        },
+        {
           "hgnc_id": "HGNC:55242",
           "symbol": "SYNPO2L-AS1"
         },
@@ -410694,6 +410756,10 @@
         {
           "hgnc_id": "HGNC:41274",
           "symbol": "TFAP2E-AS1"
+        },
+        {
+          "hgnc_id": "HGNC:40580",
+          "symbol": "TFEB-AS1"
         },
         {
           "hgnc_id": "HGNC:50628",
@@ -411832,8 +411898,8 @@
           "symbol": "ZSWIM8-AS1"
         }
       ],
-      "genes_direct_count": 2230,
-      "genes_closure_count": 2230
+      "genes_direct_count": 2233,
+      "genes_closure_count": 2233
     },
     {
       "id": 1988,
@@ -420072,6 +420138,10 @@
           "symbol": "TRIB1AL"
         },
         {
+          "hgnc_id": "HGNC:54406",
+          "symbol": "TRIDDENT"
+        },
+        {
           "hgnc_id": "HGNC:12377",
           "symbol": "TSIX"
         },
@@ -422142,6 +422212,10 @@
           "symbol": "TRIB1AL"
         },
         {
+          "hgnc_id": "HGNC:54406",
+          "symbol": "TRIDDENT"
+        },
+        {
           "hgnc_id": "HGNC:12377",
           "symbol": "TSIX"
         },
@@ -422370,8 +422444,8 @@
           "symbol": "ZNNT1"
         }
       ],
-      "genes_direct_count": 517,
-      "genes_closure_count": 517
+      "genes_direct_count": 518,
+      "genes_closure_count": 518
     },
     {
       "id": 1993,
@@ -456017,6 +456091,10 @@
         {
           "hgnc_id": "HGNC:1048",
           "symbol": "BHMT2"
+        },
+        {
+          "hgnc_id": "HGNC:7468",
+          "symbol": "MTR"
         }
       ],
       "genes_closure": [
@@ -456033,37 +456111,8 @@
           "symbol": "MTR"
         }
       ],
-      "genes_direct_count": 2,
+      "genes_direct_count": 3,
       "genes_closure_count": 3
-    },
-    {
-      "id": 3352,
-      "name": "MetH activation domain containing",
-      "name_aliases": null,
-      "root_symbol": null,
-      "typical_gene": null,
-      "desc_label": null,
-      "desc_comment": null,
-      "desc_source": "InterPro",
-      "desc_source_url": "https://www.ebi.ac.uk/interpro/entry/InterPro/IPR004223",
-      "desc_go": null,
-      "pubmed_ids": null,
-      "external_note": null,
-      "external_resources": null,
-      "genes_direct": [
-        {
-          "hgnc_id": "HGNC:7468",
-          "symbol": "MTR"
-        }
-      ],
-      "genes_closure": [
-        {
-          "hgnc_id": "HGNC:7468",
-          "symbol": "MTR"
-        }
-      ],
-      "genes_direct_count": 1,
-      "genes_closure_count": 1
     },
     {
       "id": 3353,
@@ -465944,10 +465993,6 @@
     {
       "source": 3350,
       "target": 3372
-    },
-    {
-      "source": 3351,
-      "target": 3352
     },
     {
       "source": 3370,
